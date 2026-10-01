@@ -1,19 +1,20 @@
 ---
 name: hunt-cicd
 description: Hunt CI/CD pipeline vulnerabilities
-category: security
-risk: offensive
-source: https://github.com/elementalsouls/Claude-BugHunter
-source_repo: elementalsouls/Claude-BugHunter
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
 compatibility: Requires explicit written authorization for a target scope plus the
   relevant testing tools for this technique. Docs-only; helper scripts and commands
   not bundled.
-sources: hackerone_public, github_security_lab, cve_database, portswigger_research
-report_count: 18
+metadata:
+  category: security
+  risk: offensive
+  source: https://github.com/elementalsouls/Claude-BugHunter
+  source_repo: elementalsouls/Claude-BugHunter
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
+  sources: hackerone_public, github_security_lab, cve_database, portswigger_research
+  report_count: '18'
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
@@ -288,24 +289,6 @@ trufflehog docker --image ORG/IMAGE:latest --only-verified
 - A masked GitLab variable that is `protected` and only exposed to protected branches the attacker can't push to.
 - Trufflehog "unverified" hits that are example/expired keys.
 
-**Severity:** Jenkins console / CVE-2024-23897 / Actions secret exfil / runner poisoning / OIDC role assumption / Terraform live creds = **Critical**. Image/log/artifact secret = **High/Critical** by credential scope.
+**Severity:** Jenkins console / CVE-2024-23897 / Actions secret exfil / runn
 
-## When to Use
-
-- You have explicit, written authorization to assess the target in scope, and the task matches this skill's vulnerability class or technique within a bug-bounty or penetration-test engagement.
-- You need the recon, exploitation, or validation workflow described below — executed strictly inside the approved scope.
-
-## Limitations
-
-- Authorized scope only: the confirmation gate above is mandatory before any probing, exploitation, or credential-access command.
-- Docs-only import: upstream helper scripts, commands, engine, and research assets are not bundled; reinstall tooling from the source repo when needed.
-- Validate every finding (see `triage-validation`) before reporting; report via `report-writing`. Prefer a sandbox, disposable VM, or controlled lab.
-
-### Example
-
-```bash
-# Read-only first step; confirm scope before anything active.
-cat scope.txt  # target list from the authorized engagement brief
-```
-
-> Adapted from [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) (MIT); frontmatter, When to Use/Limitations, and safety boundaries added for upstream compliance. Docs-only import: executable helpers, commands, engine, and research assets not bundled.
+<!-- Truncated for OpenGAP token limits -->

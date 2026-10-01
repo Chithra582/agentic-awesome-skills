@@ -1,11 +1,14 @@
 ---
-description: Curated upstream guidance for Huggingface Community Evals; use when the workflow matches the user goal.
+description: Curated upstream guidance for Huggingface Community Evals; use when the
+  workflow matches the user goal.
 name: huggingface-community-evals
-source_repo: huggingface/skills
-source_type: official
-source: huggingface
-date_added: '2026-09-21'
-risk: unknown
+metadata:
+  source_repo: huggingface/skills
+  source_type: official
+  source: huggingface
+  date_added: '2026-09-21'
+  risk: unknown
+license: MIT
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

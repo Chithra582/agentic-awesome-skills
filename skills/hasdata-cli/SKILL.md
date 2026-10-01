@@ -1,15 +1,15 @@
 ---
 name: hasdata-cli
 description: Command-line access to search, scraping, and structured web data.
-risk: safe
-source: official
-source_type: official
-source_repo: HasData/hasdata-cli
 license: MIT
-license_source: "https://github.com/HasData/hasdata-cli/blob/main/LICENSE"
-date_added: "2026-06-04"
+metadata:
+  risk: safe
+  source: official
+  source_type: official
+  source_repo: HasData/hasdata-cli
+  license_source: https://github.com/HasData/hasdata-cli/blob/main/LICENSE
+  date_added: '2026-06-04'
 ---
-
 # hasdata
 
 Use the `hasdata` CLI for real-time web data. One subcommand per API — flags, enums, defaults are derived from the live schema at `api.hasdata.com/apis`.

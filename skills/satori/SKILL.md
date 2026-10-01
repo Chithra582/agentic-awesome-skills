@@ -1,17 +1,20 @@
 ---
 name: satori
-description: "Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner"
-category: personal-development
-risk: safe
-source: community
-source_repo: MetcalfSolutions/Satori
-source_type: community
-date_added: "2026-04-06"
-author: MetcalfSolutions
-tags: [mental-health, psychology, wisdom, philosophy, ifs, stoicism, jungian, conversation]
-tools: [claude]
+description: Clinically informed wisdom companion blending psychology and philosophy
+  into a structured thinking partner
+metadata:
+  category: personal-development
+  risk: safe
+  source: community
+  source_repo: MetcalfSolutions/Satori
+  source_type: community
+  date_added: '2026-04-06'
+  author: MetcalfSolutions
+  tags: '[''mental-health'', ''psychology'', ''wisdom'', ''philosophy'', ''ifs'',
+    ''stoicism'', ''jungian'', ''conversation'']'
+  tools: '[''claude'']'
+license: MIT
 ---
-
 # Satori
 
 ## Overview

@@ -1,16 +1,19 @@
 ---
 name: ai-dev-jobs-mcp
-description: "Search 8,400+ AI and ML jobs across 489 companies, inspect listings and employers, match roles, and view salary and market stats via AI Dev Jobs MCP"
-category: mcp
-risk: safe
-source: "https://aidevboard.com"
-source_type: community
-date_added: "2026-04-16"
-author: unitedideas
-tags: [mcp, jobs, ai-jobs, ml-jobs, recruiting, job-search, career]
-tools: [claude, cursor, gemini]
+description: Search 8,400+ AI and ML jobs across 489 companies, inspect listings and
+  employers, match roles, and view salary and market stats via AI Dev Jobs MCP
+metadata:
+  category: mcp
+  risk: safe
+  source: https://aidevboard.com
+  source_type: community
+  date_added: '2026-04-16'
+  author: unitedideas
+  tags: '[''mcp'', ''jobs'', ''ai-jobs'', ''ml-jobs'', ''recruiting'', ''job-search'',
+    ''career'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # AI Dev Jobs MCP
 
 ## Overview

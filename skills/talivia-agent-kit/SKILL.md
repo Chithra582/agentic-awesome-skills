@@ -1,19 +1,20 @@
 ---
 name: talivia-agent-kit
-description: "Set up and verify Talivia revenue analytics through MCP, with explicit confirmation for website changes and payment attribution."
-category: marketing
-risk: critical
-source: "https://github.com/talivia-group/agent/tree/f4ed3fc6b554ad5183a57ae13ca2a9bd5162c12a"
-source_repo: talivia-group/agent
-source_type: community
-date_added: "2026-08-02"
-author: taliviagroup
-tags: [analytics, revenue, attribution, mcp, talivia, marketing]
-tools: [codex, claude]
-license: "MIT"
-license_source: "https://github.com/talivia-group/agent/blob/f4ed3fc6b554ad5183a57ae13ca2a9bd5162c12a/LICENSE"
+description: Set up and verify Talivia revenue analytics through MCP, with explicit
+  confirmation for website changes and payment attribution.
+license: MIT
+metadata:
+  category: marketing
+  risk: critical
+  source: https://github.com/talivia-group/agent/tree/f4ed3fc6b554ad5183a57ae13ca2a9bd5162c12a
+  source_repo: talivia-group/agent
+  source_type: community
+  date_added: '2026-08-02'
+  author: taliviagroup
+  tags: '[''analytics'', ''revenue'', ''attribution'', ''mcp'', ''talivia'', ''marketing'']'
+  tools: '[''codex'', ''claude'']'
+  license_source: https://github.com/talivia-group/agent/blob/f4ed3fc6b554ad5183a57ae13ca2a9bd5162c12a/LICENSE
 ---
-
 # Talivia Agent Kit
 
 ## Overview

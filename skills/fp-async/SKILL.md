@@ -1,22 +1,17 @@
 ---
 name: fp-async
-description: Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real API examples
-risk: critical
-source: community
-date_added: "2026-09-04"
-version: 1.0.0
-author: kadu
-tags:
-  - fp-ts
-  - typescript
-  - async
-  - error-handling
-  - practical
-  - promises
-  - api
-  - fetch
+description: Practical async patterns using TaskEither - clean pipelines instead of
+  try/catch hell, with real API examples
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+  version: 1.0.0
+  author: kadu
+  tags: '[''fp-ts'', ''typescript'', ''async'', ''error-handling'', ''practical'',
+    ''promises'', ''api'', ''fetch'']'
+license: MIT
 ---
-
 # Practical Async Patterns with fp-ts
 
 Stop writing nested try/catch blocks. Stop losing error context. Start building clean async pipelines that handle errors properly.

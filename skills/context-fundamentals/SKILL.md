@@ -1,11 +1,15 @@
 ---
 name: context-fundamentals
-description: "Context is the complete state available to a language model at inference time. It includes everything the model can attend to when generating responses: system instructions, tool definitions, retrieved documents, message history, and tool outputs."
-risk: none
-source: community
-date_added: "2026-09-04"
+description: 'Context is the complete state available to a language model at inference
+  time. It includes everything the model can attend to when generating responses:
+  system instructions, tool definitions, retrieved documents, message history, and
+  tool outputs.'
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Context Engineering Fundamentals
 
 Context is the complete state available to a language model at inference time. It includes everything the model can attend to when generating responses: system instructions, tool definitions, retrieved documents, message history, and tool outputs. Understanding context fundamentals is prerequisite to effective context engineering.

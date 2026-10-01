@@ -1,11 +1,14 @@
 ---
 name: find-bugs
-description: Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Find bugs, security vulnerabilities, and code quality issues in local
+  branch changes. Use when asked to review changes, find bugs, security review, or
+  audit code on the current branch.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Find Bugs
 
 Review changes on this branch for bugs, security vulnerabilities, and code quality issues.

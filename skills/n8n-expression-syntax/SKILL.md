@@ -1,11 +1,14 @@
 ---
 name: n8n-expression-syntax
-description: Validate n8n expression syntax and fix common errors. Use when writing n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting expression errors, or working with webhook data in workflows.
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Validate n8n expression syntax and fix common errors. Use when writing
+  n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting
+  expression errors, or working with webhook data in workflows.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # n8n Expression Syntax
 
 Expert guide for writing correct n8n expressions in workflows.

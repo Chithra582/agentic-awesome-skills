@@ -1,11 +1,13 @@
 ---
 name: on-call-handoff-patterns
-description: "Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Effective patterns for on-call shift transitions, ensuring continuity,
+  context transfer, and reliable incident response across shifts.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # On-Call Handoff Patterns
 
 Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.

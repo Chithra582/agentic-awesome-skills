@@ -1,15 +1,16 @@
 ---
 name: ux-feedback
-description: Add appropriate user feedback states (loading, success, error, empty) to a component or page
-risk: critical
-source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-feedback
-source_repo: bitjaru/styleseed
-source_type: community
-date_added: 2026-07-01
+description: Add appropriate user feedback states (loading, success, error, empty)
+  to a component or page
 license: MIT
-license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-feedback
+  source_repo: bitjaru/styleseed
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
 ---
-
 # UX Feedback States Generator
 ## When to Use
 

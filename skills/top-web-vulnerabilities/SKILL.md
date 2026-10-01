@@ -1,12 +1,16 @@
 ---
 name: top-web-vulnerabilities
-description: "Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category. This skill enables systematic vulnerability identification, impact assessment, and remediation guidance across the full spectrum of web security threats."
-risk: offensive
-source: community
-author: zebbern
-date_added: "2026-02-27"
+description: Provide a comprehensive, structured reference for the 100 most critical
+  web application vulnerabilities organized by category. This skill enables systematic
+  vulnerability identification, impact assessment, and remediation guidance across
+  the full spectrum of web security threats.
+metadata:
+  risk: offensive
+  source: community
+  author: zebbern
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

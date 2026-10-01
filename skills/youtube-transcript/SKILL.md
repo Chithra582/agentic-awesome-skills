@@ -1,19 +1,20 @@
 ---
 name: youtube-transcript
-description: "Fetch YouTube transcripts through DeepAPI or local fallback tooling and save clean text output."
-category: research
-risk: safe
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [youtube, transcripts, research]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
+description: Fetch YouTube transcripts through DeepAPI or local fallback tooling and
+  save clean text output.
+license: MIT
+metadata:
+  category: research
+  risk: safe
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''youtube'', ''transcripts'', ''research'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
 ---
-
 # YouTube Transcript (via DeepAPI, yt-dlp fallback)
 
 ## When to Use

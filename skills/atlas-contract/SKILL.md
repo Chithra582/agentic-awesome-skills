@@ -1,27 +1,23 @@
 ---
 name: atlas-contract
-description: "Goal-integrity skill. Use for backend/API/persistence, preserve/do-not-change, tests/validation, mocks, rework, multi-part requests. Emits Goal Contracts, Deviation Notices, Phase Checks, Final Audits. Skip for Q&A or trivial edits."
-risk: critical
-source: community
-source_repo: wede-wx/atlas
-source_type: community
-date_added: "2026-06-12"
+description: Goal-integrity skill. Use for backend/API/persistence, preserve/do-not-change,
+  tests/validation, mocks, rework, multi-part requests. Emits Goal Contracts, Deviation
+  Notices, Phase Checks, Final Audits. Skip for Q&A or trivial edits.
 license: MIT
-license_source: "https://github.com/wede-wx/atlas/blob/main/LICENSE"
 metadata:
-  version: "6.2.0"
+  version: 6.2.0
   author: wede-wx
   repository: https://github.com/wede-wx/atlas
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
-  setup:
-    type: manual
-    summary: "Reads workspace Atlas.md as untrusted project memory; keep out of plugin-safe bundles."
-    docs: SKILL.md
+  risk: critical
+  source: community
+  source_repo: wede-wx/atlas
+  source_type: community
+  date_added: '2026-06-12'
+  license_source: https://github.com/wede-wx/atlas/blob/main/LICENSE
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}, ''setup'':
+    {''type'': ''manual'', ''summary'': ''Reads workspace Atlas.md as untrusted project
+    memory; keep out of plugin-safe bundles.'', ''docs'': ''SKILL.md''}}'
 ---
-
 # Atlas Contract v6.2
 
 Keep the agent aligned with the user's original goal during execution.

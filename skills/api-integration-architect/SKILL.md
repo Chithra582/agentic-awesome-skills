@@ -1,23 +1,19 @@
 ---
 name: api-integration-architect
-version: 1.0.0
 description: Design, implement, debug, and optimize API integrations with expert-level
   patterns for REST, GraphQL, webhooks, and authentication flows.
-author: yundu-ai
-tags:
-- api
-- integration
-- rest
-- graphql
-- webhooks
-- authentication
-- debugging
-model: claude
-source_repo: demo112/yunqu-ai-skills
-source_type: community
-source: community
-date_added: '2026-09-21'
-risk: unknown
+metadata:
+  version: 1.0.0
+  author: yundu-ai
+  tags: '[''api'', ''integration'', ''rest'', ''graphql'', ''webhooks'', ''authentication'',
+    ''debugging'']'
+  model: claude
+  source_repo: demo112/yunqu-ai-skills
+  source_type: community
+  source: community
+  date_added: '2026-09-21'
+  risk: unknown
+license: MIT
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

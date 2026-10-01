@@ -1,0 +1,13 @@
+name: "skill-manifest-linter"
+description: "Lints SKILL.md frontmatter, naming constraints, and instruction token lengths."
+input_schema:
+  type: "object"
+  properties:
+    skill_path:
+      type: "string"
+      description: "Path to the target SKILL.md file or skill folder."
+    strict_mode:
+      type: "boolean"
+      description: "Whether to fail on advisory warnings or token budget limits."
+  required:
+    - "skill_path"

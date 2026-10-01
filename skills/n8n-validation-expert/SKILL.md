@@ -1,11 +1,12 @@
 ---
 name: n8n-validation-expert
-description: "Expert guide for interpreting and fixing n8n validation errors."
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Expert guide for interpreting and fixing n8n validation errors.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # n8n Validation Expert
 
 Expert guide for interpreting and fixing n8n validation errors.

@@ -1,19 +1,22 @@
 ---
 name: beatra-ai-video-studio
-description: "Install and use the official Beatra AI Video Studio package, pinned by digest, for paid text-to-video, image-to-video, and video edit or extend jobs on the hosted Beatra service."
-category: media
-risk: critical
-source: community
-source_repo: beatra-ai/beatra-skills
-source_type: official
-date_added: "2026-09-17"
-author: beatra-ai
-tags: [video-generation, text-to-video, image-to-video, video-editing, mcp, paid-api, beatra]
-tools: [claude, codex, cursor, gemini]
-license: "MIT-0"
-license_source: "https://github.com/beatra-ai/beatra-skills/blob/95d662f7aeddd6e2aa6da9e14f9c985e3f6b914d/LICENSE"
+description: Install and use the official Beatra AI Video Studio package, pinned by
+  digest, for paid text-to-video, image-to-video, and video edit or extend jobs on
+  the hosted Beatra service.
+license: MIT-0
+metadata:
+  category: media
+  risk: critical
+  source: community
+  source_repo: beatra-ai/beatra-skills
+  source_type: official
+  date_added: '2026-09-17'
+  author: beatra-ai
+  tags: '[''video-generation'', ''text-to-video'', ''image-to-video'', ''video-editing'',
+    ''mcp'', ''paid-api'', ''beatra'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/beatra-ai/beatra-skills/blob/95d662f7aeddd6e2aa6da9e14f9c985e3f6b914d/LICENSE
 ---
-
 # Beatra AI Video Studio
 
 ## Overview

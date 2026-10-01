@@ -2,28 +2,22 @@
 name: geo-proposal
 description: Auto-generate a professional, client-ready GEO service proposal from
   audit data.
-category: seo
-risk: safe
-source: https://github.com/zubair-trabzada/geo-seo-claude
-source_repo: zubair-trabzada/geo-seo-claude
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/zubair-trabzada/geo-seo-claude/blob/main/LICENSE
 compatibility: Docs-only; upstream helper scripts and templates are not bundled. Site
   audits need network access to the target site; PDF reports need pandoc and headless
   Chrome.
-version: 1.0.0
-tags:
-- geo
-- business
-- proposal
-- sales
-- pricing
-- client
 allowed-tools: Read, Write, Bash, Glob, WebFetch
+metadata:
+  category: seo
+  risk: safe
+  source: https://github.com/zubair-trabzada/geo-seo-claude
+  source_repo: zubair-trabzada/geo-seo-claude
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/zubair-trabzada/geo-seo-claude/blob/main/LICENSE
+  version: 1.0.0
+  tags: '[''geo'', ''business'', ''proposal'', ''sales'', ''pricing'', ''client'']'
 ---
-
 # GEO Proposal Generator
 
 ## Purpose

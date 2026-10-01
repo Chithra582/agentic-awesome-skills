@@ -1,11 +1,14 @@
 ---
 name: mesh-memory
-description: "Self-hosted semantic memory for AI agents via MCP. Save worklogs, decisions, and notes, then recall them across sessions by meaning, not keyword. Postgres + pgvector with auto-tagging."
-risk: safe
-source: dklymentiev/mesh-memory (MIT)
-date_added: "2026-05-23"
+description: Self-hosted semantic memory for AI agents via MCP. Save worklogs, decisions,
+  and notes, then recall them across sessions by meaning, not keyword. Postgres +
+  pgvector with auto-tagging.
+metadata:
+  risk: safe
+  source: dklymentiev/mesh-memory (MIT)
+  date_added: '2026-05-23'
+license: MIT
 ---
-
 # Mesh Memory
 
 Mesh Memory is a self-hosted semantic memory service with a built-in MCP server. It stores documents (worklogs, decisions, notes, research) in PostgreSQL with pgvector and retrieves them by meaning, so a query like "what database did we pick?" surfaces a saved note that says "chose Redis for caching" even with zero keyword overlap. Embeddings are generated locally with `multilingual-e5-base` (768 dimensions); the core flow requires no external API keys.

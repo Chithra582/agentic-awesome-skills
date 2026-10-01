@@ -1,24 +1,17 @@
 ---
 name: amazon-alexa
-description: "Integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home)."
-risk: safe
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- voice
-- alexa
-- aws
-- smart-home
-- iot
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Integracao completa com Amazon Alexa para criar skills de voz inteligentes,
+  transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar
+  com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home).
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''voice'', ''alexa'', ''aws'', ''smart-home'', ''iot'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # AMAZON ALEXA — Voz Inteligente com Claude
 
 ## Detailed Guide

@@ -1,19 +1,21 @@
 ---
 name: apple-container
-description: "Build, run, and manage OCI/Linux containers as lightweight per-container VMs on Apple-silicon macOS using Apple's open-source container CLI, no Docker daemon required."
-category: devops
-risk: critical
-source: https://github.com/sanjay3290/ai-skills/tree/main/skills/apple-container
-source_repo: sanjay3290/ai-skills
-source_type: community
-date_added: "2026-07-09"
-author: sanjay3290
-tags: [macos, containers, oci, apple-silicon]
-tools: [claude, cursor, gemini]
-license: "Apache-2.0"
-license_source: "https://github.com/sanjay3290/ai-skills/blob/main/LICENSE"
+description: Build, run, and manage OCI/Linux containers as lightweight per-container
+  VMs on Apple-silicon macOS using Apple's open-source container CLI, no Docker daemon
+  required.
+license: Apache-2.0
+metadata:
+  category: devops
+  risk: critical
+  source: https://github.com/sanjay3290/ai-skills/tree/main/skills/apple-container
+  source_repo: sanjay3290/ai-skills
+  source_type: community
+  date_added: '2026-07-09'
+  author: sanjay3290
+  tags: '[''macos'', ''containers'', ''oci'', ''apple-silicon'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/sanjay3290/ai-skills/blob/main/LICENSE
 ---
-
 # Apple `container`
 
 ## When to Use

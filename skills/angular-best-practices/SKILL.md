@@ -1,11 +1,14 @@
 ---
 name: angular-best-practices
-description: "Angular performance optimization and best practices guide. Use when writing, reviewing, or refactoring Angular code for optimal performance, bundle size, and rendering efficiency."
-risk: safe
-source: self
-date_added: "2026-02-27"
+description: Angular performance optimization and best practices guide. Use when writing,
+  reviewing, or refactoring Angular code for optimal performance, bundle size, and
+  rendering efficiency.
+metadata:
+  risk: safe
+  source: self
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Angular Best Practices
 
 Comprehensive performance optimization guide for Angular applications. Contains prioritized rules for eliminating performance bottlenecks, optimizing bundles, and improving rendering.

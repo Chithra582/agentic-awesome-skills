@@ -1,15 +1,18 @@
 ---
 name: developer-newsletter
-description: When the user wants to create, write, or improve a newsletter for developer audiences. Trigger phrases include "newsletter," "email marketing," "developer email," "weekly digest," "dev newsletter," "email subscribers," "newsletter growth," or "email list."
-risk: critical
-source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/developer-newsletter
-source_repo: jonathimer/devmarketing-skills
-source_type: community
-date_added: 2026-07-01
+description: When the user wants to create, write, or improve a newsletter for developer
+  audiences. Trigger phrases include "newsletter," "email marketing," "developer email,"
+  "weekly digest," "dev newsletter," "email subscribers," "newsletter growth," or
+  "email list."
 license: MIT
-license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/developer-newsletter
+  source_repo: jonathimer/devmarketing-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
 ---
-
 # Developer Newsletter
 ## When to Use
 

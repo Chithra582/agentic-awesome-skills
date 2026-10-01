@@ -1,25 +1,19 @@
 ---
 name: crossframe-essay
-description: "Use when explicit CrossFrame work needs a Chinese critical insight essay, commentary, concept essay, public piece, or structure-to-article draft after diagnosis."
-category: content
-risk: safe
-source: community
-source_repo: xi-kari/crossframe-skill
-source_type: community
-date_added: 2026-06-16
-author: xi-kari
+description: Use when explicit CrossFrame work needs a Chinese critical insight essay,
+  commentary, concept essay, public piece, or structure-to-article draft after diagnosis.
 license: MIT
-license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
-tools:
-  - "Agent Skills"
-  - Codex
-  - Claude
-tags:
-  - crossframe
-  - chinese
-  - essay
-  - writing
-  - commentary
+metadata:
+  category: content
+  risk: safe
+  source: community
+  source_repo: xi-kari/crossframe-skill
+  source_type: community
+  date_added: '2026-06-16'
+  author: xi-kari
+  license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
+  tools: '[''Agent Skills'', ''Codex'', ''Claude'']'
+  tags: '[''crossframe'', ''chinese'', ''essay'', ''writing'', ''commentary'']'
 ---
 # CrossFrame Essay
 

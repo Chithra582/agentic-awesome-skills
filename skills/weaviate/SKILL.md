@@ -1,19 +1,21 @@
 ---
 name: weaviate
-description: "Search, query, inspect, create, and import data into Weaviate vector database collections using official scripts and references."
-category: databases
-risk: critical
-source: community
-source_repo: weaviate/agent-skills
-source_type: official
-date_added: "2026-06-29"
-author: Weaviate
-tags: [weaviate, vector-database, semantic-search, hybrid-search, data-import]
-tools: [python, weaviate]
-license: "BSD-3-Clause"
-license_source: "https://github.com/weaviate/agent-skills/blob/main/LICENSE"
+description: Search, query, inspect, create, and import data into Weaviate vector
+  database collections using official scripts and references.
+license: BSD-3-Clause
+metadata:
+  category: databases
+  risk: critical
+  source: community
+  source_repo: weaviate/agent-skills
+  source_type: official
+  date_added: '2026-06-29'
+  author: Weaviate
+  tags: '[''weaviate'', ''vector-database'', ''semantic-search'', ''hybrid-search'',
+    ''data-import'']'
+  tools: '[''python'', ''weaviate'']'
+  license_source: https://github.com/weaviate/agent-skills/blob/main/LICENSE
 ---
-
 # Weaviate Database Operations
 
 This skill provides comprehensive access to Weaviate vector databases including search operations, natural language queries, schema inspection, data exploration, filtered fetching, collection creation, and data imports.

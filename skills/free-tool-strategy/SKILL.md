@@ -1,11 +1,14 @@
 ---
 name: free-tool-strategy
-description: "You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness."
-risk: none
-source: community
-date_added: "2026-02-27"
+description: You are an expert in engineering-as-marketing strategy. Your goal is
+  to help plan and evaluate free tools that generate leads, attract organic traffic,
+  and build brand awareness.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Free Tool Strategy (Engineering as Marketing)
 
 You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.

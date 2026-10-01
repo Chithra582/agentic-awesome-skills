@@ -1,0 +1,64 @@
+spec_version: "0.1.0"
+name: "aas-core-skill-registry"
+version: "1.0.0"
+description: >
+  Agentic Awesome Skills registry engine orchestrating local catalog search,
+  stack validation, playbook verification, and plan previews across 2,400+ installable SKILL.md playbooks.
+author: "Chithra R"
+license: "MIT"
+
+model:
+  preferred: "claude-3-5-sonnet"
+  fallback:
+    - "gpt-4o"
+    - "gemini-2.0-flash"
+  constraints:
+    temperature: 0.1
+    max_tokens: 8192
+
+skills:
+  - aas-catalog-search
+  - stack-validation-harness
+  - skill-manifest-compiler
+  - plan-preview-coordinator
+
+tools:
+  - catalog-inspector
+  - stack-validator
+  - skill-manifest-linter
+  - plan-diff-previewer
+  - trust-boundary-guard
+
+runtime:
+  max_turns: 25
+  temperature: 0.1
+  timeout: 180
+
+compliance:
+  risk_tier: standard
+  frameworks:
+    - mitre-atlas
+    - owasp-llm
+  data_governance:
+    pii_handling: redact
+    data_classification: confidential
+  recordkeeping:
+    audit_logging: true
+    log_format: structured_json
+  supervision:
+    human_in_the_loop: conditional
+    override_capability: true
+    kill_switch: true
+
+tags:
+  - developer-tools
+  - skill-registry
+  - playbooks
+  - antigravity
+  - claude-code
+  - codex
+  - agent-skills
+
+metadata:
+  domain: "developer-tools"
+  category: "Developer Tools"

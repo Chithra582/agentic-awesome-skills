@@ -1,19 +1,21 @@
 ---
 name: verify-document
-description: Check whether a document (PDF or image) shows signs of tampering or forgery before you rely on it. Use when the user asks to verify a payslip, invoice, bank statement, ID document, contract, or any document where authenticity matters.
-category: document-verification
-risk: critical
-source: community
-source_repo: Sketchjar/stipple-agent-skills
-source_type: community
-date_added: "2026-08-31"
-author: Sketchjar
-tags: [document-verification, fact-checking, stipple, authenticity]
-tools: [claude, cursor, gemini, codex]
-license: "Apache-2.0"
-license_source: "https://github.com/Sketchjar/stipple-agent-skills/blob/main/LICENSE"
+description: Check whether a document (PDF or image) shows signs of tampering or forgery
+  before you rely on it. Use when the user asks to verify a payslip, invoice, bank
+  statement, ID document, contract, or any document where authenticity matters.
+license: Apache-2.0
+metadata:
+  category: document-verification
+  risk: critical
+  source: community
+  source_repo: Sketchjar/stipple-agent-skills
+  source_type: community
+  date_added: '2026-08-31'
+  author: Sketchjar
+  tags: '[''document-verification'', ''fact-checking'', ''stipple'', ''authenticity'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/Sketchjar/stipple-agent-skills/blob/main/LICENSE
 ---
-
 # Document Verification
 
 Inspect a document for forensic authenticity signals — not a fraud verdict, but a risk band with the evidence behind it. Uses the Stipple API (free anonymous tier, no signup).

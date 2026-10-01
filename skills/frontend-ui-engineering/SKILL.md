@@ -1,15 +1,17 @@
 ---
 name: frontend-ui-engineering
-description: Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated.
-risk: critical
-source: https://github.com/addyosmani/agent-skills/tree/main/skills/frontend-ui-engineering
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Builds production-quality UIs. Use when building or modifying user-facing
+  interfaces. Use when creating components, implementing layouts, managing state,
+  or when the output needs to look and feel production-quality rather than AI-generated.
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/addyosmani/agent-skills/tree/main/skills/frontend-ui-engineering
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Frontend UI Engineering
 
 ## Overview

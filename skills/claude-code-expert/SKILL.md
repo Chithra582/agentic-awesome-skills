@@ -1,23 +1,17 @@
 ---
 name: claude-code-expert
-description: "Especialista profundo em Claude Code - CLI da Anthropic. Maximiza produtividade com atalhos, hooks, MCPs, configuracoes avancadas, workflows, CLAUDE.md, memoria, sub-agentes, permissoes e integracao com ecossistemas."
-risk: none
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- claude-code
-- productivity
-- cli
-- configuration
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Especialista profundo em Claude Code - CLI da Anthropic. Maximiza produtividade
+  com atalhos, hooks, MCPs, configuracoes avancadas, workflows, CLAUDE.md, memoria,
+  sub-agentes, permissoes e integracao com ecossistemas.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''claude-code'', ''productivity'', ''cli'', ''configuration'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # CLAUDE CODE EXPERT - Potencia Maxima
 
 ## Detailed Guide

@@ -1,15 +1,15 @@
 ---
 name: brooks-harness
-description: "Maintenance orchestrator for the brooks-lint plugin itself."
-risk: critical
-source: https://github.com/hyhmrright/brooks-lint/tree/main/.claude/skills/brooks-harness
-source_repo: hyhmrright/brooks-lint
-source_type: community
-date_added: 2026-07-01
+description: Maintenance orchestrator for the brooks-lint plugin itself.
 license: MIT
-license_source: https://github.com/hyhmrright/brooks-lint/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/hyhmrright/brooks-lint/tree/main/.claude/skills/brooks-harness
+  source_repo: hyhmrright/brooks-lint
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/hyhmrright/brooks-lint/blob/main/LICENSE
 ---
-
 # brooks-lint — Maintenance Harness (Orchestrator)
 ## When to Use
 

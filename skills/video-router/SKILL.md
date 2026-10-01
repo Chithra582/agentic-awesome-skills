@@ -1,19 +1,20 @@
 ---
 name: video-router
-description: "Route a video-production brief to generation, deterministic composition, supplied-footage editing, or an automatic cross-modal plan before production begins."
-category: media
-risk: none
-source: "https://github.com/Orkas-AI/Orkas-VideoStudio/tree/dd4a0f40b2bc6c6b0fe6f2e732c9540ffffefe08/packages/skills/video-router"
-source_repo: Orkas-AI/Orkas-VideoStudio
-source_type: official
-date_added: "2026-08-07"
-author: Orkas-AI
+description: Route a video-production brief to generation, deterministic composition,
+  supplied-footage editing, or an automatic cross-modal plan before production begins.
 license: MIT
-license_source: "https://github.com/Orkas-AI/Orkas-VideoStudio/blob/dd4a0f40b2bc6c6b0fe6f2e732c9540ffffefe08/LICENSE"
-tags: [video, routing, editing, composition, generation]
-tools: [claude, codex, cursor, gemini]
+metadata:
+  category: media
+  risk: none
+  source: https://github.com/Orkas-AI/Orkas-VideoStudio/tree/dd4a0f40b2bc6c6b0fe6f2e732c9540ffffefe08/packages/skills/video-router
+  source_repo: Orkas-AI/Orkas-VideoStudio
+  source_type: official
+  date_added: '2026-08-07'
+  author: Orkas-AI
+  license_source: https://github.com/Orkas-AI/Orkas-VideoStudio/blob/dd4a0f40b2bc6c6b0fe6f2e732c9540ffffefe08/LICENSE
+  tags: '[''video'', ''routing'', ''editing'', ''composition'', ''generation'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'']'
 ---
-
 # Video Router
 
 Knowledge for picking a video production line and locking it before work begins. This skill is read for guidance; it describes **what to decide**, not any tool mechanics.

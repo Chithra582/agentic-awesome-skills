@@ -1,27 +1,23 @@
 ---
 name: nika
-description: "Runs repeatable AI work as checked, budgeted workflow files."
-risk: critical
-source: https://github.com/supernovae-st/nika-agents/tree/main/skills/nika
-date_added: "2026-09-04"
-source_repo: supernovae-st/nika-agents
-source_type: community
-version: 1.1.0
-author: Thibaut Melen (@ThibautMelen) · SuperNovae Studio (github.com/supernovae-st)
+description: Runs repeatable AI work as checked, budgeted workflow files.
 license: MIT
-license_source: https://github.com/supernovae-st/nika-agents/blob/main/LICENSE
-platforms: [linux, macos]
-prerequisites:
-  commands: [nika]
 metadata:
-  hermes:
-    tags: [Workflow, Automation, Deterministic, Cost-Control, Audit, Local-First, MCP]
-    category: autonomous-ai-agents
-    related_skills: [opencode, claude-code, codex]
-    homepage: https://nika.sh
-    requires_toolsets: [terminal]
+  hermes: '{''tags'': [''Workflow'', ''Automation'', ''Deterministic'', ''Cost-Control'',
+    ''Audit'', ''Local-First'', ''MCP''], ''category'': ''autonomous-ai-agents'',
+    ''related_skills'': [''opencode'', ''claude-code'', ''codex''], ''homepage'':
+    ''https://nika.sh'', ''requires_toolsets'': [''terminal'']}'
+  risk: critical
+  source: https://github.com/supernovae-st/nika-agents/tree/main/skills/nika
+  date_added: '2026-09-04'
+  source_repo: supernovae-st/nika-agents
+  source_type: community
+  version: 1.1.0
+  author: Thibaut Melen (@ThibautMelen) · SuperNovae Studio (github.com/supernovae-st)
+  license_source: https://github.com/supernovae-st/nika-agents/blob/main/LICENSE
+  platforms: '[''linux'', ''macos'']'
+  prerequisites: '{''commands'': [''nika'']}'
 ---
-
 # Nika Skill
 
 Use [Nika](https://nika.sh) as a deterministic workflow worker orchestrated by

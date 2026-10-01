@@ -1,16 +1,19 @@
 ---
 name: diagnose-android-overheating
-description: "Use when diagnosing Android overheating, idle heat, thermal throttling, charging or radio heat, or abnormal battery drain with read-only ADB evidence and approval gates."
-category: debugging
-risk: critical
-source: self
-source_type: self
-date_added: "2026-07-16"
-author: Antigravity Awesome Skills maintainers
-tags: [android, adb, overheating, thermal, battery, diagnostics]
-tools: [claude, cursor, gemini, antigravity, codex]
+description: Use when diagnosing Android overheating, idle heat, thermal throttling,
+  charging or radio heat, or abnormal battery drain with read-only ADB evidence and
+  approval gates.
+metadata:
+  category: debugging
+  risk: critical
+  source: self
+  source_type: self
+  date_added: '2026-07-16'
+  author: Antigravity Awesome Skills maintainers
+  tags: '[''android'', ''adb'', ''overheating'', ''thermal'', ''battery'', ''diagnostics'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''antigravity'', ''codex'']'
+license: MIT
 ---
-
 # Diagnose Android Overheating
 
 ## Overview

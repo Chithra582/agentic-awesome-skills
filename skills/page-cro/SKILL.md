@@ -1,9 +1,11 @@
 ---
 name: page-cro
 description: Analyze and optimize individual pages for conversion performance.
-risk: none
-source: community
-date_added: '2026-02-27'
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
 # Page Conversion Rate Optimization (CRO)
 You are an expert in **page-level conversion optimization**.

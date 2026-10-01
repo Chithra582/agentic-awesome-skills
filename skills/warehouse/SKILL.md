@@ -1,16 +1,18 @@
 ---
 name: warehouse
-description: "Plan and review read-only data warehouse analysis with explicit scope, privacy, provenance, and validation checks."
-category: data
-risk: critical
-source: self
-source_type: self
-date_added: "2026-07-12"
-author: Rudra-G-23
-tags: [analytics, data-warehouse, sql, data-quality]
-tools: [claude, cursor, gemini]
+description: Plan and review read-only data warehouse analysis with explicit scope,
+  privacy, provenance, and validation checks.
+metadata:
+  category: data
+  risk: critical
+  source: self
+  source_type: self
+  date_added: '2026-07-12'
+  author: Rudra-G-23
+  tags: '[''analytics'', ''data-warehouse'', ''sql'', ''data-quality'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # Warehouse Analysis
 
 ## Overview

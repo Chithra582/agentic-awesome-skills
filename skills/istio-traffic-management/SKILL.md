@@ -1,11 +1,13 @@
 ---
 name: istio-traffic-management
-description: "Comprehensive guide to Istio traffic management for production service mesh deployments."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Comprehensive guide to Istio traffic management for production service
+  mesh deployments.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Istio Traffic Management
 
 Comprehensive guide to Istio traffic management for production service mesh deployments.

@@ -1,13 +1,16 @@
 ---
 name: threat-intelligence
-description: "Authorized OSINT and cyber threat intelligence: enriching IOCs, campaigns, impersonation, scams, and threat-actor profiles from public sources with defined boundaries."
-risk: safe
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
-source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+description: 'Authorized OSINT and cyber threat intelligence: enriching IOCs, campaigns,
+  impersonation, scams, and threat-actor profiles from public sources with defined
+  boundaries.'
+license: MIT
+metadata:
+  risk: safe
+  source: https://github.com/zhaoxuya520/reverse-skill
+  source_repo: zhaoxuya520/reverse-skill
+  source_type: community
+  date_added: '2026-08-25'
+  license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 # Threat Intelligence & Public-Source OSINT
 ## When to Use

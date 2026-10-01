@@ -1,15 +1,17 @@
 ---
 name: huggingface-best
-description: "Use when the user asks about finding the best, top, or recommended model for a task, wants to know what AI model to use, or wants to compare models by benchmark scores."
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/skills/huggingface-best
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: Use when the user asks about finding the best, top, or recommended model
+  for a task, wants to know what AI model to use, or wants to compare models by benchmark
+  scores.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/skills/huggingface-best
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 # HuggingFace Best Model Finder
 ## When to Use
 

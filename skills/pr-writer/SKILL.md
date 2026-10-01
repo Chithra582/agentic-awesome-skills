@@ -1,11 +1,12 @@
 ---
 name: pr-writer
-description: "Create pull requests following Sentry's engineering practices."
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Create pull requests following Sentry's engineering practices.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # PR Writer
 
 Create pull requests following Sentry's engineering practices.

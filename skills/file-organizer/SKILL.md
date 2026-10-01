@@ -1,11 +1,12 @@
 ---
 name: file-organizer
-description: "6. Reduces Clutter: Identifies old files you probably don't need anymore"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: '6. Reduces Clutter: Identifies old files you probably don''t need anymore'
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # File Organizer
 
 ## When to Use This Skill

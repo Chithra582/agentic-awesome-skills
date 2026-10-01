@@ -1,22 +1,20 @@
 ---
 name: examprep-ai
-description: "Exam preparation assistant that converts syllabi, past papers, or notes into a ranked High Score Roadmap. Covers theory, numericals, MCQs, coding, and lab prep, ordered Easy → Medium → Hard. Use for last-minute revision, important topics, and question prediction."
-risk: safe
-source: community
-date_added: "2026-06-05"
+description: Exam preparation assistant that converts syllabi, past papers, or notes
+  into a ranked High Score Roadmap. Covers theory, numericals, MCQs, coding, and lab
+  prep, ordered Easy → Medium → Hard. Use for last-minute revision, important topics,
+  and question prediction.
 allowed-tools: Read, Glob, Grep
-author: WHOISABHISHEKADHIKARI
-user-invokable: true
-tags:
-  - education
-  - exam-prep
-  - study-guide
-  - question-prediction
-  - syllabus-analysis
-  - revision
-  - students
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-06-05'
+  author: WHOISABHISHEKADHIKARI
+  user-invokable: 'True'
+  tags: '[''education'', ''exam-prep'', ''study-guide'', ''question-prediction'',
+    ''syllabus-analysis'', ''revision'', ''students'']'
+license: MIT
 ---
-
 # ExamPrep AI
 
 ## When to Use

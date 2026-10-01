@@ -1,16 +1,20 @@
 ---
 name: nexrad-mosaic-construction
-description: "Construct a quality-aware NEXRAD multi-radar mosaic from aligned single-site products with explicit coverage, beam geometry, quality weighting, overlap resolution, and provenance."
-category: analysis
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-25"
-author: ShianMike
-tags: [weather, nexrad, mosaic, multi-radar, quality-weighting, coverage, overlap-resolution]
-tools: [claude, cursor, gemini, codex]
+description: Construct a quality-aware NEXRAD multi-radar mosaic from aligned single-site
+  products with explicit coverage, beam geometry, quality weighting, overlap resolution,
+  and provenance.
+metadata:
+  category: analysis
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-25'
+  author: ShianMike
+  tags: '[''weather'', ''nexrad'', ''mosaic'', ''multi-radar'', ''quality-weighting'',
+    ''coverage'', ''overlap-resolution'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+license: MIT
 ---
-
 # NEXRAD Mosaic Construction
 
 ## Overview

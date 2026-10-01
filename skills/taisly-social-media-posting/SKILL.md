@@ -1,19 +1,21 @@
 ---
 name: taisly-social-media-posting
-description: "Use Taisly Agent Kit to prepare and publish approved short-form video posts across TikTok, Instagram Reels, YouTube Shorts, X, and Facebook."
-category: marketing
-risk: critical
-source: community
-source_repo: taisly/agent
-source_type: community
-date_added: "2026-07-07"
-author: taisly
-tags: [social-media, video, publishing, mcp, cli, sdk, tiktok, instagram, youtube-shorts, x, facebook]
-tools: [codex, claude]
-license: "MIT"
-license_source: "https://github.com/taisly/agent/blob/main/LICENSE"
+description: Use Taisly Agent Kit to prepare and publish approved short-form video
+  posts across TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
+license: MIT
+metadata:
+  category: marketing
+  risk: critical
+  source: community
+  source_repo: taisly/agent
+  source_type: community
+  date_added: '2026-07-07'
+  author: taisly
+  tags: '[''social-media'', ''video'', ''publishing'', ''mcp'', ''cli'', ''sdk'',
+    ''tiktok'', ''instagram'', ''youtube-shorts'', ''x'', ''facebook'']'
+  tools: '[''codex'', ''claude'']'
+  license_source: https://github.com/taisly/agent/blob/main/LICENSE
 ---
-
 # Taisly Social Media Posting
 
 ## Overview

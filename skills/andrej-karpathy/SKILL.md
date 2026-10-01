@@ -1,27 +1,20 @@
 ---
 name: andrej-karpathy
-description: Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
-risk: safe
-source: community
-source_repo: multica-ai/andrej-karpathy-skills
-source_type: community
+description: Behavioral guidelines to reduce common LLM coding mistakes. Use when
+  writing, reviewing, or refactoring code to avoid overcomplication, make surgical
+  changes, surface assumptions, and define verifiable success criteria.
 license: MIT
-license_source: "https://github.com/multica-ai/andrej-karpathy-skills/blob/main/skills/karpathy-guidelines/SKILL.md"
-date_added: '2026-03-06'
-author: renat
-tags:
-- coding-guidelines
-- code-review
-- llm-coding
-- simplicity
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+metadata:
+  risk: safe
+  source: community
+  source_repo: multica-ai/andrej-karpathy-skills
+  source_type: community
+  license_source: https://github.com/multica-ai/andrej-karpathy-skills/blob/main/skills/karpathy-guidelines/SKILL.md
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''coding-guidelines'', ''code-review'', ''llm-coding'', ''simplicity'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
 ---
-
 # Karpathy Guidelines
 
 Behavioral guidelines to reduce common LLM coding mistakes, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.

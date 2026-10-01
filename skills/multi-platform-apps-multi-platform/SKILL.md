@@ -1,11 +1,13 @@
 ---
 name: multi-platform-apps-multi-platform
-description: "Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Build and deploy the same feature consistently across web, mobile, and
+  desktop platforms using API-first architecture and parallel implementation strategies.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Multi-Platform Feature Development Workflow
 
 Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies.

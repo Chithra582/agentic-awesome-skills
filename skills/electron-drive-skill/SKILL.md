@@ -1,19 +1,21 @@
 ---
 name: electron-drive-skill
-description: "Launch the project's Electron app on a scratch profile and drive it: click, type, screenshot, run renderer or main-process code, read logs. Use to verify UI changes end to end."
-category: testing
-risk: critical
-source: community
-source_repo: Search-3D/electron-drive-skill
-source_type: community
-date_added: "2026-09-23"
-author: Search-3D
-tags: [electron, playwright, desktop, e2e, testing, automation]
-tools: [claude]
-license: "MIT"
-license_source: "https://github.com/Search-3D/electron-drive-skill/blob/main/LICENSE"
+description: 'Launch the project''s Electron app on a scratch profile and drive it:
+  click, type, screenshot, run renderer or main-process code, read logs. Use to verify
+  UI changes end to end.'
+license: MIT
+metadata:
+  category: testing
+  risk: critical
+  source: community
+  source_repo: Search-3D/electron-drive-skill
+  source_type: community
+  date_added: '2026-09-23'
+  author: Search-3D
+  tags: '[''electron'', ''playwright'', ''desktop'', ''e2e'', ''testing'', ''automation'']'
+  tools: '[''claude'']'
+  license_source: https://github.com/Search-3D/electron-drive-skill/blob/main/LICENSE
 ---
-
 # Driving the Electron app
 
 ## Overview

@@ -1,25 +1,20 @@
 ---
 name: youtube-notetaker
-description: "Turn YouTube talks into local study notes with slides, transcripts, editable annotations, and a markdown-backed viewer."
-category: "video"
-risk: "safe"
-source: "official"
-source_repo: "dair-ai/dair-academy-plugins"
-source_type: "official"
-date_added: "2026-06-19"
-author: "DAIR.AI"
-license: "MIT"
-license_source: "https://github.com/dair-ai/dair-academy-plugins/blob/main/README.md#license"
-tags:
-  - dair-academy
-  - ai
-  - workflow
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
+description: Turn YouTube talks into local study notes with slides, transcripts, editable
+  annotations, and a markdown-backed viewer.
+license: MIT
+metadata:
+  category: video
+  risk: safe
+  source: official
+  source_repo: dair-ai/dair-academy-plugins
+  source_type: official
+  date_added: '2026-06-19'
+  author: DAIR.AI
+  license_source: https://github.com/dair-ai/dair-academy-plugins/blob/main/README.md#license
+  tags: '[''dair-academy'', ''ai'', ''workflow'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'']'
 ---
-
 # YouTube Notetaker
 
 ## When to Use

@@ -1,11 +1,13 @@
 ---
 name: error-detective
-description: Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes.
-risk: safe
-source: community
-date_added: '2026-02-27'
+description: Search logs and codebases for error patterns, stack traces, and anomalies.
+  Correlates errors across systems and identifies root causes.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on error detective tasks or workflows

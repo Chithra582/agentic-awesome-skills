@@ -1,19 +1,20 @@
 ---
 name: famulor-skill
-description: "Operate Famulor assistants, communication history, campaigns, knowledge, automations, telephony, and workspace administration through its hosted MCP server."
-category: api-integration
-risk: critical
-source: "https://github.com/bekservice/Famulor-Skill"
-source_repo: bekservice/Famulor-Skill
-source_type: official
-date_added: "2026-08-23"
-author: bekservice
-tags: [famulor, mcp, voice-ai, communication, automation]
-tools: [claude, codex, cursor, gemini]
+description: Operate Famulor assistants, communication history, campaigns, knowledge,
+  automations, telephony, and workspace administration through its hosted MCP server.
 license: MIT
-license_source: "https://github.com/bekservice/Famulor-Skill/blob/main/LICENSE"
+metadata:
+  category: api-integration
+  risk: critical
+  source: https://github.com/bekservice/Famulor-Skill
+  source_repo: bekservice/Famulor-Skill
+  source_type: official
+  date_added: '2026-08-23'
+  author: bekservice
+  tags: '[''famulor'', ''mcp'', ''voice-ai'', ''communication'', ''automation'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/bekservice/Famulor-Skill/blob/main/LICENSE
 ---
-
 # Famulor
 
 Use Famulor through the hosted Streamable HTTP MCP server:

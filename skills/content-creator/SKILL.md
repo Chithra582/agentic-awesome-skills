@@ -1,12 +1,14 @@
 ---
 name: content-creator
-description: "Draft and review audience-specific content using supplied brand examples, local text diagnostics, and adaptable channel templates."
-category: marketing
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Draft and review audience-specific content using supplied brand examples,
+  local text diagnostics, and adaptable channel templates.
+metadata:
+  category: marketing
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Content Creator
 
 Draft and review audience-specific content using supplied brand examples, local text diagnostics, and adaptable channel templates.

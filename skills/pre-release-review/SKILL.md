@@ -1,17 +1,19 @@
 ---
 name: pre-release-review
-description: "Run a read-only pre-release review for deploy readiness, migrations, config, secrets, rollout order, rollback risk, and launch blockers."
-category: operations
-risk: safe
-source: community
-source_repo: chaunsin/agent-skills
-source_type: community
-date_added: "2026-06-29"
-author: chaunsin
-tags: [release, deploy-readiness, ci-cd, rollback, production]
-tools: [git, gh, rg]
-license: "Apache-2.0"
-license_source: "https://github.com/chaunsin/agent-skills/blob/master/LICENSE"
+description: Run a read-only pre-release review for deploy readiness, migrations,
+  config, secrets, rollout order, rollback risk, and launch blockers.
+license: Apache-2.0
+metadata:
+  category: operations
+  risk: safe
+  source: community
+  source_repo: chaunsin/agent-skills
+  source_type: community
+  date_added: '2026-06-29'
+  author: chaunsin
+  tags: '[''release'', ''deploy-readiness'', ''ci-cd'', ''rollback'', ''production'']'
+  tools: '[''git'', ''gh'', ''rg'']'
+  license_source: https://github.com/chaunsin/agent-skills/blob/master/LICENSE
 ---
 # Pre-release Review
 

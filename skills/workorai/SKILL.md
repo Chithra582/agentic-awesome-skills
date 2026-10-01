@@ -1,19 +1,21 @@
 ---
 name: workorai
-description: "WorkorAI talent-marketplace skill: candidates search jobs and manage applications; employers run the job lifecycle and get ranked candidate matches with white-box fit explanations."
-category: productivity
-risk: critical
-source: community
-source_repo: work0r-ai/agent-kit
-source_type: community
-date_added: "2026-07-03"
-author: work0r-ai
-tags: [job-search, hiring, recruiting, talent-marketplace, mcp]
-tools: [claude, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/work0r-ai/agent-kit/blob/main/skills/workorai/LICENSE.txt"
+description: 'WorkorAI talent-marketplace skill: candidates search jobs and manage
+  applications; employers run the job lifecycle and get ranked candidate matches with
+  white-box fit explanations.'
+license: MIT
+metadata:
+  category: productivity
+  risk: critical
+  source: community
+  source_repo: work0r-ai/agent-kit
+  source_type: community
+  date_added: '2026-07-03'
+  author: work0r-ai
+  tags: '[''job-search'', ''hiring'', ''recruiting'', ''talent-marketplace'', ''mcp'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/work0r-ai/agent-kit/blob/main/skills/workorai/LICENSE.txt
 ---
-
 # WorkorAI
 
 ## Overview

@@ -1,15 +1,18 @@
 ---
 name: faf-context
-description: Get your project to 100% ✪ AI-readiness, fast — the AI auto-detects your stack and only asks for what it can't know (your goal and the human "why"). Least typing, maximum context. For time-conscious builders; feeds into faf-expert for depth.
-risk: critical
-source: https://github.com/Wolfe-Jam/faf-skills/tree/main/skills/faf-context
-source_repo: Wolfe-Jam/faf-skills
-source_type: community
-date_added: 2026-07-01
+description: Get your project to 100% ✪ AI-readiness, fast — the AI auto-detects your
+  stack and only asks for what it can't know (your goal and the human "why"). Least
+  typing, maximum context. For time-conscious builders; feeds into faf-expert for
+  depth.
 license: MIT
-license_source: https://github.com/Wolfe-Jam/faf-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/Wolfe-Jam/faf-skills/tree/main/skills/faf-context
+  source_repo: Wolfe-Jam/faf-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/Wolfe-Jam/faf-skills/blob/main/LICENSE
 ---
-
 # FAF Context — Give the AI What It Needs
 ## When to Use
 

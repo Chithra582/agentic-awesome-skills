@@ -1,15 +1,17 @@
 ---
 name: spec-driven-development
-description: Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea.
-risk: critical
-source: https://github.com/addyosmani/agent-skills/tree/main/skills/spec-driven-development
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Creates specs before coding. Use when starting a new project, feature,
+  or significant change and no specification exists yet. Use when requirements are
+  unclear, ambiguous, or only exist as a vague idea.
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/addyosmani/agent-skills/tree/main/skills/spec-driven-development
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Spec-Driven Development
 
 ## Overview

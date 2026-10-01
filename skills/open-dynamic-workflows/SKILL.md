@@ -1,20 +1,21 @@
 ---
 name: open-dynamic-workflows
-description: "Plan, orchestrate, and adversarially verify parallel AI coding agents with a dynamic multi-agent workflow engine."
-category: ai-agents
-risk: critical
-source: community
-source_repo: Suraj1235/open-dynamic-workflows
-source_type: community
-date_added: "2026-06-06"
-author: Suraj1235
-tags: [multi-agent, orchestration, workflow, adversarial-verification, coding-agents]
-tools: [claude, cursor, codex, gemini, antigravity]
-# Optional: declare the upstream license if source_repo is set
-license: "MIT"
-license_source: "https://github.com/Suraj1235/open-dynamic-workflows/blob/main/LICENSE"
+description: Plan, orchestrate, and adversarially verify parallel AI coding agents
+  with a dynamic multi-agent workflow engine.
+license: MIT
+metadata:
+  category: ai-agents
+  risk: critical
+  source: community
+  source_repo: Suraj1235/open-dynamic-workflows
+  source_type: community
+  date_added: '2026-06-06'
+  author: Suraj1235
+  tags: '[''multi-agent'', ''orchestration'', ''workflow'', ''adversarial-verification'',
+    ''coding-agents'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'', ''antigravity'']'
+  license_source: https://github.com/Suraj1235/open-dynamic-workflows/blob/main/LICENSE
 ---
-
 # Open Dynamic Workflows
 
 ## Overview

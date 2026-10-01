@@ -2,21 +2,20 @@
 name: nfs-storage
 description: Configure NFS servers and clients. Implement network file sharing for
   Linux systems. Use when setting up shared storage.
-category: devops
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant OS/platform tooling and privileged access where
   noted. Docs-only; helper scripts and templates not bundled.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: devops
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # NFS Storage
 
 Configure NFS servers and clients for network file sharing across Linux systems. Covers NFSv4 server setup, export options, client mounting, autofs for on-demand mounts, Kerberos security, performance tuning, and Kubernetes integration.

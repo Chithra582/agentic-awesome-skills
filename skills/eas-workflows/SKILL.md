@@ -1,13 +1,16 @@
 ---
-description: Curated upstream guidance for Eas Workflows; use when the workflow matches the user goal.
+description: Curated upstream guidance for Eas Workflows; use when the workflow matches
+  the user goal.
 name: eas-workflows
-allowed-tools: "Read,Write,Bash(node:*),Bash(npx *eas-cli@*) version: 1.0.0 license: MIT License"
-
-source_repo: expo/skills
-source_type: official
-source: expo
-date_added: '2026-09-21'
-risk: unknown
+allowed-tools: 'Read,Write,Bash(node:*),Bash(npx *eas-cli@*) version: 1.0.0 license:
+  MIT License'
+metadata:
+  source_repo: expo/skills
+  source_type: official
+  source: expo
+  date_added: '2026-09-21'
+  risk: unknown
+license: MIT
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

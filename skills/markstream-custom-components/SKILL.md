@@ -1,19 +1,20 @@
 ---
 name: markstream-custom-components
-description: "Override Markstream node renderers and add trusted custom tags across Vue, React, Svelte, and Angular using scoped or renderer-local mappings."
-category: frontend
-risk: critical
-source: https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-custom-components
-source_repo: Simon-He95/markstream-vue
-source_type: official
-date_added: "2026-07-21"
-author: Simon-He95
-tags: [markdown, components, vue, react, svelte, angular]
-tools: [claude, cursor, gemini, codex]
+description: Override Markstream node renderers and add trusted custom tags across
+  Vue, React, Svelte, and Angular using scoped or renderer-local mappings.
 license: MIT
-license_source: https://github.com/Simon-He95/markstream-vue/blob/main/license
+metadata:
+  category: frontend
+  risk: critical
+  source: https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-custom-components
+  source_repo: Simon-He95/markstream-vue
+  source_type: official
+  date_added: '2026-07-21'
+  author: Simon-He95
+  tags: '[''markdown'', ''components'', ''vue'', ''react'', ''svelte'', ''angular'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/Simon-He95/markstream-vue/blob/main/license
 ---
-
 # Markstream Custom Components
 
 ## Overview

@@ -1,20 +1,17 @@
 ---
 name: seo-programmatic
-description: "Plan and audit programmatic SEO pages generated at scale from structured data. Use when designing templates, URL systems, internal linking, quality gates, and index-bloat safeguards for pages at scale."
-risk: critical
-source: "https://github.com/AgriciDaniel/claude-seo"
-date_added: "2026-03-21"
-user-invokable: true
-argument-hint: "[url or plan]"
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - WebFetch
-  - Write
+description: Plan and audit programmatic SEO pages generated at scale from structured
+  data. Use when designing templates, URL systems, internal linking, quality gates,
+  and index-bloat safeguards for pages at scale.
+allowed-tools: Read Grep Glob Bash WebFetch Write
+metadata:
+  risk: critical
+  source: https://github.com/AgriciDaniel/claude-seo
+  date_added: '2026-03-21'
+  user-invokable: 'True'
+  argument-hint: '[url or plan]'
+license: MIT
 ---
-
 # Programmatic SEO Analysis & Planning
 
 Build and audit SEO pages generated at scale from structured data sources.

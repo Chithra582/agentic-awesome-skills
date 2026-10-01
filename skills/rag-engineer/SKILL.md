@@ -1,13 +1,14 @@
 ---
 name: rag-engineer
-description: Expert in building Retrieval-Augmented Generation systems. Masters
-  embedding models, vector databases, chunking strategies, and retrieval
-  optimization for LLM applications.
-risk: critical
-source: vibeship-spawner-skills (Apache 2.0)
-date_added: 2026-02-27
+description: Expert in building Retrieval-Augmented Generation systems. Masters embedding
+  models, vector databases, chunking strategies, and retrieval optimization for LLM
+  applications.
+metadata:
+  risk: critical
+  source: vibeship-spawner-skills (Apache 2.0)
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # RAG Engineer
 
 Expert in building Retrieval-Augmented Generation systems. Masters embedding models,

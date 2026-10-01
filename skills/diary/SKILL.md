@@ -1,11 +1,13 @@
 ---
 name: diary
-description: "Unified Diary System: A context-preserving automated logger for multi-project development."
-risk: safe
-source: self
-date_added: "2026-09-04"
+description: 'Unified Diary System: A context-preserving automated logger for multi-project
+  development.'
+metadata:
+  risk: safe
+  source: self
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # 📔 Unified Diary System
 
 ## When to Use This Skill

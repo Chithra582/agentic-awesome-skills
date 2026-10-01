@@ -1,11 +1,12 @@
 ---
 name: conductor-new-track
-description: "Create a new track with specification and phased implementation plan"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Create a new track with specification and phased implementation plan
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # New Track
 
 Create a new track (feature, bug fix, chore, or refactor) with a detailed specification and phased implementation plan.

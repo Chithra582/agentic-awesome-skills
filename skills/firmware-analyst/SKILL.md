@@ -1,11 +1,13 @@
 ---
 name: firmware-analyst
-description: Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering.
-risk: offensive
-source: community
-date_added: '2026-02-27'
+description: Expert firmware analyst specializing in embedded systems, IoT security,
+  and hardware reverse engineering.
+metadata:
+  risk: offensive
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

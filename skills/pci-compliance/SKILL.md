@@ -1,11 +1,13 @@
 ---
 name: pci-compliance
-description: "Review payment data flows and engineering control evidence for a scoped PCI assessment, without claiming certification."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Review payment data flows and engineering control evidence for a scoped
+  PCI assessment, without claiming certification.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Payment Data and PCI Evidence Review
 
 ## When to Use

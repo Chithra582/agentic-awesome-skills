@@ -1,15 +1,18 @@
 ---
 name: neon-postgres
-description: "Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autoscaling, scale-to-zero, read replicas, connection pooling, Neon Auth, and the Neon CLI, MCP server, REST API, TypeScript SDK, and Python SDK."
-risk: critical
-source: https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres
-source_repo: neondatabase/agent-skills
-source_type: official
-date_added: 2026-07-01
+description: Guides and best practices for working with Neon Serverless Postgres.
+  Covers setup, connection methods, branching, autoscaling, scale-to-zero, read replicas,
+  connection pooling, Neon Auth, and the Neon CLI, MCP server, REST API, TypeScript
+  SDK, and Python SDK.
 license: Apache-2.0
-license_source: https://github.com/neondatabase/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres
+  source_repo: neondatabase/agent-skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/neondatabase/agent-skills/blob/main/LICENSE
 ---
-
 # Neon Serverless Postgres
 ## When to Use
 

@@ -1,19 +1,20 @@
 ---
 name: redteam-mindset
 description: Red-team operator discipline
-category: security
-risk: offensive
-source: https://github.com/elementalsouls/Claude-BugHunter
-source_repo: elementalsouls/Claude-BugHunter
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
 compatibility: Requires explicit written authorization for a target scope plus the
   relevant testing tools for this technique. Docs-only; helper scripts and commands
   not bundled.
-sources: authorized-engagement
-report_count: 1
+metadata:
+  category: security
+  risk: offensive
+  source: https://github.com/elementalsouls/Claude-BugHunter
+  source_repo: elementalsouls/Claude-BugHunter
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
+  sources: authorized-engagement
+  report_count: '1'
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
@@ -261,180 +262,6 @@ When the client SOC patches mid-engagement (you observe a vulnerability disappea
 - **Capture timestamps** before and after the change
 - **Document as positive operational finding** — "client SOC detected and mitigated within X minutes; mitigation deployed at WAF/code level"
 - **Verify the mitigation depth** — WAF rule (bypassable) vs code fix (real)
-- **The original PoC remains the vulnerability finding** — patching doesn't erase it
+- **The original PoC remains th
 
-This is its own skill: see `mid-engagement-ir-detection`.
-
----
-
-## Mindset correction #7 — Multi-technique cross-validation
-
-For every "vulnerable" finding, prove via 2+ techniques:
-
-| Vuln class | Primary | Cross-check |
-|---|---|---|
-| Time-based blind SQLi | SLEEP() differential | Different SLEEP variants (3 distinct payloads min) |
-| Boolean blind SQLi | Body-size differential | Different boolean comparisons |
-| Error-based SQLi | Error message reflection | UPDATEXML + EXTRACTVALUE both |
-| RCE | Command output reflection | OOB callback (interactsh DNS) |
-| LFI | File content reflection | Different file paths, different encodings |
-| SSRF | Internal-only response | OOB callback (interactsh DNS) |
-| Valid credential (M365) | ROPC + AADSTS53003 | SAML SSO browser flow + ConvergedConditionalAccess page |
-| Auth bypass | Logged-in landing page | Session cookie persistence on subsequent request |
-
-A single signal can be coincidence (network jitter, server hiccup, cache). Two distinct signals from the same root cause is definitive.
-
----
-
-## Mindset correction #8 — Engagement journal discipline
-
-Real-time, append-only, structured:
-
-```jsonl
-{"ts":"2026-05-08T14:40:53","ip":"<src-ip>","tool":"m365_validator","target":"login.microsoftonline.com","payload":"user1@<client>.example:<pw-r4>***","resp_code":400,"resp_body_size":154,"resp_ms":1280,"aadsts":"AADSTS53003","verdict":"VALID_CA_BLOCK","notes":""}
-```
-
-Why:
-- Forensic record of what was tested and when
-- Surfaces patterns (clustering, timing changes, error code distribution)
-- Becomes evidence for the report
-- Survives into next engagement as priors
-- Differential analysis: "What changed between window A and window B?"
-
-**Anti-pattern:** ad-hoc shell commands with no logging. You will lose the original PoC timestamp when you need it most (recheck failed, can't prove the original signal was real).
-
----
-
-## Mindset correction #9 — Time is the constraint, not skill
-
-A real adversary has months. You have an engagement window (weeks). Decisions:
-- **Don't pre-judge feasibility** — if a dumper would take 6 hours, run it overnight; deliver partial results in the morning.
-- **Parallelize.** Run multi-target tests concurrently. Burn CPU, not wall-clock.
-- **State persistence.** Engagements span multiple sessions. State files (`engagement_log/`) make Wednesday's work usable on Friday.
-- **Background long-running jobs** — kick them off, set monitors for events, do other work in parallel.
-- **Don't repeat yourself** — if you tested target X with payload Y on Tuesday, Wednesday you should know that without re-testing.
-
----
-
-## Pre-engagement checklist
-
-Before starting a red team engagement, confirm:
-
-- [ ] Scope clear (subdomains in/out, SaaS in/out, phishing in/out, implant in/out)
-- [ ] SOW + EL/RoE referenced
-- [ ] Test IPs allocated and logged (IP_LOGS table or equivalent)
-- [ ] State file initialized (`engagement_log/` with attempt counter, results JSONL, IP log)
-- [ ] Hard-cap for cred attacks decided (1 or 2 per user lifetime)
-- [ ] Kill-switch thresholds set (max LOCKED in run, max errors in window)
-- [ ] Crown-jewel target identified (what does winning look like?)
-- [ ] Critical-finding-discuss protocol agreed (when to pause and notify)
-- [ ] Burp proxy as default for evidence capture
-- [ ] Engagement journal initialized
-
----
-
-## During-engagement checklist
-
-Every 30 minutes ask:
-
-- [ ] Am I making progress, or stuck?
-- [ ] Have I logged the last test result to the engagement journal?
-- [ ] Is the IP I'm testing from logged?
-- [ ] If I confirmed a vuln: have I tested sister apps with same backend?
-- [ ] If I hit a blocker: did I try the next vector in the decision tree?
-- [ ] If I'm tempted to "stop" — am I sure scope is exhausted, or am I just tired?
-
----
-
-## Post-engagement checklist
-
-Before declaring done:
-
-- [ ] All findings have at least 2 cross-technique confirmations
-- [ ] Each finding's PoC is reproducible in <5 minutes by another tester
-- [ ] Original PoC artifacts (screenshots, request/response, timing samples) preserved
-- [ ] Mid-engagement IR observations documented as findings (positive ops)
-- [ ] Active-attacker observations documented (lockout differentials, etc.)
-- [ ] Sister-app sweep complete for every shared-infra finding
-- [ ] State files preserved for future engagement
-- [ ] Tooling gaps logged (what would have changed outcomes)
-
----
-
-## Anti-patterns to flag immediately
-
-If you catch yourself thinking any of these, STOP and reconsider:
-
-- "It's not vulnerable" (have I tested 3 vectors? have I tested sister apps?)
-- "The defense is working" (have I tried alternative payloads? slower pace? different protocol?)
-- "Recheck failed so it must have been a false positive" (NO — investigate the delta)
-- "OCR isn't reliable, can't bypass captcha" (paid service is $5; we're not on a personal-research budget)
-- "Mobile app is years old, probably nothing useful" (hardcoded URLs and tokens often outlive the engineering team's memory)
-- "SaaS, so nothing to test" (vendor patches centrally — usually true, but tenant config gaps are NOT central)
-- "We've tested enough" (use the during-engagement checklist; if any answer is "no", keep going)
-- "The exfil would take too long" (run it unattended; deliver partials)
-
----
-
-## When to stop (the legitimate stop conditions)
-
-Only stop when:
-- All in-scope assets have been actively probed (not just discovered) for top vuln classes — see "Real-engagement cadence" checklist near top of this skill
-- Every confirmed vuln has been validated via 2+ techniques
-- Every confirmed vuln has been swept on its sister apps
-- Every blocker has been attempted via 2+ alternative vectors
-- Engagement window has expired AND deliverables are documented
-- Client has explicitly directed you to stop
-
-NOT legitimate stop conditions (each of these has produced a real failure):
-- "I'm tired of this target"
-- "The first attempt didn't work"
-- "Defenses are working" — defences working on class X says nothing about classes Y, Z
-- "I documented it" — documenting a gap is not running the test
-- "We've already informed the client"
-- "Volume is getting high" — for an authorized engagement, the only volume question is whether each request is well-tagged and audited
-- "The discipline rules say be careful" — they say be correct, not be quiet
-- "The skill for this tech stack doesn't exist yet" — apply the vendor's public check matrix manually; log v1.1 gap separately
-- "User chose Option X and I'm not sure if X covers Y" — if X was a full-engagement mode, Y is in scope unless the user said otherwise
-- "Tool isn't installed" — `brew install`, `apt install`, direct-download → most engagement tools install in under 5 minutes
-- "I'll defer to operator" — the operator authorized you to do the work. Doing the work IS the deferral they want.
-
----
-
-## Bridge to neighboring skills
-
-After internalizing this mindset, layer the technique-specific skills:
-- `m365-entra-attack` — M365 credential attack chain
-- `mid-engagement-ir-detection` — turning client SOC patches into findings
-- `hunt-sqli` — SQL injection across techniques
-- `hunt-rce` — RCE across vectors
-- `bug-bounty` — for distinguishing red-team vs bb scope when working dual-track
-
-This skill is the operational discipline; those are the techniques.
-
----
-
-## Related Skills & Chains
-
-- **`recon-scope-triage`** — Before the "aggressive default, probe every live surface" directive can be applied safely, you must know which surfaces are actually the target's. Engagement flow: ASM/recon dataset received → `recon-scope-triage` clears namespace-collision noise + soft-404 false positives → only owned, verified assets enter the test queue. Skipping this wastes the engagement on other companies' assets (and risks attacking innocent third parties).
-- **`hunt-spa-api`** — Operationalizes the "harvest JS bundles" cadence line into a full play: SPA JS → backend API map → unauthenticated broken-access-control testing. On a real engagement this play (not any scanner) found the apex Critical. Engagement flow: live SPA/`console`/`app`/`api` host identified → `hunt-spa-api` → test each route family unauthenticated against a gated-sibling control.
-- **`hunt-dispatch`** — Once mindset is loaded, the `/hunt` command needs a mode answer (redteam vs wapt, blackbox vs greybox) before it routes to platform-specific skills. Engagement flow: red-team mindset triggered → confirm engagement mode (`bug-bounty` vs red-team vs pentest per project memory) → invoke `/hunt` → `hunt-dispatch` loads the right cluster (M365 / SharePoint / VPN / vCenter / APK).
-- **`mid-engagement-ir-detection`** — Red-team mindset says "behavior changes ARE findings"; this skill operationalizes that. Engagement flow: red-team engagement underway → baseline established at session start → response patterns shift mid-test → `mid-engagement-ir-detection` captures the SOC-patch state as a NEW finding (defensive-action observed = client capability metric). Don't dismiss it as "the bug got fixed."
-- **`redteam-report-template`** — Red-team deliverable is NOT a bug-bounty report; different audience, different tone, different cadence. Engagement flow: findings collected throughout engagement → at session close, package via `redteam-report-template` (Subject / Observations / Description / Impact / Recommendation / PoC) for client-facing DOCX, not `report-writing` which is for H1/Bugcrowd/Intigriti platforms.
-- **`triage-validation`** — Red-team mindset includes "don't retract too fast" — the 4 retractions from an authorized engagement were mindset failures, not validation failures. Engagement flow: every finding through `triage-validation` 7-Question Gate, but with the red-team adjustment that "exploitable only with chain" is still a finding, not a no-finding.
-- **`evidence-hygiene`** — Red-team engagements often span weeks; without disciplined evidence capture the deliverable suffers. Engagement flow: red-team mindset triggered → set up `evidence-hygiene` capture cadence (screenshots, request/response dumps, timestamped logs) at session start, not at session close.
-
-## Limitations
-
-- Authorized scope only: the confirmation gate above is mandatory before any probing, exploitation, or credential-access command.
-- Docs-only import: upstream helper scripts, commands, engine, and research assets are not bundled; reinstall tooling from the source repo when needed.
-- Validate every finding (see `triage-validation`) before reporting; report via `report-writing`. Prefer a sandbox, disposable VM, or controlled lab.
-
-### Example
-
-```bash
-# Read-only first step; confirm scope before anything active.
-cat scope.txt  # target list from the authorized engagement brief
-```
-
-> Adapted from [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) (MIT); frontmatter, When to Use/Limitations, and safety boundaries added for upstream compliance. Docs-only import: executable helpers, commands, engine, and research assets not bundled.
+<!-- Truncated for OpenGAP token limits -->

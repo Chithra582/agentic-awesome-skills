@@ -1,25 +1,20 @@
 ---
 name: crossframe-suite
-description: "Use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output."
-category: workflow
-risk: safe
-source: community
-source_repo: xi-kari/crossframe-skill
-source_type: community
-date_added: 2026-06-16
-author: xi-kari
+description: Use when the user explicitly invokes CrossFrame Suite for Chinese structural
+  diagnosis workflows across relationships, organizations, public issues, philosophy,
+  research, or essay output.
 license: MIT
-license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
-tools:
-  - "Agent Skills"
-  - Codex
-  - Claude
-tags:
-  - crossframe
-  - chinese
-  - workflow
-  - multi-skill
-  - structural-diagnosis
+metadata:
+  category: workflow
+  risk: safe
+  source: community
+  source_repo: xi-kari/crossframe-skill
+  source_type: community
+  date_added: '2026-06-16'
+  author: xi-kari
+  license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
+  tools: '[''Agent Skills'', ''Codex'', ''Claude'']'
+  tags: '[''crossframe'', ''chinese'', ''workflow'', ''multi-skill'', ''structural-diagnosis'']'
 ---
 # CrossFrame Suite
 

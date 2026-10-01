@@ -2,21 +2,20 @@
 name: vendor-management
 description: Implement vendor risk management programs. Assess third-party security
   and maintain vendor inventory. Use when managing supplier security.
-category: security
-risk: safe
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Checklist and framework guidance; no privileged tooling required. Apply
   controls through your own change process.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: security
+  risk: safe
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # Vendor Management
 
 Implement a vendor risk management program covering vendor assessment questionnaires, risk scoring, contract tracking, SLA monitoring, and ongoing oversight for compliance with SOC 2, ISO 27001, and regulatory frameworks.

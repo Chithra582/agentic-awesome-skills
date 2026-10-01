@@ -1,19 +1,21 @@
 ---
 name: time-ledger
-description: "Natural-language time tracking: parse what the user says they did into Activity/Minutes/Date rows in their own Notion database — asking instead of guessing when unsure."
-category: productivity
-risk: critical
-source: community
-source_repo: cruisekkk/time-ledger
-source_type: community
-date_added: "2026-07-04"
-author: cruisekkk
-tags: [time-tracking, notion, quantified-self, productivity, journaling]
-tools: [claude]
-license: "MIT"
-license_source: "https://github.com/cruisekkk/time-ledger/blob/main/LICENSE"
+description: 'Natural-language time tracking: parse what the user says they did into
+  Activity/Minutes/Date rows in their own Notion database — asking instead of guessing
+  when unsure.'
+license: MIT
+metadata:
+  category: productivity
+  risk: critical
+  source: community
+  source_repo: cruisekkk/time-ledger
+  source_type: community
+  date_added: '2026-07-04'
+  author: cruisekkk
+  tags: '[''time-tracking'', ''notion'', ''quantified-self'', ''productivity'', ''journaling'']'
+  tools: '[''claude'']'
+  license_source: https://github.com/cruisekkk/time-ledger/blob/main/LICENSE
 ---
-
 # Time Ledger
 
 ## Overview

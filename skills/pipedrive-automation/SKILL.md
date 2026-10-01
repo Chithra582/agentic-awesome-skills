@@ -1,11 +1,14 @@
 ---
 name: pipedrive-automation
-description: "Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio). Always search tools first for current schemas."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Automate Pipedrive CRM operations including deals, contacts, organizations,
+  activities, notes, and pipeline management via Rube MCP (Composio). Always search
+  tools first for current schemas.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Pipedrive Automation via Rube MCP
 
 Automate Pipedrive CRM workflows including deal management, contact and organization operations, activity scheduling, notes, and pipeline/stage queries through Composio's Pipedrive toolkit.

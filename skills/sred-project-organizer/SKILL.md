@@ -1,11 +1,13 @@
 ---
 name: sred-project-organizer
-description: Take a list of projects and their related documentation, and organize them into the SRED format for submission.
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Take a list of projects and their related documentation, and organize
+  them into the SRED format for submission.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # SRED Project Organization
 
 SRED expects projects to be presented in a particular format. Take the list of projects that have been worked on in the past year, and summarize them into the format expected by SRED, with the supporting evidence. Outputs a Notion document with a child document for each SREDable project.

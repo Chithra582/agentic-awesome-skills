@@ -1,11 +1,13 @@
 ---
 name: slo-implementation
-description: "Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Framework for defining and implementing Service Level Indicators (SLIs),
+  Service Level Objectives (SLOs), and error budgets.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # SLO Implementation
 
 Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets.

@@ -1,15 +1,17 @@
 ---
 name: deprecation-and-migration
-description: Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code.
-risk: critical
-source: https://github.com/addyosmani/agent-skills/tree/main/skills/deprecation-and-migration
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Manages deprecation and migration. Use when removing old systems, APIs,
+  or features. Use when migrating users from one implementation to another. Use when
+  deciding whether to maintain or sunset existing code.
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/addyosmani/agent-skills/tree/main/skills/deprecation-and-migration
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Deprecation and Migration
 
 ## Overview

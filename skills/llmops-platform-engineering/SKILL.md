@@ -2,22 +2,21 @@
 name: llmops-platform-engineering
 description: Build production LLMOps platforms with CI/CD, model promotion workflows,
   evaluation gates, rollback, and governance across cloud and self-hosted inference.
-category: devops
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant platform CLIs (kubectl, helm, terraform, git,
   CI runners) and authorized access to the target environment. Docs-only; helper scripts
   and templates not bundled.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: devops
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # LLMOps Platform Engineering
 
 Design and operate an internal LLM platform that supports rapid experimentation without compromising reliability, cost, or compliance.

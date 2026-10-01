@@ -1,11 +1,15 @@
 ---
 name: code-documentation-doc-generate
-description: "You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best practices."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: You are a documentation expert specializing in creating comprehensive,
+  maintainable documentation from code. Generate API docs, architecture diagrams,
+  user guides, and technical references using AI-powered analysis and industry best
+  practices.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Compatibility and maintenance
 
 Compatibility alias of `documentation-generation-doc-generate`; use that ID for new references when no existing contract requires this one. The full instructions and support files remain local so existing installations

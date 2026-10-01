@@ -1,15 +1,17 @@
 ---
 name: cucumber-skill
-description: "Generates Cucumber BDD tests with Gherkin feature files and step definitions in Java, JavaScript, or Ruby. Use when user mentions \"Cucumber\", \"Gherkin\", \"Feature/Scenario\", \"Given/When/Then\", \"BDD\"."
-risk: critical
-source: https://github.com/LambdaTest/agent-skills/tree/main/cucumber-skill
-source_repo: LambdaTest/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Generates Cucumber BDD tests with Gherkin feature files and step definitions
+  in Java, JavaScript, or Ruby. Use when user mentions "Cucumber", "Gherkin", "Feature/Scenario",
+  "Given/When/Then", "BDD".
 license: MIT
-license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/LambdaTest/agent-skills/tree/main/cucumber-skill
+  source_repo: LambdaTest/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 ---
-
 # Cucumber BDD Skill
 ## When to Use
 

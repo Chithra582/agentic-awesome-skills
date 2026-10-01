@@ -1,11 +1,12 @@
 ---
 name: cc-skill-project-guidelines-example
-description: "Project Guidelines Skill (Example)"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Project Guidelines Skill (Example)
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Project Guidelines Skill (Example)
 
 This is an example of a project-specific skill. Use this as a template for your own projects.

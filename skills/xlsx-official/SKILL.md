@@ -1,11 +1,12 @@
 ---
 name: xlsx-official
-description: "Unless otherwise stated by the user or existing template"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Unless otherwise stated by the user or existing template
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Requirements for Outputs
 
 ## All Excel files

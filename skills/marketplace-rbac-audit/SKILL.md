@@ -1,16 +1,19 @@
 ---
 name: marketplace-rbac-audit
-description: "Audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions."
-category: security
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-12"
-author: mosinlshaikh
-tags: [marketplace, rbac, authorization, access-control, security]
-tools: [claude, cursor, codex, gemini]
+description: Audit multi-role marketplace authorization across roles, resource ownership,
+  tenant boundaries, and order-state transitions; use when access rules need evidence,
+  not UI assumptions.
+metadata:
+  category: security
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-12'
+  author: mosinlshaikh
+  tags: '[''marketplace'', ''rbac'', ''authorization'', ''access-control'', ''security'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'']'
+license: MIT
 ---
-
 # Marketplace RBAC Audit
 
 ## Overview

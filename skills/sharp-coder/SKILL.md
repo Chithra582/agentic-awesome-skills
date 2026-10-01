@@ -1,13 +1,15 @@
 ---
 name: sharp-coder
-description: >
-  Two-layer performance skill combining disciplined THINK layer (surgical edits, simplicity) and terse SPEAK layer (caveman compression). Triggers on requests for brevity, token efficiency, or disciplined coding.
-risk: safe
-source: self
-date_added: "2026-09-04"
-source_type: self
+description: Two-layer performance skill combining disciplined THINK layer (surgical
+  edits, simplicity) and terse SPEAK layer (caveman compression). Triggers on requests
+  for brevity, token efficiency, or disciplined coding.
+metadata:
+  risk: safe
+  source: self
+  date_added: '2026-09-04'
+  source_type: self
+license: MIT
 ---
-
 # Sharp Coder
 
 Two orthogonal layers. Both always active. Neither overrides the other.

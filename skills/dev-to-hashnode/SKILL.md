@@ -1,15 +1,17 @@
 ---
 name: dev-to-hashnode
-description: When the user wants to publish on Dev.to, Hashnode, or other developer blogging platforms. Trigger phrases include "Dev.to," "Hashnode," "developer blog," "cross-posting," "technical blogging," "canonical URL," or "developer content platform."
-risk: critical
-source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/dev-to-hashnode
-source_repo: jonathimer/devmarketing-skills
-source_type: community
-date_added: 2026-07-01
+description: When the user wants to publish on Dev.to, Hashnode, or other developer
+  blogging platforms. Trigger phrases include "Dev.to," "Hashnode," "developer blog,"
+  "cross-posting," "technical blogging," "canonical URL," or "developer content platform."
 license: MIT
-license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/dev-to-hashnode
+  source_repo: jonathimer/devmarketing-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
 ---
-
 # Dev.to & Hashnode Publishing
 ## When to Use
 

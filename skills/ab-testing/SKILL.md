@@ -1,15 +1,16 @@
 ---
 name: ab-testing
-description: "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program."
-risk: critical
-source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-testing
-source_repo: coreyhaines31/marketingskills
-source_type: community
-date_added: 2026-07-01
+description: When the user wants to plan, design, or implement an A/B test or experiment,
+  or build a growth experimentation program.
 license: MIT
-license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-testing
+  source_repo: coreyhaines31/marketingskills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICENSE
 ---
-
 # A/B Test Setup
 ## When to Use
 

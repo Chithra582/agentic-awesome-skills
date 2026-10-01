@@ -1,19 +1,23 @@
 ---
 name: squirrel
-description: "Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs, and writes production-grade docs. Auto-detects project state and adapts its 8-phase pipeline."
-category: development
-risk: safe
-source: community
-source_repo: flyingsquirrel0419/squirrel-skill
-source_type: community
-license: "Apache-2.0"
-license_source: "https://github.com/flyingsquirrel0419/squirrel-skill/blob/main/LICENSE"
-date_added: "2026-04-29"
-author: flying_squirrel__
-tags: [development, testing, planning, code-review, documentation, ci-cd]
-tools: [claude, cursor, codex, antigravity, gemini, windsurf, opencode, copilot]
+description: 'Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs,
+  and writes production-grade docs. Auto-detects project state and adapts its 8-phase
+  pipeline.'
+license: Apache-2.0
+metadata:
+  category: development
+  risk: safe
+  source: community
+  source_repo: flyingsquirrel0419/squirrel-skill
+  source_type: community
+  license_source: https://github.com/flyingsquirrel0419/squirrel-skill/blob/main/LICENSE
+  date_added: '2026-04-29'
+  author: flying_squirrel__
+  tags: '[''development'', ''testing'', ''planning'', ''code-review'', ''documentation'',
+    ''ci-cd'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''antigravity'', ''gemini'', ''windsurf'',
+    ''opencode'', ''copilot'']'
 ---
-
 # Squirrel — Full-Cycle Software Development Skill
 
 ## Overview

@@ -1,25 +1,22 @@
 ---
 name: user-thoughts
-description: >-
-  Persist user decisions and project constraints to mdbase across sessions.
-  Trigger on /user-thoughts or /ustht, or when the user discusses architecture,
-  tech stack, rules, UI/UX, or project memory.
+description: Persist user decisions and project constraints to mdbase across sessions.
+  Trigger on /user-thoughts or /ustht, or when the user discusses architecture, tech
+  stack, rules, UI/UX, or project memory.
 license: MIT
-source: "https://github.com/JularDepick/user-thoughts.SKILL"
-source_repo: JularDepick/user-thoughts.SKILL
-source_type: community
-date_added: "2026-05-31"
-author: JularDepick
-tags: [userthoughts, documentation, project-management, mdbase]
-tools: [claude, cursor, gemini]
-risk: safe
 allowed-tools: read write bash
 metadata:
   author: JularDepick
   category: productivity
-  supported_agents: "[claude, cursor, gemini]"
+  supported_agents: '[claude, cursor, gemini]'
+  source: https://github.com/JularDepick/user-thoughts.SKILL
+  source_repo: JularDepick/user-thoughts.SKILL
+  source_type: community
+  date_added: '2026-05-31'
+  tags: '[''userthoughts'', ''documentation'', ''project-management'', ''mdbase'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  risk: safe
 ---
-
 # user-thoughts.SKILL
 
 ## Overview

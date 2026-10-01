@@ -14,11 +14,11 @@ metadata:
   ontoly.category: onboarding
   ontoly.enhancement: LLM Enhancement
   ontoly.deprecated: 'false'
-source_repo: 0xsarwagya/ontoly
-source_type: community
-source: community
-date_added: '2026-09-21'
-risk: unknown
+  source_repo: 0xsarwagya/ontoly
+  source_type: community
+  source: community
+  date_added: '2026-09-21'
+  risk: unknown
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

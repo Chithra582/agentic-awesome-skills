@@ -1,15 +1,16 @@
 ---
 name: logic-diff
-description: "Compare two code versions for semantic equivalence via semi-formal tracing of both versions side-by-side."
-risk: safe
-source: https://github.com/hyhmrright/logic-lens/tree/main/skills/logic-diff
-source_repo: hyhmrright/logic-lens
-source_type: community
-date_added: 2026-07-01
+description: Compare two code versions for semantic equivalence via semi-formal tracing
+  of both versions side-by-side.
 license: MIT
-license_source: https://github.com/hyhmrright/logic-lens/blob/main/LICENSE
+metadata:
+  risk: safe
+  source: https://github.com/hyhmrright/logic-lens/tree/main/skills/logic-diff
+  source_repo: hyhmrright/logic-lens
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/hyhmrright/logic-lens/blob/main/LICENSE
 ---
-
 # Logic-Lens — Semantic Diff
 ## When to Use
 

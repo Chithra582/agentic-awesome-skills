@@ -1,15 +1,17 @@
 ---
 name: huggingface-spaces
-description: "Build, deploy, and maintain applications on Hugging Face Spaces — Gradio / Docker / Static SDKs, ZeroGPU and dedicated hardware, model loading, debugging, buckets, inference providers, community grants."
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/skills/huggingface-spaces
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: Build, deploy, and maintain applications on Hugging Face Spaces — Gradio
+  / Docker / Static SDKs, ZeroGPU and dedicated hardware, model loading, debugging,
+  buckets, inference providers, community grants.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/skills/huggingface-spaces
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 # Hugging Face Spaces
 ## When to Use
 

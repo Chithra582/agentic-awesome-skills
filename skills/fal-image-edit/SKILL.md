@@ -1,11 +1,12 @@
 ---
 name: fal-image-edit
-description: "AI-powered image editing with style transfer and object removal"
-risk: safe
-source: "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-image-edit/SKILL.md"
-date_added: "2026-02-27"
+description: AI-powered image editing with style transfer and object removal
+metadata:
+  risk: safe
+  source: https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-image-edit/SKILL.md
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Fal Image Edit
 
 ## Overview

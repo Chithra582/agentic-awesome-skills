@@ -1,19 +1,21 @@
 ---
 name: unified-ai-gateway
-description: Operate and evaluate Unified AI System through fifteen governed MCP tools, including provider-free prompt enhancement, while preserving fake-provider, authorization, and evidence boundaries.
-category: ai-ml
-risk: critical
-source: https://github.com/happy520ai/unified-ai-system/tree/master/skills/unified-ai-gateway
-source_repo: happy520ai/unified-ai-system
-source_type: official
-date_added: "2026-08-01"
-author: happy520ai
-tags: [ai-gateway, codex, mcp, self-hosted, governance]
-tools: [codex]
+description: Operate and evaluate Unified AI System through fifteen governed MCP tools,
+  including provider-free prompt enhancement, while preserving fake-provider, authorization,
+  and evidence boundaries.
 license: Apache-2.0
-license_source: https://github.com/happy520ai/unified-ai-system/blob/master/LICENSE
+metadata:
+  category: ai-ml
+  risk: critical
+  source: https://github.com/happy520ai/unified-ai-system/tree/master/skills/unified-ai-gateway
+  source_repo: happy520ai/unified-ai-system
+  source_type: official
+  date_added: '2026-08-01'
+  author: happy520ai
+  tags: '[''ai-gateway'', ''codex'', ''mcp'', ''self-hosted'', ''governance'']'
+  tools: '[''codex'']'
+  license_source: https://github.com/happy520ai/unified-ai-system/blob/master/LICENSE
 ---
-
 # Unified AI Gateway
 
 ## Overview

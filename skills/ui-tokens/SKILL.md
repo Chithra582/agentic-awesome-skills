@@ -1,15 +1,15 @@
 ---
 name: ui-tokens
 description: View, add, or modify design tokens in the StyleSeed design system
-risk: critical
-source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-tokens
-source_repo: bitjaru/styleseed
-source_type: community
-date_added: 2026-07-01
 license: MIT
-license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-tokens
+  source_repo: bitjaru/styleseed
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
 ---
-
 # Design Token Manager
 ## When to Use
 

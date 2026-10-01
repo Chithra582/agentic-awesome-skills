@@ -1,11 +1,14 @@
 ---
 name: energy-procurement
-description: Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy cost management.
-risk: safe
-source: https://github.com/ai-evos/agent-skills
-date_added: '2026-02-27'
+description: Codified expertise for electricity and gas procurement, tariff optimisation,
+  demand charge management, renewable PPA evaluation, and multi-facility energy cost
+  management.
+metadata:
+  risk: safe
+  source: https://github.com/ai-evos/agent-skills
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## When to Use
 Use this skill when managing energy procurement tasks, such as optimizing electricity or gas tariffs, evaluating Power Purchase Agreements (PPAs), or developing long-term energy cost management strategies for commercial or industrial facilities.
 
@@ -97,112 +100,6 @@ When choosing between fixed, index, and block-and-index for a contract renewal:
 Before committing to a 10–25 year PPA, evaluate:
 
 1. **Does the project economics pencil?** Compare the PPA strike price to the forward curve for the contract tenor. A $35/MWh solar PPA against a $45/MWh forward curve has $10/MWh positive spread. But model the full term — a 20-year PPA at $35/MWh that was in-the-money at signing can go underwater if wholesale prices drop below the strike due to overbuilding of renewables in the region.
-2. **What is the basis risk?** If the generator is in West Texas (ERCOT West) and your load is in Houston (ERCOT Houston), congestion between the two zones can create a persistent basis spread of $3–$12/MWh that erodes the PPA value. Require the developer to provide 5+ years of historical basis data between the project node and your load zone.
-3. **What is the curtailment exposure?** ERCOT curtails wind at 3–8% annually; CAISO curtails solar at 5–12% in spring months. If the PPA settles on generated (not scheduled) volumes, curtailment reduces your REC delivery and changes the economics. Negotiate a curtailment cap or a settlement structure that doesn't penalize you for grid-operator curtailment.
-4. **What are the credit requirements?** Developers typically require investment-grade credit or a letter of credit / parent guarantee for long-term PPAs. A $50M notional VPPA may require a $5–$10M LC, tying up capital. Factor the LC cost into your PPA economics.
+2. **What is the basis risk?** If the generator is in West Texas (ERCOT West) and your load is in Houston (ERCOT Houston), congestion b
 
-### Demand Charge Mitigation ROI
-
-Evaluate demand charge reduction investments using total stacked value:
-
-1. Calculate current demand charges: Peak kW × demand rate × 12 months.
-2. Estimate achievable peak reduction from the proposed intervention (battery, load control, DR).
-3. Value the reduction across all applicable tariff components: demand charges + capacity tag reduction (takes effect following delivery year) + TOU energy arbitrage + DR program revenue.
-4. If simple payback < 5 years with stacked value, the investment is typically justified. If 5–8 years, it's marginal and depends on capital availability. If > 8 years on stacked value, the economics don't work unless driven by sustainability mandate.
-
-### Market Timing
-
-Never try to "call the bottom" on energy markets. Instead:
-
-- Monitor the forward curve relative to the 5-year historical range. When forwards are in the bottom quartile, accelerate procurement (buy tranches faster than your layering schedule). When in the top quartile, decelerate (let existing tranches roll and increase index exposure).
-- Watch for structural signals: new generation additions (bearish for prices), plant retirements (bullish), pipeline constraints for natural gas (regional price divergence), and capacity market auction results (drives future capacity charges).
-
-For the complete decision framework library, see [decision-frameworks.md](references/decision-frameworks.md).
-
-## Key Edge Cases
-
-These are situations where standard procurement playbooks produce poor outcomes. Brief summaries here — see [edge-cases.md](references/edge-cases.md) for full analysis.
-
-1. **ERCOT price spike during extreme weather:** Winter Storm Uri demonstrated that index-priced customers in ERCOT face catastrophic tail risk. A 5 MW facility on index pricing incurred $1.5M+ in a single week. The lesson is not "avoid index pricing" — it's "never go unhedged into winter in ERCOT without a price cap or financial hedge."
-
-2. **Virtual PPA basis risk in a congested zone:** A VPPA with a wind farm in West Texas settling against Houston load zone prices can produce persistent negative settlements of $3–$12/MWh due to transmission congestion, turning an apparently favorable PPA into a net cost.
-
-3. **Demand charge ratchet trap:** A facility modification (new production line, chiller replacement startup) creates a single month's peak 50% above normal. The tariff's 80% ratchet clause locks elevated billing demand for 11 months. A $200K annual cost increase from a single 15-minute interval.
-
-4. **Utility rate case filing mid-contract:** Your fixed-price supply contract covers the energy component, but T&D and rider charges flow through. A utility rate case adds $0.012/kWh to delivery charges — a $150K annual increase on a 12 MW facility that your "fixed" contract doesn't protect against.
-
-5. **Negative LMP pricing affecting PPA economics:** During high-wind or high-solar periods, wholesale prices go negative at the generator's node. Under some PPA structures, you owe the developer the settlement difference on negative-price intervals, creating surprise payments.
-
-6. **Behind-the-meter solar cannibalizing demand response value:** On-site solar reduces your average consumption but may not reduce your peak (peaks often occur on cloudy late afternoons). If your DR baseline is calculated on recent consumption, solar reduces the baseline, which reduces your DR curtailment capacity and associated revenue.
-
-7. **Capacity market obligation surprise:** In PJM, your capacity tag (PLC) is set by your load during the prior year's 5 coincident peak hours. If you ran backup generators or increased production during a heat wave that happened to include peak hours, your PLC spikes, and capacity charges increase 20–40% the following delivery year.
-
-8. **Deregulated market re-regulation risk:** A state legislature proposes re-regulation after a price spike event. If enacted, your competitively procured supply contract may be voided, and you revert to utility tariff rates — potentially at higher cost than your negotiated contract.
-
-## Communication Patterns
-
-### Supplier Negotiations
-
-Energy supplier negotiations are multi-year relationships. Calibrate tone:
-
-- **RFP issuance:** Professional, data-rich, competitive. Provide complete interval data and load profiles. Suppliers who can't model your load accurately will pad their margins. Transparency reduces risk premiums.
-- **Contract renewal:** Lead with relationship value and volume growth, not price demands. "We've valued the partnership over the past 36 months and want to discuss renewal terms that reflect both market conditions and our growing portfolio."
-- **Price challenges:** Reference specific market data. "ICE forward curves for 2027 are showing $42/MWh for AEP Dayton Hub. Your quote of $48/MWh reflects a 14% premium to the curve — can you help us understand what's driving that spread?"
-
-### Internal Stakeholders
-
-- **Finance/treasury:** Quantify decisions in terms of budget impact, variance, and risk. "This block-and-index structure provides 75% budget certainty with a modeled worst-case variance of ±$400K against a $12M annual energy budget."
-- **Sustainability:** Map procurement decisions to Scope 2 targets. "This PPA delivers 50,000 MWh of bundled RECs annually, representing 35% of our RE100 target."
-- **Operations:** Focus on operational requirements and constraints. "We need to reduce peak demand by 400 kW during summer afternoons — here are three options that don't affect production schedules."
-
-For full communication templates, see [communication-templates.md](references/communication-templates.md).
-
-## Escalation Protocols
-
-| Trigger                                                              | Action                                                                                      | Timeline               |
-| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------- |
-| Wholesale prices exceed 2× budget assumption for 5+ consecutive days | Notify finance, evaluate hedge position, consider emergency fixed-price procurement         | Within 24 hours        |
-| Supplier credit downgrade below investment grade                     | Review contract termination provisions, assess replacement supplier options                 | Within 48 hours        |
-| Utility rate case filed with >10% proposed increase                  | Engage regulatory counsel, evaluate intervention filing                                     | Within 1 week          |
-| Demand peak exceeds ratchet threshold by >15%                        | Investigate root cause with operations, model billing impact, evaluate mitigation           | Within 24 hours        |
-| PPA developer misses REC delivery by >10% of contracted volume       | Issue notice of default per contract, evaluate replacement REC procurement                  | Within 5 business days |
-| Capacity tag (PLC) increases >20% from prior year                    | Analyze coincident peak intervals, model capacity charge impact, develop peak response plan | Within 2 weeks         |
-| Regulatory action threatens contract enforceability                  | Engage legal counsel, evaluate contract force majeure provisions                            | Within 48 hours        |
-| Grid emergency / rolling blackouts affecting facilities              | Activate emergency load curtailment, coordinate with operations, document for insurance     | Immediate              |
-
-### Escalation Chain
-
-Energy Analyst → Energy Procurement Manager (24 hours) → Director of Procurement (48 hours) → VP Finance/CFO (>$500K exposure or long-term commitment >5 years)
-
-## Performance Indicators
-
-Track monthly, review quarterly with finance and sustainability:
-
-| Metric                                                                     | Target                        | Red Flag               |
-| -------------------------------------------------------------------------- | ----------------------------- | ---------------------- |
-| Weighted average energy cost vs. budget                                    | Within ±5%                    | >10% variance          |
-| Procurement cost vs. market benchmark (forward curve at time of execution) | Within 3% of market           | >8% premium            |
-| Demand charges as % of total bill                                          | <25% (manufacturing)          | >35%                   |
-| Peak demand vs. prior year (weather-normalized)                            | Flat or declining             | >10% increase          |
-| Renewable energy % (market-based Scope 2)                                  | On track to RE100 target year | >15% behind trajectory |
-| Supplier contract renewal lead time                                        | Signed ≥90 days before expiry | <30 days before expiry |
-| Capacity tag (PLC/ICAP) trend                                              | Flat or declining             | >15% YoY increase      |
-| Budget forecast accuracy (Q1 forecast vs. actuals)                         | Within ±7%                    | >12% miss              |
-
-## Additional Resources
-
-- For detailed decision frameworks on procurement strategy, PPA evaluation, hedging, and multi-facility optimization, see [decision-frameworks.md](references/decision-frameworks.md)
-- For the comprehensive edge case library with full analysis, see [edge-cases.md](references/edge-cases.md)
-- For communication templates covering RFPs, PPA negotiations, rate cases, and internal reporting, see [communication-templates.md](references/communication-templates.md)
-
-### When to Use
-Use this skill when you need to **design, audit, or optimise an energy procurement strategy** for commercial or industrial facilities:
-
-- Evaluating fixed vs. index vs. block-and-index contracts, PPAs, or VPPAs.
-- Reducing demand charges, managing capacity tags, or planning DR and battery investments.
-- Preparing RFPs, supplier negotiations, or executive decision memos about multi-site energy strategy, risk, and sustainability tradeoffs.
-
-## Limitations
-- Use this skill only when the task clearly matches the scope described above.
-- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
-- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
+<!-- Truncated for OpenGAP token limits -->

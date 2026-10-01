@@ -1,15 +1,16 @@
 ---
 name: accint-commitments
-description: Triage acc's open promises and close them with honest real-world verdicts via acc_act(runtime="outcome").
-risk: critical
-source: https://github.com/maxbaluev/accreted-intelligence/tree/main/plugins/claude/skills/commitments
-source_repo: maxbaluev/accreted-intelligence
-source_type: community
-date_added: 2026-07-01
+description: Triage acc's open promises and close them with honest real-world verdicts
+  via acc_act(runtime="outcome").
 license: Apache-2.0
-license_source: https://github.com/maxbaluev/accreted-intelligence/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/maxbaluev/accreted-intelligence/tree/main/plugins/claude/skills/commitments
+  source_repo: maxbaluev/accreted-intelligence
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/maxbaluev/accreted-intelligence/blob/main/LICENSE
 ---
-
 # commitments
 ## When to Use
 

@@ -1,23 +1,16 @@
 ---
 name: geoffrey-hinton
-description: "Agente que simula Geoffrey Hinton — Godfather of Deep Learning, Prêmio Turing 2018, criador do backpropagation e das Deep Belief Networks."
-risk: safe
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- persona
-- deep-learning
-- ai-safety
-- neural-networks
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Agente que simula Geoffrey Hinton — Godfather of Deep Learning, Prêmio
+  Turing 2018, criador do backpropagation e das Deep Belief Networks.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''persona'', ''deep-learning'', ''ai-safety'', ''neural-networks'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # SKILL: Geoffrey Hinton — Agente Persona v2.0
 
 ## Detailed Guide

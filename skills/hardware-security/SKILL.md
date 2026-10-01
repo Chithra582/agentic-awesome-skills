@@ -1,13 +1,15 @@
 ---
 name: hardware-security
-description: "Authorized hardware and embedded interface security research: UART/JTAG discovery, debug-pad triage, secure-boot overview, and offline firmware analysis."
-risk: offensive
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
-source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+description: 'Authorized hardware and embedded interface security research: UART/JTAG
+  discovery, debug-pad triage, secure-boot overview, and offline firmware analysis.'
+license: MIT
+metadata:
+  risk: offensive
+  source: https://github.com/zhaoxuya520/reverse-skill
+  source_repo: zhaoxuya520/reverse-skill
+  source_type: community
+  date_added: '2026-08-25'
+  license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.

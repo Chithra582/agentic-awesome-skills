@@ -1,15 +1,17 @@
 ---
 name: gemini-interactions-api
-description: "Build with the Gemini Interactions API for text, chat, multimodal generation, streaming, managed or background agents, function calling, structured output, and generateContent migrations."
-risk: critical
-source: https://github.com/google-gemini/gemini-skills/tree/main/skills/gemini-interactions-api
-source_repo: google-gemini/gemini-skills
-source_type: official
-date_added: 2026-07-01
+description: Build with the Gemini Interactions API for text, chat, multimodal generation,
+  streaming, managed or background agents, function calling, structured output, and
+  generateContent migrations.
 license: Apache-2.0
-license_source: https://github.com/google-gemini/gemini-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/google-gemini/gemini-skills/tree/main/skills/gemini-interactions-api
+  source_repo: google-gemini/gemini-skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/google-gemini/gemini-skills/blob/main/LICENSE
 ---
-
 # Gemini Interactions API Skill
 ## When to Use
 
@@ -427,15 +429,6 @@ An `Interaction` response contains `steps`, an array of typed step objects repre
 | Delta Type | Parent Step | Description |
 |---|---|---|
 | `text` | `model_output` | Incremental text token. |
-| `audio` | `model_output` | audio chunk (base64). |
-| `image` | `model_output` | image chunk (base64). |
-| `thought_summary` | `thought` | thinking summary text. |
-| `thought_signature` | `thought` | Opaque signature for thought verification. |
+| `audio` | `model_out
 
-**Status values:** `completed`, `in_progress`, `requires_action`, `failed`, `cancelled`
-
-## Limitations
-
-- Use this skill only when the task clearly matches its upstream product or API scope.
-- Verify commands, API behavior, pricing, quotas, credentials, and deployment effects against current official documentation before making changes.
-- Do not treat generated examples as a substitute for environment-specific tests, security review, or user approval for destructive or costly actions.
+<!-- Truncated for OpenGAP token limits -->

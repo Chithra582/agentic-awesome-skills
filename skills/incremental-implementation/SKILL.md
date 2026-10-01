@@ -1,15 +1,17 @@
 ---
 name: incremental-implementation
-description: Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step.
-risk: critical
-source: https://github.com/addyosmani/agent-skills/tree/main/skills/incremental-implementation
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Delivers changes incrementally. Use when implementing any feature or
+  change that touches more than one file. Use when you're about to write a large amount
+  of code at once, or when a task feels too big to land in one step.
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/addyosmani/agent-skills/tree/main/skills/incremental-implementation
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Incremental Implementation
 
 ## Overview

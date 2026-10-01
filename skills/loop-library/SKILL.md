@@ -1,29 +1,20 @@
 ---
 name: loop-library
-description: "Find, compare, adapt, and design bounded AI-agent feedback loops with explicit checks, stop rules, guardrails, and handoffs."
-category: ai-agents
-risk: safe
-source: official
-source_repo: Forward-Future/loop-library
-source_type: official
-date_added: "2026-06-19"
-author: Forward Future
+description: Find, compare, adapt, and design bounded AI-agent feedback loops with
+  explicit checks, stop rules, guardrails, and handoffs.
 license: MIT
-license_source: "https://github.com/Forward-Future/loop-library/blob/main/LICENSE"
-tags:
-  - ai-agents
-  - workflows
-  - loops
-  - automation
-  - evaluation
-tools:
-  - claude-code
-  - antigravity
-  - cursor
-  - gemini-cli
-  - codex-cli
+metadata:
+  category: ai-agents
+  risk: safe
+  source: official
+  source_repo: Forward-Future/loop-library
+  source_type: official
+  date_added: '2026-06-19'
+  author: Forward Future
+  license_source: https://github.com/Forward-Future/loop-library/blob/main/LICENSE
+  tags: '[''ai-agents'', ''workflows'', ''loops'', ''automation'', ''evaluation'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
 ---
-
 # Loop Library
 
 Help the user reuse a published Loop Library loop when one fits. Otherwise,

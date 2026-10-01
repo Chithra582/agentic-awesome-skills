@@ -1,11 +1,13 @@
 ---
 name: azure-monitor-opentelemetry-py
-description: Azure Monitor OpenTelemetry Distro for Python. Use for one-line Application Insights setup with auto-instrumentation.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Azure Monitor OpenTelemetry Distro for Python. Use for one-line Application
+  Insights setup with auto-instrumentation.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure Monitor OpenTelemetry Distro for Python
 
 One-line setup for Application Insights with OpenTelemetry auto-instrumentation.

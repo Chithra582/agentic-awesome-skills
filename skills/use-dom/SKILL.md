@@ -1,15 +1,16 @@
 ---
 name: use-dom
-description: Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incrementally.
-risk: critical
-source: https://github.com/expo/skills/tree/main/plugins/expo/skills/use-dom
-source_repo: expo/skills
-source_type: official
-date_added: 2026-07-01
+description: Use Expo DOM components to run web code in a webview on native and as-is
+  on web. Migrate web code to native incrementally.
 license: MIT
-license_source: https://github.com/expo/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/expo/skills/tree/main/plugins/expo/skills/use-dom
+  source_repo: expo/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/expo/skills/blob/main/LICENSE
 ---
-
 ## What are DOM Components?
 
 DOM components allow web code to run verbatim in a webview on native platforms while rendering as-is on web. This enables using web-only libraries like `recharts`, `react-syntax-highlighter`, or any React web library in your Expo app without modification.

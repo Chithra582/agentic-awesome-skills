@@ -1,26 +1,21 @@
 ---
 name: to-prd
-description: Turn the current conversation into a PRD and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.
-disable-model-invocation: true
-category: "project-management"
-risk: "safe"
-source: "community"
-source_repo: "mattpocock/skills"
-source_type: "community"
-date_added: "2026-06-19"
-author: "Matt Pocock"
-license: "MIT"
-license_source: "https://github.com/mattpocock/skills/blob/main/LICENSE"
-tags:
-  - project-management
-  - workflow
-  - coding-agents
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
+description: Turn the current conversation into a PRD and publish it to the project
+  issue tracker — no interview, just synthesis of what you've already discussed.
+license: MIT
+metadata:
+  disable-model-invocation: 'True'
+  category: project-management
+  risk: safe
+  source: community
+  source_repo: mattpocock/skills
+  source_type: community
+  date_added: '2026-06-19'
+  author: Matt Pocock
+  license_source: https://github.com/mattpocock/skills/blob/main/LICENSE
+  tags: '[''project-management'', ''workflow'', ''coding-agents'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'']'
 ---
-
 ## When to Use
 
 Use when this workflow matches the user request: Turn the current conversation into a PRD and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.

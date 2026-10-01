@@ -1,15 +1,16 @@
 ---
 name: aws-sst-development
-description: "SST v4 (Ion) expert for managing AWS resources as code with the Pulumi-backed framework."
-risk: critical
-source: https://github.com/zxkane/aws-skills/tree/main/plugins/aws-iac/skills/aws-sst-development
-source_repo: zxkane/aws-skills
-source_type: community
-date_added: 2026-07-01
+description: SST v4 (Ion) expert for managing AWS resources as code with the Pulumi-backed
+  framework.
 license: MIT
-license_source: https://github.com/zxkane/aws-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/zxkane/aws-skills/tree/main/plugins/aws-iac/skills/aws-sst-development
+  source_repo: zxkane/aws-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/zxkane/aws-skills/blob/main/LICENSE
 ---
-
 # SST v4 for AWS
 ## When to Use
 

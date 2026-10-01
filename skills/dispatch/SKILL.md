@@ -1,27 +1,25 @@
 ---
 name: dispatch
-description: "Delegate tasks to OpenAI Codex CLI and Google Antigravity CLI from Claude Code with topic-aware sessions"
-category: agent-behavior
-risk: critical
-source: community
-source_repo: sparklingneuronics/sparkling-skills
-source_type: community
-date_added: "2026-06-28"
-author: sparklingneuronics
-tags: [delegation, codex, antigravity, gemini, multi-model, second-opinion, agent-workflow]
-tools: [claude, codex, antigravity]
-license: "MIT"
-license_source: "https://github.com/sparklingneuronics/sparkling-skills/blob/main/LICENSE"
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
-  setup:
-    type: manual
-    summary: "Requires separately installed and authenticated Codex CLI and/or Google Antigravity CLI; every external delegation must be explicitly approved by the user."
-    docs: SKILL.md
+description: Delegate tasks to OpenAI Codex CLI and Google Antigravity CLI from Claude
+  Code with topic-aware sessions
+license: MIT
+metadata:
+  category: agent-behavior
+  risk: critical
+  source: community
+  source_repo: sparklingneuronics/sparkling-skills
+  source_type: community
+  date_added: '2026-06-28'
+  author: sparklingneuronics
+  tags: '[''delegation'', ''codex'', ''antigravity'', ''gemini'', ''multi-model'',
+    ''second-opinion'', ''agent-workflow'']'
+  tools: '[''claude'', ''codex'', ''antigravity'']'
+  license_source: https://github.com/sparklingneuronics/sparkling-skills/blob/main/LICENSE
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}, ''setup'':
+    {''type'': ''manual'', ''summary'': ''Requires separately installed and authenticated
+    Codex CLI and/or Google Antigravity CLI; every external delegation must be explicitly
+    approved by the user.'', ''docs'': ''SKILL.md''}}'
 ---
-
 # Dispatch
 
 ## Overview

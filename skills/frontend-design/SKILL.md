@@ -1,11 +1,13 @@
 ---
 name: frontend-design
-description: "Design and implement a distinctive frontend within the product’s existing brand, accessibility, performance and framework constraints."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Design and implement a distinctive frontend within the product’s existing
+  brand, accessibility, performance and framework constraints.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Frontend Design
 
 Modified by AAS maintainers on 2026-09-05: clarified design constraints, subjective scoring and verification. The bundled Apache-2.0 license is preserved.

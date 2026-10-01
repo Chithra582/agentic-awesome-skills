@@ -1,23 +1,17 @@
 ---
 name: auri-core
-description: "Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805). Visao do produto, persona Vitoria Neural, stack AWS, modelo Free/Pro/Business/Enterprise, roadmap 4 fases, GTM, north star WAC e analise competitiva."
-risk: none
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- voice-assistant
-- product-vision
-- alexa
-- aws
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: 'Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805).
+  Visao do produto, persona Vitoria Neural, stack AWS, modelo Free/Pro/Business/Enterprise,
+  roadmap 4 fases, GTM, north star WAC e analise competitiva.'
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''voice-assistant'', ''product-vision'', ''alexa'', ''aws'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # Auri - Core Product Skill
 
 ## Detailed Guide

@@ -1,11 +1,13 @@
 ---
 name: brand-guidelines-anthropic
-description: "To access Anthropic's official brand identity and style resources, use this skill."
-risk: none
-source: community
-date_added: "2026-02-27"
+description: To access Anthropic's official brand identity and style resources, use
+  this skill.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Compatibility and maintenance
 
 Primary editorial path for this compatibility group. The full instructions and support files remain local so existing installations

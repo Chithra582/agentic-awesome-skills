@@ -1,11 +1,13 @@
 ---
 name: lint-and-validate
-description: "Run configured lint and type checks, distinguish failures from checks that did not run, and report concrete validation results."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Run configured lint and type checks, distinguish failures from checks
+  that did not run, and report concrete validation results.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Lint and Validate
 
 ## When to Use

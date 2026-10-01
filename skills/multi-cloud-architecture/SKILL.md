@@ -1,11 +1,13 @@
 ---
 name: multi-cloud-architecture
-description: "Decision framework and patterns for architecting applications across AWS, Azure, and GCP."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: Decision framework and patterns for architecting applications across
+  AWS, Azure, and GCP.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Multi-Cloud Architecture
 
 Decision framework and patterns for architecting applications across AWS, Azure, and GCP.

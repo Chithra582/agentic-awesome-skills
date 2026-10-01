@@ -1,11 +1,13 @@
 ---
 name: apify-trend-analysis
-description: Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Discover and track emerging trends across Google Trends, Instagram, Facebook,
+  YouTube, and TikTok to inform content strategy.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Trend Analysis
 
 Discover and track emerging trends using Apify Actors to extract data from multiple platforms.

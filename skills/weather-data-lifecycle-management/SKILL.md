@@ -1,16 +1,18 @@
 ---
 name: weather-data-lifecycle-management
-description: "Manage ownership, retention, and cleanup of downloaded weather data across one-shot jobs, interactive viewers, caches, failures, and cancellation."
-category: data
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-24"
-author: ShianMike
-tags: [weather, data-lifecycle, cleanup, caching, desktop-apps]
-tools: [claude, cursor, gemini, codex]
+description: Manage ownership, retention, and cleanup of downloaded weather data across
+  one-shot jobs, interactive viewers, caches, failures, and cancellation.
+metadata:
+  category: data
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-24'
+  author: ShianMike
+  tags: '[''weather'', ''data-lifecycle'', ''cleanup'', ''caching'', ''desktop-apps'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+license: MIT
 ---
-
 # Weather Data Lifecycle Management
 
 ## Overview

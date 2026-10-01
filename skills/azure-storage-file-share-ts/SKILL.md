@@ -1,11 +1,13 @@
 ---
 name: azure-storage-file-share-ts
-description: Azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share) for SMB file share operations.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share)
+  for SMB file share operations.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # @azure/storage-file-share (TypeScript/JavaScript)
 
 SDK for Azure File Share operations — SMB file shares, directories, and file operations.

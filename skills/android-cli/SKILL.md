@@ -1,24 +1,21 @@
 ---
 name: android-cli
-description: Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the `android` command-line tool.
-category: tools
-risk: critical
-source: self
-source_type: self
-date_added: "2026-06-15"
-author: Owais
-tags: [android, cli, adb, mobile, build, emulator]
-tools: [claude, cursor, gemini, antigravity]
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
-  setup:
-    type: manual
-    summary: "Installer guidance executes remote Android CLI setup scripts; keep out of plugin-safe bundles."
-    docs: SKILL.md
+description: Orchestrates Android development tasks including project creation, deployment,
+  SDK management, and environment diagnostics using the `android` command-line tool.
+metadata:
+  category: tools
+  risk: critical
+  source: self
+  source_type: self
+  date_added: '2026-06-15'
+  author: Owais
+  tags: '[''android'', ''cli'', ''adb'', ''mobile'', ''build'', ''emulator'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''antigravity'']'
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}, ''setup'':
+    {''type'': ''manual'', ''summary'': ''Installer guidance executes remote Android
+    CLI setup scripts; keep out of plugin-safe bundles.'', ''docs'': ''SKILL.md''}}'
+license: MIT
 ---
-
 # Android CLI Specialist
 
 This skill provides instructions for using the `android` CLI tool. The tool includes various commands for creating projects, running applications, interacting with devices, and managing the CLI environment.

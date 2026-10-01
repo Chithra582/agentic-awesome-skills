@@ -1,19 +1,22 @@
 ---
 name: linkedin-content-generator
-description: "AI-powered LinkedIn content suite: generate posts, carousels, newsletters, and 30-day calendars with niche-specific SEO rules and a reinforcement-learning personal memory system."
-category: marketing
-risk: safe
-source: community
-source_repo: sarveshtalele/linkedin-content-skill
-source_type: community
-date_added: "2026-06-04"
-author: sarveshkishortalele
-tags: [linkedin, content-creation, social-media, marketing, newsletter, carousel, content-calendar, reinforcement-learning, seo, copywriting]
-tools: [claude]
-license: "MIT"
-license_source: "https://github.com/sarveshtalele/linkedin-content-skill/blob/main/LICENSE"
+description: 'AI-powered LinkedIn content suite: generate posts, carousels, newsletters,
+  and 30-day calendars with niche-specific SEO rules and a reinforcement-learning
+  personal memory system.'
+license: MIT
+metadata:
+  category: marketing
+  risk: safe
+  source: community
+  source_repo: sarveshtalele/linkedin-content-skill
+  source_type: community
+  date_added: '2026-06-04'
+  author: sarveshkishortalele
+  tags: '[''linkedin'', ''content-creation'', ''social-media'', ''marketing'', ''newsletter'',
+    ''carousel'', ''content-calendar'', ''reinforcement-learning'', ''seo'', ''copywriting'']'
+  tools: '[''claude'']'
+  license_source: https://github.com/sarveshtalele/linkedin-content-skill/blob/main/LICENSE
 ---
-
 # LinkedIn Content Generator
 
 ## Overview

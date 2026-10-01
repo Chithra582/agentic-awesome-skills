@@ -1,13 +1,16 @@
 ---
 name: mobile-reverse
-description: "Authorized Android/iOS application reverse engineering and security testing: APK/IPA analysis, runtime instrumentation (Frida/Objection), SSL-pinning and jailbreak/root-detection bypass, per OWASP MASTG."
-risk: offensive
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
-source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+description: 'Authorized Android/iOS application reverse engineering and security
+  testing: APK/IPA analysis, runtime instrumentation (Frida/Objection), SSL-pinning
+  and jailbreak/root-detection bypass, per OWASP MASTG.'
+license: MIT
+metadata:
+  risk: offensive
+  source: https://github.com/zhaoxuya520/reverse-skill
+  source_repo: zhaoxuya520/reverse-skill
+  source_type: community
+  date_added: '2026-08-25'
+  license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.

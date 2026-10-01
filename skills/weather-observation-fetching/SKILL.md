@@ -1,16 +1,18 @@
 ---
 name: weather-observation-fetching
-description: "Retrieve surface and upper-air weather observations from authoritative APIs and archives with station identity, time, units, and quality flags preserved."
-category: data
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-19"
-author: ShianMike
-tags: [weather, observations, metar, radiosonde, noaa, quality-control]
-tools: [claude, cursor, gemini, codex]
+description: Retrieve surface and upper-air weather observations from authoritative
+  APIs and archives with station identity, time, units, and quality flags preserved.
+metadata:
+  category: data
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-19'
+  author: ShianMike
+  tags: '[''weather'', ''observations'', ''metar'', ''radiosonde'', ''noaa'', ''quality-control'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+license: MIT
 ---
-
 # Weather Observation Fetching
 
 ## Overview

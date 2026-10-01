@@ -1,11 +1,14 @@
 ---
 name: carrier-relationship-management
-description: Codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships.
-risk: safe
-source: https://github.com/ai-evos/agent-skills
-date_added: '2026-02-27'
+description: Codified expertise for managing carrier portfolios, negotiating freight
+  rates, tracking carrier performance, allocating freight, and maintaining strategic
+  carrier relationships.
+metadata:
+  risk: safe
+  source: https://github.com/ai-evos/agent-skills
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## When to Use
 Use this skill when building and managing a carrier network, conducting freight RFPs, negotiating linehaul and accessorial rates, tracking carrier KPIs via scorecards, or ensuring regulatory compliance of transportation partners.
 
@@ -130,65 +133,6 @@ These are situations where standard playbook decisions lead to poor outcomes. Br
 
 Rate negotiations are long-term relationship conversations, not one-time transactions. Calibrate tone:
 
-- **Opening position:** Lead with data, not demands. "DAT shows this lane averaging $2.15/mile over the last 90 days. Our current contract is $2.45. We'd like to discuss alignment." Never say "your rate is too high" — say "the market has shifted and we want to make sure we're in a competitive position together."
-- **Counter-offers:** Acknowledge the carrier's perspective. "We understand driver pay increases are real. Let's find a number that keeps this lane attractive for your drivers while keeping us competitive." Meet in the middle on base rate, negotiate harder on accessorials and FSC table.
-- **Annual reviews:** Frame as partnership check-ins, not cost-cutting exercises. Share your volume forecast, growth plans, and lane changes. Ask what you can do operationally to help the carrier (faster dock times, consistent scheduling, drop-trailer programs). Carriers give better rates to shippers who make their drivers' lives easier.
+- **Opening position:** Lead with data, not demands. "DAT shows this lane averaging $2.15/mile over the last 90 days. Our current contract is $2.45. We'd like to discuss alignm
 
-### Performance Reviews
-
-- **Positive reviews:** Be specific. "Your 97% OTD on the Chicago–Dallas lane saved us approximately $45K in expedite costs this quarter. We're increasing your allocation from 60% to 75% on that lane." Carriers invest in relationships that reward performance.
-- **Corrective reviews:** Lead with data, not accusations. Present the scorecard. Identify the specific metrics below threshold. Ask for a corrective action plan with a 30/60/90-day timeline. Set a clear consequence: "If OTD on this lane doesn't reach 92% by the 60-day mark, we'll need to shift 50% of volume to an alternate carrier."
-
-For full communication templates, see [communication-templates.md](references/communication-templates.md).
-
-## Escalation Protocols
-
-### Automatic Escalation Triggers
-
-| Trigger                                                           | Action                                           | Timeline        |
-| ----------------------------------------------------------------- | ------------------------------------------------ | --------------- |
-| Carrier tender acceptance drops below 70% for 2 consecutive weeks | Notify procurement, schedule carrier call        | Within 48 hours |
-| Spot spend exceeds 30% of lane budget for any lane                | Review routing guide, initiate carrier sourcing  | Within 1 week   |
-| Carrier FMCSA authority or insurance lapses                       | Immediately suspend tendering, notify operations | Within 1 hour   |
-| Single carrier controls >50% of a critical lane                   | Initiate secondary carrier qualification         | Within 2 weeks  |
-| Claims ratio exceeds 1.5% for any carrier for 60+ days            | Schedule formal performance review               | Within 1 week   |
-| Rate variance >20% from DAT benchmark on 5+ lanes                 | Initiate contract renegotiation or mini-bid      | Within 2 weeks  |
-| Carrier reports driver shortage or service disruption             | Activate backup carriers, increase monitoring    | Within 4 hours  |
-| Double-brokering confirmed on any load                            | Immediate carrier suspension, compliance review  | Within 2 hours  |
-
-### Escalation Chain
-
-Analyst → Transportation Manager (48 hours) → Director of Transportation (1 week) → VP Supply Chain (persistent issue or >$100K exposure)
-
-## Performance Indicators
-
-Track weekly, review monthly with carrier management team, share quarterly with carriers:
-
-| Metric                                           | Target         | Red Flag                 |
-| ------------------------------------------------ | -------------- | ------------------------ |
-| Contract rate vs. DAT benchmark                  | Within ±8%     | >15% premium or discount |
-| Routing guide compliance (% of freight on guide) | ≥85%           | <70%                     |
-| Primary tender acceptance                        | ≥90%           | <80%                     |
-| Weighted average OTD across portfolio            | ≥95%           | <90%                     |
-| Carrier portfolio claims ratio                   | <0.5% of spend | >1.0%                    |
-| Average carrier invoice accuracy                 | ≥97%           | <93%                     |
-| Spot freight percentage                          | <20%           | >30%                     |
-| RFP cycle time (launch to implementation)        | ≤12 weeks      | >16 weeks                |
-
-## Additional Resources
-
-- For detailed decision frameworks on rate negotiation, portfolio optimization, and RFP execution, see [decision-frameworks.md](references/decision-frameworks.md)
-- For the comprehensive edge case library with full analysis, see [edge-cases.md](references/edge-cases.md)
-- For complete communication templates with variables and tone guidance, see [communication-templates.md](references/communication-templates.md)
-
-### When to Use
-Use this skill when you are **designing or tuning your carrier portfolio, routing guides, and freight procurement strategy**:
-
-- Running freight RFPs, renegotiating contract and fuel tables, or balancing spot vs. contract exposure.
-- Building carrier scorecards, exit criteria, and escalation protocols to manage performance and risk.
-- Deciding how to allocate lanes across asset carriers, brokers, and regional specialists to protect service while controlling logistics spend.
-
-## Limitations
-- Use this skill only when the task clearly matches the scope described above.
-- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
-- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
+<!-- Truncated for OpenGAP token limits -->

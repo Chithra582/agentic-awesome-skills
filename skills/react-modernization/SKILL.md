@@ -1,11 +1,13 @@
 ---
 name: react-modernization
-description: "Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: Master React version upgrades, class to hooks migration, concurrent features
+  adoption, and codemods for automated transformation.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # React Modernization
 
 Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation.

@@ -1,15 +1,18 @@
 ---
 name: interview-coach
-description: "Full job search coaching system — JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiation. 23 commands, persistent state."
-category: productivity
-risk: safe
-source: community
-date_added: "2026-03-11"
-author: dbhat93
-tags: [interview, job-search, coaching, career, storybank, negotiation]
-tools: [claude]
+description: Full job search coaching system — JD decoding, resume, storybank, mock
+  interviews, transcript analysis, comp negotiation. 23 commands, persistent state.
+metadata:
+  category: productivity
+  risk: safe
+  source: community
+  date_added: '2026-03-11'
+  author: dbhat93
+  tags: '[''interview'', ''job-search'', ''coaching'', ''career'', ''storybank'',
+    ''negotiation'']'
+  tools: '[''claude'']'
+license: MIT
 ---
-
 # Interview Coach
 
 ## Overview

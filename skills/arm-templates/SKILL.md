@@ -2,21 +2,20 @@
 name: arm-templates
 description: Deploy Azure resources with ARM templates and Bicep. Create modular deployments
   and manage dependencies. Use when deploying Azure-native IaC.
-category: devops
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant OS/platform tooling and privileged access where
   noted. Docs-only; helper scripts and templates not bundled.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: devops
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # ARM Templates & Bicep
 
 Deploy Azure infrastructure with ARM templates and Bicep. Bicep is the recommended domain-specific language that compiles to ARM JSON, offering cleaner syntax, modules, and first-class tooling support.

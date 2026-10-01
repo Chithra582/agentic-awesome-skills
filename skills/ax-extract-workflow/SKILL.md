@@ -1,19 +1,20 @@
 ---
 name: ax-extract-workflow
-description: "Reconstruct workflow behind a past coding-agent artifact using local ax sessions/commits/skills/tool traces. Use when asked how X was built."
-category: development
-risk: safe
-source: community
-source_repo: Necmttn/ax
-source_type: community
-date_added: "2026-06-21"
-author: Necmttn
-tags: [ai-coding, workflow-reconstruction, session-analysis, observability]
-tools: [claude, cursor, gemini, codex-cli]
-license: "AGPL-3.0-only"
-license_source: "https://github.com/Necmttn/ax/blob/main/LICENSE"
+description: Reconstruct workflow behind a past coding-agent artifact using local
+  ax sessions/commits/skills/tool traces. Use when asked how X was built.
+license: AGPL-3.0-only
+metadata:
+  category: development
+  risk: safe
+  source: community
+  source_repo: Necmttn/ax
+  source_type: community
+  date_added: '2026-06-21'
+  author: Necmttn
+  tags: '[''ai-coding'', ''workflow-reconstruction'', ''session-analysis'', ''observability'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex-cli'']'
+  license_source: https://github.com/Necmttn/ax/blob/main/LICENSE
 ---
-
 # ax Extract Workflow
 
 ## Overview

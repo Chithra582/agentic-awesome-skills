@@ -1,15 +1,16 @@
 ---
 name: neon-ai-gateway
-description: "One API and one credential for frontier and open-source LLMs, built into your Neon branch and powered by Databricks."
-risk: critical
-source: https://github.com/neondatabase/agent-skills/tree/main/skills/neon-ai-gateway
-source_repo: neondatabase/agent-skills
-source_type: official
-date_added: 2026-07-01
+description: One API and one credential for frontier and open-source LLMs, built into
+  your Neon branch and powered by Databricks.
 license: Apache-2.0
-license_source: https://github.com/neondatabase/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/neondatabase/agent-skills/tree/main/skills/neon-ai-gateway
+  source_repo: neondatabase/agent-skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/neondatabase/agent-skills/blob/main/LICENSE
 ---
-
 # Neon AI Gateway
 
 This is a preview feature and only available in `us-east-2`. The Neon AI Gateway is the LLM inference layer built into your Neon branch: one API and one Neon credential give you access to frontier and open-source models from Anthropic, OpenAI, Google, Meta, Alibaba, DeepSeek, and Databricks — powered by Databricks. Your existing OpenAI/Anthropic/Gemini SDK works by changing only the base URL.

@@ -1,19 +1,21 @@
 ---
 name: traderspy-market-briefing
-description: "Crypto market briefing from live TraderSpy data: majors, funding, open interest, top-trader lean, fresh AI signals and screener movers. Use for \"what's happening in crypto\" or a recap."
-category: finance
-risk: safe
-source: "https://github.com/target1m/traderspy-mcp/tree/069aae5a84640d671f92705a2e3bc0b62efca1e0/skills/market-briefing"
-source_repo: target1m/traderspy-mcp
-source_type: official
-date_added: "2026-09-25"
-author: target1m
-tags: [traderspy, crypto, market-briefing, derivatives, mcp]
-tools: [claude, cursor, gemini]
+description: 'Crypto market briefing from live TraderSpy data: majors, funding, open
+  interest, top-trader lean, fresh AI signals and screener movers. Use for "what''s
+  happening in crypto" or a recap.'
 license: MIT
-license_source: "https://github.com/target1m/traderspy-mcp/blob/069aae5a84640d671f92705a2e3bc0b62efca1e0/LICENSE"
+metadata:
+  category: finance
+  risk: safe
+  source: https://github.com/target1m/traderspy-mcp/tree/069aae5a84640d671f92705a2e3bc0b62efca1e0/skills/market-briefing
+  source_repo: target1m/traderspy-mcp
+  source_type: official
+  date_added: '2026-09-25'
+  author: target1m
+  tags: '[''traderspy'', ''crypto'', ''market-briefing'', ''derivatives'', ''mcp'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/target1m/traderspy-mcp/blob/069aae5a84640d671f92705a2e3bc0b62efca1e0/LICENSE
 ---
-
 # TraderSpy Market Briefing
 
 A briefing is a fixed set of questions answered with fresh numbers, in an order a trader can scan

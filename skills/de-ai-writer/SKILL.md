@@ -1,19 +1,22 @@
 ---
 name: de-ai-writer
-description: "Chinese AI-smell removal engine: 35 Chinese AI-tell patterns (赋能/闭环), AI-smell scoring, de-AI rewriting, style clone. Use when a Chinese draft reads machine-written or the user asks 去AI味."
-category: content-writing
-risk: safe
-source: community
-source_repo: jiawood2006/hermes-skills
-source_type: community
-date_added: "2026-09-14"
-author: jiawood2006
-license: "MIT"
-license_source: "https://github.com/jiawood2006/hermes-skills/blob/main/LICENSE"
-tags: [chinese, writing, editing, humanize, de-ai, copywriting, style-clone, ai-detection]
-tools: [claude, cursor, codex, gemini, hermes]
+description: 'Chinese AI-smell removal engine: 35 Chinese AI-tell patterns (赋能/闭环),
+  AI-smell scoring, de-AI rewriting, style clone. Use when a Chinese draft reads machine-written
+  or the user asks 去AI味.'
+license: MIT
+metadata:
+  category: content-writing
+  risk: safe
+  source: community
+  source_repo: jiawood2006/hermes-skills
+  source_type: community
+  date_added: '2026-09-14'
+  author: jiawood2006
+  license_source: https://github.com/jiawood2006/hermes-skills/blob/main/LICENSE
+  tags: '[''chinese'', ''writing'', ''editing'', ''humanize'', ''de-ai'', ''copywriting'',
+    ''style-clone'', ''ai-detection'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'', ''hermes'']'
 ---
-
 # De-AI Writer — Chinese AI-Smell Removal
 
 ## Overview

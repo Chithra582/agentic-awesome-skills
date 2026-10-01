@@ -1,18 +1,21 @@
 ---
 name: mathguard
-description: "Math-heavy escalation for n >= 10^6 — Bloom, HyperLogLog, Count-Min, MinHash/LSH, FFT, JL projection, sweep line. Use when classical O(n log n) is the floor and approximate or math wins."
-risk: safe
-source: community
-source_repo: morsechimwai/lemmaly
-source_type: community
-date_added: "2026-05-26"
-author: morsechimwai
-tags: [algorithms, probabilistic-data-structures, approximate-algorithms, bloom-filter, hyperloglog, fft, performance]
-tools: [claude-code, antigravity, cursor, gemini-cli, codex-cli]
-license: "Apache-2.0"
-license_source: "https://github.com/morsechimwai/lemmaly/blob/main/LICENSE"
+description: Math-heavy escalation for n >= 10^6 — Bloom, HyperLogLog, Count-Min,
+  MinHash/LSH, FFT, JL projection, sweep line. Use when classical O(n log n) is the
+  floor and approximate or math wins.
+license: Apache-2.0
+metadata:
+  risk: safe
+  source: community
+  source_repo: morsechimwai/lemmaly
+  source_type: community
+  date_added: '2026-05-26'
+  author: morsechimwai
+  tags: '[''algorithms'', ''probabilistic-data-structures'', ''approximate-algorithms'',
+    ''bloom-filter'', ''hyperloglog'', ''fft'', ''performance'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+  license_source: https://github.com/morsechimwai/lemmaly/blob/main/LICENSE
 ---
-
 # mathguard — Math-Heavy Optimization for AI Code
 
 `lemmaly` makes you pick the right classical algorithm. `mathguard` kicks in when the classical algorithm is already optimal but **mathematics gives a better bound** — usually by accepting bounded approximation, exploiting structure, or moving to a smarter algebraic space.

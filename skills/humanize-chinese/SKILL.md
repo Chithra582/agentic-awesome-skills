@@ -1,19 +1,17 @@
 ---
 name: humanize-chinese
-description: Detect and rewrite AI-like Chinese text with a practical workflow for scoring, humanization, academic AIGC reduction, and style conversion. Use when the user asks to 去AI味, 降AIGC, 去除AI痕迹, 论文降重, 知网检测, 维普检测, humanize chinese, detect AI text, or make Chinese text sound more natural.
-category: content
-risk: safe
-source: community
-tags:
-  - chinese
-  - writing
-  - editing
-  - aigc
-  - academic
-  - style-transfer
-date_added: "2026-04-03"
+description: Detect and rewrite AI-like Chinese text with a practical workflow for
+  scoring, humanization, academic AIGC reduction, and style conversion. Use when the
+  user asks to 去AI味, 降AIGC, 去除AI痕迹, 论文降重, 知网检测, 维普检测, humanize chinese, detect AI
+  text, or make Chinese text sound more natural.
+metadata:
+  category: content
+  risk: safe
+  source: community
+  tags: '[''chinese'', ''writing'', ''editing'', ''aigc'', ''academic'', ''style-transfer'']'
+  date_added: '2026-04-03'
+license: MIT
 ---
-
 # Humanize Chinese
 
 Use this skill when you need to detect AI-like Chinese writing, rewrite it to feel less synthetic, reduce AIGC signals in academic prose, or convert the text into a more specific Chinese writing style.

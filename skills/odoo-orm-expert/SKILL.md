@@ -1,11 +1,13 @@
 ---
 name: odoo-orm-expert
-description: "Master Odoo ORM patterns: search, browse, create, write, domain filters, computed fields, and performance-safe query techniques."
-risk: safe
-source: "self"
-date_added: "2026-09-04"
+description: 'Master Odoo ORM patterns: search, browse, create, write, domain filters,
+  computed fields, and performance-safe query techniques.'
+metadata:
+  risk: safe
+  source: self
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Odoo ORM Expert
 
 ## Overview

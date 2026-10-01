@@ -1,9 +1,12 @@
 ---
 name: popup-cro
-description: "Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust."
-risk: none
-source: community
-date_added: "2026-02-27"
+description: Create and optimize popups, modals, overlays, slide-ins, and banners
+  to increase conversions without harming user experience or brand trust.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
 # Popup CRO
 

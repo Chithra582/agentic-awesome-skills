@@ -1,11 +1,13 @@
 ---
 name: azure-communication-chat-java
-description: "Build real-time chat applications with thread management, messaging, participants, and read receipts."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Build real-time chat applications with thread management, messaging,
+  participants, and read receipts.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure Communication Chat (Java)
 
 Build real-time chat applications with thread management, messaging, participants, and read receipts.

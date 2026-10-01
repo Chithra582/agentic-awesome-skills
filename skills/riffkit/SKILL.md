@@ -1,24 +1,25 @@
 ---
 name: riffkit
-description: "Riff a winning TikTok into your own short video — study a proven video's emotion formula and regenerate it with your product, character, and language (9 supported). Also makes UGC ad creative."
-category: api-integration
-risk: critical
-source: community
-source_repo: riffkit/skill
-source_type: community
-date_added: "2026-07-01"
-author: riffkit
-tags: [video, short-form, tiktok, ai-video, marketing, ads, ecommerce, api-integration]
-tools: [claude, cursor, gemini, codex, antigravity]
-plugin:
-  setup:
-    type: manual
-    summary: "Sign in to a Riffkit account and pass a vee_session token; the skill calls the hosted Riffkit backend (rendering is billed by the second)."
-    docs: SKILL.md
-license: "MIT"
-license_source: "https://github.com/riffkit/skill/blob/main/LICENSE"
+description: Riff a winning TikTok into your own short video — study a proven video's
+  emotion formula and regenerate it with your product, character, and language (9
+  supported). Also makes UGC ad creative.
+license: MIT
+metadata:
+  category: api-integration
+  risk: critical
+  source: community
+  source_repo: riffkit/skill
+  source_type: community
+  date_added: '2026-07-01'
+  author: riffkit
+  tags: '[''video'', ''short-form'', ''tiktok'', ''ai-video'', ''marketing'', ''ads'',
+    ''ecommerce'', ''api-integration'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'', ''antigravity'']'
+  plugin: '{''setup'': {''type'': ''manual'', ''summary'': ''Sign in to a Riffkit
+    account and pass a vee_session token; the skill calls the hosted Riffkit backend
+    (rendering is billed by the second).'', ''docs'': ''SKILL.md''}}'
+  license_source: https://github.com/riffkit/skill/blob/main/LICENSE
 ---
-
 # Riffkit — riff winning TikToks into your own short videos
 
 ## Overview

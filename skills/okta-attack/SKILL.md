@@ -1,19 +1,20 @@
 ---
 name: okta-attack
 description: Okta-as-IdP red-team attack chain
-category: security
-risk: offensive
-source: https://github.com/elementalsouls/Claude-BugHunter
-source_repo: elementalsouls/Claude-BugHunter
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
 compatibility: Requires explicit written authorization for a target scope plus the
   relevant testing tools for this technique. Docs-only; helper scripts and commands
   not bundled.
-sources: public-okta-docs, idp-redteam-knowledge, disclosed-incidents
-report_count: 8
+metadata:
+  category: security
+  risk: offensive
+  source: https://github.com/elementalsouls/Claude-BugHunter
+  source_repo: elementalsouls/Claude-BugHunter
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
+  sources: public-okta-docs, idp-redteam-knowledge, disclosed-incidents
+  report_count: '8'
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
@@ -378,59 +379,6 @@ These are the canonical public references that justify the techniques in this sk
 ### 5. CVE-2024-0981 — Okta AD/LDAP DelAuth bcrypt cache-key auth bypass (Oct 2024)
 
 - Refs: <https://trust.okta.com/security-advisories/okta-ad-ldap-delegated-authentication-username/>, <https://www.theregister.com/2024/11/04/why_the_long_name_okta/>, <https://www.nodejs-security.com/blog/okta-bcrypt-security-incident-bun-nodejs>
-- Flow: Okta cached AD/LDAP DelAuth results keyed by `bcrypt(userId + username + password)`. Bcrypt silently truncates input at 72 bytes. When username length ≥ 52 chars, the password bytes fall past the 72-byte boundary → cache key collapses to be password-independent. If the user had a prior successful login (cache populated) AND the AD/LDAP agent was unreachable AND MFA was disabled → any password authenticated.
-- Root cause: Using bcrypt as a general-purpose hash without accounting for the algorithm's 72-byte input limit + cache fallback path inverted the security model (cache trusted over live auth).
-- Year: 2024. Severity: High. Bug introduced Jul 23 2024, internally found and fixed Oct 30 2024 (~3 months exposure window).
+- Flow: Okta cached AD/LDAP DelAuth results keyed by `bcrypt(userId + username + password)`. Bcrypt silently truncates input at 72 bytes. When username length ≥ 52 chars, the password bytes fall past the 72-byte boundary → cache key collapses to be password
 
-### 6. Okta Verify iOS push-response bypass (CVE-2024-10327, disclosed Oct 2024)
-
-- Refs: <https://trust.okta.com/security-advisories/okta-verify-for-ios-cve-2024-10327/>
-- Flow: Okta Verify iOS 9.25.1-beta / 9.27.0 had a bug in the iOS ContextExtension push-action handler. From the lock screen long-press / drag-down banner / Apple Watch reply path, both the "Yes, it's me" and "No, it's not me" buttons returned the same accept-auth response. A push-fatigued user who explicitly tapped "No" still approved the auth.
-- Root cause: Two notification-response action handlers wired to the same backend confirmation path — UX-level Deny did not propagate as a backend rejection.
-- Year: 2024. Severity: High (silently defeats the user's last line of defence against push fatigue / Scattered-Spider-style push bombing).
-
-### 7. Varonis Threat Labs — "CrossTalk" + "Secret Agent" Okta abuse (Jan 2023)
-
-- Refs: <https://www.varonis.com/blog/okta-attack-vectors>
-- Flow: (a) CrossTalk: any Okta tenant admin (incl. free-developer tenant) could issue SMS / email templates that delivered to *any* email/phone — sent via legitimate Okta mailer infrastructure (passes SPF/DKIM/DMARC for okta.com). Used to stage cross-tenant phishing that arrives from a trusted sender. (b) Secret Agent: the SSWS token stored on the on-prem Okta AD-agent sync server was decryptable from disk; possessor could register a rogue AD agent that intercepted DelAuth plaintext credentials for the entire org.
-- Root cause: (a) Tenant-bounded sender identity not enforced on outbound notification API. (b) Agent SSWS bootstrap-secret stored recoverable on disk; new-agent enrollment did not require admin co-signature.
-- Year: 2023. Severity: High for both. Disclosed and patched by Okta.
-
-### 8. Okta admin-console session cookie theft via stealer malware (2022-2024, ongoing class)
-
-- Refs: <https://sec.okta.com/articles/2023/08/cross-tenant-impersonation-prevention-and-detection/>, <https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a>, <https://www.beyondtrust.com/blog/entry/okta-support-unit-breach>
-- Flow: Class of attack — stealer malware (Lumma, RedLine, Raccoon, StealC) on a corp endpoint exfiltrates `sid` cookie from `<tenant>.okta.com` and `<tenant>-admin.okta.com`. Without IP-binding or device-binding on the Okta session, the attacker replays the cookie from a residential proxy and obtains the user's full session (incl. admin if the victim was an admin) — bypasses MFA entirely (already-MFA-completed session). Underpinned both the Oct 2023 HAR-file incident and most Scattered Spider intrusions.
-- Root cause: Okta session cookies (until DPoP / Device Bound Session Cookies / asymmetric session keys are enforced) are bearer tokens — anyone holding the cookie is the user.
-- Year: 2022-2024 (ongoing class). Severity: Critical when admin sessions stolen.
-
-### Take-aways for hunters
-
-- The 2022 LAPSUS$, 2023 HAR-file, and 2023 Scattered Spider campaigns share a pattern: **the attack rarely hits Okta's product code — it hits the trust relationships around Okta** (third-party support, help-desk verification, customer-uploaded artifacts, federated IdPs). Recon should map these trust edges first.
-- CVE-2024-0981 (bcrypt 72-byte truncation) is the rare pure-product Okta CVE — most disclosed Okta bugs are configuration or operational.
-- Push fatigue is not just social engineering — the Okta Verify iOS bug shows the platform itself can silently approve a denied push. Treat any Okta push factor as bypassable in 2024+.
-- For red-team scoping: HAR-file replay, inbound-federation IdP injection, and stealer-cookie replay are the three highest-yield post-recon primitives observed in the wild.
-
----
-
-## Related Skills & Chains
-
-- **`hunt-subdomain`** — Okta tenant naming patterns (`<org>.okta.com`, `<org>.oktapreview.com`, `<org>-admin.okta.com`) frequently include orphan/dev tenants. Chain primitive: Okta tenant discovery via `/.well-known/okta-organization` → enumerate `<org>-dev`, `<org>-uat`, `<org>-test` subdomains → `hunt-subdomain` orphan-tenant identification → claim abandoned tenant → SSO takeover (legitimate `<org>` users redirected through compromised IdP for any app federated to the dev tenant).
-- **`m365-entra-attack`** — Okta-as-IdP for M365 is common in hybrid orgs. Chain primitive: `okta-attack` user enumeration + spray succeeds on Okta tenant → Okta is federated to Entra → SAML assertion issued by compromised Okta user → full M365 access without ever touching `login.microsoftonline.com` directly (bypasses Entra Conditional Access in many configurations).
-- **`hunt-saml`** — Okta issues SAML assertions to every federated downstream app. Chain primitive: Okta admin or developer credential captured → mint arbitrary SAML assertions in Okta admin → `hunt-saml` XSW or signature manipulation not even needed — legitimately signed assertions for arbitrary impersonation across every federated app (Salesforce, Workday, AWS, GitHub, M365).
-- **`hunt-mfa-bypass`** — Okta supports multiple factors with varying enforcement. Chain primitive: Okta password sprayed → MFA challenge → `hunt-mfa-bypass` factor-downgrade (push-fatigue, SMS fallback, voice fallback, security-question fallback) → bypass to authenticated session.
-- **`triage-validation`** — Okta findings can be high-impact but need the 7-Question Gate run on whether the captured artifact (token, code, factor) actually grants meaningful access. Chain primitive: validated Okta primitive → `triage-validation` to confirm access plane → `redteam-report-template` with explicit federated-app blast-radius.
-
-## Limitations
-
-- Authorized scope only: the confirmation gate above is mandatory before any probing, exploitation, or credential-access command.
-- Docs-only import: upstream helper scripts, commands, engine, and research assets are not bundled; reinstall tooling from the source repo when needed.
-- Validate every finding (see `triage-validation`) before reporting; report via `report-writing`. Prefer a sandbox, disposable VM, or controlled lab.
-
-### Example
-
-```bash
-# Read-only first step; confirm scope before anything active.
-cat scope.txt  # target list from the authorized engagement brief
-```
-
-> Adapted from [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) (MIT); frontmatter, When to Use/Limitations, and safety boundaries added for upstream compliance. Docs-only import: executable helpers, commands, engine, and research assets not bundled.
+<!-- Truncated for OpenGAP token limits -->

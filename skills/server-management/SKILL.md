@@ -1,11 +1,13 @@
 ---
 name: server-management
-description: "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: Server management principles and decision-making. Process management,
+  monitoring strategy, and scaling decisions. Teaches thinking, not commands.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Server Management
 
 > Server management principles for production operations.

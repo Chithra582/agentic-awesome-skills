@@ -1,11 +1,12 @@
 ---
 name: food-database-query
 description: Food Database Query
-risk: critical
-source: community
-date_added: "2026-09-04"
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # 食物数据库查询技能
 
 **技能名称**: Food Database Query

@@ -1,19 +1,21 @@
 ---
 name: ontoly-software-graph
-description: "Use Ontoly's deterministic Software Graph, MCP server, and agent skills for architecture review, request tracing, impact analysis, and dependency analysis."
-category: development
-risk: critical
-source: community
-source_repo: 0xsarwagya/ontoly
-source_type: community
-date_added: "2026-07-14"
-author: 0xsarwagya
-tags: [software-graph, codebase-analysis, mcp, typescript, architecture, impact-analysis]
-tools: [claude, cursor, gemini, codex, antigravity]
+description: Use Ontoly's deterministic Software Graph, MCP server, and agent skills
+  for architecture review, request tracing, impact analysis, and dependency analysis.
 license: MIT
-license_source: "https://github.com/0xsarwagya/ontoly/blob/main/LICENSE"
+metadata:
+  category: development
+  risk: critical
+  source: community
+  source_repo: 0xsarwagya/ontoly
+  source_type: community
+  date_added: '2026-07-14'
+  author: 0xsarwagya
+  tags: '[''software-graph'', ''codebase-analysis'', ''mcp'', ''typescript'', ''architecture'',
+    ''impact-analysis'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'', ''antigravity'']'
+  license_source: https://github.com/0xsarwagya/ontoly/blob/main/LICENSE
 ---
-
 # Ontoly Software Graph
 
 ## Overview

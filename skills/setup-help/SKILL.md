@@ -1,20 +1,21 @@
 ---
 name: setup-help
-description: "Walk a user through setup or installation one step at a time with the remaining steps visible."
-category: productivity
-risk: safe
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [setup, onboarding, installation]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
-disable-model-invocation: true
+description: Walk a user through setup or installation one step at a time with the
+  remaining steps visible.
+license: MIT
+metadata:
+  category: productivity
+  risk: safe
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''setup'', ''onboarding'', ''installation'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
+  disable-model-invocation: 'True'
 ---
-
 # setup-help
 
 ## When to Use

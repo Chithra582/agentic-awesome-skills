@@ -2,21 +2,20 @@
 name: identity-access-management
 description: Set up and manage SSO, SCIM provisioning, and MFA for startup teams using
   Google Workspace, Okta, or Azure AD.
-category: devops
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant OS/platform tooling and privileged access where
   noted. Docs-only; helper scripts and templates not bundled.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: devops
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # Identity & Access Management for Startups
 
 Centralized identity management is not optional once your team exceeds a handful of people. This skill covers practical, production-ready configurations for SSO, SCIM provisioning, MFA enforcement, and access governance using the three most common identity providers for startups: Google Workspace, Okta, and Azure AD (Entra ID).

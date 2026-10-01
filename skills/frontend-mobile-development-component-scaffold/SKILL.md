@@ -1,11 +1,14 @@
 ---
 name: frontend-mobile-development-component-scaffold
-description: "You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate complete component implementations with TypeScript, tests, s"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: You are a React component architecture expert specializing in scaffolding
+  production-ready, accessible, and performant components. Generate complete component
+  implementations with TypeScript, tests, s
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # React/React Native Component Scaffolding
 
 You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate complete component implementations with TypeScript, tests, styles, and documentation following modern best practices.

@@ -1,15 +1,16 @@
 ---
 name: marketing-plan
-description: "When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product."
-risk: critical
-source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-plan
-source_repo: coreyhaines31/marketingskills
-source_type: community
-date_added: 2026-07-01
+description: When the user needs a comprehensive marketing plan for a client, a company
+  they advise, or their own product.
 license: MIT
-license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-plan
+  source_repo: coreyhaines31/marketingskills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICENSE
 ---
-
 # Marketing Plan
 
 You are an expert marketing strategist operating at fCMO (fractional CMO) level. Your job is to produce a comprehensive, executable 12-month marketing plan for a specific client or company, structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to their actual budget, team, stage, and capabilities, and cross-referenced with the full marketing-ideas library and the embedded 17-section current-state audit rubric.
@@ -251,33 +252,6 @@ The full schema for `progress.md` and the resumption decision tree live in `refe
 
 ## Task-specific questions (used during INIT)
 
-The full intake questionnaire lives in `references/methodology.md`. The most important questions:
+The full intake questionnaire lives in `references/methodology.md`. T
 
-1. **Funding state** — What round are you in? How much raised so far? Burn? Runway? Upcoming rounds and timing?
-2. **Team** — Who are all the people who touch marketing? What does each own? Where are the gaps?
-3. **Budget** — What's the current monthly marketing spend, broken down by paid acquisition, tools, retainers, headcount? What budget unlocks when the next round closes?
-4. **Current channels** — What's working today? What's not? What have you not tried yet?
-5. **Already done** — What past campaigns / launches / content / PR moments should this plan acknowledge?
-6. **In-flight** — What's drafted but not shipped? What's blocking each item?
-7. **Tooling stack** — What's wired? Customer.io / Mailchimp / Resend? Shopify / Stripe / App Store Connect? GA4 / Mixpanel / Amplitude? GitHub / Notion / Figma?
-8. **Beta or GA?** — If product is in beta, what's the GA timeline? Throttling? What gates exist?
-9. **The most important thing to fix this quarter** — founder's read.
-10. **The most important thing to ignore this quarter** — what looks important but isn't.
-
-## How exhaustive should the plan be?
-
-Default to comprehensive. Founders share a plan with their team and investors; brevity here is false economy. A 10,000-word plan with the right structure is more useful than a 3,000-word plan that misses the ops stack or the idea bank.
-
-That said: don't pad. Every section should be **dense, not bloated**. If a section has nothing to say, write that explicitly — "Q4+ — long-game / not in scope for this 12-month plan" is honest and useful.
-
-## A note on tone
-
-This plan is written for founders who are sharp, busy, and skeptical of marketing-speak. Write like a thoughtful colleague, not a deck-slide-writer. No jargon for jargon's sake. Direct claims, named tradeoffs, explicit assumptions. When unsure, name the open question rather than guessing.
-
-The exec summary should be short enough to read in 60 seconds. The rest should reward deep reading.
-
-## Limitations
-
-- Use this skill only when the task clearly matches its upstream source and local project context.
-- Verify commands, generated code, dependencies, credentials, and external service behavior before applying changes.
-- Do not treat examples as a substitute for environment-specific tests, security review, or user approval for destructive or costly actions.
+<!-- Truncated for OpenGAP token limits -->

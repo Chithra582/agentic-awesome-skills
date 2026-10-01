@@ -1,12 +1,13 @@
 ---
 name: writing-skills
-description: "Use when creating, updating, or improving agent skills."
-category: meta
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Use when creating, updating, or improving agent skills.
+metadata:
+  category: meta
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Writing Skills (Excellence)
 
 Dispatcher for skill creation excellence. Use the decision tree below to find the right template and standards.

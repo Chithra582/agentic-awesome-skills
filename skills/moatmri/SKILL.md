@@ -1,11 +1,13 @@
 ---
 name: moatmri
-description: Analyze AI disruption pressure across a business, map competitive exposure, and produce a 90-day defensive action plan.
-risk: safe
-source: community
-date_added: "2026-05-31"
+description: Analyze AI disruption pressure across a business, map competitive exposure,
+  and produce a 90-day defensive action plan.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-05-31'
+license: MIT
 ---
-
 # MoatMRI — AI Disruption Pressure Analysis
 
 *Where does intelligence pressure break this system first?*

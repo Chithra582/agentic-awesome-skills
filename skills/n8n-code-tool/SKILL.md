@@ -1,16 +1,17 @@
 ---
 name: n8n-code-tool
-description: Write and debug JavaScript or Python for the AI-callable n8n Custom Code Tool, including schemas, sandbox limits, and return formats.
-risk: critical
-source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-code-tool
-source_repo: czlonkowski/n8n-skills
-source_type: community
-date_added: "2026-07-21"
-author: Romuald Czlonkowski
+description: Write and debug JavaScript or Python for the AI-callable n8n Custom Code
+  Tool, including schemas, sandbox limits, and return formats.
 license: MIT
-license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-code-tool
+  source_repo: czlonkowski/n8n-skills
+  source_type: community
+  date_added: '2026-07-21'
+  author: Romuald Czlonkowski
+  license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
 ---
-
 # n8n Custom Code Tool
 
 ## When to Use

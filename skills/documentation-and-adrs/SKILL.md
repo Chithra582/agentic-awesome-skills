@@ -1,15 +1,17 @@
 ---
 name: documentation-and-adrs
-description: Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.
-risk: critical
-source: https://github.com/addyosmani/agent-skills/tree/main/skills/documentation-and-adrs
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Records decisions and documentation. Use when making architectural decisions,
+  changing public APIs, shipping features, or when you need to record context that
+  future engineers and agents will need to understand the codebase.
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/addyosmani/agent-skills/tree/main/skills/documentation-and-adrs
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Documentation and ADRs
 
 ## Overview

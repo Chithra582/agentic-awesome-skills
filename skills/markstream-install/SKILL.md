@@ -1,19 +1,21 @@
 ---
 name: markstream-install
-description: "Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, Next.js, and Vue 2 applications."
-category: frontend
-risk: critical
-source: https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-install
-source_repo: Simon-He95/markstream-vue
-source_type: official
-date_added: "2026-07-19"
-author: Simon-He95
-tags: [markdown, streaming, vue, react, svelte, angular, ai-chat]
-tools: [claude, cursor, gemini, codex]
+description: Install and configure Markstream streaming Markdown renderers for Vue,
+  React, Svelte, Angular, Nuxt, Next.js, and Vue 2 applications.
 license: MIT
-license_source: https://github.com/Simon-He95/markstream-vue/blob/main/license
+metadata:
+  category: frontend
+  risk: critical
+  source: https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-install
+  source_repo: Simon-He95/markstream-vue
+  source_type: official
+  date_added: '2026-07-19'
+  author: Simon-He95
+  tags: '[''markdown'', ''streaming'', ''vue'', ''react'', ''svelte'', ''angular'',
+    ''ai-chat'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/Simon-He95/markstream-vue/blob/main/license
 ---
-
 # Markstream Install
 
 ## Overview

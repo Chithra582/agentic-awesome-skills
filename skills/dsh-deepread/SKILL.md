@@ -1,19 +1,20 @@
 ---
 name: dsh-deepread
-description: "Use for evidence-first reading of articles, books, PDFs, web pages, or document sets, with knowledge maps and Feynman checks."
-category: research
-risk: safe
-source: community
-source_repo: xiehuan123/dsh-deepread
-source_type: community
-date_added: "2026-08-17"
-author: xiehuan123
-tags: [deep-reading, evidence, knowledge-map, feynman, document-analysis]
-tools: [claude, cursor, gemini, codex]
-license: "MIT"
-license_source: "https://github.com/xiehuan123/dsh-deepread/blob/main/LICENSE"
+description: Use for evidence-first reading of articles, books, PDFs, web pages, or
+  document sets, with knowledge maps and Feynman checks.
+license: MIT
+metadata:
+  category: research
+  risk: safe
+  source: community
+  source_repo: xiehuan123/dsh-deepread
+  source_type: community
+  date_added: '2026-08-17'
+  author: xiehuan123
+  tags: '[''deep-reading'', ''evidence'', ''knowledge-map'', ''feynman'', ''document-analysis'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/xiehuan123/dsh-deepread/blob/main/LICENSE
 ---
-
 # DeepRead
 
 ## Overview

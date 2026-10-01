@@ -1,11 +1,13 @@
 ---
 name: cc-skill-backend-patterns
-description: "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Backend architecture patterns, API design, database optimization, and
+  server-side best practices for Node.js, Express, and Next.js API routes.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Backend Development Patterns
 
 Backend architecture patterns and best practices for scalable server-side applications.

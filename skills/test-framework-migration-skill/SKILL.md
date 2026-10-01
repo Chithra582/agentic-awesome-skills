@@ -1,15 +1,16 @@
 ---
 name: test-framework-migration-skill
-description: "Migrates and converts test automation scripts between Selenium, Playwright, Puppeteer, and Cypress."
-risk: critical
-source: https://github.com/LambdaTest/agent-skills/tree/main/test-framework-migration-skill
-source_repo: LambdaTest/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Migrates and converts test automation scripts between Selenium, Playwright,
+  Puppeteer, and Cypress.
 license: MIT
-license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/LambdaTest/agent-skills/tree/main/test-framework-migration-skill
+  source_repo: LambdaTest/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 ---
-
 # Test Framework Migration Skill
 ## When to Use
 

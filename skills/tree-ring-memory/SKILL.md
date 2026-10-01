@@ -1,19 +1,21 @@
 ---
 name: tree-ring-memory
-description: "Use Tree Ring Memory for local-first AI-agent memory lifecycle work: recall, evidence, audit, forgetting, and consolidation without transcript dumping."
-category: development
-risk: critical
-source: community
-source_repo: TerminallyLazy/Tree-Ring-Memory
-source_type: community
-date_added: "2026-07-08"
-author: TerminallyLazy
-tags: [agent-memory, local-first, recall, privacy, codex, sqlite, cli]
-tools: [claude, codex, cursor, gemini, antigravity, opencode]
-license: "MIT"
-license_source: "https://github.com/TerminallyLazy/Tree-Ring-Memory/blob/main/LICENSE"
+description: 'Use Tree Ring Memory for local-first AI-agent memory lifecycle work:
+  recall, evidence, audit, forgetting, and consolidation without transcript dumping.'
+license: MIT
+metadata:
+  category: development
+  risk: critical
+  source: community
+  source_repo: TerminallyLazy/Tree-Ring-Memory
+  source_type: community
+  date_added: '2026-07-08'
+  author: TerminallyLazy
+  tags: '[''agent-memory'', ''local-first'', ''recall'', ''privacy'', ''codex'', ''sqlite'',
+    ''cli'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'', ''antigravity'', ''opencode'']'
+  license_source: https://github.com/TerminallyLazy/Tree-Ring-Memory/blob/main/LICENSE
 ---
-
 # Tree Ring Memory
 
 ## Overview

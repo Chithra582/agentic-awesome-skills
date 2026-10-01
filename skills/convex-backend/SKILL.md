@@ -3,21 +3,20 @@ name: convex-backend
 description: Build reactive backends with Convex functions, schema validation, auth
   integration, and deployment workflows. Use when building real-time apps with type-safe
   server functions and automatic caching.
-category: devops
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant OS/platform tooling and privileged access where
   noted. Docs-only; helper scripts and templates not bundled.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: devops
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # Convex Backend
 
 Use Convex to build type-safe backend logic with realtime data sync.

@@ -2,11 +2,12 @@
 name: family-health-analyzer
 description: 分析家族病史、评估遗传风险、识别家庭健康模式、提供个性化预防建议
 allowed-tools: Read, Write, Grep, Glob
-risk: critical
-source: community
-date_added: "2026-09-04"
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # 家庭健康分析技能
 
 ## When to Use

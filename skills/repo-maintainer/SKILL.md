@@ -1,15 +1,17 @@
 ---
 name: repo-maintainer
-description: "Audit and repair repository hygiene across artifacts, dependencies, CI, docs, Git state, and code-quality signals. Use for repository maintenance, cleanup, health checks, or pre-release hardening."
-risk: critical
-source: https://github.com/Wolfe-Jam/faf-skills/tree/main/skills/repo-maintainer
-source_repo: Wolfe-Jam/faf-skills
-source_type: community
-date_added: 2026-07-01
+description: Audit and repair repository hygiene across artifacts, dependencies, CI,
+  docs, Git state, and code-quality signals. Use for repository maintenance, cleanup,
+  health checks, or pre-release hardening.
 license: MIT
-license_source: https://github.com/Wolfe-Jam/faf-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/Wolfe-Jam/faf-skills/tree/main/skills/repo-maintainer
+  source_repo: Wolfe-Jam/faf-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/Wolfe-Jam/faf-skills/blob/main/LICENSE
 ---
-
 # Repository Maintainer
 
 ## Overview

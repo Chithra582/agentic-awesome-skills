@@ -1,15 +1,17 @@
 ---
 name: huggingface-tool-builder
-description: "Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be repeated/automated."
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/skills/huggingface-tool-builder
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: Use this skill when the user wants to build tool/scripts or achieve a
+  task where using data from the Hugging Face API would help. This is especially useful
+  when chaining or combining API calls or the task will be repeated/automated.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/skills/huggingface-tool-builder
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 # Hugging Face API Tool Builder
 ## When to Use
 

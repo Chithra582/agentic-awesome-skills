@@ -1,11 +1,13 @@
 ---
 name: ml-pipeline-workflow
-description: "Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Complete end-to-end MLOps pipeline orchestration from data preparation
+  through model deployment.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # ML Pipeline Workflow
 
 Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment.

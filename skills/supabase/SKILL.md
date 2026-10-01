@@ -1,15 +1,15 @@
 ---
 name: supabase
-description: "Use when doing ANY task involving Supabase."
-risk: critical
-source: https://github.com/supabase/agent-skills/tree/main/skills/supabase
-source_repo: supabase/agent-skills
-source_type: official
-date_added: 2026-07-01
+description: Use when doing ANY task involving Supabase.
 license: MIT
-license_source: https://github.com/supabase/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/supabase/agent-skills/tree/main/skills/supabase
+  source_repo: supabase/agent-skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/supabase/agent-skills/blob/main/LICENSE
 ---
-
 # Supabase
 ## When to Use
 

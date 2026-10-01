@@ -1,15 +1,16 @@
 ---
 name: neon-postgres-egress-optimizer
-description: "Diagnose and fix excessive Postgres egress (network data transfer) in a codebase."
-risk: critical
-source: https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres-egress-optimizer
-source_repo: neondatabase/agent-skills
-source_type: official
-date_added: 2026-07-01
+description: Diagnose and fix excessive Postgres egress (network data transfer) in
+  a codebase.
 license: Apache-2.0
-license_source: https://github.com/neondatabase/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres-egress-optimizer
+  source_repo: neondatabase/agent-skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/neondatabase/agent-skills/blob/main/LICENSE
 ---
-
 # Postgres Egress Optimizer
 ## When to Use
 

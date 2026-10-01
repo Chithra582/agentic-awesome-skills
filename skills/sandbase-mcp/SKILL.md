@@ -1,19 +1,20 @@
 ---
 name: sandbase-mcp
-description: "Discover, inspect, and invoke 2,000+ AI models and APIs through SandBase's local MCP bridge with explicit schema and cost checks."
-category: ai-ml
-risk: critical
-source: community
-source_repo: sandbaseai/cli
-source_type: official
-date_added: "2026-08-27"
-author: sandbaseai
-tags: [mcp, ai-models, api-gateway, inference, media-generation]
-tools: [claude, cursor, gemini, codex]
+description: Discover, inspect, and invoke 2,000+ AI models and APIs through SandBase's
+  local MCP bridge with explicit schema and cost checks.
 license: Apache-2.0
-license_source: "https://github.com/sandbaseai/cli/blob/main/LICENSE"
+metadata:
+  category: ai-ml
+  risk: critical
+  source: community
+  source_repo: sandbaseai/cli
+  source_type: official
+  date_added: '2026-08-27'
+  author: sandbaseai
+  tags: '[''mcp'', ''ai-models'', ''api-gateway'', ''inference'', ''media-generation'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/sandbaseai/cli/blob/main/LICENSE
 ---
-
 # SandBase MCP
 
 ## Overview

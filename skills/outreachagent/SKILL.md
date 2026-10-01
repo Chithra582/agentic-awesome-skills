@@ -1,16 +1,19 @@
 ---
 name: outreachagent
-description: "Operate reply-aware cold outbound email workflows for AI agents with inboxes, contacts, templates, pacing, approvals, webhooks, and delivery metrics."
-category: marketing
-risk: critical
-source: self
-source_type: self
-date_added: "2026-08-05"
-author: pagefarms
-tags: [email, cold-outreach, sales, ai-agents, workflows, deliverability, webhooks, rest-api]
-tools: [claude, cursor, codex, gemini]
+description: Operate reply-aware cold outbound email workflows for AI agents with
+  inboxes, contacts, templates, pacing, approvals, webhooks, and delivery metrics.
+metadata:
+  category: marketing
+  risk: critical
+  source: self
+  source_type: self
+  date_added: '2026-08-05'
+  author: pagefarms
+  tags: '[''email'', ''cold-outreach'', ''sales'', ''ai-agents'', ''workflows'', ''deliverability'',
+    ''webhooks'', ''rest-api'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'']'
+license: MIT
 ---
-
 # OutreachAgent
 
 ## Overview

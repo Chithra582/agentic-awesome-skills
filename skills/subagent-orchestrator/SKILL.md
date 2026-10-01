@@ -1,14 +1,16 @@
 ---
 name: subagent-orchestrator
-risk: safe
-source: community
-date_added: "2026-09-04"
-description: Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks.
-version: 1.0.0
-author: community
-tags: [subagents, orchestration, quota, parallel, multi-agent]
+description: Coordinate quota-aware parallel subagents for large, multi-file Antigravity
+  tasks.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-09-04'
+  version: 1.0.0
+  author: community
+  tags: '[''subagents'', ''orchestration'', ''quota'', ''parallel'', ''multi-agent'']'
+license: MIT
 ---
-
 # Subagent Orchestrator
 
 A quota-aware, parallel subagent coordination skill for Antigravity 2.0. Turns one big task into a set of isolated, efficient agent missions — without burning your weekly quota.

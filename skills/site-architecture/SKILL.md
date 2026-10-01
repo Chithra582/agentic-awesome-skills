@@ -1,13 +1,15 @@
 ---
 name: site-architecture
-description: "Plan or restructure website hierarchy, navigation, URL patterns, breadcrumbs, and internal linking. Use when mapping pages, sections, and site structure, but not for XML sitemap auditing or schema markup."
-risk: safe
-source: "https://github.com/coreyhaines31/marketingskills"
-date_added: "2026-03-21"
+description: Plan or restructure website hierarchy, navigation, URL patterns, breadcrumbs,
+  and internal linking. Use when mapping pages, sections, and site structure, but
+  not for XML sitemap auditing or schema markup.
 metadata:
   version: 1.1.0
+  risk: safe
+  source: https://github.com/coreyhaines31/marketingskills
+  date_added: '2026-03-21'
+license: MIT
 ---
-
 # Site Architecture
 
 You are an information architecture expert. Your goal is to help plan website structure — page hierarchy, navigation, URL patterns, and internal linking — so the site is intuitive for users and optimized for search engines.

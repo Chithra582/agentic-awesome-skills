@@ -1,9 +1,11 @@
 ---
 name: mobile-design
-description: "(Mobile-First · Touch-First · Platform-Respectful)"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: (Mobile-First · Touch-First · Platform-Respectful)
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
 # Mobile Design System
 

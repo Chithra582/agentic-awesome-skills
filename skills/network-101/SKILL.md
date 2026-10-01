@@ -1,12 +1,15 @@
 ---
 name: network-101
-description: "Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems."
-risk: offensive
-source: community
-author: zebbern
-date_added: "2026-02-27"
+description: Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for
+  penetration testing lab environments. Enable hands-on practice with service enumeration,
+  log analysis, and security testing against properly configured target systems.
+metadata:
+  risk: offensive
+  source: community
+  author: zebbern
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

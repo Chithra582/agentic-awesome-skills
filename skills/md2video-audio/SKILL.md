@@ -1,19 +1,20 @@
 ---
 name: md2video-audio
-description: "Convert Markdown documents into narrated MP4 videos with synchronized visuals and voice narration."
-category: media
-risk: safe
-source: community
-source_repo: 70v-Yoyo/md2video-audio-skill
-source_type: community
-date_added: "2026-09-12"
-author: 70v-Yoyo
-tags: [markdown, video, audio, text-to-speech, marp, presentation]
-tools: [claude, cursor, gemini]
-license: "Apache-2.0"
-license_source: "https://github.com/70v-Yoyo/md2video-audio-skill/blob/main/LICENSE"
+description: Convert Markdown documents into narrated MP4 videos with synchronized
+  visuals and voice narration.
+license: Apache-2.0
+metadata:
+  category: media
+  risk: safe
+  source: community
+  source_repo: 70v-Yoyo/md2video-audio-skill
+  source_type: community
+  date_added: '2026-09-12'
+  author: 70v-Yoyo
+  tags: '[''markdown'', ''video'', ''audio'', ''text-to-speech'', ''marp'', ''presentation'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/70v-Yoyo/md2video-audio-skill/blob/main/LICENSE
 ---
-
 # Md2video-audio
 
 ## Overview

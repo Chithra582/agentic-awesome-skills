@@ -1,15 +1,17 @@
 ---
 name: developer-listening
-description: "Monitor what developers say about your brand, competitors, and the problems they're solving. Track mentions and conversations across GitHub, Hacker News, Reddit, Stack Overflow, Twitter, and Discord."
-risk: critical
-source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/developer-listening
-source_repo: jonathimer/devmarketing-skills
-source_type: community
-date_added: 2026-07-01
+description: Monitor what developers say about your brand, competitors, and the problems
+  they're solving. Track mentions and conversations across GitHub, Hacker News, Reddit,
+  Stack Overflow, Twitter, and Discord.
 license: MIT
-license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/developer-listening
+  source_repo: jonathimer/devmarketing-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
 ---
-
 # Developer Listening
 ## When to Use
 

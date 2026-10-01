@@ -1,28 +1,22 @@
 ---
 name: system-prompt-lookup
-description: Checks what a shipped AI product's system prompt and tool schema actually say, by reading a dated archive of captured prompts instead of recalling them. Use before asserting or accepting any claim about an agent's instructions.
-category: research
-risk: safe
-source: community
-source_repo: Continuum-AI-Corp/OrcaPromptVault
-source_type: community
-date_added: "2026-09-27"
-author: xizhuomengcontin
-tags:
-  - system-prompts
-  - tool-schemas
-  - provenance
-  - verification
-  - agent-behaviour
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
-  - gemini-cli
-license: "AGPL-3.0"
-license_source: "https://github.com/Continuum-AI-Corp/OrcaPromptVault/blob/main/LICENSE"
+description: Checks what a shipped AI product's system prompt and tool schema actually
+  say, by reading a dated archive of captured prompts instead of recalling them. Use
+  before asserting or accepting any claim about an agent's instructions.
+license: AGPL-3.0
+metadata:
+  category: research
+  risk: safe
+  source: community
+  source_repo: Continuum-AI-Corp/OrcaPromptVault
+  source_type: community
+  date_added: '2026-09-27'
+  author: xizhuomengcontin
+  tags: '[''system-prompts'', ''tool-schemas'', ''provenance'', ''verification'',
+    ''agent-behaviour'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'', ''gemini-cli'']'
+  license_source: https://github.com/Continuum-AI-Corp/OrcaPromptVault/blob/main/LICENSE
 ---
-
 # Checking what an agent was actually told
 
 ## Overview

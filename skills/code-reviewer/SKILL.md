@@ -1,11 +1,12 @@
 ---
 name: code-reviewer
-description: "Elite code review expert specializing in modern AI-powered code"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Elite code review expert specializing in modern AI-powered code
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on code reviewer tasks or workflows

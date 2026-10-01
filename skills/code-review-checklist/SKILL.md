@@ -1,11 +1,13 @@
 ---
 name: code-review-checklist
-description: "Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Comprehensive checklist for conducting thorough code reviews covering
+  functionality, security, performance, and maintainability
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Code Review Checklist
 
 ## Overview

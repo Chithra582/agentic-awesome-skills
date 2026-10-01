@@ -1,16 +1,20 @@
 ---
 name: wp-site-health-auditor
-description: "Turns a WordPress Site Health report into a risk-tiered, backup-first fix plan with exact WP-CLI/PHP snippets. Use for site health, recommended improvements, or critical issue reports."
-category: development
-risk: critical
-source: self
-source_type: self
-date_added: "2026-07-03"
-author: whoisabhishekadhikari
-tags: [wordpress, site-health, wp-cli, seo, performance, security, hardening]
-tools: [claude, cursor, codex, gemini]
+description: Turns a WordPress Site Health report into a risk-tiered, backup-first
+  fix plan with exact WP-CLI/PHP snippets. Use for site health, recommended improvements,
+  or critical issue reports.
+metadata:
+  category: development
+  risk: critical
+  source: self
+  source_type: self
+  date_added: '2026-07-03'
+  author: whoisabhishekadhikari
+  tags: '[''wordpress'', ''site-health'', ''wp-cli'', ''seo'', ''performance'', ''security'',
+    ''hardening'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'']'
+license: MIT
 ---
-
 # WP Site Health Auditor
 
 ## When to Use This Skill
@@ -328,14 +332,6 @@ include items not covered above.
 - Cannot verify current PHP/server values (upload limits, cache backend availability, HTTPS status) —
   relies on what the user reports back after checking `phpinfo()` or their host panel.
 - Does not cover multisite-specific Site Health variations or WooCommerce-specific health checks; both add
-  extra items this skill's recipe list doesn't include.
-- The item catalog (main file + `references/catalog.md`) reflects WordPress core's Site Health checks as of
-  mid-2026 — item titles/wording can change across core versions, so an unmatched item should be reported
-  as unmatched, not force-fit to the closest recipe.
-- Does not replace a full security audit or compromise scan — Site Health flags configuration hygiene
-  issues, not signs that a site has already been broken into.
+  extra items this skill's recipe list does
 
-## Related Skills
-
-- `@security-hardening` — For deeper WordPress security audits beyond Site Health's surface checks
-- `@wp-performance` — For targeted performance optimization after Site Health flags are resolved
+<!-- Truncated for OpenGAP token limits -->

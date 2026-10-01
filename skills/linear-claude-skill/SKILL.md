@@ -1,11 +1,12 @@
 ---
 name: linear-claude-skill
-description: "Manage Linear issues, projects, and teams"
-risk: safe
-source: "https://github.com/wrsmith108/linear-claude-skill"
-date_added: "2026-02-27"
+description: Manage Linear issues, projects, and teams
+metadata:
+  risk: safe
+  source: https://github.com/wrsmith108/linear-claude-skill
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Detailed Guide
 
 Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.

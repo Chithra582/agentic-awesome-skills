@@ -1,19 +1,20 @@
 ---
 name: poka-yoke
-description: "Mistake-proof code, config and process: make the wrong action impossible or self-announcing rather than documented."
-category: development
-risk: safe
-source: rainmanjam/poka-yoke
-source_repo: rainmanjam/poka-yoke
-source_type: community
-date_added: "2026-08-25"
-author: rainmanjam
-tags: [mistake-proofing, code-review, api-design, guardrails, reliability]
-tools: [claude, cursor, codex]
-license: "MIT"
-license_source: "https://github.com/rainmanjam/poka-yoke/blob/v0.1.2/LICENSE"
+description: 'Mistake-proof code, config and process: make the wrong action impossible
+  or self-announcing rather than documented.'
+license: MIT
+metadata:
+  category: development
+  risk: safe
+  source: rainmanjam/poka-yoke
+  source_repo: rainmanjam/poka-yoke
+  source_type: community
+  date_added: '2026-08-25'
+  author: rainmanjam
+  tags: '[''mistake-proofing'', ''code-review'', ''api-design'', ''guardrails'', ''reliability'']'
+  tools: '[''claude'', ''cursor'', ''codex'']'
+  license_source: https://github.com/rainmanjam/poka-yoke/blob/v0.1.2/LICENSE
 ---
-
 # Poka-Yoke: Mistake-Proofing for Software
 
 Shigeo Shingo's insight, from the Toyota Production System: **people will always make

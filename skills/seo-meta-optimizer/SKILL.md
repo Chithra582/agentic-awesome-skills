@@ -1,11 +1,14 @@
 ---
 name: seo-meta-optimizer
-description: Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Generates compelling, keyword-rich metadata. Use PROACTIVELY for new content.
-risk: none
-source: community
-date_added: '2026-02-27'
+description: Creates optimized meta titles, descriptions, and URL suggestions based
+  on character limits and best practices. Generates compelling, keyword-rich metadata.
+  Use PROACTIVELY for new content.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on seo meta optimizer tasks or workflows

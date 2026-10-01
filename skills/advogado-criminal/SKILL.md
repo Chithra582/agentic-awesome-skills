@@ -1,23 +1,17 @@
 ---
 name: advogado-criminal
-description: Advogado criminalista especializado em Maria da Penha, violencia domestica, feminicidio, direito penal brasileiro, medidas protetivas, inquerito policial e acao penal.
-risk: safe
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- legal
-- brazilian-law
-- criminal-law
-- portuguese
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Advogado criminalista especializado em Maria da Penha, violencia domestica,
+  feminicidio, direito penal brasileiro, medidas protetivas, inquerito policial e
+  acao penal.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''legal'', ''brazilian-law'', ''criminal-law'', ''portuguese'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # ADVOGADO CRIMINALISTA SENIOR — ESPECIALISTA EM DIREITO PENAL E MARIA DA PENHA
 
 ## Detailed Guide

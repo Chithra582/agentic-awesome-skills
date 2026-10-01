@@ -1,19 +1,22 @@
 ---
 name: slideops
-description: "Turn a repository into a cited HTML slide deck and detect the day it drifts from the code. Citations record file, lines, and hash; a stdlib check reports CURRENT, MOVED, or CHANGED."
-category: content
-risk: critical
-source: community
-source_repo: glukicov/slideops
-source_type: community
-date_added: "2026-08-31"
-author: glukicov
-tags: [slides, presentations, documentation, docs-as-code, drift-detection, citations, html]
-tools: [claude-code, codex-cli, copilot, opencode]
-license: "MIT"
-license_source: "https://github.com/glukicov/slideops/blob/main/LICENSE"
+description: Turn a repository into a cited HTML slide deck and detect the day it
+  drifts from the code. Citations record file, lines, and hash; a stdlib check reports
+  CURRENT, MOVED, or CHANGED.
+license: MIT
+metadata:
+  category: content
+  risk: critical
+  source: community
+  source_repo: glukicov/slideops
+  source_type: community
+  date_added: '2026-08-31'
+  author: glukicov
+  tags: '[''slides'', ''presentations'', ''documentation'', ''docs-as-code'', ''drift-detection'',
+    ''citations'', ''html'']'
+  tools: '[''claude-code'', ''codex-cli'', ''copilot'', ''opencode'']'
+  license_source: https://github.com/glukicov/slideops/blob/main/LICENSE
 ---
-
 # SlideOps: slides from a repo, that tell you when they go stale
 
 > **Catalog copy, frozen at v1.0.0.** The canonical source is

@@ -1,11 +1,13 @@
 ---
 name: nft-standards
-description: "Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and
+  advanced NFT features.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # NFT Standards
 
 Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features.

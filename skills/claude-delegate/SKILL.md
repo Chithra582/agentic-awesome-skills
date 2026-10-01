@@ -3,20 +3,20 @@ name: claude-delegate
 description: Delegate coding tasks to a separate Claude Code CLI process or Claude
   session only when the user explicitly requests it, while the orchestrator retains
   review and landing responsibility.
-risk: critical
-category: agent-orchestration
-source: https://github.com/amElnagdy/delegate-skills
-source_repo: amElnagdy/delegate-skills
-source_type: community
-date_added: '2026-08-26'
 license: MIT
-license_source: https://github.com/amElnagdy/delegate-skills/blob/master/LICENSE
 compatibility: Requires the `claude` CLI (Claude Code) installed and authenticated,
   Node 18+, and git. The orchestrating agent must be able to run shell commands and
   read files. Claude's shell sandbox requires macOS, Linux, or WSL2; native Windows
   launch is pending verification.
 metadata:
   version: 0.5.0
+  risk: critical
+  category: agent-orchestration
+  source: https://github.com/amElnagdy/delegate-skills
+  source_repo: amElnagdy/delegate-skills
+  source_type: community
+  date_added: '2026-08-26'
+  license_source: https://github.com/amElnagdy/delegate-skills/blob/master/LICENSE
 ---
 # Claude Delegate
 

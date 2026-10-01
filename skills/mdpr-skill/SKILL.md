@@ -1,19 +1,21 @@
 ---
 name: mdpr-skill
-description: "Review MDPR Markdown presentation workflows with semantic hints, visual checks, and deterministic renderer boundaries."
-category: productivity
-risk: safe
-source: community
-source_repo: ch040602/mdpr-skill
-source_type: community
-date_added: "2026-07-01"
-author: ch040602
-tags: [mdpr, presentations, markdown, powerpoint, codex, visual-review, agent-hints]
-tools: [claude, cursor, gemini, codex, antigravity]
-license: "MIT"
-license_source: "https://github.com/ch040602/mdpr-skill/blob/main/LICENSE"
+description: Review MDPR Markdown presentation workflows with semantic hints, visual
+  checks, and deterministic renderer boundaries.
+license: MIT
+metadata:
+  category: productivity
+  risk: safe
+  source: community
+  source_repo: ch040602/mdpr-skill
+  source_type: community
+  date_added: '2026-07-01'
+  author: ch040602
+  tags: '[''mdpr'', ''presentations'', ''markdown'', ''powerpoint'', ''codex'', ''visual-review'',
+    ''agent-hints'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'', ''antigravity'']'
+  license_source: https://github.com/ch040602/mdpr-skill/blob/main/LICENSE
 ---
-
 # mdpr-skill
 
 ## Overview

@@ -1,23 +1,16 @@
 ---
 name: leiloeiro-juridico
-description: 'Analise juridica de leiloes: nulidades, bem de familia, alienacao fiduciaria, CPC arts 829-903, Lei 9514/97, onus reais, embargos e jurisprudencia.'
-risk: safe
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- legal
-- auction-law
-- brazilian
-- judicial
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: 'Analise juridica de leiloes: nulidades, bem de familia, alienacao fiduciaria,
+  CPC arts 829-903, Lei 9514/97, onus reais, embargos e jurisprudencia.'
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''legal'', ''auction-law'', ''brazilian'', ''judicial'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # SKILL JURÍDICA — LEILÕES DE IMÓVEIS
 
 ## Overview
@@ -476,5 +469,6 @@ Fontes normativas e referências:
 
 ## Limitations
 - Use this skill only when the task clearly matches the scope described above.
-- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
-- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
+- Do not treat the output as a substitute for environment-specific validation, testi
+
+<!-- Truncated for OpenGAP token limits -->

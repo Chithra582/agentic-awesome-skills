@@ -1,19 +1,22 @@
 ---
 name: boost-asio-pro
-description: "Use when writing asynchronous C++ networking code with Boost.Asio or standalone Asio — TCP/UDP servers and clients, SSL/TLS, timers, strands, composed async ops. Covers io_context, co_spawn, awaitable, async_read/async_write, asio::spawn, yield_context, and pre-C++20 callback styles."
-category: development
-risk: safe
-source: community
-source_repo: alexprivalov/boost-asio-skill
-source_type: community
-date_added: "2026-08-18"
-author: alexprivalov
-tags: [cpp, boost, asio, async, networking, coroutines]
-tools: [claude, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/alexprivalov/boost-asio-skill/blob/main/LICENSE"
+description: Use when writing asynchronous C++ networking code with Boost.Asio or
+  standalone Asio — TCP/UDP servers and clients, SSL/TLS, timers, strands, composed
+  async ops. Covers io_context, co_spawn, awaitable, async_read/async_write, asio::spawn,
+  yield_context, and pre-C++20 callback styles.
+license: MIT
+metadata:
+  category: development
+  risk: safe
+  source: community
+  source_repo: alexprivalov/boost-asio-skill
+  source_type: community
+  date_added: '2026-08-18'
+  author: alexprivalov
+  tags: '[''cpp'', ''boost'', ''asio'', ''async'', ''networking'', ''coroutines'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/alexprivalov/boost-asio-skill/blob/main/LICENSE
 ---
-
 # Boost.Asio / standalone Asio
 
 ## Overview

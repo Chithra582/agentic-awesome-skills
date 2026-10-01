@@ -1,0 +1,16 @@
+name: "trust-boundary-guard"
+description: "Audits skill permission scopes and tool requirements for potential security escalation risks."
+input_schema:
+  type: "object"
+  properties:
+    skill_name:
+      type: "string"
+      description: "Identifier of the skill under security review."
+    requested_tools:
+      type: "array"
+      items:
+        type: "string"
+      description: "Tools or shell permissions requested by the skill instructions."
+  required:
+    - "skill_name"
+    - "requested_tools"

@@ -1,11 +1,13 @@
 ---
 name: ruby-pro
-description: Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance
+  optimization. Specializes in Ruby on Rails, gem development, and testing frameworks.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on ruby pro tasks or workflows

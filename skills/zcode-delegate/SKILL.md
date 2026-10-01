@@ -2,14 +2,7 @@
 name: zcode-delegate
 description: Delegate coding tasks to the Z.AI ZCode CLI only when the user explicitly
   requests it, while the orchestrator retains review and landing responsibility.
-risk: critical
-category: agent-orchestration
-source: https://github.com/amElnagdy/delegate-skills
-source_repo: amElnagdy/delegate-skills
-source_type: community
-date_added: '2026-08-26'
 license: MIT
-license_source: https://github.com/amElnagdy/delegate-skills/blob/master/LICENSE
 compatibility: Requires the `zcode` CLI (Z.AI ZCode) with a configured model provider,
   Node 18+, and git. ZCode ships its CLI inside the desktop app rather than on PATH
   or npm — see Prerequisites. The orchestrating agent must be able to run shell commands
@@ -17,6 +10,13 @@ compatibility: Requires the `zcode` CLI (Z.AI ZCode) with a configured model pro
   Windows).
 metadata:
   version: 0.5.0
+  risk: critical
+  category: agent-orchestration
+  source: https://github.com/amElnagdy/delegate-skills
+  source_repo: amElnagdy/delegate-skills
+  source_type: community
+  date_added: '2026-08-26'
+  license_source: https://github.com/amElnagdy/delegate-skills/blob/master/LICENSE
 ---
 # ZCode Delegate
 

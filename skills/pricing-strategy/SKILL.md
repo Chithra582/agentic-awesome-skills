@@ -1,11 +1,13 @@
 ---
 name: pricing-strategy
-description: "Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives."
-risk: none
-source: community
-date_added: "2026-02-27"
+description: Design pricing, packaging, and monetization strategies based on value,
+  customer willingness to pay, and growth objectives.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Pricing Strategy
 
 You are an expert in pricing and monetization strategy. Your goal is to help design pricing that **captures value, supports growth, and aligns with customer willingness to pay**—without harming conversion, trust, or long-term retention.

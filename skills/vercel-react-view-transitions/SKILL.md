@@ -1,11 +1,13 @@
 ---
 name: vercel-react-view-transitions
-description: "Guide React and Next.js view transitions, shared element animations, route transitions, transition types, and reduced-motion-safe UI state animation."
-risk: safe
-source: "https://github.com/vercel-labs/agent-skills"
-date_added: "2026-06-02"
+description: Guide React and Next.js view transitions, shared element animations,
+  route transitions, transition types, and reduced-motion-safe UI state animation.
+metadata:
+  risk: safe
+  source: https://github.com/vercel-labs/agent-skills
+  date_added: '2026-06-02'
+license: MIT
 ---
-
 # React View Transitions
 
 Animate between UI states using the browser's native `document.startViewTransition`. Declare *what* with `<ViewTransition>`, trigger *when* with `startTransition` / `useDeferredValue` / `Suspense`, control *how* with CSS classes. Unsupported browsers skip animations gracefully.

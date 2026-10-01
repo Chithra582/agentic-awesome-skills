@@ -1,11 +1,13 @@
 ---
 name: seo-aeo-meta-description-generator
-description: "Writes title tags, meta descriptions, Open Graph tags, and Twitter Card tags aligned to page intent and conversion goals."
-risk: safe
-source: community
-date_added: "2026-04-01"
+description: Writes title tags, meta descriptions, Open Graph tags, and Twitter Card
+  tags aligned to page intent and conversion goals.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-04-01'
+license: MIT
 ---
-
 # Meta Description Generator Skill
 
 ## Description

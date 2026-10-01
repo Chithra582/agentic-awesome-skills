@@ -1,15 +1,18 @@
 ---
 name: monte-carlo-performance-diagnosis
-description: "Diagnoses pipeline performance issues -- slow jobs, expensive queries, latency trends -- using Monte Carlo's cross-platform observability. Uses a tiered investigation approach: discover problems, bridge to affected tables, then drill into root causes."
-risk: critical
-source: https://github.com/monte-carlo-data/mc-agent-toolkit/tree/main/skills/performance-diagnosis
-source_repo: monte-carlo-data/mc-agent-toolkit
-source_type: community
-date_added: 2026-07-01
+description: 'Diagnoses pipeline performance issues -- slow jobs, expensive queries,
+  latency trends -- using Monte Carlo''s cross-platform observability. Uses a tiered
+  investigation approach: discover problems, bridge to affected tables, then drill
+  into root causes.'
 license: Apache-2.0
-license_source: https://github.com/monte-carlo-data/mc-agent-toolkit/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/monte-carlo-data/mc-agent-toolkit/tree/main/skills/performance-diagnosis
+  source_repo: monte-carlo-data/mc-agent-toolkit
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/monte-carlo-data/mc-agent-toolkit/blob/main/LICENSE
 ---
-
 # Monte Carlo Performance Diagnosis Skill
 
 This skill helps diagnose data pipeline performance issues using Monte Carlo's cross-platform observability data. It works across Airflow, dbt, Databricks, and warehouse query engines to find bottlenecks, detect regressions, and identify root causes.

@@ -1,15 +1,17 @@
 ---
 name: claimable-postgres
-description: "Provision instant temporary Postgres databases via Claimable Postgres by Neon (neon.new) with no login, signup, or credit card. Supports REST API, CLI, and SDK."
-risk: critical
-source: https://github.com/neondatabase/agent-skills/tree/main/skills/claimable-postgres
-source_repo: neondatabase/agent-skills
-source_type: official
-date_added: 2026-07-01
+description: Provision instant temporary Postgres databases via Claimable Postgres
+  by Neon (neon.new) with no login, signup, or credit card. Supports REST API, CLI,
+  and SDK.
 license: Apache-2.0
-license_source: https://github.com/neondatabase/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/neondatabase/agent-skills/tree/main/skills/claimable-postgres
+  source_repo: neondatabase/agent-skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/neondatabase/agent-skills/blob/main/LICENSE
 ---
-
 # Claimable Postgres
 ## When to Use
 

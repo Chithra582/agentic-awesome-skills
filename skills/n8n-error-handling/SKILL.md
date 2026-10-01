@@ -1,16 +1,17 @@
 ---
 name: n8n-error-handling
-description: Design visible, structured, recoverable n8n failures using error outputs, retries, Error Trigger workflows, and HTTP error responses.
-risk: critical
-source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-error-handling
-source_repo: czlonkowski/n8n-skills
-source_type: community
-date_added: "2026-07-21"
-author: Romuald Czlonkowski
+description: Design visible, structured, recoverable n8n failures using error outputs,
+  retries, Error Trigger workflows, and HTTP error responses.
 license: MIT
-license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-error-handling
+  source_repo: czlonkowski/n8n-skills
+  source_type: community
+  date_added: '2026-07-21'
+  author: Romuald Czlonkowski
+  license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
 ---
-
 # n8n Error Handling
 
 ## When to Use
@@ -266,24 +267,6 @@ For an **API / webhook** workflow:
 - [ ] Input validated upstream → 4xx Respond (schema validator or IF)
 - [ ] Every fallible node has `onError: "continueErrorOutput"` **and** `main[1]` wired
 - [ ] Network nodes have `retryOnFail: true, maxTries: 3, waitBetweenTries: 5000`
-- [ ] Error path ends at a Respond with an **explicit** 4xx/5xx `responseCode`
-- [ ] Status code matches cause (4xx caller, 5xx you)
-- [ ] Error body is `{ error, message }` — no stack traces, SQL, or tokens
-- [ ] Verified with `n8n_get_workflow`: both `onError` and `main[1]` present on each fallible node
+- [ ] Error path e
 
-For an **unattended** (scheduled/cron/queue) workflow:
-
-- [ ] Network nodes have `retryOnFail` configured
-- [ ] An Error Trigger workflow exists (capture → notify, optional retry)
-- [ ] The error workflow notifies on a different channel + has a fallback (recursion trap)
-- [ ] The error-workflow setting is assigned in the n8n UI (MCP can't do it — remind the user)
-
----
-
-**Remember**: the default is silence. Error handling is two moves — make the failure *route* (per-node `onError` + wired output, or a catch-all error workflow) and make it *speak* (a status code and body that tell the truth). Half a move is worse than none, because it looks done.
-
-## Limitations
-
-- Retry safety depends on each downstream operation's idempotency and cannot be inferred from workflow shape alone.
-- MCP validation cannot assign or prove the instance-level Error Workflow setting; verify it in the n8n UI.
-- Redaction rules must be adapted to the workflow's data classification and legal requirements.
+<!-- Truncated for OpenGAP token limits -->

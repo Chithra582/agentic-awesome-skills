@@ -1,15 +1,17 @@
 ---
 name: logic-fix-all
-description: "Autonomous repository-wide audit-and-fix pipeline: health → review → locate/explain → fix → diff-verify → iterate until clean. Starts with a mandatory consent prompt (token-intensive); after consent runs hands-free."
-risk: critical
-source: https://github.com/hyhmrright/logic-lens/tree/main/skills/logic-fix-all
-source_repo: hyhmrright/logic-lens
-source_type: community
-date_added: 2026-07-01
+description: 'Autonomous repository-wide audit-and-fix pipeline: health → review →
+  locate/explain → fix → diff-verify → iterate until clean. Starts with a mandatory
+  consent prompt (token-intensive); after consent runs hands-free.'
 license: MIT
-license_source: https://github.com/hyhmrright/logic-lens/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/hyhmrright/logic-lens/tree/main/skills/logic-fix-all
+  source_repo: hyhmrright/logic-lens
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/hyhmrright/logic-lens/blob/main/LICENSE
 ---
-
 # Logic-Lens — Logic Fix All
 ## When to Use
 

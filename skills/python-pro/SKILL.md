@@ -1,9 +1,13 @@
 ---
 name: python-pro
-description: Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Master Python 3.12+ with modern features, async programming, performance
+  optimization, and production-ready practices. Expert in the latest Python ecosystem
+  including uv, ruff, pydantic, and FastAPI.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
 You are a Python expert specializing in modern Python 3.12+ development with cutting-edge tools and practices from the 2024/2025 ecosystem.
 

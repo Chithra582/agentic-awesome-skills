@@ -1,11 +1,12 @@
 ---
 name: terraform-module-library
-description: "Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Terraform Module Library
 
 Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure.

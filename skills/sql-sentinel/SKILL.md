@@ -1,27 +1,25 @@
 ---
 name: sql-sentinel
-description: "Audit SQL for the cost & performance anti-patterns that burn warehouse credits. Scores warehouse health 0-100 and outputs a prioritized cost-reduction plan for BigQuery, Snowflake, Redshift, and Postgres."
-category: data
-risk: critical
-source: community
-source_repo: takeaseatventure/sql-sentinel
-source_type: community
-date_added: "2026-06-26"
-author: takeaseat
-tags: [sql, bigquery, snowflake, redshift, postgres, data-warehouse, cost-optimization, performance, audit, finops]
-tools: [claude, cursor, codex, gemini]
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
-  setup:
-    type: manual
-    summary: "Clone the upstream analyzer only after pinning or reviewing the exact commit to run."
-    docs: SKILL.md
-license: "MIT"
-license_source: "https://github.com/takeaseatventure/sql-sentinel/blob/main/LICENSE"
+description: Audit SQL for the cost & performance anti-patterns that burn warehouse
+  credits. Scores warehouse health 0-100 and outputs a prioritized cost-reduction
+  plan for BigQuery, Snowflake, Redshift, and Postgres.
+license: MIT
+metadata:
+  category: data
+  risk: critical
+  source: community
+  source_repo: takeaseatventure/sql-sentinel
+  source_type: community
+  date_added: '2026-06-26'
+  author: takeaseat
+  tags: '[''sql'', ''bigquery'', ''snowflake'', ''redshift'', ''postgres'', ''data-warehouse'',
+    ''cost-optimization'', ''performance'', ''audit'', ''finops'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'']'
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}, ''setup'':
+    {''type'': ''manual'', ''summary'': ''Clone the upstream analyzer only after pinning
+    or reviewing the exact commit to run.'', ''docs'': ''SKILL.md''}}'
+  license_source: https://github.com/takeaseatventure/sql-sentinel/blob/main/LICENSE
 ---
-
 # sql-sentinel
 
 ## Overview

@@ -1,19 +1,17 @@
 ---
 name: seo-technical
-description: "Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform signals like robots.txt and AI crawler access."
-risk: critical
-source: "https://github.com/AgriciDaniel/claude-seo"
-date_added: "2026-03-21"
-user-invokable: true
-argument-hint: "[url]"
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - WebFetch
+description: Audit technical SEO across crawlability, indexability, security, URLs,
+  mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform
+  signals like robots.txt and AI crawler access.
+allowed-tools: Read Grep Glob Bash WebFetch
+metadata:
+  risk: critical
+  source: https://github.com/AgriciDaniel/claude-seo
+  date_added: '2026-03-21'
+  user-invokable: 'True'
+  argument-hint: '[url]'
+license: MIT
 ---
-
 # Technical SEO Audit
 
 ## When to Use

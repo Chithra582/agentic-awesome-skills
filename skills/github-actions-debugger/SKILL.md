@@ -1,16 +1,18 @@
 ---
 name: github-actions-debugger
-description: "Specialized skill for diagnosing, analyzing, and fixing failing GitHub Actions workflows by parsing run logs and pipeline definitions."
-category: devops
-risk: safe
-source: community
-source_type: community
-date_added: "2026-06-25"
-author: Owais
-tags: [github-actions, ci-cd, devops, debugging, workflows]
-tools: [claude, cursor, gemini, antigravity]
+description: Specialized skill for diagnosing, analyzing, and fixing failing GitHub
+  Actions workflows by parsing run logs and pipeline definitions.
+metadata:
+  category: devops
+  risk: safe
+  source: community
+  source_type: community
+  date_added: '2026-06-25'
+  author: Owais
+  tags: '[''github-actions'', ''ci-cd'', ''devops'', ''debugging'', ''workflows'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''antigravity'']'
+license: MIT
 ---
-
 # GitHub Actions Pipeline Debugger
 
 ## Overview

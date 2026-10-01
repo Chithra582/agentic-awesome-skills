@@ -1,11 +1,14 @@
 ---
 name: seo-content-refresher
-description: Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content.
-risk: safe
-source: community
-date_added: '2026-02-27'
+description: Identifies outdated elements in provided content and suggests updates
+  to maintain freshness. Finds statistics, dates, and examples that need updating.
+  Use PROACTIVELY for older content.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on seo content refresher tasks or workflows

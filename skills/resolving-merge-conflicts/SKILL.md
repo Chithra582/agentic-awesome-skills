@@ -1,16 +1,15 @@
 ---
 name: resolving-merge-conflicts
 description: Use when you need to resolve an in-progress git merge/rebase conflict.
-risk: critical
-source: https://github.com/mattpocock/skills/tree/main/skills/engineering/resolving-merge-conflicts
-source_repo: mattpocock/skills
-source_type: community
-date_added: 2026-07-01
 license: MIT
-license_source: https://github.com/mattpocock/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/mattpocock/skills/tree/main/skills/engineering/resolving-merge-conflicts
+  source_repo: mattpocock/skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/mattpocock/skills/blob/main/LICENSE
 ---
-
-
 ## When to Use
 
 Use when you need to resolve an in-progress git merge/rebase conflict.

@@ -1,19 +1,20 @@
 ---
 name: multi-source-search
-description: "Cross-validate web research and produce an offline-checkable evidence ledger with explicit source diversity, confidence, conflicts, and gaps."
-category: research
-risk: safe
-source: community
-source_repo: sandbaseai/sandbase-skills
-source_type: community
-date_added: "2026-08-20"
-author: sandbaseai
-tags: [research, fact-checking, citations, evidence, verification]
-tools: [claude, cursor, gemini, codex]
+description: Cross-validate web research and produce an offline-checkable evidence
+  ledger with explicit source diversity, confidence, conflicts, and gaps.
 license: Apache-2.0
-license_source: "https://github.com/sandbaseai/sandbase-skills/blob/fc25b2ed4548b1bb91621661e82d07d4bbd285a1/LICENSE"
+metadata:
+  category: research
+  risk: safe
+  source: community
+  source_repo: sandbaseai/sandbase-skills
+  source_type: community
+  date_added: '2026-08-20'
+  author: sandbaseai
+  tags: '[''research'', ''fact-checking'', ''citations'', ''evidence'', ''verification'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/sandbaseai/sandbase-skills/blob/fc25b2ed4548b1bb91621661e82d07d4bbd285a1/LICENSE
 ---
-
 # Multi-Source Search
 
 ## Overview

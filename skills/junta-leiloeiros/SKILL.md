@@ -1,23 +1,16 @@
 ---
 name: junta-leiloeiros
-description: Coleta e consulta dados de leiloeiros oficiais de todas as 27 Juntas Comerciais do Brasil. Scraper multi-UF, banco SQLite, API FastAPI e exportacao CSV/JSON.
-risk: safe
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- scraping
-- brazilian-data
-- auctioneers
-- api
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Coleta e consulta dados de leiloeiros oficiais de todas as 27 Juntas
+  Comerciais do Brasil. Scraper multi-UF, banco SQLite, API FastAPI e exportacao CSV/JSON.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''scraping'', ''brazilian-data'', ''auctioneers'', ''api'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # Skill: Leiloeiros das Juntas Comerciais do Brasil
 
 ## Overview

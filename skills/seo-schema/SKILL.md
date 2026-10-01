@@ -1,23 +1,17 @@
 ---
 name: seo-schema
-description: >
-  Detect, validate, and generate Schema.org structured data. JSON-LD format
-  preferred. Use when user says "schema", "structured data", "rich results",
-  "JSON-LD", or "markup".
-risk: critical
-source: "https://github.com/AgriciDaniel/claude-seo"
-date_added: "2026-03-21"
-user-invokable: true
-argument-hint: "[url]"
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - WebFetch
-  - Write
+description: Detect, validate, and generate Schema.org structured data. JSON-LD format
+  preferred. Use when user says "schema", "structured data", "rich results", "JSON-LD",
+  or "markup".
+allowed-tools: Read Grep Glob Bash WebFetch Write
+metadata:
+  risk: critical
+  source: https://github.com/AgriciDaniel/claude-seo
+  date_added: '2026-03-21'
+  user-invokable: 'True'
+  argument-hint: '[url]'
+license: MIT
 ---
-
 # Schema Markup Analysis & Generation
 
 ## When to Use

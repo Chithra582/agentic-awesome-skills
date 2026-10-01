@@ -1,16 +1,20 @@
 ---
 name: weather-data-reproducibility
-description: "Record and verify provenance manifests for weather-data inputs and derived artifacts, including object identity, selections, software versions, transformations, and hashes."
-category: data
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-24"
-author: ShianMike
-tags: [weather, reproducibility, provenance, checksums, grib2, netcdf]
-tools: [claude, cursor, gemini, codex]
+description: Record and verify provenance manifests for weather-data inputs and derived
+  artifacts, including object identity, selections, software versions, transformations,
+  and hashes.
+metadata:
+  category: data
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-24'
+  author: ShianMike
+  tags: '[''weather'', ''reproducibility'', ''provenance'', ''checksums'', ''grib2'',
+    ''netcdf'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+license: MIT
 ---
-
 # Weather Data Reproducibility
 
 ## Overview

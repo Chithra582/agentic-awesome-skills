@@ -1,19 +1,21 @@
 ---
 name: brendangregg-use-tsa
-description: "Methodical performance troubleshooting and root-cause analysis with Brendan Gregg's USE and TSA methods, plus evidence-backed RCA and postmortem reports."
-category: devops
-risk: safe
-source: community
-source_repo: thecsdoctor/brendangregg-use-tsa-skill
-source_type: community
-date_added: "2026-07-28"
-author: thecsdoctor
-tags: [performance, troubleshooting, root-cause-analysis, linux, observability, sre, postmortem]
-tools: [claude, cursor, gemini, codex]
-license: "MIT"
-license_source: "https://github.com/thecsdoctor/brendangregg-use-tsa-skill/blob/main/LICENSE"
+description: Methodical performance troubleshooting and root-cause analysis with Brendan
+  Gregg's USE and TSA methods, plus evidence-backed RCA and postmortem reports.
+license: MIT
+metadata:
+  category: devops
+  risk: safe
+  source: community
+  source_repo: thecsdoctor/brendangregg-use-tsa-skill
+  source_type: community
+  date_added: '2026-07-28'
+  author: thecsdoctor
+  tags: '[''performance'', ''troubleshooting'', ''root-cause-analysis'', ''linux'',
+    ''observability'', ''sre'', ''postmortem'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/thecsdoctor/brendangregg-use-tsa-skill/blob/main/LICENSE
 ---
-
 # Brendan Gregg USE+TSA Performance Analysis
 
 ## Overview

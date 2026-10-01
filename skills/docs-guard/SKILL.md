@@ -1,17 +1,18 @@
 ---
-name: "docs-guard"
-description: "Review generated or changed documentation before it ships, including READMEs, API references, docstrings, changelogs, tutorials, and documentation sites."
-risk: "critical"
-source: "community"
-source_repo: "amElnagdy/guard-skills"
-source_type: "community"
-date_added: 2026-07-13
-author: "community"
-tags: []
-tools: []
+name: docs-guard
+description: Review generated or changed documentation before it ships, including
+  READMEs, API references, docstrings, changelogs, tutorials, and documentation sites.
+metadata:
+  risk: critical
+  source: community
+  source_repo: amElnagdy/guard-skills
+  source_type: community
+  date_added: '2026-07-13'
+  author: community
+  tags: '[]'
+  tools: '[]'
+license: MIT
 ---
-
-
 # Docs Guard
 
 You are reviewing generated or changed documentation before it ships. Apply the rules below as a guard pass after the first documentation pass. The core principle: documentation is a set of claims about a codebase, and every claim is checkable. Your job is to check them.

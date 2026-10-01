@@ -1,13 +1,15 @@
 ---
 name: ot-ics
-description: "Authorized OT/ICS security assessment: Purdue-model zoning review, PLC/SCADA exposure, industrial protocol discovery, and passive-first evaluation discipline."
-risk: offensive
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
-source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+description: 'Authorized OT/ICS security assessment: Purdue-model zoning review, PLC/SCADA
+  exposure, industrial protocol discovery, and passive-first evaluation discipline.'
+license: MIT
+metadata:
+  risk: offensive
+  source: https://github.com/zhaoxuya520/reverse-skill
+  source_repo: zhaoxuya520/reverse-skill
+  source_type: community
+  date_added: '2026-08-25'
+  license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.

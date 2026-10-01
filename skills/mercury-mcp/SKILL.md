@@ -1,15 +1,15 @@
 ---
 name: mercury-mcp
-description: "Cheatsheet for the Mercury (proton) MCP tools. Use when connected to the Mercury MCP server to look up which mercury_* tool to call for messaging teammates, threads, tasks, automations, or admin team-graph edits."
-risk: critical
-source: community
-date_added: "2026-05-19"
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
+description: Cheatsheet for the Mercury (proton) MCP tools. Use when connected to
+  the Mercury MCP server to look up which mercury_* tool to call for messaging teammates,
+  threads, tasks, automations, or admin team-graph edits.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-05-19'
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}}'
+license: MIT
 ---
-
 # Mercury MCP tool cheatsheet
 
 ## Overview

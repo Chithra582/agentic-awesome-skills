@@ -1,15 +1,12 @@
 ---
 name: startup-business-analyst-market-opportunity
-description: 'Generate comprehensive market opportunity analysis with TAM/SAM/SOM
-
-  calculations
-
-  '
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Generate comprehensive market opportunity analysis with TAM/SAM/SOM calculations
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Market Opportunity Analysis
 
 Generate a comprehensive market opportunity analysis for a startup, including Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) calculations using both bottom-up and top-down methodologies.

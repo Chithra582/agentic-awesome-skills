@@ -1,11 +1,12 @@
 ---
 name: sexual-health-analyzer
 description: Sexual Health Analyzer
-risk: safe
-source: community
-date_added: "2026-09-04"
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # 性健康分析技能
 
 ## Detailed Guide

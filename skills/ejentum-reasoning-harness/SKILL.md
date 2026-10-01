@@ -1,23 +1,23 @@
 ---
 name: ejentum-reasoning-harness
-description: "MCP server exposing four cognitive harness modes (reasoning, code, anti-deception, memory). Each call returns an engineered scaffold (failure pattern, procedure, suppression vectors, falsification test) the agent ingests before generating."
-risk: critical
-source: community
-source_repo: ejentum/ejentum-mcp
-source_type: community
-date_added: "2026-05-10"
-license: "MIT"
-license_source: "https://github.com/ejentum/ejentum-mcp/blob/main/LICENSE"
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
-  setup:
-    type: manual
-    summary: "Install the ejentum-mcp MCP server (`npx -y ejentum-mcp`) and provide an EJENTUM_API_KEY env var (free tier: 100 calls, no card, at https://ejentum.com/pricing). Add the server to your client's mcpServers config (Claude Code, Cursor, Cline, Windsurf, Codex CLI, Gemini CLI, Antigravity, or VS Code Copilot Chat)."
-    docs: "https://github.com/ejentum/ejentum-mcp#installation"
+description: MCP server exposing four cognitive harness modes (reasoning, code, anti-deception,
+  memory). Each call returns an engineered scaffold (failure pattern, procedure, suppression
+  vectors, falsification test) the agent ingests before generating.
+license: MIT
+metadata:
+  risk: critical
+  source: community
+  source_repo: ejentum/ejentum-mcp
+  source_type: community
+  date_added: '2026-05-10'
+  license_source: https://github.com/ejentum/ejentum-mcp/blob/main/LICENSE
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}, ''setup'':
+    {''type'': ''manual'', ''summary'': "Install the ejentum-mcp MCP server (`npx
+    -y ejentum-mcp`) and provide an EJENTUM_API_KEY env var (free tier: 100 calls,
+    no card, at https://ejentum.com/pricing). Add the server to your client''s mcpServers
+    config (Claude Code, Cursor, Cline, Windsurf, Codex CLI, Gemini CLI, Antigravity,
+    or VS Code Copilot Chat).", ''docs'': ''https://github.com/ejentum/ejentum-mcp#installation''}}'
 ---
-
 # Ejentum Reasoning Harness
 
 The Ejentum Reasoning Harness is a library of 679 cognitive operations engineered in natural language, organized across four harnesses (`reasoning`, `code`, `anti-deception`, `memory`) and exposed as MCP tools the agent can call when the task matches their trigger conditions. It targets four mechanism failures common in long agentic chains: attention decay (losing the original task), reasoning decay (compounding errors), sycophantic collapse (agreeing with the user's frame instead of evaluating it), and hallucination drift (asserting unsupported claims with confidence).

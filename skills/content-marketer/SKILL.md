@@ -1,11 +1,14 @@
 ---
 name: content-marketer
-description: Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Elite content marketing strategist specializing in AI-powered content
+  creation, omnichannel distribution, SEO optimization, and data-driven performance
+  marketing.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on content marketer tasks or workflows

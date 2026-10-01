@@ -2,18 +2,18 @@
 name: babysit-pr
 description: 'Babysit a pull request through its bot review rounds: verify, fix, reply,
   resolve. Use for any babysit or watch-the-PR ask.'
-risk: critical
-category: code-quality
-source: https://github.com/amElnagdy/review-skills
-source_repo: amElnagdy/review-skills
-source_type: community
-date_added: '2026-08-26'
 license: MIT
-license_source: https://github.com/amElnagdy/review-skills/blob/master/LICENSE
 compatibility: Requires `gh` (GitHub) or `glab` (GitLab) authenticated, plus `jq`
   and bash for the thread harvester.
 metadata:
   version: 0.1.0
+  risk: critical
+  category: code-quality
+  source: https://github.com/amElnagdy/review-skills
+  source_repo: amElnagdy/review-skills
+  source_type: community
+  date_added: '2026-08-26'
+  license_source: https://github.com/amElnagdy/review-skills/blob/master/LICENSE
 ---
 # Babysit a PR
 
@@ -325,19 +325,6 @@ yours.
 Some situations are not yours to grind through:
 
 - A bot finding that is right but demands a change well beyond this PR's scope.
-- Two bots contradicting each other on the same line, when code, tests, and the stated contract
-  cannot settle it.
-- The same finding recurring after a retry. The first recurrence gets a re-verified root cause and
-  one more attempt inside the repair budget; a second means your model of the bug is wrong.
-- A human reviewer's comment, always.
-- CI failing for infrastructure reasons rather than code.
-- The two-repair-cycle budget is exhausted.
-- The user asks to stop, push the current work, or end the babysit loop.
+- Two bots contradicting each other on the same line, when code, tests, a
 
-
-## Limitations
-
-- Requires authenticated `gh`/`glab`, `jq` and bash; harvests threads and reviews.
-- Docs-only import — executable helper (`scripts/threads.sh`) not included; see upstream for full runtime. Fixes are to PR branch only, never merges.
-
-> Adapted from [amElnagdy/review-skills](https://github.com/amElnagdy/review-skills) (MIT) — docs-only, runtime not bundled.
+<!-- Truncated for OpenGAP token limits -->

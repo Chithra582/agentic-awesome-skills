@@ -1,20 +1,21 @@
 ---
 name: fable-safe-prompt
-description: "Rewrite allowed prompts to reduce false-positive safety triggers without bypassing policy or changing intent."
-category: agent-behavior
-risk: safe
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [prompting, safety, guardrails]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
-disable-model-invocation: true
+description: Rewrite allowed prompts to reduce false-positive safety triggers without
+  bypassing policy or changing intent.
+license: MIT
+metadata:
+  category: agent-behavior
+  risk: safe
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''prompting'', ''safety'', ''guardrails'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
+  disable-model-invocation: 'True'
 ---
-
 # Fable-Safe Prompt
 
 ## When to Use

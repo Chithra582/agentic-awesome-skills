@@ -1,19 +1,20 @@
 ---
 name: routerbase-model-gateway
-description: "Integrate RouterBase as an OpenAI-compatible model gateway for routing GPT, Claude, Gemini, media, audio, and embedding requests."
-category: ai-ml
-risk: safe
-source: community
-source_repo: zenlee123/routerbase-agent-skills
-source_type: community
-date_added: "2026-07-07"
-author: zenlee123
-tags: [routerbase, llm-routing, openai-compatible, model-gateway]
-tools: [claude, cursor, gemini, codex, antigravity]
-license: "MIT-0"
-license_source: "https://github.com/zenlee123/routerbase-agent-skills/blob/main/LICENSE"
+description: Integrate RouterBase as an OpenAI-compatible model gateway for routing
+  GPT, Claude, Gemini, media, audio, and embedding requests.
+license: MIT-0
+metadata:
+  category: ai-ml
+  risk: safe
+  source: community
+  source_repo: zenlee123/routerbase-agent-skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: zenlee123
+  tags: '[''routerbase'', ''llm-routing'', ''openai-compatible'', ''model-gateway'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'', ''antigravity'']'
+  license_source: https://github.com/zenlee123/routerbase-agent-skills/blob/main/LICENSE
 ---
-
 # RouterBase Model Gateway
 
 ## Overview

@@ -1,19 +1,20 @@
 ---
 name: emil-design-eng
-description: "Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance."
-category: frontend
-risk: safe
-source: community
-source_repo: emilkowalski/skills
-source_type: community
-date_added: "2026-06-25"
-author: Emil Kowalski
+description: Use when designing or reviewing polished product UI with Emil Kowalski-inspired
+  animation, interaction, and component craft guidance.
 license: MIT
-license_source: "https://github.com/emilkowalski/skills/blob/main/LICENSE.txt"
-tags: [frontend, design, ui, animation, motion]
-tools: [claude, cursor, codex, antigravity]
+metadata:
+  category: frontend
+  risk: safe
+  source: community
+  source_repo: emilkowalski/skills
+  source_type: community
+  date_added: '2026-06-25'
+  author: Emil Kowalski
+  license_source: https://github.com/emilkowalski/skills/blob/main/LICENSE.txt
+  tags: '[''frontend'', ''design'', ''ui'', ''animation'', ''motion'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''antigravity'']'
 ---
-
 # Design Engineering
 
 ## Detailed Guide

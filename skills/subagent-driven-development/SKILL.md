@@ -1,11 +1,13 @@
 ---
 name: subagent-driven-development
-description: "Use when executing implementation plans with independent tasks in the current session"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Use when executing implementation plans with independent tasks in the
+  current session
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Subagent-Driven Development
 
 Execute plan by dispatching fresh subagent per task, with two-stage review after each: spec compliance review first, then code quality review.

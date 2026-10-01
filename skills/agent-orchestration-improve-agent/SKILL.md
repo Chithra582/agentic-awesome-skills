@@ -1,11 +1,13 @@
 ---
 name: agent-orchestration-improve-agent
-description: "Systematic improvement of existing agents through performance analysis, prompt engineering, and continuous iteration."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Systematic improvement of existing agents through performance analysis,
+  prompt engineering, and continuous iteration.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Agent Performance Optimization Workflow
 
 Systematic improvement of existing agents through performance analysis, prompt engineering, and continuous iteration.

@@ -1,19 +1,21 @@
 ---
 name: jev-use
-description: "Route enumerable judgment steps - did it work, which option, how risky, is this safe to run - to the Jev judgment model through the jev_judge and jev_gate MCP tools, batched into one call per state."
-category: agent-orchestration
-risk: safe
-source: community
-source_repo: shitianfang/jev-use
-source_type: community
-date_added: "2026-09-19"
-author: shitianfang
-tags: [agent-orchestration, mcp, routing, judgment, escalation]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/shitianfang/jev-use/blob/main/LICENSE"
+description: Route enumerable judgment steps - did it work, which option, how risky,
+  is this safe to run - to the Jev judgment model through the jev_judge and jev_gate
+  MCP tools, batched into one call per state.
+license: MIT
+metadata:
+  category: agent-orchestration
+  risk: safe
+  source: community
+  source_repo: shitianfang/jev-use
+  source_type: community
+  date_added: '2026-09-19'
+  author: shitianfang
+  tags: '[''agent-orchestration'', ''mcp'', ''routing'', ''judgment'', ''escalation'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/shitianfang/jev-use/blob/main/LICENSE
 ---
-
 # Jev Use
 
 ## Overview

@@ -1,13 +1,16 @@
 ---
 name: ida-reverse
-description: "Reverse engineer binaries with IDA Pro: decompilation, disassembly, data-flow tracking, cross-references, and IDA MCP automation for deep static analysis of PE/ELF/Mach-O targets."
-risk: safe
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
-source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+description: 'Reverse engineer binaries with IDA Pro: decompilation, disassembly,
+  data-flow tracking, cross-references, and IDA MCP automation for deep static analysis
+  of PE/ELF/Mach-O targets.'
+license: MIT
+metadata:
+  risk: safe
+  source: https://github.com/zhaoxuya520/reverse-skill
+  source_repo: zhaoxuya520/reverse-skill
+  source_type: community
+  date_added: '2026-08-25'
+  license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 # IDA Pro 逆向分析技能
 ## When to Use

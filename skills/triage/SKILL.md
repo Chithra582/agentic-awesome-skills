@@ -1,26 +1,21 @@
 ---
 name: triage
-description: Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.
-disable-model-invocation: true
-category: "development"
-risk: "safe"
-source: "community"
-source_repo: "mattpocock/skills"
-source_type: "community"
-date_added: "2026-06-19"
-author: "Matt Pocock"
-license: "MIT"
-license_source: "https://github.com/mattpocock/skills/blob/main/LICENSE"
-tags:
-  - engineering
-  - workflow
-  - coding-agents
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
+description: Move issues and external PRs through a state machine of triage roles
+  — categorise, verify, grill if needed, and write agent-ready briefs.
+license: MIT
+metadata:
+  disable-model-invocation: 'True'
+  category: development
+  risk: safe
+  source: community
+  source_repo: mattpocock/skills
+  source_type: community
+  date_added: '2026-06-19'
+  author: Matt Pocock
+  license_source: https://github.com/mattpocock/skills/blob/main/LICENSE
+  tags: '[''engineering'', ''workflow'', ''coding-agents'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'']'
 ---
-
 # Triage
 
 ## When to Use

@@ -1,11 +1,12 @@
 ---
 name: azure-web-pubsub-ts
-description: "Real-time messaging with WebSocket connections and pub/sub patterns."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Real-time messaging with WebSocket connections and pub/sub patterns.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure Web PubSub SDKs for TypeScript
 
 Real-time messaging with WebSocket connections and pub/sub patterns.

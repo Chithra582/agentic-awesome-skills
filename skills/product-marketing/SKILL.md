@@ -1,15 +1,16 @@
 ---
 name: product-marketing
-description: "When the user wants to create or update their product marketing context document."
-risk: critical
-source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing
-source_repo: coreyhaines31/marketingskills
-source_type: community
-date_added: 2026-07-01
+description: When the user wants to create or update their product marketing context
+  document.
 license: MIT
-license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing
+  source_repo: coreyhaines31/marketingskills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICENSE
 ---
-
 # Product Marketing Context
 ## When to Use
 

@@ -1,15 +1,17 @@
 ---
 name: context-engineering
-description: Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.
-risk: critical
-source: https://github.com/addyosmani/agent-skills/tree/main/skills/context-engineering
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Optimizes agent context setup. Use when starting a new session, when
+  agent output quality degrades, when switching between tasks, or when you need to
+  configure rules files and context for a project.
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/addyosmani/agent-skills/tree/main/skills/context-engineering
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Context Engineering
 
 ## Overview

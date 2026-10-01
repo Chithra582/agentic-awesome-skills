@@ -1,19 +1,20 @@
 ---
 name: interview-style-doc-building
-description: "Build structured strategy documents by asking one question at a time and patching the file."
-category: productivity
-risk: critical
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [documentation, interview, planning]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
+description: Build structured strategy documents by asking one question at a time
+  and patching the file.
+license: MIT
+metadata:
+  category: productivity
+  risk: critical
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''documentation'', ''interview'', ''planning'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
 ---
-
 # Interview-Style Doc Building
 
 The user's preferred mode for creating durable strategic docs. AI does NOT propose content — AI asks one question, the user answers, AI patches the file, AI asks the next question. The file IS the conversation's output, updated incrementally.

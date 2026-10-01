@@ -1,19 +1,20 @@
 ---
 name: us-property-data
-description: "Use when a task needs real U.S. residential property data: valuation, listings, price or tax history, schools, or a zillow.com URL."
-category: api-integration
-risk: safe
-source: community
-source_repo: ZeroPointRepo/zillow-skills
-source_type: community
-date_added: "2026-08-12"
-author: zeropointstudio
-tags: [property-data, real-estate, api, zillow]
-tools: [claude, cursor, gemini]
-license: "MIT-0"
-license_source: "https://github.com/ZeroPointRepo/zillow-skills/blob/main/LICENSE"
+description: 'Use when a task needs real U.S. residential property data: valuation,
+  listings, price or tax history, schools, or a zillow.com URL.'
+license: MIT-0
+metadata:
+  category: api-integration
+  risk: safe
+  source: community
+  source_repo: ZeroPointRepo/zillow-skills
+  source_type: community
+  date_added: '2026-08-12'
+  author: zeropointstudio
+  tags: '[''property-data'', ''real-estate'', ''api'', ''zillow'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/ZeroPointRepo/zillow-skills/blob/main/LICENSE
 ---
-
 # U.S. Property Data
 
 Gives Copilot a concrete, verifiable way to answer property-data questions in code instead of guessing at them.

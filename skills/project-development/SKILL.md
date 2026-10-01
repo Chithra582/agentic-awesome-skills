@@ -1,11 +1,14 @@
 ---
 name: project-development
-description: "This skill covers the principles for identifying tasks suited to LLM processing, designing effective project architectures, and iterating rapidly using agent-assisted development."
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: This skill covers the principles for identifying tasks suited to LLM
+  processing, designing effective project architectures, and iterating rapidly using
+  agent-assisted development.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Project Development Methodology
 
 This skill covers the principles for identifying tasks suited to LLM processing, designing effective project architectures, and iterating rapidly using agent-assisted development. The methodology applies whether building a batch processing pipeline, a multi-agent research system, or an interactive agent application.

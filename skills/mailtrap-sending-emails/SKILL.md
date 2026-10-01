@@ -1,11 +1,13 @@
 ---
 name: mailtrap-sending-emails
-description: Configure or troubleshoot Mailtrap live email sending with Email API, SMTP, transactional streams, bulk streams, or batches.
-risk: critical
-source: community
-date_added: "2026-06-19"
+description: Configure or troubleshoot Mailtrap live email sending with Email API,
+  SMTP, transactional streams, bulk streams, or batches.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-06-19'
+license: MIT
 ---
-
 # Sending emails (Mailtrap)
 
 ## Overview

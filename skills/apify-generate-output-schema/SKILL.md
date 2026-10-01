@@ -3,11 +3,13 @@ name: apify-generate-output-schema
 description: Generate output schemas (dataset_schema.json, output_schema.json, key_value_store_schema.json)
   for an Apify Actor by analyzing its source code. Use when creating or updating Actor
   output schemas.
-source_repo: apify/agent-skills
-source_type: official
-source: apify
-date_added: '2026-09-21'
-risk: unknown
+metadata:
+  source_repo: apify/agent-skills
+  source_type: official
+  source: apify
+  date_added: '2026-09-21'
+  risk: unknown
+license: MIT
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

@@ -1,15 +1,16 @@
 ---
 name: ui-update
-description: Update StyleSeed engine in your project — analyzes what's outdated and updates safely
-risk: critical
-source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-update
-source_repo: bitjaru/styleseed
-source_type: community
-date_added: 2026-07-01
+description: Update StyleSeed engine in your project — analyzes what's outdated and
+  updates safely
 license: MIT
-license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-update
+  source_repo: bitjaru/styleseed
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
 ---
-
 # StyleSeed Update Assistant
 ## When to Use
 

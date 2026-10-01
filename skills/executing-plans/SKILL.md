@@ -1,11 +1,13 @@
 ---
 name: executing-plans
-description: "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Use when you have a written implementation plan to execute in a separate
+  session with review checkpoints
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Executing Plans
 
 ## Overview

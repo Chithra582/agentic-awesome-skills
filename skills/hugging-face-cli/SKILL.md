@@ -1,15 +1,17 @@
 ---
 name: hugging-face-cli
-description: "Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub."
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/skills/hf-cli
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing
+  models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging
+  Face Hub.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/skills/hf-cli
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 ## When to Use
 
 Use this skill when you need hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub. Use when: handling authentication; managing local cache; managing Hugging Face Buckets; running or scheduling jobs on Hugging...
@@ -146,101 +148,6 @@ Generated with `huggingface_hub v1.21.0`. Run `hf skills add --force` to regener
 
 - `hf papers info PAPER_ID` — Get info about a paper on the Hub. `[--format [auto|human|agent|json|quiet]]`
 - `hf papers list` — List daily papers on the Hub. `[--date TEXT --week TEXT --month TEXT --submitter TEXT --sort [publishedAt|trending] --limit INTEGER --format [auto|human|agent|json|quiet]]`
-- `hf papers read PAPER_ID` — Read a paper as markdown. `[--format [auto|human|agent|json|quiet]]`
-- `hf papers search QUERY` — Search papers on the Hub. `[--limit INTEGER --format [auto|human|agent|json|quiet]]`
+- `hf papers read PAPER_ID` — Read a paper as markdown. `[--format [au
 
-### `hf repos` — Manage repos on the Hub.
-
-- `hf repos branch create REPO_ID BRANCH` — Create a new branch for a repo on the Hub. `[--revision TEXT --type [model|dataset|space] --exist-ok --format [auto|human|agent|json|quiet]]`
-- `hf repos branch delete REPO_ID BRANCH` — Delete a branch from a repo on the Hub. `[--type [model|dataset|space] --format [auto|human|agent|json|quiet]]`
-- `hf repos cp SRC` — Copy files between local paths, repositories, and buckets. `[--format [auto|human|agent|json|quiet]]`
-- `hf repos create REPO_ID` — Create a new repo on the Hub. `[--type [model|dataset|space] --space-sdk TEXT --private --public --protected --exist-ok --resource-group-id TEXT --region [us|eu] --flavor [cpu-basic|cpu-upgrade|zero-a10g|t4-small|t4-medium|l4x1|l4x4|l40sx1|l40sx4|l40sx8|a10g-small|a10g-large|a10g-largex2|a10g-largex4|a100-large|a100x4|a100x8] --storage [small|medium|large] --sleep-time INTEGER --secrets TEXT --secrets-file TEXT --env TEXT --env-file TEXT --volume TEXT --format [auto|human|agent|json|quiet]]`
-- `hf repos delete REPO_ID` — Delete a repo from the Hub. This is an irreversible operation. `[--type [model|dataset|space] --missing-ok --yes --format [auto|human|agent|json|quiet]]`
-- `hf repos delete-files REPO_ID PATTERNS` — Delete files from a repo on the Hub. `[--type [model|dataset|space] --revision TEXT --commit-message TEXT --commit-description TEXT --create-pr --format [auto|human|agent|json|quiet]]`
-- `hf repos duplicate FROM_ID` — Duplicate a repo on the Hub (model, dataset, or Space). `[--type [model|dataset|space] --private --public --protected --exist-ok --flavor [cpu-basic|cpu-upgrade|zero-a10g|t4-small|t4-medium|l4x1|l4x4|l40sx1|l40sx4|l40sx8|a10g-small|a10g-large|a10g-largex2|a10g-largex4|a100-large|a100x4|a100x8] --storage [small|medium|large] --sleep-time INTEGER --secrets TEXT --secrets-file TEXT --env TEXT --env-file TEXT --volume TEXT --format [auto|human|agent|json|quiet]]`
-- `hf repos list` — List all repos (models, datasets, spaces, buckets) with storage info. `[--namespace TEXT --type [model|dataset|space|bucket] --search TEXT --limit INTEGER --explore --format [auto|human|agent|json|quiet]]`
-- `hf repos move FROM_ID TO_ID` — Move a repository from a namespace to another namespace. `[--type [model|dataset|space] --format [auto|human|agent|json|quiet]]`
-- `hf repos settings REPO_ID` — Update the settings of a repository. `[--gated [auto|manual|false] --private --public --protected --type [model|dataset|space] --format [auto|human|agent|json|quiet]]`
-- `hf repos tag create REPO_ID TAG` — Create a tag for a repo. `[--message TEXT --revision TEXT --type [model|dataset|space] --format [auto|human|agent|json|quiet]]`
-- `hf repos tag delete REPO_ID TAG` — Delete a tag for a repo. `[--yes --type [model|dataset|space] --format [auto|human|agent|json|quiet]]`
-- `hf repos tag list REPO_ID` — List tags for a repo. `[--type [model|dataset|space] --format [auto|human|agent|json|quiet]]`
-
-### `hf skills` — Manage skills for AI assistants.
-
-- `hf skills add` — Download a Hugging Face skill and install it for an AI assistant. `[--claude --global --dest PATH --force --format [auto|human|agent|json|quiet]]`
-- `hf skills list` — List available skills from the Hugging Face marketplace. `[--format [auto|human|agent|json|quiet]]`
-- `hf skills preview` — Print the generated `hf-cli` SKILL.md to stdout. `[--format [auto|human|agent|json|quiet]]`
-- `hf skills update` — Update installed Hugging Face marketplace skills. `[--claude --global --dest PATH --format [auto|human|agent|json|quiet]]`
-
-### `hf spaces` — Interact with spaces on the Hub.
-
-- `hf spaces card SPACE_ID` — Get the Space card (README) for a Space on the Hub. `[--metadata --text --format [auto|human|agent|json|quiet]]`
-- `hf spaces dev-mode SPACE_ID` — Enable or disable dev mode on a Space. `[--stop --format [auto|human|agent|json|quiet]]`
-- `hf spaces hardware` — List available hardware options for Spaces. `[--format [auto|human|agent|json|quiet]]`
-- `hf spaces hot-reload SPACE_ID` — Hot-reload any Python file of a Space without a full rebuild + restart. `[--local-file PATH --skip-checks --skip-summary --format [auto|human|agent|json|quiet]]`
-- `hf spaces info SPACE_ID` — Get info about a space on the Hub. `[--revision TEXT --expand TEXT --format [auto|human|agent|json|quiet]]`
-- `hf spaces list` — List spaces on the Hub, or files in a space repo. `[--search TEXT --author TEXT --filter TEXT --sort [created_at|last_modified|likes|trending_score] --limit INTEGER --expand TEXT --human-readable --tree --recursive --revision TEXT --format [auto|human|agent|json|quiet]]`
-- `hf spaces logs SPACE_ID` — Fetch the run or build logs of a Space. `[--build --follow --tail INTEGER --format [auto|human|agent|json|quiet]]`
-- `hf spaces pause SPACE_ID` — Pause a Space. `[--format [auto|human|agent|json|quiet]]`
-- `hf spaces restart SPACE_ID` — Restart a Space. `[--factory-reboot --format [auto|human|agent|json|quiet]]`
-- `hf spaces search QUERY` — Search spaces on the Hub using semantic search. `[--filter TEXT --sdk TEXT --include-non-running --description --limit INTEGER --format [auto|human|agent|json|quiet]]`
-- `hf spaces secrets add SPACE_ID` — Add or update secrets for a Space. `[--secrets TEXT --secrets-file TEXT --format [auto|human|agent|json|quiet]]`
-- `hf spaces secrets delete SPACE_ID KEY` — Remove a secret from a Space. `[--yes --format [auto|human|agent|json|quiet]]`
-- `hf spaces secrets list SPACE_ID` — List secrets for a Space. Secret values are write-only and not returned. `[--format [auto|human|agent|json|quiet]]`
-- `hf spaces settings SPACE_ID` — Update the settings of a Space. `[--sleep-time INTEGER --hardware [cpu-basic|cpu-upgrade|zero-a10g|t4-small|t4-medium|l4x1|l4x4|l40sx1|l40sx4|l40sx8|a10g-small|a10g-large|a10g-largex2|a10g-largex4|a100-large|a100x4|a100x8] --format [auto|human|agent|json|quiet]]`
-- `hf spaces ssh SPACE_ID` — SSH into a Space's Dev Mode container. `[--identity-file PATH --dry-run --auto --format [auto|human|agent|json|quiet]]`
-- `hf spaces variables add SPACE_ID` — Add or update environment variables for a Space. `[--env TEXT --env-file TEXT --format [auto|human|agent|json|quiet]]`
-- `hf spaces variables delete SPACE_ID KEY` — Remove an environment variable from a Space. `[--yes --format [auto|human|agent|json|quiet]]`
-- `hf spaces variables list SPACE_ID` — List environment variables for a Space. `[--format [auto|human|agent|json|quiet]]`
-- `hf spaces volumes delete SPACE_ID` — Remove all volumes from a Space. `[--yes --format [auto|human|agent|json|quiet]]`
-- `hf spaces volumes list SPACE_ID` — List volumes mounted in a Space. `[--format [auto|human|agent|json|quiet]]`
-- `hf spaces volumes set SPACE_ID` — Set (replace) volumes for a Space. `[--volume TEXT --format [auto|human|agent|json|quiet]]`
-- `hf spaces wait SPACE_ID` — Wait for a Space to finish building/starting. `[--timeout TEXT --format [auto|human|agent|json|quiet]]`
-
-### `hf webhooks` — Manage webhooks on the Hub.
-
-- `hf webhooks create --watch TEXT` — Create a new webhook. `[--url TEXT --job-id TEXT --domain [repo|discussions] --secret TEXT --format [auto|human|agent|json|quiet]]`
-- `hf webhooks delete WEBHOOK_ID` — Delete a webhook permanently. `[--yes --format [auto|human|agent|json|quiet]]`
-- `hf webhooks disable WEBHOOK_ID` — Disable an active webhook. `[--format [auto|human|agent|json|quiet]]`
-- `hf webhooks enable WEBHOOK_ID` — Enable a disabled webhook. `[--format [auto|human|agent|json|quiet]]`
-- `hf webhooks info WEBHOOK_ID` — Show full details for a single webhook. `[--format [auto|human|agent|json|quiet]]`
-- `hf webhooks list` — List all webhooks for the current user. `[--format [auto|human|agent|json|quiet]]`
-- `hf webhooks update WEBHOOK_ID` — Update an existing webhook. Only provided options are changed. `[--url TEXT --watch TEXT --domain [repo|discussions] --secret TEXT --format [auto|human|agent|json|quiet]]`
-
-## Common options
-
-- `--format` — Output format: `--format json` (or `--json`) or `--format table` (default).
-- `-q / --quiet` — Quiet output (one ID per line).
-- `--revision` — Git revision id which can be a branch name, a tag, or a commit hash.
-- `--token` — Use a User Access Token. Prefer setting `HF_TOKEN` env var instead of passing `--token`.
-- `--type` — The type of repository (model, dataset, or space).
-
-## Mounting repos as local filesystems
-
-To mount Hub repositories or buckets as local filesystems — no download, no copy, no waiting — use `hf-mount`. Files are fetched on demand. GitHub: https://github.com/huggingface/hf-mount
-
-Install by downloading the installer script first, reviewing it, and then running it locally:
-`tmpdir="$(mktemp -d)" && trap 'rm -rf "$tmpdir"' EXIT && curl -fsSL https://raw.githubusercontent.com/huggingface/hf-mount/main/install.sh -o "$tmpdir/hf-mount-install.sh" && less "$tmpdir/hf-mount-install.sh" && sh "$tmpdir/hf-mount-install.sh"`
-
-Some command examples:
-- `hf-mount start repo openai-community/gpt2 /tmp/gpt2` — mount a repo (read-only)
-- `hf-mount start --hf-token $HF_TOKEN bucket myuser/my-bucket /tmp/data` — mount a bucket (read-write)
-- `hf-mount status` / `hf-mount stop /tmp/data` — list or unmount
-
-## Tips
-
-- Use `hf <command> --help` for full options, descriptions, usage, and real-world examples
-- Authenticate with `HF_TOKEN` env var (recommended) or with `--token`
-- Update the CLI with `hf update` (uses the correct command for the detected install method)
-
-## Example
-
-**User request:**
-
-> Use @hugging-face-cli for this task: Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub.
-
-## Limitations
-
-- Use this skill only when the task clearly matches its upstream product or API scope.
-- Verify commands, API behavior, pricing, quotas, credentials, and deployment effects against current official documentation before making changes.
-- Do not treat generated examples as a substitute for environment-specific tests, security review, or user approval for destructive or costly actions.
+<!-- Truncated for OpenGAP token limits -->

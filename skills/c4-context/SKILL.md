@@ -1,11 +1,14 @@
 ---
 name: c4-context
-description: Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, and external dependencies.
-risk: none
-source: community
-date_added: '2026-02-27'
+description: Expert C4 Context-level documentation specialist. Creates high-level
+  system context diagrams, documents personas, user journeys, system features, and
+  external dependencies.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # C4 Context Level: System Context
 
 ## Use this skill when

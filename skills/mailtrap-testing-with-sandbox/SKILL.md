@@ -1,11 +1,13 @@
 ---
 name: mailtrap-testing-with-sandbox
-description: Capture outbound email in Mailtrap Email Sandbox for development, staging, CI, HTML inspection, spam checks, and fake inbox tests.
-risk: safe
-source: community
-date_added: "2026-06-19"
+description: Capture outbound email in Mailtrap Email Sandbox for development, staging,
+  CI, HTML inspection, spam checks, and fake inbox tests.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-06-19'
+license: MIT
 ---
-
 # Testing with Mailtrap Email Sandbox
 
 ## Overview

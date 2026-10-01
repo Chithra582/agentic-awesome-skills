@@ -1,13 +1,14 @@
 ---
 name: hubspot-integration
-description: Expert patterns for HubSpot CRM integration including OAuth
-  authentication, CRM objects, associations, batch operations, webhooks, and
-  custom objects. Covers Node.js and Python SDKs.
-risk: critical
-source: vibeship-spawner-skills (Apache 2.0)
-date_added: 2026-02-27
+description: Expert patterns for HubSpot CRM integration including OAuth authentication,
+  CRM objects, associations, batch operations, webhooks, and custom objects. Covers
+  Node.js and Python SDKs.
+metadata:
+  risk: critical
+  source: vibeship-spawner-skills (Apache 2.0)
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # HubSpot Integration
 
 Expert patterns for HubSpot CRM integration including OAuth authentication,

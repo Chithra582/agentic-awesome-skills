@@ -1,15 +1,17 @@
 ---
 name: pytest-skill
-description: "Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\"."
-risk: critical
-source: https://github.com/LambdaTest/agent-skills/tree/main/pytest-skill
-source_repo: LambdaTest/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Generates production-grade pytest tests in Python with fixtures, parametrize,
+  markers, mocking, and conftest patterns. Use when user mentions "pytest", "conftest",
+  "@pytest.fixture", "@pytest.mark", "Python test".
 license: MIT
-license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/LambdaTest/agent-skills/tree/main/pytest-skill
+  source_repo: LambdaTest/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 ---
-
 # Pytest Testing Skill
 ## When to Use
 

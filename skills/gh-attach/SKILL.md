@@ -1,36 +1,25 @@
 ---
 name: gh-attach
-description: "Upload and download GitHub user-attachments (screenshots, PDFs, zips, videos) from the terminal; use when asked to attach or embed a file in a PR, issue, or comment, or download an attachment URL."
-category: developer-tools
-risk: critical
-source: community
-source_type: community
-source_repo: sudosubin/gh-attach
-date_added: "2026-08-01"
-author: sudosubin
+description: Upload and download GitHub user-attachments (screenshots, PDFs, zips,
+  videos) from the terminal; use when asked to attach or embed a file in a PR, issue,
+  or comment, or download an attachment URL.
 license: MIT
-license_source: "https://github.com/sudosubin/gh-attach/blob/main/LICENSE"
-tags:
-  - github
-  - attachments
-  - screenshots
-  - gh-extension
-  - cli
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
-  - copilot
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
-  setup:
-    type: manual
-    summary: "Installs a reviewed gh-attach release and, for uploads, uses an explicitly approved interactive browser session cookie."
-    docs: SKILL.md
+metadata:
+  category: developer-tools
+  risk: critical
+  source: community
+  source_type: community
+  source_repo: sudosubin/gh-attach
+  date_added: '2026-08-01'
+  author: sudosubin
+  license_source: https://github.com/sudosubin/gh-attach/blob/main/LICENSE
+  tags: '[''github'', ''attachments'', ''screenshots'', ''gh-extension'', ''cli'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'', ''copilot'']'
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}, ''setup'':
+    {''type'': ''manual'', ''summary'': ''Installs a reviewed gh-attach release and,
+    for uploads, uses an explicitly approved interactive browser session cookie.'',
+    ''docs'': ''SKILL.md''}}'
 ---
-
 # Upload and download GitHub user-attachments (gh-attach)
 
 GitHub has **no public API** for user-attachments. The web UI uses an internal

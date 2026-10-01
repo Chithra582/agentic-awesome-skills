@@ -2,27 +2,28 @@
 name: career-ops
 description: 'Multi-CLI job-search command center: evaluate offers, scan portals,
   tailor CVs, track applications, prep interviews. Invoke per mode.'
-category: productivity
-risk: safe
-source: https://github.com/career-ops-hq/career-ops
-source_repo: career-ops-hq/career-ops
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/career-ops-hq/career-ops/blob/main/LICENSE
 compatibility: Docs-only; the upstream Node runtime helpers are not bundled. Portal
   scans need network access and the user's own credentials; never submit applications
   without explicit approval.
-arguments: mode
-user_invocable: true
-user-invocable: true
-argument-hint: '[scan | discover | deep | pdf | text | latex | latex-tex | cover |
-  email | add | expand | eu-swe | oferta | ofertas | apply | batch | tracker | agent-inbox
-  | pipeline | contacto | training | project | interview-prep | interview | interview/plan
-  | interview/practice | interview/debrief | interview-redflag | patterns | offer-prep
-  | titles | upskill | followup | reply-watch | outcome | update]'
+metadata:
+  category: productivity
+  risk: safe
+  source: https://github.com/career-ops-hq/career-ops
+  source_repo: career-ops-hq/career-ops
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/career-ops-hq/career-ops/blob/main/LICENSE
+  arguments: mode
+  user_invocable: 'True'
+  user-invocable: 'True'
+  argument-hint: '[scan | discover | deep | pdf | text | latex | latex-tex | cover
+    | email | add | expand | eu-swe | oferta | ofertas | apply | batch | tracker |
+    agent-inbox | pipeline | contacto | training | project | interview-prep | interview
+    | interview/plan | interview/practice | interview/debrief | interview-redflag
+    | patterns | offer-prep | titles | upskill | followup | reply-watch | outcome
+    | update]'
 ---
-
 # career-ops -- Router
 
 career-ops is a multi-CLI job-search command center. The routing below is shared across supported agent CLIs even when the invocation surface differs.

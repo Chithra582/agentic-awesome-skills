@@ -1,11 +1,14 @@
 ---
 name: m365-agents-py
-description: Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot
+  Studio with aiohttp hosting, AgentApplication routing, streaming responses, and
+  MSAL-based auth.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Microsoft 365 Agents SDK (Python)
 
 Build enterprise agents for Microsoft 365, Teams, and Copilot Studio using the Microsoft Agents SDK with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based authentication.

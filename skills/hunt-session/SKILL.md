@@ -1,19 +1,20 @@
 ---
 name: hunt-session
 description: Hunt Session Management vulnerabilities
-category: security
-risk: offensive
-source: https://github.com/elementalsouls/Claude-BugHunter
-source_repo: elementalsouls/Claude-BugHunter
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
 compatibility: Requires explicit written authorization for a target scope plus the
   relevant testing tools for this technique. Docs-only; helper scripts and commands
   not bundled.
-sources: hackerone_public, portswigger_research, owasp_wstg
-report_count: 18
+metadata:
+  category: security
+  risk: offensive
+  source: https://github.com/elementalsouls/Claude-BugHunter
+  source_repo: elementalsouls/Claude-BugHunter
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
+  sources: hackerone_public, portswigger_research, owasp_wstg
+  report_count: '18'
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
@@ -297,46 +298,6 @@ Hand OAuth `state`/`redirect_uri`/code-injection to `hunt-oauth`; this phase onl
 | Session fixation (forced `__Host-`-less cookie) | Trick admin/SSO user into authenticating on planted ID | Admin session takeover (Critical) |
 | No logout/password-change invalidation | `hunt-xss`/`hunt-dom` cookie theft → replay surviving session | Persistent ATO past victim's reset |
 | Refresh token, no reuse-detection | Leaked RT (SSRF/log/bundle) → infinite access-token minting | Persistent ATO, survives password change |
-| `SameSite=Lax` only | Sibling-subdomain top-level nav (CVE-2024-22424 class) → CSRF | State change / login-CSRF → fixation |
-| JWT no `exp`/`jti` | Stolen token, no server revocation | Permanent access |
-| DBSC downgrade accepted | Steal plain cookie despite device-binding | Defeats the only theft mitigation |
-| Predictable ID | Compute/brute another user's session | Cross-user ATO |
+| `SameSite=Lax` only | Sibling-subdomain top-level nav (CVE-2
 
----
-
-## Validation (house FP discipline)
-
-Before claiming ANY session finding:
-- **Two real sessions, not placeholders** — every fixation/invalidation claim uses A and B captured by the `curl` flows above.
-- **Body-diff, never status-only** — a 200 means nothing without the account's unique identity marker present in the body, diffed against the authenticated baseline.
-- **Negative control** — a garbage/random cookie must FAIL where your "surviving" cookie succeeds; otherwise the endpoint isn't session-gated and it's a non-finding.
-- **Cache/edge check** — re-request with a cache-buster and from a second IP; rule out an edge-cached or IP-pinned 200.
-- **OOB for theft chains** — when the impact depends on exfiltrating a cookie/token (XSS, SSRF, log leak), confirm receipt out-of-band (Collaborator) rather than asserting it.
-- **Static-vs-state** — `HttpOnly`/`Secure`/`SameSite` absence is a *policy* observation; only report as High once paired with a real exploit primitive (XSS, network-MITM, CSRF). Standalone attribute gaps are Low/Informational.
-
-**Severity:**
-- Session fixation → admin/SSO takeover: **Critical**
-- No invalidation on password/email change, or refresh-token reuse without detection: **High → Critical** (escalate if MFA/step-up also absent)
-- Predictable/duplicate session ID: **High**
-- No invalidation on logout: **Medium → High** (depends on theft vector)
-- Missing `HttpOnly`/`SameSite` standalone: **Low/Informational** until chained
-
-## When to Use
-
-- You have explicit, written authorization to assess the target in scope, and the task matches this skill's vulnerability class or technique within a bug-bounty or penetration-test engagement.
-- You need the recon, exploitation, or validation workflow described below — executed strictly inside the approved scope.
-
-## Limitations
-
-- Authorized scope only: the confirmation gate above is mandatory before any probing, exploitation, or credential-access command.
-- Docs-only import: upstream helper scripts, commands, engine, and research assets are not bundled; reinstall tooling from the source repo when needed.
-- Validate every finding (see `triage-validation`) before reporting; report via `report-writing`. Prefer a sandbox, disposable VM, or controlled lab.
-
-### Example
-
-```bash
-# Read-only first step; confirm scope before anything active.
-cat scope.txt  # target list from the authorized engagement brief
-```
-
-> Adapted from [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) (MIT); frontmatter, When to Use/Limitations, and safety boundaries added for upstream compliance. Docs-only import: executable helpers, commands, engine, and research assets not bundled.
+<!-- Truncated for OpenGAP token limits -->

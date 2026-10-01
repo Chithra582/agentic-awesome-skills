@@ -1,23 +1,15 @@
 ---
 name: yann-lecun-filosofia
-description: "Sub-skill filosófica e pedagógica de Yann LeCun."
-risk: safe
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- persona
-- ai-philosophy
-- open-source
-- education
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Sub-skill filosófica e pedagógica de Yann LeCun.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''persona'', ''ai-philosophy'', ''open-source'', ''education'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # YANN LECUN — MÓDULO FILOSÓFICO E PEDAGÓGICO v3.0
 
 ## Overview

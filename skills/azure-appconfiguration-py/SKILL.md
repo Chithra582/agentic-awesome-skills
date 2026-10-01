@@ -1,11 +1,13 @@
 ---
 name: azure-appconfiguration-py
-description: Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Azure App Configuration SDK for Python. Use for centralized configuration
+  management, feature flags, and dynamic settings.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure App Configuration SDK for Python
 
 Centralized configuration management with feature flags and dynamic settings.

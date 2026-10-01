@@ -1,11 +1,13 @@
 ---
 name: helm-chart-scaffolding
-description: "Comprehensive guidance for creating, organizing, and managing Helm charts for packaging and deploying Kubernetes applications."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Comprehensive guidance for creating, organizing, and managing Helm charts
+  for packaging and deploying Kubernetes applications.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Helm Chart Scaffolding
 
 Comprehensive guidance for creating, organizing, and managing Helm charts for packaging and deploying Kubernetes applications.

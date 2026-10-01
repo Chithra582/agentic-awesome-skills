@@ -3,18 +3,18 @@ name: delegate-setup
 description: Configure approved delegation lanes across installed implementer CLIs,
   including optional model and effort choices, then write global or project config
   only after explicit user approval.
-risk: safe
-category: agent-orchestration
-source: https://github.com/amElnagdy/delegate-skills
-source_repo: amElnagdy/delegate-skills
-source_type: community
-date_added: '2026-08-26'
 license: MIT
-license_source: https://github.com/amElnagdy/delegate-skills/blob/master/LICENSE
 compatibility: Requires Node 18+. No implementer CLIs are required — the skill discovers
   what is available.
 metadata:
   version: 0.5.0
+  risk: safe
+  category: agent-orchestration
+  source: https://github.com/amElnagdy/delegate-skills
+  source_repo: amElnagdy/delegate-skills
+  source_type: community
+  date_added: '2026-08-26'
+  license_source: https://github.com/amElnagdy/delegate-skills/blob/master/LICENSE
 ---
 # Delegate Setup
 

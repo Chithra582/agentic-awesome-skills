@@ -1,11 +1,13 @@
 ---
 name: inventory-demand-planning
-description: Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers.
-risk: safe
-source: https://github.com/ai-evos/agent-skills
-date_added: '2026-02-27'
+description: Codified expertise for demand forecasting, safety stock optimisation,
+  replenishment planning, and promotional lift estimation at multi-location retailers.
+metadata:
+  risk: safe
+  source: https://github.com/ai-evos/agent-skills
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## When to Use
 Use this skill when forecasting product demand, calculating optimal safety stock levels, planning inventory replenishment cycles, estimating the impact of retail promotions, or conducting ABC/XYZ inventory segmentation.
 
@@ -149,81 +151,6 @@ Brief summaries here. Full analysis in [edge-cases.md](references/edge-cases.md)
 
 1. **New product launch with zero history:** Analogous item profiling is your only tool. Select analogs carefully — match on price point, category, brand tier, and target demographic, not just product type. Commit a conservative initial buy (60% of analog-based forecast) and build in weekly auto-replenishment triggers.
 
-2. **Viral social media spike:** Demand jumps 500–2,000% with no warning. Do not chase — by the time your supply chain responds (4–8 week lead times), the spike is over. Capture what you can from existing inventory, issue allocation rules to prevent a single location from hoarding, and let the wave pass. Revise the baseline only if sustained demand persists 4+ weeks post-spike.
+2. **Viral social media spike:** Demand jumps 500–2,000% with no warning. Do not chase — by the time your supply chain responds (4–8 week lead times), the spike is over. Capture what you can from existing inventory, issue allocation rules to prevent a single locat
 
-3. **Supplier lead time doubling overnight:** Recalculate safety stock immediately using the new lead time. If SS doubles, you likely cannot fill the gap from current inventory. Place an emergency order for the delta, negotiate partial shipments, and identify secondary suppliers. Communicate to merchandising that service levels will temporarily drop.
-
-4. **Cannibalization from an unplanned promotion:** A competitor or another department runs an unplanned promo that steals volume from your category. Your forecast will over-project. Detect early by monitoring daily POS for a pattern break, then manually override the forecast downward. Defer incoming orders if possible.
-
-5. **Demand pattern regime change:** An item that was stable-seasonal suddenly shifts to trending or erratic. Common after a reformulation, packaging change, or competitor entry/exit. The old model will fail silently. Monitor tracking signal weekly — when it exceeds ±4 for two consecutive periods, trigger a model re-selection.
-
-6. **Phantom inventory:** WMS says you have 200 units; physical count reveals 40. Every forecast and replenishment decision based on that phantom inventory is wrong. Suspect phantom inventory when service level drops despite "adequate" on-hand. Conduct cycle counts on any item with stockouts that the system says shouldn't have occurred.
-
-7. **Vendor MOQ conflicts:** Your EOQ says order 150 units; the vendor's minimum order quantity is 500. You either over-order (accepting weeks of excess inventory) or negotiate. Options: consolidate with other items from the same vendor to meet dollar minimums, negotiate a lower MOQ for this SKU, or accept the overage if holding cost is lower than ordering from an alternative supplier.
-
-8. **Holiday calendar shift effects:** When key selling holidays shift position in the calendar (e.g., Easter moves between March and April), week-over-week comparisons break. Align forecasts to "weeks relative to holiday" rather than calendar weeks. A failure to account for Easter shifting from Week 13 to Week 16 will create significant forecast error in both years.
-
-## Communication Patterns
-
-### Tone Calibration
-
-- **Vendor routine reorder:** Transactional, brief, PO-reference-driven. "PO #XXXX for delivery week of MM/DD per our agreed schedule."
-- **Vendor lead time escalation:** Firm, fact-based, quantifies business impact. "Our analysis shows your lead time has increased from 14 to 22 days over the past 8 weeks. This has resulted in X stockout events. We need a corrective plan by [date]."
-- **Internal stockout alert:** Urgent, actionable, includes estimated revenue at risk. Lead with the customer impact, not the inventory metric. "SKU X will stock out at 12 locations by Thursday. Estimated lost sales: $XX,000. Recommended action: [expedite/reallocate/substitute]."
-- **Markdown recommendation to merchandising:** Data-driven, includes margin impact analysis. Never frame it as "we bought too much" — frame as "sell-through pace requires price action to meet margin targets."
-- **Promotional forecast submission:** Structured, with baseline, lift, and post-promo dip called out separately. Include assumptions and confidence range. "Baseline: 500 units/week. Promotional lift estimate: 180% (900 incremental). Post-promo dip: −35% for 2 weeks. Confidence: ±25%."
-- **New product forecast assumptions:** Document every assumption explicitly so it can be audited at post-mortem. "Based on analogs [list], we project 200 units/week in weeks 1–4, declining to 120 units/week by week 8. Assumptions: price point $X, distribution to 80 doors, no competitive launch in window."
-
-Brief templates above. Full versions with variables in [communication-templates.md](references/communication-templates.md).
-
-## Escalation Protocols
-
-### Automatic Escalation Triggers
-
-| Trigger                                               | Action                                                 | Timeline                   |
-| ----------------------------------------------------- | ------------------------------------------------------ | -------------------------- |
-| Projected stockout on A-item within 7 days            | Alert demand planning manager + category merchant      | Within 4 hours             |
-| Vendor confirms lead time increase > 25%              | Notify supply chain director; recalculate all open POs | Within 1 business day      |
-| Promotional forecast miss > 40% (over or under)       | Post-promo debrief with merchandising and vendor       | Within 1 week of promo end |
-| Excess inventory > 26 weeks of supply on any A/B item | Markdown recommendation to merchandising VP            | Within 1 week of detection |
-| Forecast bias exceeds ±10% for 4 consecutive weeks    | Model review and re-parameterization                   | Within 2 weeks             |
-| New product sell-through < 40% of plan after 4 weeks  | Assortment review with merchandising                   | Within 1 week              |
-| Service level drops below 90% for any category        | Root cause analysis and corrective plan                | Within 48 hours            |
-
-### Escalation Chain
-
-Level 1 (Demand Planner) → Level 2 (Planning Manager, 24 hours) → Level 3 (Director of Supply Chain Planning, 48 hours) → Level 4 (VP Supply Chain, 72+ hours or any A-item stockout at enterprise customer)
-
-## Performance Indicators
-
-Track weekly and trend monthly:
-
-| Metric                                          | Target       | Red Flag            |
-| ----------------------------------------------- | ------------ | ------------------- |
-| WMAPE (weighted mean absolute percentage error) | < 25%        | > 35%               |
-| Forecast bias                                   | ±5%          | > ±10% for 4+ weeks |
-| In-stock rate (A-items)                         | > 97%        | < 94%               |
-| In-stock rate (all items)                       | > 95%        | < 92%               |
-| Weeks of supply (aggregate)                     | 4–8 weeks    | > 12 or < 3         |
-| Excess inventory (>26 weeks supply)             | < 5% of SKUs | > 10% of SKUs       |
-| Dead stock (zero sales, 13+ weeks)              | < 2% of SKUs | > 5% of SKUs        |
-| Purchase order fill rate from vendors           | > 95%        | < 90%               |
-| Promotional forecast accuracy (WMAPE)           | < 35%        | > 50%               |
-
-## Additional Resources
-
-- For detailed decision frameworks, optimization models, and method selection trees, see [decision-frameworks.md](references/decision-frameworks.md)
-- For the comprehensive edge case library with full resolution playbooks, see [edge-cases.md](references/edge-cases.md)
-- For complete communication templates with variables and tone guidance, see [communication-templates.md](references/communication-templates.md)
-
-### When to Use
-Use this skill when you need to **forecast demand and shape inventory policy across SKUs, stores, and vendors**:
-
-- Selecting and tuning forecasting methods, safety stock policies, and reorder logic for different demand patterns.
-- Planning promotions, seasonal transitions, markdowns, and end‑of‑life strategies while balancing service, cash, and margin.
-- Investigating chronic stockouts, excess inventory, or forecast bias and redesigning the planning process with clearer decision frameworks.
-
-## Limitations
-- Use this skill only when the task clearly matches the scope described above.
-- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
-- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
+<!-- Truncated for OpenGAP token limits -->

@@ -1,11 +1,13 @@
 ---
 name: magic-ui-generator
-description: Utilizes Magic by 21st.dev to generate, compare, and integrate multiple production-ready UI component variations.
-risk: safe
-source: community
-date_added: "2026-03-07"
+description: Utilizes Magic by 21st.dev to generate, compare, and integrate multiple
+  production-ready UI component variations.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-07'
+license: MIT
 ---
-
 # Magic UI Generator
 
 Leverage [Magic by 21st.dev](https://21st.dev/magic) to build modern, responsive UI components using an AI-native workflow that prioritizes choice and design excellence.

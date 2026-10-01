@@ -1,17 +1,19 @@
 ---
 name: graceful-shutdown
-description: "Implement graceful shutdown for servers and workers: drain connections, finish in-flight work, release resources, and exit cleanly on SIGTERM/SIGINT."
-category: development
-risk: safe
-source: self
-source_type: self
-date_added: "2026-08-27"
-author: Prajeeth-12
-tags: [graceful-shutdown, signals, SIGTERM, SIGINT, drain, health-check, kubernetes, docker, production, resilience]
-tools: [claude, cursor, codex, gemini]
-license: "MIT"
+description: 'Implement graceful shutdown for servers and workers: drain connections,
+  finish in-flight work, release resources, and exit cleanly on SIGTERM/SIGINT.'
+license: MIT
+metadata:
+  category: development
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-08-27'
+  author: Prajeeth-12
+  tags: '[''graceful-shutdown'', ''signals'', ''SIGTERM'', ''SIGINT'', ''drain'',
+    ''health-check'', ''kubernetes'', ''docker'', ''production'', ''resilience'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'']'
 ---
-
 # Graceful Shutdown
 
 ## Overview

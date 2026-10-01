@@ -2,21 +2,20 @@
 name: hipaa-compliance
 description: Implement HIPAA security and privacy rules. Configure PHI protections
   and BAA requirements. Use when handling healthcare data.
-category: security
-risk: safe
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Checklist and framework guidance; no privileged tooling required. Apply
   controls through your own change process.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: security
+  risk: safe
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # HIPAA Compliance
 
 Implement HIPAA Security Rule, Privacy Rule, and Breach Notification Rule requirements for systems that create, receive, maintain, or transmit electronic Protected Health Information (ePHI).

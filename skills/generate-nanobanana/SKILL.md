@@ -1,19 +1,22 @@
 ---
 name: generate-nanobanana
-description: "Generate and edit images/video with Google's Gemini media models (Nano Banana 2/Pro, Gemini Omni Flash), with cost-approval gates, reference-image support, and a prompt/output log per call."
-category: media
-risk: critical
-source: community
-source_repo: AntonioCardenas/generate-nanobanana
-source_type: community
-date_added: "2026-08-04"
-author: antonio
-tags: [nanobanana, gemini, google-ai-studio, image-generation, video-generation]
-tools: [claude, cursor, gemini, codex, antigravity]
-license: "MIT"
-license_source: "https://github.com/AntonioCardenas/generate-nanobanana/blob/main/LICENSE"
+description: Generate and edit images/video with Google's Gemini media models (Nano
+  Banana 2/Pro, Gemini Omni Flash), with cost-approval gates, reference-image support,
+  and a prompt/output log per call.
+license: MIT
+metadata:
+  category: media
+  risk: critical
+  source: community
+  source_repo: AntonioCardenas/generate-nanobanana
+  source_type: community
+  date_added: '2026-08-04'
+  author: antonio
+  tags: '[''nanobanana'', ''gemini'', ''google-ai-studio'', ''image-generation'',
+    ''video-generation'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'', ''antigravity'']'
+  license_source: https://github.com/AntonioCardenas/generate-nanobanana/blob/main/LICENSE
 ---
-
 # Generate Nanobanana
 
 ## Overview

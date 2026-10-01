@@ -1,15 +1,16 @@
 ---
 name: api-sdk-generator
-description: "Generates client SDK code, API wrapper libraries, request/response models, and language-specific usage patterns for any REST API."
-risk: critical
-source: https://github.com/LambdaTest/agent-skills/tree/main/api-skill/api-sdk-generator
-source_repo: LambdaTest/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Generates client SDK code, API wrapper libraries, request/response models,
+  and language-specific usage patterns for any REST API.
 license: MIT
-license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/LambdaTest/agent-skills/tree/main/api-skill/api-sdk-generator
+  source_repo: LambdaTest/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 ---
-
 # API SDK & Codegen Skill
 ## When to Use
 

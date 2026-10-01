@@ -1,20 +1,21 @@
 ---
-description: Curated upstream guidance for Longbridge Quant; use when the workflow matches the user goal.
+description: Curated upstream guidance for Longbridge Quant; use when the workflow
+  matches the user goal.
 name: longbridge-quant
 license: MIT
 metadata:
   author: longbridge
   version: 1.0.0
   risk_level: read_only
-  requires_login: false
-  default_install: true
-  requires_mcp: false
+  requires_login: 'False'
+  default_install: 'True'
+  requires_mcp: 'False'
   tier: read
-source_repo: longbridge/skills
-source_type: official
-source: longbridge
-date_added: '2026-09-21'
-risk: unknown
+  source_repo: longbridge/skills
+  source_type: official
+  source: longbridge
+  date_added: '2026-09-21'
+  risk: unknown
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

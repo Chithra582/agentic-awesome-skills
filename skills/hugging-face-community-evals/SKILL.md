@@ -1,15 +1,17 @@
 ---
 name: hugging-face-community-evals
-description: "Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate."
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/skills/huggingface-community-evals
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: Run evaluations for Hugging Face Hub models using inspect-ai and lighteval
+  on local hardware. Use for backend selection, local GPU evals, and choosing between
+  vLLM / Transformers / accelerate.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/skills/huggingface-community-evals
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 # Overview
 ## When to Use
 

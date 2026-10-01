@@ -1,11 +1,15 @@
 ---
 name: code-simplifier
-description: Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to "simplify code", "clean up code", "refactor for clarity", "improve readability", or review recently modified code for elegance. Focuses on project-specific best practices.
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Simplifies and refines code for clarity, consistency, and maintainability
+  while preserving all functionality. Use when asked to "simplify code", "clean up
+  code", "refactor for clarity", "improve readability", or review recently modified
+  code for elegance. Focuses on project-specific best practices.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 <!--
 Based on Anthropic's code-simplifier agent:
 https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-simplifier/agents/code-simplifier.md

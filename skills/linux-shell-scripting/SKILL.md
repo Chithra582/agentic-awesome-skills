@@ -1,12 +1,16 @@
 ---
 name: linux-shell-scripting
-description: "Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration testing environments."
-risk: critical
-source: community
-author: zebbern
-date_added: "2026-02-27"
+description: Provide production-ready shell script templates for common Linux system
+  administration tasks including backups, monitoring, user management, log analysis,
+  and automation. These scripts serve as building blocks for security operations and
+  penetration testing environments.
+metadata:
+  risk: critical
+  source: community
+  author: zebbern
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Linux Production Shell Scripts
 
 ## Detailed Guide

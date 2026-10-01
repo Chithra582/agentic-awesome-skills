@@ -1,11 +1,12 @@
 ---
 name: macos-menubar-tuist-app
 description: Build, refactor, or review SwiftUI macOS menubar apps that use Tuist.
-risk: safe
-source: "Dimillian/Skills (MIT)"
-date_added: "2026-03-25"
+metadata:
+  risk: safe
+  source: Dimillian/Skills (MIT)
+  date_added: '2026-03-25'
+license: MIT
 ---
-
 # macos-menubar-tuist-app
 
 Build and maintain macOS menubar apps with a Tuist-first workflow and stable launch scripts. Preserve strict architecture boundaries so networking, state, and UI remain testable and predictable.

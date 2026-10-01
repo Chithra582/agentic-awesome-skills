@@ -1,19 +1,23 @@
 ---
 name: idea-os
-description: "Five-phase pipeline (triage → clarify → research → PRD → plan) that turns a raw idea into four linked files: clarifying questions, deep research, a PRD with non-goals and metrics, and a phased execution plan with mermaid user journey and kill criteria."
-category: product-management
-risk: safe
-source: community
-source_repo: Slashworks-biz/idea-os
-source_type: community
-date_added: "2026-04-18"
-author: Slashworks-biz
-tags: [product-management, prd, market-research, mvp, idea-validation, jtbd, swot, competitor-analysis, founder, non-technical]
-tools: [claude, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/Slashworks-biz/idea-os/blob/main/LICENSE"
+description: 'Five-phase pipeline (triage → clarify → research → PRD → plan) that
+  turns a raw idea into four linked files: clarifying questions, deep research, a
+  PRD with non-goals and metrics, and a phased execution plan with mermaid user journey
+  and kill criteria.'
+license: MIT
+metadata:
+  category: product-management
+  risk: safe
+  source: community
+  source_repo: Slashworks-biz/idea-os
+  source_type: community
+  date_added: '2026-04-18'
+  author: Slashworks-biz
+  tags: '[''product-management'', ''prd'', ''market-research'', ''mvp'', ''idea-validation'',
+    ''jtbd'', ''swot'', ''competitor-analysis'', ''founder'', ''non-technical'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/Slashworks-biz/idea-os/blob/main/LICENSE
 ---
-
 # idea-os
 
 An operating system for turning a raw idea into a build-ready plan. Takes a rough problem statement and produces four files: clarifying questions, deep research, a PRD, and a phased execution plan with platform/stack picks, a user-journey diagram, and kill criteria.

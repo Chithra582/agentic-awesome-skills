@@ -1,15 +1,16 @@
 ---
 name: logic-locate
-description: "Locate the root cause of a CONFIRMED failure via backward-then-forward semi-formal tracing."
-risk: safe
-source: https://github.com/hyhmrright/logic-lens/tree/main/skills/logic-locate
-source_repo: hyhmrright/logic-lens
-source_type: community
-date_added: 2026-07-01
+description: Locate the root cause of a CONFIRMED failure via backward-then-forward
+  semi-formal tracing.
 license: MIT
-license_source: https://github.com/hyhmrright/logic-lens/blob/main/LICENSE
+metadata:
+  risk: safe
+  source: https://github.com/hyhmrright/logic-lens/tree/main/skills/logic-locate
+  source_repo: hyhmrright/logic-lens
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/hyhmrright/logic-lens/blob/main/LICENSE
 ---
-
 # Logic-Lens — Fault Locate
 ## When to Use
 

@@ -2,21 +2,20 @@
 name: disaster-recovery
 description: Implement disaster recovery strategies and runbooks. Configure RPO/RTO
   targets and failover procedures. Use when planning for business continuity.
-category: security
-risk: safe
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Checklist and framework guidance; no privileged tooling required. Apply
   controls through your own change process.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: security
+  risk: safe
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # Disaster Recovery
 
 Implement disaster recovery strategies including RTO/RPO planning, AWS cross-region failover patterns, DR testing procedures, and automated failover scripts.

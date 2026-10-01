@@ -1,11 +1,12 @@
 ---
 name: context-management-context-save
-description: "Use when working with context management context save"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Use when working with context management context save
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Context Save Tool: Intelligent Context Management Specialist
 
 ## Use this skill when

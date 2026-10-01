@@ -1,15 +1,17 @@
 ---
 name: longbridge-fundamentals
-description: "Financial statements, business segments, dividends, valuation multiples (PE/PB/PS), industry comparison, operating data, corporate actions, company and executive profiles, cross-stock comparison, and valuation ranking via Longbridge."
-risk: critical
-source: https://github.com/longbridge/skills/tree/main/skills/longbridge-fundamentals
-source_repo: longbridge/skills
-source_type: official
-date_added: 2026-07-01
+description: Financial statements, business segments, dividends, valuation multiples
+  (PE/PB/PS), industry comparison, operating data, corporate actions, company and
+  executive profiles, cross-stock comparison, and valuation ranking via Longbridge.
 license: MIT
-license_source: https://github.com/longbridge/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/longbridge/skills/tree/main/skills/longbridge-fundamentals
+  source_repo: longbridge/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/longbridge/skills/blob/main/LICENSE
 ---
-
 # Longbridge Fundamentals
 
 Financial data, valuation, and company information for HK / US / A-share / Singapore via Longbridge.

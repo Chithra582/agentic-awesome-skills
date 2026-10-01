@@ -1,12 +1,14 @@
 ---
 name: shodan-reconnaissance
-description: "Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements."
-risk: offensive
-source: community
-author: zebbern
-date_added: "2026-02-27"
+description: Provide systematic methodologies for leveraging Shodan as a reconnaissance
+  tool during penetration testing engagements.
+metadata:
+  risk: offensive
+  source: community
+  author: zebbern
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

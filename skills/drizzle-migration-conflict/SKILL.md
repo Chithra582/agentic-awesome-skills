@@ -1,19 +1,20 @@
 ---
 name: drizzle-migration-conflict
-description: "Diagnose, repair, and prevent Drizzle Kit migration conflicts involving generated SQL, snapshots, journals, merge queues, and team workflows."
-category: databases
-risk: critical
-source: community
-source_repo: chaunsin/agent-skills
-source_type: community
-date_added: "2026-06-29"
-author: chaunsin
-tags: [drizzle, migrations, database, ci, merge-conflicts]
-tools: [git, python, rg]
-license: "Apache-2.0"
-license_source: "https://github.com/chaunsin/agent-skills/blob/master/LICENSE"
+description: Diagnose, repair, and prevent Drizzle Kit migration conflicts involving
+  generated SQL, snapshots, journals, merge queues, and team workflows.
+license: Apache-2.0
+metadata:
+  category: databases
+  risk: critical
+  source: community
+  source_repo: chaunsin/agent-skills
+  source_type: community
+  date_added: '2026-06-29'
+  author: chaunsin
+  tags: '[''drizzle'', ''migrations'', ''database'', ''ci'', ''merge-conflicts'']'
+  tools: '[''git'', ''python'', ''rg'']'
+  license_source: https://github.com/chaunsin/agent-skills/blob/master/LICENSE
 ---
-
 # Drizzle Migration Conflict
 
 Use this skill to help a user diagnose, repair, and prevent Drizzle Kit migration conflicts in a

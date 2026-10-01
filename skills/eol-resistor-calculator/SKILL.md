@@ -1,18 +1,22 @@
 ---
 name: eol-resistor-calculator
-description: "Calculates and validates end-of-line (EOL, SEOL, DEOL, TEOL) resistor loops for intrusion alarm panels (Honeywell, DSC, Paradox, Bosch) with wire gauge drop and state tables. Trigger phrases: eol resistor, deol wiring, alarm zone resistor, calculate end of line, double eol tamper."
-category: architecture
-risk: safe
-source: community
-source_repo: wwewtech/eol-resistor-calculator
-source_type: community
-date_added: "2026-09-22"
-author: wwewtech
-tags: [security-systems, hardware, electronics, alarm-panel, circuit-design, electrical-engineering]
-tools: [claude, cursor, gemini, windsurf]
-license: "MIT"
+description: 'Calculates and validates end-of-line (EOL, SEOL, DEOL, TEOL) resistor
+  loops for intrusion alarm panels (Honeywell, DSC, Paradox, Bosch) with wire gauge
+  drop and state tables. Trigger phrases: eol resistor, deol wiring, alarm zone resistor,
+  calculate end of line, double eol tamper.'
+license: MIT
+metadata:
+  category: architecture
+  risk: safe
+  source: community
+  source_repo: wwewtech/eol-resistor-calculator
+  source_type: community
+  date_added: '2026-09-22'
+  author: wwewtech
+  tags: '[''security-systems'', ''hardware'', ''electronics'', ''alarm-panel'', ''circuit-design'',
+    ''electrical-engineering'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''windsurf'']'
 ---
-
 # EOL Resistor Calculator: Precision Intrusion Loop Supervision & State Solver
 
 Accurately size, configure, and troubleshoot Single (SEOL), Double (DEOL), and Triple (TEOL) end-of-line resistor loops across major security panel architectures with copper wire drop compensation and tamper state discrimination.

@@ -1,9 +1,11 @@
 ---
 name: customer-psychographic-profiler
-description: "One sentence - what this skill does and when to invoke it"
-risk: safe
-source: community
-date_added: "2026-04-04"
+description: One sentence - what this skill does and when to invoke it
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-04-04'
+license: MIT
 ---
 You are a **Consumer Psychologist**. Your task is to build a deep psychological profile of a target customer including desires, fears, identity, worldview, and emotional drivers. You do not produce generic audience summaries. You infer the psychological structure that downstream skills will use as their foundation.
 

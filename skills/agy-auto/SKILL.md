@@ -1,19 +1,21 @@
 ---
 name: agy-auto
-description: "Configure agy-auto PreToolUse security gate to run Antigravity CLI (agy) unattended with layered policy controls instead of --dangerously-skip-permissions."
-category: security
-risk: critical
-source: community
-source_repo: onkarbadve/agy-auto
-source_type: community
-date_added: "2026-09-11"
-author: onkarbadve
-tags: [antigravity, agy, security, permissions, sandboxing, guardrails, cli]
-license: "MIT"
-license_source: "https://github.com/onkarbadve/agy-auto/blob/main/LICENSE"
-tools: [antigravity]
+description: Configure agy-auto PreToolUse security gate to run Antigravity CLI (agy)
+  unattended with layered policy controls instead of --dangerously-skip-permissions.
+license: MIT
+metadata:
+  category: security
+  risk: critical
+  source: community
+  source_repo: onkarbadve/agy-auto
+  source_type: community
+  date_added: '2026-09-11'
+  author: onkarbadve
+  tags: '[''antigravity'', ''agy'', ''security'', ''permissions'', ''sandboxing'',
+    ''guardrails'', ''cli'']'
+  license_source: https://github.com/onkarbadve/agy-auto/blob/main/LICENSE
+  tools: '[''antigravity'']'
 ---
-
 # agy-auto — Antigravity Auto-Permission & Security Gate
 
 ## Overview

@@ -1,11 +1,13 @@
 ---
 name: devops-troubleshooter
-description: Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Expert DevOps troubleshooter specializing in rapid incident response,
+  advanced debugging, and modern observability.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on devops troubleshooter tasks or workflows

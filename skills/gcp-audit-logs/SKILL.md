@@ -2,21 +2,20 @@
 name: gcp-audit-logs
 description: Configure GCP Cloud Audit Logs for compliance. Set up log routing and
   BigQuery analysis. Use when auditing GCP activity.
-category: security
-risk: safe
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Checklist and framework guidance; no privileged tooling required. Apply
   controls through your own change process.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: security
+  risk: safe
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # GCP Audit Logs
 
 Audit GCP activity with Cloud Audit Logs for compliance, security investigation, and operational monitoring.

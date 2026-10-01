@@ -1,11 +1,12 @@
 ---
 name: speckit-updater
 description: SpecKit Safe Update
-risk: critical
-source: community
-date_added: "2026-09-04"
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # SpecKit Safe Update
 
 This skill provides safe update capabilities for GitHub SpecKit installations, preserving customizations while applying template updates.

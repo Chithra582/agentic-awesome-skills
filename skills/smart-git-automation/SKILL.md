@@ -1,16 +1,17 @@
 ---
 name: smart-git-automation
-version: 1.0.0
-description: "Smart change detection, auto branch naming, and streamlined commit/PR workflow"
-risk: critical
-source: community
-source_type: community
-source_repo: mskadu/opencode-agent-skills
+description: Smart change detection, auto branch naming, and streamlined commit/PR
+  workflow
 license: MIT
-license_source: "https://github.com/mskadu/opencode-agent-skills/blob/main/LICENSE"
-date_added: "2026-06-05"
+metadata:
+  version: 1.0.0
+  risk: critical
+  source: community
+  source_type: community
+  source_repo: mskadu/opencode-agent-skills
+  license_source: https://github.com/mskadu/opencode-agent-skills/blob/main/LICENSE
+  date_added: '2026-06-05'
 ---
-
 ## What I do
 - Intelligently detect and group related changes
 - Auto-generate descriptive branch names from changes

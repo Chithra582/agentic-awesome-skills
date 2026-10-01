@@ -1,14 +1,14 @@
 ---
 name: sympy
-description: "SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather than numerical approximations."
+description: SymPy is a Python library for symbolic mathematics that enables exact
+  computation using mathematical symbols rather than numerical approximations.
 license: https://github.com/sympy/sympy/blob/master/LICENSE
 metadata:
-    skill-author: K-Dense Inc.
-risk: safe
-source: "https://github.com/sympy/sympy"
-date_added: "2026-09-04"
+  skill-author: K-Dense Inc.
+  risk: safe
+  source: https://github.com/sympy/sympy
+  date_added: '2026-09-04'
 ---
-
 # SymPy - Symbolic Mathematics in Python
 
 ## Detailed Guide

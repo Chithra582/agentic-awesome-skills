@@ -3,19 +3,19 @@ name: debate-review
 description: Two-model debate review of a GitHub PR, GitLab MR, Azure DevOps PR, or
   local working tree, posted as inline comments or printed. Use for any PR/MR review
   request, or a local review before a PR exists.
-risk: safe
-category: code-quality
-source: https://github.com/amElnagdy/review-skills
-source_repo: amElnagdy/review-skills
-source_type: community
-date_added: '2026-08-26'
 license: MIT
-license_source: https://github.com/amElnagdy/review-skills/blob/master/LICENSE
 compatibility: Requires Node 18+, Git 2.31+ for Azure DevOps, `gh` (GitHub), `glab`
   (GitLab) or `az` (Azure DevOps) authenticated, and delegate-skills installed for
   the main/debate lanes.
 metadata:
   version: 0.2.0
+  risk: safe
+  category: code-quality
+  source: https://github.com/amElnagdy/review-skills
+  source_repo: amElnagdy/review-skills
+  source_type: community
+  date_added: '2026-08-26'
+  license_source: https://github.com/amElnagdy/review-skills/blob/master/LICENSE
 ---
 # debate-review
 

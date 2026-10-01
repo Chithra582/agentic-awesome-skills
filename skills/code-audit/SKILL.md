@@ -1,13 +1,15 @@
 ---
 name: code-audit
-description: "Authorized source-code security review and SAST workflows: Semgrep and CodeQL pattern hunting, dangerous API identification, and fix verification."
-risk: safe
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
-source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+description: 'Authorized source-code security review and SAST workflows: Semgrep and
+  CodeQL pattern hunting, dangerous API identification, and fix verification.'
+license: MIT
+metadata:
+  risk: safe
+  source: https://github.com/zhaoxuya520/reverse-skill
+  source_repo: zhaoxuya520/reverse-skill
+  source_type: community
+  date_added: '2026-08-25'
+  license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 # Source Code Security Audit
 ## When to Use

@@ -1,19 +1,20 @@
 ---
 name: m365-entra-attack
 description: Microsoft 365 / Entra ID red-team attack chain
-category: security
-risk: offensive
-source: https://github.com/elementalsouls/Claude-BugHunter
-source_repo: elementalsouls/Claude-BugHunter
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
 compatibility: Requires explicit written authorization for a target scope plus the
   relevant testing tools for this technique. Docs-only; helper scripts and commands
   not bundled.
-sources: authorized-engagement, microsoft-docs, AADInternals
-report_count: 1
+metadata:
+  category: security
+  risk: offensive
+  source: https://github.com/elementalsouls/Claude-BugHunter
+  source_repo: elementalsouls/Claude-BugHunter
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
+  sources: authorized-engagement, microsoft-docs, AADInternals
+  report_count: '1'
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
@@ -325,99 +326,6 @@ This is the **highest-impact byproduct** of any M365 spray engagement. Always tr
 
 ---
 
-## Common password patterns to spray (multi-brand enterprise targets)
+## Common password patterns
 
-- `<BrandName>@<Year>` — `<Brand>@2026`, `Tata@2026`
-- `<BrandName>@123` — `<Brand>@123` (very common)
-- `<PlantCity>@<Year>` — `<City1>@2026`, `<City2>@2026` (production plant cities)
-- `<EmployeeID-as-password>` — common in legacy apps (PAN number, employee code, phone last4)
-- `Password@<year>`, `Welcome@<year>`, `Admin@<year>` — generic defaults
-- `<BrandName>@<Y2-digits>` — `<Brand>@26`
-
-**Engagement caveat:** when client provides leaked-cred dumps (stealer logs), use those FIRST. Each leaked cred is 1 cap-attempt against the strongest known guess for that user.
-
----
-
-## Engagement journaling (mandatory)
-
-Every M365 attempt logs to JSONL:
-```json
-{"ts":"2026-05-08T14:40:53","email":"user1@<client>.example","pw_first4":"<r4>","status":"VALID_CA_BLOCK","code":"AADSTS53003","attempts_used":1}
-```
-
-**Per-user tracker** (atomic):
-```json
-{"user1@<client>.example": 1, "user2@<client>.example": 1, ...}
-```
-
-**IP rotation log** (per-day):
-```
-2026-05-08	<src-ip>	<ISP-AS>	<operator-handle>	Round 2 spray
-```
-
-These three artifacts are deliverable evidence for the report. They survive into the next engagement as state.
-
----
-
-## Real-world findings template (from authorized-engagement)
-
-For the report:
-
-**Finding: 261 Entra accounts in pre-existing lockout state**
-- Subject: Active external password-spray campaign detected
-- Evidence: `o365_results.jsonl` filtered to `status=LOCKED`
-- Math: 1-attempt-per-user × 261 LOCKED ≠ our doing
-- SOC action: pull sign-in logs for these 261 accounts over last 30-60 days
-
-**Finding: Valid M365 cred — `<user>:<password>` (CA-blocked)**
-- Subject: Confirmed valid credential
-- Evidence: ROPC AADSTS53003 + SAML SSO `ConvergedConditionalAccess` page screenshot
-- Microsoft documentation excerpt: "AADSTS53003 returned only after password validation"
-- Recommendation: force password reset, audit org-wide for similar pattern
-
----
-
-## Anti-patterns (don't do these)
-
-- **DON'T use the leaked cred for the user across multiple resources** — burns the cap with no marginal benefit when CA blocks all paths
-- **DON'T retry after AADSTS50053** — account is locked, you'll just see lockout again
-- **DON'T parallelize ROPC/auth requests AT ALL** — serial + paced only. Concurrency trips Entra's IP-reputation anti-spray (separate from Smart Lockout), floods false `AADSTS50053`, contaminates results, and flags your IP. "Going faster" by adding threads costs more than it saves. The only safe speed-up is removing dead/nonexistent users first (small `GetCredentialType` batches <60), not raising concurrency.
-- **DON'T forget to test ALL Entra tenants** — sister domains often have separate tenants with different password policies
-- **DON'T retract a CA-block finding** — AADSTS53003 means the password is correct; that's the whole point
-
----
-
-## Tooling
-
-```bash
-pip install --break-system-packages msftrecon o365spray  # may need to clone msftrecon from GitHub
-brew install pandoc                                       # for report generation
-go install -v github.com/projectdiscovery/...             # PD toolkit for general recon
-```
-
-Pre-built `m365_validator.py` template at engagement working directory `engagement_log/m365_validator.py`. Adapt the `attempt()` function to your engagement.
-
----
-
-## Related Skills & Chains
-
-- **`hunt-mfa-bypass`** — AADSTS50053 (lockout) vs AADSTS50126 (bad password) vs AADSTS50076 (MFA required) is a free factor-presence oracle. Chain primitive: M365 AADSTS50053 lockout differential observed → user has MFA but no CA enforcement on legacy auth → `hunt-mfa-bypass` factor-probe (SMS fallback, voice fallback, OAuth device-code flow, ROPC against legacy endpoint) → Conditional Access bypass via legacy-protocol path.
-- **`hunt-ntlm-info`** — On-prem NTLM topology leak feeds the Entra spray. Chain primitive: SharePoint/Exchange/IIS anon NTLM Type-2 → AV_PAIR decode yields `corp.example.com` → `m365-entra-attack` resolves Entra tenant via openid-configuration → ROPC spray with realistic UPN format.
-- **`okta-attack`** — Hybrid orgs run Okta-as-IdP federated into Entra. Chain primitive: M365 `getuserrealm` returns `NameSpaceType: Federated` with AuthURL pointing to `*.okta.com` → pivot to `okta-attack` for tenant enumeration → Okta ATO → SAML assertion to Entra → full M365 access.
-- **`hunt-saml`** — Federated tenants accept signed SAML assertions; XSW or signature-stripping on the federated IdP bypasses Entra's controls entirely. Chain primitive: `getuserrealm` reveals federation → IdP fingerprinted (ADFS / Okta / PingFederate) → `hunt-saml` XSW1-XSW8 against IdP's `/adfs/ls/` or equivalent → forged assertion → Entra grants access.
-- **`redteam-report-template`** — M365 findings need clear tenant/user/CA-policy framing because the blast radius is "every Microsoft service the org uses." Chain primitive: validated finding from this skill → run through `triage-validation` 7-Question Gate → package via `redteam-report-template` with explicit blast-radius (which apps, which users, which data) for client deliverable.
-
-## Limitations
-
-- Authorized scope only: the confirmation gate above is mandatory before any probing, exploitation, or credential-access command.
-- Docs-only import: upstream helper scripts, commands, engine, and research assets are not bundled; reinstall tooling from the source repo when needed.
-- Validate every finding (see `triage-validation`) before reporting; report via `report-writing`. Prefer a sandbox, disposable VM, or controlled lab.
-
-### Example
-
-```bash
-# Read-only first step; confirm scope before anything active.
-cat scope.txt  # target list from the authorized engagement brief
-```
-
-> Adapted from [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) (MIT); frontmatter, When to Use/Limitations, and safety boundaries added for upstream compliance. Docs-only import: executable helpers, commands, engine, and research assets not bundled.
+<!-- Truncated for OpenGAP token limits -->

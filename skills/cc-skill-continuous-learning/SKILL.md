@@ -1,11 +1,14 @@
 ---
 name: cc-skill-continuous-learning
-description: "Turn a completed debugging session or repeated user correction into a small, evidence-backed procedure. Use for explicit requests to capture reusable lessons; does not automatically extract or save memories."
-risk: none
-source: community
-date_added: "2026-02-27"
+description: Turn a completed debugging session or repeated user correction into a
+  small, evidence-backed procedure. Use for explicit requests to capture reusable
+  lessons; does not automatically extract or save memories.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Continuous Learning from a Completed Session
 
 Capture one reusable lesson whose trigger, fix and verification can be explained without preserving a private conversation. The output is a reviewed procedure, not an automatic memory update.

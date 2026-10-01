@@ -1,13 +1,15 @@
 ---
 name: audio-transcriber
-description: "Transform audio recordings into professional Markdown documentation with intelligent summaries using LLM integration"
-category: content
-risk: safe
-source: community
-tags: "[audio, transcription, whisper, meeting-minutes, speech-to-text]"
-date_added: "2026-02-27"
+description: Transform audio recordings into professional Markdown documentation with
+  intelligent summaries using LLM integration
+metadata:
+  category: content
+  risk: safe
+  source: community
+  tags: '[audio, transcription, whisper, meeting-minutes, speech-to-text]'
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Detailed Guide
 
 Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.

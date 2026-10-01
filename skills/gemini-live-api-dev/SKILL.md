@@ -1,15 +1,16 @@
 ---
 name: gemini-live-api-dev
-description: "Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API."
-risk: critical
-source: https://github.com/google-gemini/gemini-skills/tree/main/skills/gemini-live-api-dev
-source_repo: google-gemini/gemini-skills
-source_type: official
-date_added: 2026-07-01
+description: Use this skill when building real-time, bidirectional streaming applications
+  with the Gemini Live API.
 license: Apache-2.0
-license_source: https://github.com/google-gemini/gemini-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/google-gemini/gemini-skills/tree/main/skills/gemini-live-api-dev
+  source_repo: google-gemini/gemini-skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/google-gemini/gemini-skills/blob/main/LICENSE
 ---
-
 # Gemini Live API Development Skill
 ## When to Use
 

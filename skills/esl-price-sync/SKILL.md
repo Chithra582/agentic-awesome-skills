@@ -1,18 +1,22 @@
 ---
 name: esl-price-sync
-description: "Synchronizes retail prices between ERP/POS systems and Electronic Shelf Labels (SES-imagotag, ZKONG, Pricer, Hanshow, SOLUM) with delta watermarking, idempotency, and battery modeling. Trigger phrases: esl price sync, electronic shelf labels, zkong sync, ses imagotag price, ghost pricing audit."
-category: architecture
-risk: safe
-source: community
-source_repo: wwewtech/esl-price-sync
-source_type: community
-date_added: "2026-09-22"
-author: wwewtech
-tags: [retail-tech, esl, iot, supply-chain, systems-integration, enterprise-software]
-tools: [claude, cursor, gemini, windsurf]
-license: "MIT"
+description: 'Synchronizes retail prices between ERP/POS systems and Electronic Shelf
+  Labels (SES-imagotag, ZKONG, Pricer, Hanshow, SOLUM) with delta watermarking, idempotency,
+  and battery modeling. Trigger phrases: esl price sync, electronic shelf labels,
+  zkong sync, ses imagotag price, ghost pricing audit.'
+license: MIT
+metadata:
+  category: architecture
+  risk: safe
+  source: community
+  source_repo: wwewtech/esl-price-sync
+  source_type: community
+  date_added: '2026-09-22'
+  author: wwewtech
+  tags: '[''retail-tech'', ''esl'', ''iot'', ''supply-chain'', ''systems-integration'',
+    ''enterprise-software'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''windsurf'']'
 ---
-
 # ESL Price Sync: Deterministic Retail Shelf-Edge Pricing Architecture
 
 Ensure strict real-time parity between ERP/POS price masters and Electronic Shelf Label (ESL) fleets (SES-imagotag, ZKONG, Pricer, Hanshow, SOLUM) via bounded delta streams, monotonic idempotency tokens, and Sub-GHz RF battery preservation models.

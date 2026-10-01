@@ -1,11 +1,14 @@
 ---
 name: event-store-design
-description: "Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Design and implement event stores for event-sourced systems. Use when
+  building event sourcing infrastructure, choosing event store technologies, or implementing
+  event persistence patterns.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Event Store Design
 
 Comprehensive guide to designing event stores for event-sourced applications.

@@ -1,16 +1,18 @@
 ---
 name: design-system
-description: "Mechanical implementation invariants for frontend design: token architecture, typography hierarchy, loading order, FOUT prevention, chrome stability, motion timing, color semantics. Use with design when building components, pages, or design systems."
-risk: critical
-source: https://github.com/connerkward/ckw-design-skill/tree/main/design-system
-source_repo: connerkward/ckw-design-skill
-source_type: community
-date_added: 2026-07-01
+description: 'Mechanical implementation invariants for frontend design: token architecture,
+  typography hierarchy, loading order, FOUT prevention, chrome stability, motion timing,
+  color semantics. Use with design when building components, pages, or design systems.'
 license: MIT
-license_source: https://github.com/connerkward/ckw-design-skill/blob/main/LICENSE
-author: Conner K Ward
+metadata:
+  risk: critical
+  source: https://github.com/connerkward/ckw-design-skill/tree/main/design-system
+  source_repo: connerkward/ckw-design-skill
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/connerkward/ckw-design-skill/blob/main/LICENSE
+  author: Conner K Ward
 ---
-
 # Design system
 ## When to Use
 

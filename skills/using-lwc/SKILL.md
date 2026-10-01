@@ -1,19 +1,20 @@
 ---
 name: using-lwc
-description: "Use when project decisions, code structure, research, incidents, or verified context must survive future coding-agent sessions through LWC memory and graph indexes."
-category: development
-risk: critical
-source: community
-source_repo: JanYork/using-lwc
-source_type: community
-date_added: "2026-08-14"
-author: JanYork
-tags: [memory, knowledge-graph, code-intelligence, wiki, context-engineering]
-tools: [claude, codex, cursor, gemini]
+description: Use when project decisions, code structure, research, incidents, or verified
+  context must survive future coding-agent sessions through LWC memory and graph indexes.
 license: Apache-2.0
-license_source: "https://github.com/JanYork/using-lwc/blob/7bd8052e6fa012786e50eee09f46df06b0cda1b8/LICENSE"
+metadata:
+  category: development
+  risk: critical
+  source: community
+  source_repo: JanYork/using-lwc
+  source_type: community
+  date_added: '2026-08-14'
+  author: JanYork
+  tags: '[''memory'', ''knowledge-graph'', ''code-intelligence'', ''wiki'', ''context-engineering'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/JanYork/using-lwc/blob/7bd8052e6fa012786e50eee09f46df06b0cda1b8/LICENSE
 ---
-
 # Using LWC
 
 LWC is durable, source-grounded Agent memory plus two complementary graph planes:

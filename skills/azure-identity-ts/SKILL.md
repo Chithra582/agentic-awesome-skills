@@ -1,11 +1,12 @@
 ---
 name: azure-identity-ts
-description: "Authenticate to Azure services with various credential types."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Authenticate to Azure services with various credential types.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure Identity SDK for TypeScript
 
 Authenticate to Azure services with various credential types.

@@ -1,15 +1,17 @@
 ---
 name: unslop-file
-description: "Humanize natural-language memory files (CLAUDE.md, todos, preferences, docs) by removing AI-isms and adding burstiness while preserving every code block, URL, path, command, and heading exactly."
-risk: critical
-source: https://github.com/MohamedAbdallah-14/unslop/tree/main/plugins/unslop/skills/unslop-file
-source_repo: MohamedAbdallah-14/unslop
-source_type: community
-date_added: 2026-07-01
+description: Humanize natural-language memory files (CLAUDE.md, todos, preferences,
+  docs) by removing AI-isms and adding burstiness while preserving every code block,
+  URL, path, command, and heading exactly.
 license: MIT
-license_source: https://github.com/MohamedAbdallah-14/unslop/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/MohamedAbdallah-14/unslop/tree/main/plugins/unslop/skills/unslop-file
+  source_repo: MohamedAbdallah-14/unslop
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/MohamedAbdallah-14/unslop/blob/main/LICENSE
 ---
-
 # Unslop Humanize
 ## When to Use
 

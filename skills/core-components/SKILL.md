@@ -1,11 +1,13 @@
 ---
 name: core-components
-description: "Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library."
-risk: none
-source: community
-date_added: "2026-02-27"
+description: Core component library and design system patterns. Use when building
+  UI, using design tokens, or working with the component library.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Core Components
 
 ## Design System Overview

@@ -2,21 +2,20 @@
 name: startup-it-troubleshooting
 description: Practical IT troubleshooting playbooks for small teams without dedicated
   IT staff.
-category: devops
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant OS/platform tooling and privileged access where
   noted. Docs-only; helper scripts and templates not bundled.
 metadata:
   author: devops-skills
   version: '2.0'
+  category: devops
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # Startup IT Troubleshooting
 
 Runbooks for startups and small teams where engineers double as the IT department.

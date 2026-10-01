@@ -1,12 +1,15 @@
 ---
 name: claude-api
-description: "Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks."
-risk: critical
-source: "https://github.com/anthropics/skills"
-date_added: "2026-03-21"
+description: 'Build apps with the Claude API or Anthropic SDK. TRIGGER when: code
+  imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use
+  Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other
+  AI SDK, general programming, or ML/data-science tasks.'
 license: Complete terms in LICENSE.txt
+metadata:
+  risk: critical
+  source: https://github.com/anthropics/skills
+  date_added: '2026-03-21'
 ---
-
 # Building LLM-Powered Applications with Claude
 
 This skill helps you build LLM-powered applications with Claude. Choose the right surface based on your needs, detect the project language, then read the relevant language-specific documentation.
@@ -251,6 +254,6 @@ Live documentation URLs are in `shared/live-sources.md`.
 - **Report and document output:** For tasks that produce reports, documents, or visualizations, the code execution sandbox has `python-docx`, `python-pptx`, `matplotlib`, `pillow`, and `pypdf` pre-installed. Claude can generate formatted files (DOCX, PDF, charts) and return them via the Files API — consider this for "report" or "document" type requests instead of plain stdout text.
 
 ## Limitations
-- Use this skill only when the task clearly matches the scope described above.
-- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
-- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
+- Use this
+
+<!-- Truncated for OpenGAP token limits -->

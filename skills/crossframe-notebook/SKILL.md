@@ -1,25 +1,19 @@
 ---
 name: crossframe-notebook
-description: "Use when CrossFrame Suite routes explicit Chinese notes for books, theories, articles, excerpts, bidirectional reading, absorption, or conflict mapping."
-category: content
-risk: safe
-source: community
-source_repo: xi-kari/crossframe-skill
-source_type: community
-date_added: 2026-06-16
-author: xi-kari
+description: Use when CrossFrame Suite routes explicit Chinese notes for books, theories,
+  articles, excerpts, bidirectional reading, absorption, or conflict mapping.
 license: MIT
-license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
-tools:
-  - "Agent Skills"
-  - Codex
-  - Claude
-tags:
-  - crossframe
-  - chinese
-  - notebook
-  - research
-  - reading
+metadata:
+  category: content
+  risk: safe
+  source: community
+  source_repo: xi-kari/crossframe-skill
+  source_type: community
+  date_added: '2026-06-16'
+  author: xi-kari
+  license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
+  tools: '[''Agent Skills'', ''Codex'', ''Claude'']'
+  tags: '[''crossframe'', ''chinese'', ''notebook'', ''research'', ''reading'']'
 ---
 # CrossFrame Notebook
 

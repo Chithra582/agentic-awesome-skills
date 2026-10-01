@@ -1,11 +1,13 @@
 ---
 name: vercel-optimize
-description: "Audit deployed Vercel apps for cost and performance issues using metrics, project config, code scans, and version-aware recommendations."
-risk: safe
-source: "https://github.com/vercel-labs/agent-skills"
-date_added: "2026-06-02"
+description: Audit deployed Vercel apps for cost and performance issues using metrics,
+  project config, code scans, and version-aware recommendations.
+metadata:
+  risk: safe
+  source: https://github.com/vercel-labs/agent-skills
+  date_added: '2026-06-02'
+license: MIT
 ---
-
 # Vercel Optimize
 
 Run an observability-first Vercel optimization audit. Do not inspect source files until `signals.json` exists and a deterministic gate points to a route, file, or project setting.

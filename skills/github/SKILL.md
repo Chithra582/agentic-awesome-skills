@@ -1,11 +1,13 @@
 ---
 name: github
-description: "Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries."
-risk: safe
-source: "Dimillian/Skills (MIT)"
-date_added: "2026-03-25"
+description: Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub
+  API queries.
+metadata:
+  risk: safe
+  source: Dimillian/Skills (MIT)
+  date_added: '2026-03-25'
+license: MIT
 ---
-
 # GitHub Skill
 
 Use the `gh` CLI to interact with GitHub. Always specify `--repo owner/repo` when not in a git directory, or use URLs directly.

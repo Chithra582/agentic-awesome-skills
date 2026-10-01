@@ -1,11 +1,14 @@
 ---
 name: attack-tree-construction
-description: "Build comprehensive attack trees to visualize threat paths. Use when mapping attack scenarios, identifying defense gaps, or communicating security risks to stakeholders."
-risk: offensive
-source: community
-date_added: "2026-02-27"
+description: Build comprehensive attack trees to visualize threat paths. Use when
+  mapping attack scenarios, identifying defense gaps, or communicating security risks
+  to stakeholders.
+metadata:
+  risk: offensive
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

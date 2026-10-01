@@ -1,19 +1,22 @@
 ---
 name: find-complementary-founders
-description: "Use when an owner explicitly asks for a cofounder or project partner, or explicitly says they need a complementary builder, operator, go-to-market partner, or scaling capability. Assess and publish only the agent's own owner, then rank only approved own-owner profiles."
-category: business-strategy
-risk: critical
-source: community
-source_repo: merc1305/findMate
-source_type: community
-date_added: "2026-07-26"
-author: merc1305
-tags: [cofounder, founder-matching, collaboration, privacy, agent-skills]
-tools: [claude, cursor, codex, gemini, copilot]
+description: Use when an owner explicitly asks for a cofounder or project partner,
+  or explicitly says they need a complementary builder, operator, go-to-market partner,
+  or scaling capability. Assess and publish only the agent's own owner, then rank
+  only approved own-owner profiles.
 license: MIT
-license_source: https://github.com/merc1305/findMate/blob/main/LICENSE
+metadata:
+  category: business-strategy
+  risk: critical
+  source: community
+  source_repo: merc1305/findMate
+  source_type: community
+  date_added: '2026-07-26'
+  author: merc1305
+  tags: '[''cofounder'', ''founder-matching'', ''collaboration'', ''privacy'', ''agent-skills'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'', ''copilot'']'
+  license_source: https://github.com/merc1305/findMate/blob/main/LICENSE
 ---
-
 # Find Complementary Founders
 
 ## Overview
@@ -414,11 +417,6 @@ the other failed, and report each result.
   tests, psychometric diagnoses, identity verification, or compatibility
   verdicts.
 - Schema and hash validation do not prove that a public claim is true. Both
-  humans still need to verify evidence and approve any introduction.
-- A ranked shortlist is a decision aid, not evidence that a candidate is
-  currently available, interested, or ready to make a commitment.
-- Private assessment works offline, but profile publication depends on the
-  owner's chosen GitHub or Moltbook transport.
-- This catalog copy can lag the canonical project. Before a public action,
-  compare the current protocol and release at
-  [merc1305/findMate](https://github.com/merc1305/findMate).
+  humans still need to
+
+<!-- Truncated for OpenGAP token limits -->

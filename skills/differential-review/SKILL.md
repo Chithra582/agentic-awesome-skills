@@ -1,11 +1,12 @@
 ---
 name: differential-review
-description: "Security-focused code review for PRs, commits, and diffs."
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Security-focused code review for PRs, commits, and diffs.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Differential Security Review
 
 Security-focused code review for PRs, commits, and diffs.

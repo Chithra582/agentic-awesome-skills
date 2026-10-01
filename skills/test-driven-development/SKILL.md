@@ -1,11 +1,13 @@
 ---
 name: test-driven-development
-description: "Use a failing behavioral test to guide a feature or bug fix, then implement and refactor with relevant regression checks."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Use a failing behavioral test to guide a feature or bug fix, then implement
+  and refactor with relevant regression checks.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Test-Driven Development (TDD)
 
 ## Overview

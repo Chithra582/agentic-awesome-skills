@@ -1,11 +1,13 @@
 ---
 name: seo-aeo-blog-writer
-description: "Writes search-intent-led long-form articles with answer-first structure, FAQ coverage, internal links, and conversion paths for SEO and AEO."
-risk: safe
-source: community
-date_added: "2026-04-01"
+description: Writes search-intent-led long-form articles with answer-first structure,
+  FAQ coverage, internal links, and conversion paths for SEO and AEO.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-04-01'
+license: MIT
 ---
-
 # Blog Writer Skill
 
 ## Description

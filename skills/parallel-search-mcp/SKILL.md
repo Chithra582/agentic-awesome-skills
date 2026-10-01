@@ -1,15 +1,18 @@
 ---
 name: parallel-search-mcp
-description: "Search the public web and verify sources with Parallel's free Search MCP. Use when the user chooses Parallel or its connected tools for current information and URL extraction."
-category: mcp
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-04"
-author: georgeatparallel
-tags: [mcp, web-search, research, citations]
+description: Search the public web and verify sources with Parallel's free Search
+  MCP. Use when the user chooses Parallel or its connected tools for current information
+  and URL extraction.
+metadata:
+  category: mcp
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-04'
+  author: georgeatparallel
+  tags: '[''mcp'', ''web-search'', ''research'', ''citations'']'
+license: MIT
 ---
-
 # Parallel Search MCP
 
 ## Overview

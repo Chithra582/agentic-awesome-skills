@@ -1,15 +1,16 @@
 ---
 name: code-showcase-react-ui-patterns
-description: Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.
-risk: critical
-source: https://github.com/ChrisWiles/claude-code-showcase/tree/main/.claude/skills/react-ui-patterns
-source_repo: ChrisWiles/claude-code-showcase
-source_type: community
-date_added: 2026-07-01
+description: Modern React UI patterns for loading states, error handling, and data
+  fetching. Use when building UI components, handling async data, or managing UI states.
 license: MIT
-license_source: https://github.com/ChrisWiles/claude-code-showcase/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/ChrisWiles/claude-code-showcase/tree/main/.claude/skills/react-ui-patterns
+  source_repo: ChrisWiles/claude-code-showcase
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/ChrisWiles/claude-code-showcase/blob/main/LICENSE
 ---
-
 # React UI Patterns
 ## When to Use
 

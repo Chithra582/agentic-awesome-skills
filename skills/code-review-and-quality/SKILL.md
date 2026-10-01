@@ -1,15 +1,17 @@
 ---
 name: code-review-and-quality
-description: Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.
-risk: critical
-source: https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Conducts multi-axis code review. Use before merging any change. Use when
+  reviewing code written by yourself, another agent, or a human. Use when you need
+  to assess code quality across multiple dimensions before it enters the main branch.
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Code Review and Quality
 
 ## Overview
@@ -385,10 +387,6 @@ After review is complete:
 - [ ] Build succeeds
 - [ ] The verification story is documented (what changed, how it was verified)
 
-**Presumptive blockers:** surface and propose the simpler design for each of these; escalate to Required only when the change actively makes structure worse: a refactor that relocates complexity instead of reducing it; a change that pushes a file past the size boundary with no decomposition; feature logic added to a shared module; a near-duplicate of an existing canonical helper; a silent fallback that hides an unclear invariant.
+**Presumptive blockers:** surface and propose the simpler design for each of these; escalate to Required only when the change actively makes structure worse: a refactor that relocates complexity instead of reducing it; a change that pushes a file past the size boundary with no decomposition; feature logic added to a shared module; a near
 
-## Limitations
-
-- Use this skill only when the task clearly matches its upstream source and local project context.
-- Verify commands, generated code, dependencies, credentials, and external service behavior before applying changes.
-- Do not treat examples as a substitute for environment-specific tests, security review, or user approval for destructive or costly actions.
+<!-- Truncated for OpenGAP token limits -->

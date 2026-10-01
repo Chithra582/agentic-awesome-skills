@@ -1,19 +1,21 @@
 ---
 name: fact-check-x-complete
-description: "Compare claims from one or more AI answers, verify their citations against public primary sources, and produce an evidence-linked fact-check report without installing a bundled browser runtime."
-category: research
-risk: critical
-source: https://github.com/ASI2030/Fact-Check-X/tree/4dd7eef0452a4c31e4b3b3b0d643c9daeea7fdbe
-source_repo: ASI2030/Fact-Check-X
-source_type: official
-date_added: "2026-07-31"
-author: ASI2030
-tags: [fact-checking, research, evidence, source-verification]
-tools: [claude, codex, cursor, gemini]
+description: Compare claims from one or more AI answers, verify their citations against
+  public primary sources, and produce an evidence-linked fact-check report without
+  installing a bundled browser runtime.
 license: Apache-2.0
-license_source: https://github.com/ASI2030/Fact-Check-X/blob/4dd7eef0452a4c31e4b3b3b0d643c9daeea7fdbe/LICENSE
+metadata:
+  category: research
+  risk: critical
+  source: https://github.com/ASI2030/Fact-Check-X/tree/4dd7eef0452a4c31e4b3b3b0d643c9daeea7fdbe
+  source_repo: ASI2030/Fact-Check-X
+  source_type: official
+  date_added: '2026-07-31'
+  author: ASI2030
+  tags: '[''fact-checking'', ''research'', ''evidence'', ''source-verification'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/ASI2030/Fact-Check-X/blob/4dd7eef0452a4c31e4b3b3b0d643c9daeea7fdbe/LICENSE
 ---
-
 # Fact-Check-X Complete
 
 Compare factual claims made by one or more AI systems, inspect the sources they

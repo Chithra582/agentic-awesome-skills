@@ -1,12 +1,13 @@
 ---
 name: efficient-web-research
-source: community
-date_added: "2026-09-04"
-risk: safe
-description: >
-  Protocol for token-efficient web research. Use when accessing URLs, GitHub repos, or running search queries. Prevents full-page fetching waste.
+description: Protocol for token-efficient web research. Use when accessing URLs, GitHub
+  repos, or running search queries. Prevents full-page fetching waste.
+metadata:
+  source: community
+  date_added: '2026-09-04'
+  risk: safe
+license: MIT
 ---
-
 # Efficient Web Research Skill
 
 A protocol for accessing web content in the most token-efficient, accurate, and structured way —

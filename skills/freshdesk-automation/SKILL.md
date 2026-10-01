@@ -1,11 +1,14 @@
 ---
 name: freshdesk-automation
-description: "Automate Freshdesk helpdesk operations including tickets, contacts, companies, notes, and replies via Rube MCP (Composio). Always search tools first for current schemas."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Automate Freshdesk helpdesk operations including tickets, contacts, companies,
+  notes, and replies via Rube MCP (Composio). Always search tools first for current
+  schemas.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Freshdesk Automation via Rube MCP
 
 Automate Freshdesk customer support workflows including ticket management, contact and company operations, notes, replies, and ticket search through Composio's Freshdesk toolkit.

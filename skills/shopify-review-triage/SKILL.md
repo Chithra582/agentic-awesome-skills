@@ -1,19 +1,22 @@
 ---
 name: shopify-review-triage
-description: "Turn public 1-3-star Shopify App Store review rows into a P0-P3 triage brief: incident risk, repeated friction, pricing confusion, feature requests, and an explicit needs-human-read bucket."
-category: product
-risk: none
-source: community
-source_repo: alfredtech2026/shopify-app-review-brief
-source_type: community
-date_added: "2026-08-03"
-author: alfredtech2026
-tags: [shopify, app-store-reviews, customer-feedback, triage, product-management, support]
-tools: [claude, cursor, codex, gemini, antigravity]
-license: "MIT"
-license_source: "https://github.com/alfredtech2026/shopify-app-review-brief/blob/main/LICENSE"
+description: 'Turn public 1-3-star Shopify App Store review rows into a P0-P3 triage
+  brief: incident risk, repeated friction, pricing confusion, feature requests, and
+  an explicit needs-human-read bucket.'
+license: MIT
+metadata:
+  category: product
+  risk: none
+  source: community
+  source_repo: alfredtech2026/shopify-app-review-brief
+  source_type: community
+  date_added: '2026-08-03'
+  author: alfredtech2026
+  tags: '[''shopify'', ''app-store-reviews'', ''customer-feedback'', ''triage'', ''product-management'',
+    ''support'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'', ''antigravity'']'
+  license_source: https://github.com/alfredtech2026/shopify-app-review-brief/blob/main/LICENSE
 ---
-
 # Shopify Review Triage — public low-star reviews to a P0–P3 brief
 
 ## Overview
@@ -348,78 +351,6 @@ filter kept — the App Store has no per-review permalink.
 - ✅ **Do:** phrase every finding as a customer report, not as a confirmed defect.
 - ✅ **Do:** state how many rows were supplied and refuse any coverage claim beyond them.
 - ❌ **Don't:** fetch reviews, scrape listings, or ask for support tickets, emails, or order data.
-- ❌ **Don't:** invent a rating, date, app name, or URL that was not supplied.
-- ❌ **Don't:** send, post, or publish anything — including a developer reply to a reviewer.
-- ❌ **Don't:** promise a revenue, ratings, or compliance outcome from any suggested action.
+- ❌ **Don't:** invent a rating, date, app name, or 
 
-## Limitations
-
-- Keyword matching is **English-only**. Non-English reviews match nothing and land in
-  needs-human-read; that is the correct outcome, not a bug to work around by translating first.
-- The rubric misses sarcasm, irony, and context, and can misfile a review that mentions
-  "checkout" or "missing" in passing.
-- It sees only the rows the person supplies. It cannot know a listing's full review history, the
-  team's error tracker, or their support inbox.
-- It cannot verify anything. Every P0 it produces is a *candidate*, not a confirmed incident,
-  until a person reproduces it.
-- It does not replace environment-specific validation, testing, or expert review. Stop and ask
-  for clarification if required inputs, permissions, or safety boundaries are missing.
-
-## Security & Safety Notes
-
-- **No commands, no network, no credentials.** This skill runs on pasted text only. It must not
-  fetch listings, call APIs, or read files outside what the person supplies.
-- **Private data is a stop condition.** If support tickets, merchant emails, order records,
-  personal contact details, or internal telemetry appear in the input, stop, name the affected
-  rows, and ask for them to be removed before continuing.
-- **No outbound messaging.** The output is a draft handed back to the team. Sending email,
-  posting a public developer reply, opening a ticket, or contacting a reviewer is out of scope
-  under every circumstance (hard rule 7).
-- **Reviewers are people.** Do not name, profile, or speculate about a reviewer; refer to
-  "the reviewer".
-- **No promises.** No revenue, ratings, ranking, legal, or compliance claims belong in a brief.
-
-## Common Pitfalls
-
-- **Problem:** The Shopify App Store has no stable per-review permalink.
-  **Solution:** Cite the listing's public reviews page, keep the rating filter if one was used
-  (`…/reviews?ratings%5B%5D=1`), and pin the item with the review date plus the reviewer's first
-  few words so a human can find it again.
-- **Problem:** `checkout` is the noisiest keyword in the set — it fires on "we love the checkout
-  upsell".
-  **Solution:** A P0 whose only evidence is the word `checkout` is a needs-human-read row wearing
-  a P0 badge. Say so instead of promoting it.
-- **Problem:** `missing` and `error` cross buckets — "missing a dark mode" is P3, "settings page
-  errors out" is P0.
-  **Solution:** Primary-bucket order resolves the collision mechanically; the human pass fixes
-  the ones where it guessed wrong.
-- **Problem:** A competitor's incident looks worse than anything on the team's own listings.
-  **Solution:** It still goes to competitor watch. A competitor's P0 is never yours.
-- **Problem:** One review gets split across two sections, double-counting the same merchant and
-  inflating every count in the summary line.
-  **Solution:** One review, one item. Secondary matches are annotations.
-- **Problem:** The free in-browser worksheet parses three fields and folds everything after the
-  second `|` into the review text, so a five-field row displays its date and URL inside the quote.
-  **Solution:** Paste the short form into the worksheet and keep the long form here.
-
-## Related Skills
-
-- `@customer-research` — when the goal is broader voice-of-customer synthesis rather than
-  prioritizing a specific set of low-star review rows.
-- `@shopify-apps` — when the next step is actually building or fixing the Shopify app behavior a
-  triaged P0 points at.
-- `@before-you-build` — when a P3 feature request needs product-risk review before it becomes
-  roadmap work.
-
-## Additional Resources
-
-This skill packages the public rubric behind **Shopify App Review Brief**, an independent
-open-source project that is not affiliated with or endorsed by Shopify Inc. or any app developer.
-The same four dimensions, priorities, keyword lists, and suggested actions are published in three
-places:
-
-- [Manual guide, tie-break rules, and brief template](https://alfredtech2026.github.io/shopify-app-review-brief/guides/shopify-app-review-triage.html)
-- [Free in-browser worksheet that automates the first pass](https://alfredtech2026.github.io/shopify-app-review-brief/tools/review-triage-worksheet.html)
-- [Two worked sample briefs over real public reviews](https://alfredtech2026.github.io/shopify-app-review-brief/#samples)
-
-Upstream source repository: [alfredtech2026/shopify-app-review-brief](https://github.com/alfredtech2026/shopify-app-review-brief) (MIT).
+<!-- Truncated for OpenGAP token limits -->

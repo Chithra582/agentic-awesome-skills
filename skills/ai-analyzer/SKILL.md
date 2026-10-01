@@ -2,11 +2,12 @@
 name: ai-analyzer
 description: AI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。
 allowed-tools: Read, Grep, Glob, Write
-risk: critical
-source: community
-date_added: "2026-09-04"
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # AI健康分析器
 
 基于AI技术的综合健康分析系统，提供智能健康洞察、风险预测和个性化建议。

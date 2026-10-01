@@ -1,15 +1,16 @@
 ---
 name: postman-openapi-converter
-description: "Convert OpenAPI 3.x or Swagger 2.0 specs (YAML or JSON) into complete, import-ready Postman Collection v2.1 JSON files."
-risk: critical
-source: https://github.com/LambdaTest/agent-skills/tree/main/api-skill/postman/postman-openapi-converter
-source_repo: LambdaTest/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Convert OpenAPI 3.x or Swagger 2.0 specs (YAML or JSON) into complete,
+  import-ready Postman Collection v2.1 JSON files.
 license: MIT
-license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/LambdaTest/agent-skills/tree/main/api-skill/postman/postman-openapi-converter
+  source_repo: LambdaTest/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 ---
-
 # OpenAPI → Postman Collection Converter
 ## When to Use
 

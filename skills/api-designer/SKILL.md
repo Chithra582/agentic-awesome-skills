@@ -1,15 +1,16 @@
 ---
 name: api-designer
-description: "Generates complete, production-ready REST API endpoint specifications for any system or domain the user describes."
-risk: safe
-source: https://github.com/LambdaTest/agent-skills/tree/main/api-skill/api-designer
-source_repo: LambdaTest/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Generates complete, production-ready REST API endpoint specifications
+  for any system or domain the user describes.
 license: MIT
-license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
+metadata:
+  risk: safe
+  source: https://github.com/LambdaTest/agent-skills/tree/main/api-skill/api-designer
+  source_repo: LambdaTest/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 ---
-
 # API Designer Skill
 ## When to Use
 

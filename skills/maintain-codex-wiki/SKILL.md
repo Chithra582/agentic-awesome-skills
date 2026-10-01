@@ -1,19 +1,20 @@
 ---
 name: maintain-codex-wiki
-description: "Maintain a review-first engineering wiki with provenance, citation-aware queries, explicit capture and promotion, and deterministic checks."
-category: knowledge-management
-risk: critical
-source: https://github.com/Phelan164/codex-howto/tree/47f36fd8aacfe6f222935e5c2e1d972ef06dcb99/skills/maintain-codex-wiki
-source_repo: Phelan164/codex-howto
-source_type: community
-date_added: "2026-07-31"
-author: Phelan164
-tags: [codex, wiki, knowledge-management, provenance, engineering]
-tools: [codex]
+description: Maintain a review-first engineering wiki with provenance, citation-aware
+  queries, explicit capture and promotion, and deterministic checks.
 license: MIT
-license_source: https://github.com/Phelan164/codex-howto/blob/47f36fd8aacfe6f222935e5c2e1d972ef06dcb99/LICENSE
+metadata:
+  category: knowledge-management
+  risk: critical
+  source: https://github.com/Phelan164/codex-howto/tree/47f36fd8aacfe6f222935e5c2e1d972ef06dcb99/skills/maintain-codex-wiki
+  source_repo: Phelan164/codex-howto
+  source_type: community
+  date_added: '2026-07-31'
+  author: Phelan164
+  tags: '[''codex'', ''wiki'', ''knowledge-management'', ''provenance'', ''engineering'']'
+  tools: '[''codex'']'
+  license_source: https://github.com/Phelan164/codex-howto/blob/47f36fd8aacfe6f222935e5c2e1d972ef06dcb99/LICENSE
 ---
-
 # Maintain Codex Wiki
 
 ## Overview

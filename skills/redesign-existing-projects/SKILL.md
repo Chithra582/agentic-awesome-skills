@@ -1,15 +1,18 @@
 ---
 name: redesign-existing-projects
-description: "Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites."
-category: frontend
-risk: safe
-source: community
-source_repo: Leonxlnx/taste-skill
-source_type: community
-date_added: "2026-04-17"
-author: Leonxlnx
-tags: [frontend, redesign, design-audit, ui]
-tools: [claude, cursor, codex, antigravity]
+description: Use when upgrading existing websites or apps by auditing generic UI patterns
+  and applying premium design fixes without rewrites.
+metadata:
+  category: frontend
+  risk: safe
+  source: community
+  source_repo: Leonxlnx/taste-skill
+  source_type: community
+  date_added: '2026-04-17'
+  author: Leonxlnx
+  tags: '[''frontend'', ''redesign'', ''design-audit'', ''ui'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''antigravity'']'
+license: MIT
 ---
 # Redesign Skill
 

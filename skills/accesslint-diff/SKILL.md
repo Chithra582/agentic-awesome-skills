@@ -1,11 +1,15 @@
 ---
 name: accesslint-diff
-description: "Diff a live page's accessibility violations against a baseline — by default compares uncommitted changes (stash-based), or pass --branch [<name>] to diff against a branch. Reports only new violations introduced, violations fixed, and pre-existing count. Use `scan` for a full audit with no diffing."
-risk: safe
-source: "https://github.com/AccessLint/skills"
-date_added: "2026-06-02"
+description: Diff a live page's accessibility violations against a baseline — by default
+  compares uncommitted changes (stash-based), or pass --branch [<name>] to diff against
+  a branch. Reports only new violations introduced, violations fixed, and pre-existing
+  count. Use `scan` for a full audit with no diffing.
+metadata:
+  risk: safe
+  source: https://github.com/AccessLint/skills
+  date_added: '2026-06-02'
+license: MIT
 ---
-
 Default branch: !`git symbolic-ref refs/remotes/origin/HEAD --short 2>/dev/null | sed 's|.*/||' || echo main`
 
 Report only what changed. Locate; don't fix. If no URL in `$ARGUMENTS`, ask for one.

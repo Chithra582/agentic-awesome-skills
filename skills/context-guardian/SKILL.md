@@ -1,23 +1,16 @@
 ---
 name: context-guardian
-description: Guardiao de contexto que preserva dados criticos antes da compactacao automatica. Snapshots, verificacao de integridade e zero perda de informacao.
-risk: critical
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- context
-- data-integrity
-- snapshots
-- verification
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Guardiao de contexto que preserva dados criticos antes da compactacao
+  automatica. Snapshots, verificacao de integridade e zero perda de informacao.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''context'', ''data-integrity'', ''snapshots'', ''verification'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # Context Guardian
 
 > Este guia e intencionalmente escrito em portugues brasileiro. O cabecalho

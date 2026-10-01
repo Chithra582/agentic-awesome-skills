@@ -1,11 +1,13 @@
 ---
 name: skill-writer
-description: Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills.
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Create and improve agent skills following the Agent Skills specification.
+  Use when asked to create, write, or update skills.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Skill Writer
 
 Use this as the single canonical workflow for skill creation and improvement.

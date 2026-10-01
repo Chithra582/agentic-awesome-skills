@@ -1,11 +1,14 @@
 ---
 name: error-diagnostics-error-analysis
-description: "You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementing comprehensive observability solutions."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: You are an expert error analysis specialist with deep expertise in debugging
+  distributed systems, analyzing production incidents, and implementing comprehensive
+  observability solutions.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Compatibility and maintenance
 
 Primary editorial path for this compatibility group. The full instructions and support files remain local so existing installations

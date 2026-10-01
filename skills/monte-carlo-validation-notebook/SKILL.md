@@ -1,17 +1,19 @@
 ---
 name: monte-carlo-validation-notebook
-description: "Generates SQL validation notebooks for dbt PR changes with before/after comparison queries."
-category: data
-risk: safe
-source: community
-source_repo: monte-carlo-data/mc-agent-toolkit
-source_type: community
-date_added: "2026-04-08"
-author: monte-carlo-data
-tags: [data-observability, validation, dbt, monte-carlo, sql-notebook]
-tools: [claude, cursor, codex]
+description: Generates SQL validation notebooks for dbt PR changes with before/after
+  comparison queries.
+metadata:
+  category: data
+  risk: safe
+  source: community
+  source_repo: monte-carlo-data/mc-agent-toolkit
+  source_type: community
+  date_added: '2026-04-08'
+  author: monte-carlo-data
+  tags: '[''data-observability'', ''validation'', ''dbt'', ''monte-carlo'', ''sql-notebook'']'
+  tools: '[''claude'', ''cursor'', ''codex'']'
+license: MIT
 ---
-
 > **Tip:** This skill works well with Sonnet. Run `/model sonnet` before invoking for faster generation.
 
 Generate a SQL Notebook with validation queries for dbt changes.

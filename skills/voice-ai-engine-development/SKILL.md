@@ -1,11 +1,14 @@
 ---
 name: voice-ai-engine-development
-description: "Build real-time conversational AI voice engines using async worker pipelines, streaming transcription, LLM agents, and TTS synthesis with interrupt handling and multi-provider support"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Build real-time conversational AI voice engines using async worker pipelines,
+  streaming transcription, LLM agents, and TTS synthesis with interrupt handling and
+  multi-provider support
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Voice AI Engine Development
 
 ## Detailed Guide

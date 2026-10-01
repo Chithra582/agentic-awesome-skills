@@ -1,19 +1,20 @@
 ---
 name: pptx-deck-creation
-description: "Create editable, production-ready PPTX decks with narrative planning, explicit layout specs, asset guidance, and quality checks."
-category: office-productivity
-risk: critical
-source: community
-source_repo: kimtth/agent-pptify-kit
-source_type: community
-date_added: "2026-07-14"
-author: kimtth
-tags: [powerpoint, pptx, presentation, slide-design, document-generation]
-tools: [claude, cursor, gemini, codex, antigravity]
-license: "MIT"
-license_source: "https://github.com/kimtth/agent-pptify-kit/blob/main/LICENSE"
+description: Create editable, production-ready PPTX decks with narrative planning,
+  explicit layout specs, asset guidance, and quality checks.
+license: MIT
+metadata:
+  category: office-productivity
+  risk: critical
+  source: community
+  source_repo: kimtth/agent-pptify-kit
+  source_type: community
+  date_added: '2026-07-14'
+  author: kimtth
+  tags: '[''powerpoint'', ''pptx'', ''presentation'', ''slide-design'', ''document-generation'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'', ''antigravity'']'
+  license_source: https://github.com/kimtth/agent-pptify-kit/blob/main/LICENSE
 ---
-
 # PPTX Deck Creation
 
 ## Overview

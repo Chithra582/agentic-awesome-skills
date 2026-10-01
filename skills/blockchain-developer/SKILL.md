@@ -1,11 +1,14 @@
 ---
 name: blockchain-developer
-description: Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Build production-ready Web3 applications, smart contracts, and decentralized
+  systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain
+  integrations.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on blockchain developer tasks or workflows

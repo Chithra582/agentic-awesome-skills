@@ -1,11 +1,13 @@
 ---
 name: apify-audience-analysis
-description: Understand audience demographics, preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok.
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Understand audience demographics, preferences, behavior patterns, and
+  engagement quality across Facebook, Instagram, YouTube, and TikTok.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Audience Analysis
 
 Analyze and understand your audience using Apify Actors to extract follower demographics, engagement patterns, and behavior data from multiple platforms.

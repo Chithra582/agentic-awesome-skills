@@ -1,19 +1,21 @@
 ---
 name: traderspy-smart-money
-description: "Track what top crypto futures traders hold on Binance, Hyperliquid, Bybit and OKX with TraderSpy: elite leaderboard, positions, trader profiles and history. Use for \"what are whales doing\"."
-category: finance
-risk: safe
-source: "https://github.com/target1m/traderspy-mcp/tree/069aae5a84640d671f92705a2e3bc0b62efca1e0/skills/smart-money"
-source_repo: target1m/traderspy-mcp
-source_type: official
-date_added: "2026-09-25"
-author: target1m
-tags: [traderspy, crypto, smart-money, whale-tracking, mcp]
-tools: [claude, cursor, gemini]
+description: 'Track what top crypto futures traders hold on Binance, Hyperliquid,
+  Bybit and OKX with TraderSpy: elite leaderboard, positions, trader profiles and
+  history. Use for "what are whales doing".'
 license: MIT
-license_source: "https://github.com/target1m/traderspy-mcp/blob/069aae5a84640d671f92705a2e3bc0b62efca1e0/LICENSE"
+metadata:
+  category: finance
+  risk: safe
+  source: https://github.com/target1m/traderspy-mcp/tree/069aae5a84640d671f92705a2e3bc0b62efca1e0/skills/smart-money
+  source_repo: target1m/traderspy-mcp
+  source_type: official
+  date_added: '2026-09-25'
+  author: target1m
+  tags: '[''traderspy'', ''crypto'', ''smart-money'', ''whale-tracking'', ''mcp'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/target1m/traderspy-mcp/blob/069aae5a84640d671f92705a2e3bc0b62efca1e0/LICENSE
 ---
-
 # TraderSpy Smart Money
 
 TraderSpy follows thousands of top-ranked accounts on four exchanges and records their positions as

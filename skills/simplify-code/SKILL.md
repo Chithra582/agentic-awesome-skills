@@ -1,11 +1,13 @@
 ---
 name: simplify-code
-description: "Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes."
-risk: safe
-source: "Dimillian/Skills (MIT)"
-date_added: "2026-03-25"
+description: Review a diff for clarity and safe simplifications, then optionally apply
+  low-risk fixes.
+metadata:
+  risk: safe
+  source: Dimillian/Skills (MIT)
+  date_added: '2026-03-25'
+license: MIT
 ---
-
 # Simplify Code
 
 Review changed code for reuse, quality, efficiency, and clarity issues. Use Codex sub-agents to review in parallel, then optionally apply only high-confidence, behavior-preserving fixes.

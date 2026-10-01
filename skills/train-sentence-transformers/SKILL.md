@@ -1,15 +1,17 @@
 ---
 name: train-sentence-transformers
-description: "Train or fine-tune SentenceTransformer, CrossEncoder, and SparseEncoder models for retrieval, similarity, clustering, classification, reranking, and related embedding tasks."
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/skills/train-sentence-transformers
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: Train or fine-tune SentenceTransformer, CrossEncoder, and SparseEncoder
+  models for retrieval, similarity, clustering, classification, reranking, and related
+  embedding tasks.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/skills/train-sentence-transformers
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 # Train a sentence-transformers Model
 ## When to Use
 

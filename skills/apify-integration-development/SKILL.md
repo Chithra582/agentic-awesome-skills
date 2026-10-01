@@ -1,11 +1,14 @@
 ---
-description: Curated upstream guidance for Apify Integration Development; use when the workflow matches the user goal.
+description: Curated upstream guidance for Apify Integration Development; use when
+  the workflow matches the user goal.
 name: apify-integration-development
-source_repo: apify/agent-skills
-source_type: official
-source: apify
-date_added: '2026-09-21'
-risk: unknown
+metadata:
+  source_repo: apify/agent-skills
+  source_type: official
+  source: apify
+  date_added: '2026-09-21'
+  risk: unknown
+license: MIT
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

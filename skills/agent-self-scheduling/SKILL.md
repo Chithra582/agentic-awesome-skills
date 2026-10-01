@@ -1,19 +1,20 @@
 ---
 name: agent-self-scheduling
-description: "Schedule AI agent runs with cron, loops, or external clocks while avoiding unsafe tight autonomous timers."
-category: agent-orchestration
-risk: critical
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [agents, scheduling, automation, cron]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
+description: Schedule AI agent runs with cron, loops, or external clocks while avoiding
+  unsafe tight autonomous timers.
+license: MIT
+metadata:
+  category: agent-orchestration
+  risk: critical
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''agents'', ''scheduling'', ''automation'', ''cron'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
 ---
-
 # Agent Self-Scheduling
 
 ## When to Use

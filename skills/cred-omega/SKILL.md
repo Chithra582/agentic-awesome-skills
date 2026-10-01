@@ -1,24 +1,15 @@
 ---
 name: cred-omega
-description: "CISO operacional enterprise para gestao total de credenciais e segredos."
-risk: critical
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- credentials
-- secrets
-- security
-- api-keys
-- vault
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: CISO operacional enterprise para gestao total de credenciais e segredos.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''credentials'', ''secrets'', ''security'', ''api-keys'', ''vault'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # CRED-OMEGA: Security Engine for All API Keys (Enterprise)
 
 ## Detailed Guide

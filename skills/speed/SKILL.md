@@ -1,13 +1,14 @@
 ---
 name: speed
 description: Launch RSVP speed reader for text
-trigger: command
-risk: critical
-source: community
-date_added: "2026-09-04"
-tools: Write, Bash, Read
+metadata:
+  trigger: command
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+  tools: Write, Bash, Read
+license: MIT
 ---
-
 # Speed Reader
 
 Launch the RSVP speed reader to display text one word at a time with Spritz-style ORP (Optimal Recognition Point) highlighting.

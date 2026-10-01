@@ -1,19 +1,20 @@
 ---
 name: fedora-hyprland-installer
-description: Install, configure, verify, repair, update, and uninstall Hyprland on Fedora Linux with GPU-aware detection (NVIDIA/AMD/Intel).
-category: devops
-risk: critical
-source: community
-source_repo: maleksaadi0109/hyprfedora
-source_type: community
-date_added: "2026-07-26"
-author: maleksaadi0109
-tags: [fedora, hyprland, wayland, linux]
-tools: [claude, cursor, gemini]
+description: Install, configure, verify, repair, update, and uninstall Hyprland on
+  Fedora Linux with GPU-aware detection (NVIDIA/AMD/Intel).
 license: MIT
-license_source: https://github.com/maleksaadi0109/hyprfedora/blob/3ec6d4fc5eecdb188613dd841dce9926ae5c8319/LICENSE
+metadata:
+  category: devops
+  risk: critical
+  source: community
+  source_repo: maleksaadi0109/hyprfedora
+  source_type: community
+  date_added: '2026-07-26'
+  author: maleksaadi0109
+  tags: '[''fedora'', ''hyprland'', ''wayland'', ''linux'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/maleksaadi0109/hyprfedora/blob/3ec6d4fc5eecdb188613dd841dce9926ae5c8319/LICENSE
 ---
-
 # Fedora Hyprland Installer Skill
 
 This skill provides an automated, safety-first workflow for managing Hyprland on Fedora Linux.

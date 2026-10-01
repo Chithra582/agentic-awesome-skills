@@ -1,16 +1,18 @@
 ---
 name: pr-merge-champion
-description: "Optimize pull requests for quick approval and merging by ensuring clean diffs, comprehensive self-reviews, and structured documentation."
-category: workflow
-risk: safe
-source: self
-source_type: self
-date_added: "2026-06-16"
-author: himanshu-2l
-tags: [git, github, pull-request, code-review, workflow]
-tools: [claude, cursor, gemini, antigravity]
+description: Optimize pull requests for quick approval and merging by ensuring clean
+  diffs, comprehensive self-reviews, and structured documentation.
+metadata:
+  category: workflow
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-06-16'
+  author: himanshu-2l
+  tags: '[''git'', ''github'', ''pull-request'', ''code-review'', ''workflow'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''antigravity'']'
+license: MIT
 ---
-
 # PR Merge Champion
 
 ## Overview

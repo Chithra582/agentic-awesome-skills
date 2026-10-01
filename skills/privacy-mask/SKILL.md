@@ -1,15 +1,17 @@
 ---
 name: privacy-mask
-description: "Mask, redact, anonymize and censor sensitive information (PII) in screenshots and images — phone numbers, emails, IDs, API keys, crypto wallets, credit cards, passwords, and more."
-risk: critical
-source: https://github.com/fullstackcrew-alpha/privacy-mask/tree/main/
-source_repo: fullstackcrew-alpha/privacy-mask
-source_type: community
-date_added: 2026-07-01
+description: Mask, redact, anonymize and censor sensitive information (PII) in screenshots
+  and images — phone numbers, emails, IDs, API keys, crypto wallets, credit cards,
+  passwords, and more.
 license: MIT
-license_source: https://github.com/fullstackcrew-alpha/privacy-mask/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/fullstackcrew-alpha/privacy-mask/tree/main/
+  source_repo: fullstackcrew-alpha/privacy-mask
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/fullstackcrew-alpha/privacy-mask/blob/main/LICENSE
 ---
-
 # Privacy Mask
 
 Detect and mask sensitive information in images locally before they leave your machine.

@@ -1,16 +1,18 @@
 ---
 name: flutter-expert
-description: Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.
-category: mobile
-risk: safe
-source: community
-source_type: community
-date_added: '2026-02-27'
-author: Franklyn-R-Silva
-tags: [flutter, dart, mobile, cross-platform, riverpod]
-tools: [claude, cursor, gemini]
+description: Master Flutter development with Dart 3, advanced widgets, and multi-platform
+  deployment.
+metadata:
+  category: mobile
+  risk: safe
+  source: community
+  source_type: community
+  date_added: '2026-02-27'
+  author: Franklyn-R-Silva
+  tags: '[''flutter'', ''dart'', ''mobile'', ''cross-platform'', ''riverpod'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on flutter expert tasks or workflows

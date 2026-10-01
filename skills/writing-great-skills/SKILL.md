@@ -1,26 +1,21 @@
 ---
 name: writing-great-skills
-description: Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable.
-disable-model-invocation: true
-category: "skill-authoring"
-risk: "safe"
-source: "community"
-source_repo: "mattpocock/skills"
-source_type: "community"
-date_added: "2026-06-19"
-author: "Matt Pocock"
-license: "MIT"
-license_source: "https://github.com/mattpocock/skills/blob/main/LICENSE"
-tags:
-  - skill-authoring
-  - workflow
-  - coding-agents
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
+description: Reference for writing and editing skills well — the vocabulary and principles
+  that make a skill predictable.
+license: MIT
+metadata:
+  disable-model-invocation: 'True'
+  category: skill-authoring
+  risk: safe
+  source: community
+  source_repo: mattpocock/skills
+  source_type: community
+  date_added: '2026-06-19'
+  author: Matt Pocock
+  license_source: https://github.com/mattpocock/skills/blob/main/LICENSE
+  tags: '[''skill-authoring'', ''workflow'', ''coding-agents'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'']'
 ---
-
 ## When to Use
 
 Use when this workflow matches the user request: Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable.

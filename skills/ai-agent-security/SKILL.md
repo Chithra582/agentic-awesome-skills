@@ -2,22 +2,21 @@
 name: ai-agent-security
 description: Secure AI agents against prompt injection, tool abuse, and data exfiltration
   with defense-in-depth controls.
-category: security
-risk: safe
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant security tooling (scanners, vault CLIs) and an
   authorized scope for any active assessment. Docs-only; helper scripts and templates
   not bundled.
 metadata:
   author: devops-skills
   version: '2.0'
+  category: security
+  risk: safe
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # AI Agent Security
 
 Protect agentic AI systems from adversarial input, unsafe tool execution, data leakage, and privilege abuse with layered security controls.

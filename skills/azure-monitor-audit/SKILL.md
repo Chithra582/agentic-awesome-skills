@@ -2,21 +2,20 @@
 name: azure-monitor-audit
 description: Configure Azure Monitor and Activity Log for auditing. Set up diagnostic
   settings and log analytics. Use when auditing Azure activity.
-category: security
-risk: safe
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Checklist and framework guidance; no privileged tooling required. Apply
   controls through your own change process.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: security
+  risk: safe
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # Azure Monitor Audit
 
 Audit Azure activity with Monitor, Activity Logs, and Log Analytics for compliance, security, and operational visibility.

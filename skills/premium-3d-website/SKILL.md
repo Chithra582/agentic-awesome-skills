@@ -1,16 +1,20 @@
 ---
 name: premium-3d-website
-description: Guidelines for building premium 3D websites, focusing on custom WebGL shaders, post-processing, physics-based interactions, smooth animations, preloaders, and device optimization.
-category: frontend
-risk: safe
-source: self
-source_type: self
-date_added: "2026-06-25"
-author: Rsmiyani
-tags: [threejs, webgl, shaders, post-processing, creative-coding, premium-design]
-tools: [claude, cursor, gemini]
+description: Guidelines for building premium 3D websites, focusing on custom WebGL
+  shaders, post-processing, physics-based interactions, smooth animations, preloaders,
+  and device optimization.
+metadata:
+  category: frontend
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-06-25'
+  author: Rsmiyani
+  tags: '[''threejs'', ''webgl'', ''shaders'', ''post-processing'', ''creative-coding'',
+    ''premium-design'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # Premium 3D Website
 
 ## Overview

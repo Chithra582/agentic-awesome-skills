@@ -1,11 +1,14 @@
 ---
 name: python-development
-description: "You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint (Alias for python-development-python-scaffold)"
-risk: critical
-source: "alias"
-date_added: "2026-06-02"
+description: You are a Python project architecture expert specializing in scaffolding
+  production-ready Python applications. Generate complete project structures with
+  modern tooling (uv, FastAPI, Django), type hint (Alias for python-development-python-scaffold)
+metadata:
+  risk: critical
+  source: alias
+  date_added: '2026-06-02'
+license: MIT
 ---
-
 # Python Development
 
 > **This is an alias.** The canonical skill is **`python-development-python-scaffold`**.

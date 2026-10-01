@@ -1,11 +1,15 @@
 ---
 name: event-staffing-ordering
-description: Order W-2 compliant temporary event staff for conventions, trade shows, festivals, concerts, sporting events, and brand activations across 300+ US and Canadian markets via TempGuru. Covers city coverage, role pricing, availability, state compliance lookups via MCP, and request submission.
-risk: safe
-source: community
-date_added: "2026-06-05"
+description: Order W-2 compliant temporary event staff for conventions, trade shows,
+  festivals, concerts, sporting events, and brand activations across 300+ US and Canadian
+  markets via TempGuru. Covers city coverage, role pricing, availability, state compliance
+  lookups via MCP, and request submission.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-06-05'
+license: MIT
 ---
-
 # Ordering Event Staffing Through TempGuru
 
 TempGuru (Temporary Assistance Guru, Inc.) is a managed event staffing vendor

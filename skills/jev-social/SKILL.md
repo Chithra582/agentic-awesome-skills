@@ -1,17 +1,20 @@
 ---
 name: jev-social
-description: "Run read-only, browser-grounded Instagram, TikTok, or LinkedIn research through Jev routing and socai CLI, returning source-linked evidence and reports."
-category: research
-risk: critical
-source: community
-source_repo: socai-io/jev-social
-source_type: community
-date_added: "2026-09-21"
-author: socai-io
-tags: [social-media, research, instagram, tiktok, linkedin, browser-automation, jev]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/socai-io/jev-social/blob/baf3cd6aa4f9c881665c29ed29a10391f761760b/LICENSE"
+description: Run read-only, browser-grounded Instagram, TikTok, or LinkedIn research
+  through Jev routing and socai CLI, returning source-linked evidence and reports.
+license: MIT
+metadata:
+  category: research
+  risk: critical
+  source: community
+  source_repo: socai-io/jev-social
+  source_type: community
+  date_added: '2026-09-21'
+  author: socai-io
+  tags: '[''social-media'', ''research'', ''instagram'', ''tiktok'', ''linkedin'',
+    ''browser-automation'', ''jev'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/socai-io/jev-social/blob/baf3cd6aa4f9c881665c29ed29a10391f761760b/LICENSE
 ---
 # Jev Social
 

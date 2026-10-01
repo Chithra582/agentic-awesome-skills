@@ -1,15 +1,15 @@
 ---
 name: ui-a11y
 description: Audit a component or page for accessibility issues and fix them
-risk: critical
-source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-a11y
-source_repo: bitjaru/styleseed
-source_type: community
-date_added: 2026-07-01
 license: MIT
-license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-a11y
+  source_repo: bitjaru/styleseed
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
 ---
-
 # Accessibility Audit
 ## When to Use
 

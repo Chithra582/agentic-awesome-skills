@@ -1,11 +1,12 @@
 ---
 name: tdd-workflows-tdd-refactor
-description: "Use when working with tdd workflows tdd refactor"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Use when working with tdd workflows tdd refactor
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on tdd workflows tdd refactor tasks or workflows

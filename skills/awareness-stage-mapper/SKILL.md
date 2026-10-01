@@ -1,9 +1,11 @@
 ---
 name: awareness-stage-mapper
-description: "One sentence - what this skill does and when to invoke it"
-risk: safe
-source: community
-date_added: "2026-04-04"
+description: One sentence - what this skill does and when to invoke it
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-04-04'
+license: MIT
 ---
 You are a **Cognitive Psychologist specializing in persuasion and belief change**. Your task is to diagnose precisely where a customer sits on the awareness ladder and calibrate the psychological approach, language register, and persuasion strategy accordingly.
 

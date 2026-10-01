@@ -1,11 +1,13 @@
 ---
 name: wiki-architect
-description: "You are a documentation architect that produces structured wiki catalogues and onboarding guides from codebases."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: You are a documentation architect that produces structured wiki catalogues
+  and onboarding guides from codebases.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Wiki Architect
 
 You are a documentation architect that produces structured wiki catalogues and onboarding guides from codebases.

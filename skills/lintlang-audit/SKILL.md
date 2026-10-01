@@ -1,18 +1,20 @@
 ---
 name: lintlang-audit
-description: Audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
-category: development
-risk: safe
-source: https://github.com/hermes-labs-ai/lintlang/tree/c0cab00048220286858f227aaf4b13cc043f718b/integrations/claude-code/skills/lintlang-audit
-source_repo: hermes-labs-ai/lintlang
-source_type: official
-date_added: "2026-09-26"
-author: Hermes Labs
-tags: [ai-agents, linting, prompts, static-analysis]
+description: Audit named agent instructions, tool definitions, and supported Python
+  prompts with local LintLang checks; return finding codes and locations without changing
+  files.
 license: Apache-2.0
-license_source: https://github.com/hermes-labs-ai/lintlang/blob/c0cab00048220286858f227aaf4b13cc043f718b/LICENSE
+metadata:
+  category: development
+  risk: safe
+  source: https://github.com/hermes-labs-ai/lintlang/tree/c0cab00048220286858f227aaf4b13cc043f718b/integrations/claude-code/skills/lintlang-audit
+  source_repo: hermes-labs-ai/lintlang
+  source_type: official
+  date_added: '2026-09-26'
+  author: Hermes Labs
+  tags: '[''ai-agents'', ''linting'', ''prompts'', ''static-analysis'']'
+  license_source: https://github.com/hermes-labs-ai/lintlang/blob/c0cab00048220286858f227aaf4b13cc043f718b/LICENSE
 ---
-
 # Audit agent instructions with LintLang
 
 ## Overview

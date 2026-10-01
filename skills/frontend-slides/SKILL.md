@@ -1,11 +1,13 @@
 ---
 name: frontend-slides
-description: Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.
-risk: safe
-source: https://github.com/zarazhangrui/frontend-slides
-date_added: "2026-03-07"
+description: Create stunning, animation-rich HTML presentations from scratch or by
+  converting PowerPoint files.
+metadata:
+  risk: safe
+  source: https://github.com/zarazhangrui/frontend-slides
+  date_added: '2026-03-07'
+license: MIT
 ---
-
 # Frontend Slides
 
 Create zero-dependency, animation-rich HTML presentations that run entirely in the browser.

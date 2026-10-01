@@ -1,11 +1,14 @@
 ---
 name: seo-cannibalization-detector
-description: Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content.
-risk: safe
-source: community
-date_added: '2026-02-27'
+description: Analyzes multiple provided pages to identify keyword overlap and potential
+  cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when
+  reviewing similar content.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on seo cannibalization detector tasks or workflows

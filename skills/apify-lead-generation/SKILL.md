@@ -1,11 +1,12 @@
 ---
 name: apify-lead-generation
-description: "Scrape leads from multiple platforms using Apify Actors."
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Scrape leads from multiple platforms using Apify Actors.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Lead Generation
 
 Scrape leads from multiple platforms using Apify Actors.

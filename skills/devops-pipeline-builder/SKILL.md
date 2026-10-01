@@ -1,22 +1,18 @@
 ---
 name: devops-pipeline-builder
-version: 1.0.0
 description: Design and implement CI/CD pipelines, Docker configurations, deployment
   strategies, and infrastructure automation with production-ready patterns.
-author: yundu-ai
-tags:
-- devops
-- ci-cd
-- docker
-- kubernetes
-- deployment
-- automation
-model: claude
-source_repo: demo112/yunqu-ai-skills
-source_type: community
-source: community
-date_added: '2026-09-21'
-risk: unknown
+metadata:
+  version: 1.0.0
+  author: yundu-ai
+  tags: '[''devops'', ''ci-cd'', ''docker'', ''kubernetes'', ''deployment'', ''automation'']'
+  model: claude
+  source_repo: demo112/yunqu-ai-skills
+  source_type: community
+  source: community
+  date_added: '2026-09-21'
+  risk: unknown
+license: MIT
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

@@ -1,13 +1,15 @@
 ---
 name: ghidra-reverse
-description: "Free/open reverse engineering with Ghidra (headless or GUI): decompilation, cross-references, scripting, and optional Ghidra MCP workflows when IDA is unavailable."
-risk: safe
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
-source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+description: 'Free/open reverse engineering with Ghidra (headless or GUI): decompilation,
+  cross-references, scripting, and optional Ghidra MCP workflows when IDA is unavailable.'
+license: MIT
+metadata:
+  risk: safe
+  source: https://github.com/zhaoxuya520/reverse-skill
+  source_repo: zhaoxuya520/reverse-skill
+  source_type: community
+  date_added: '2026-08-25'
+  license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 # Ghidra Reverse Engineering
 ## When to Use

@@ -1,19 +1,20 @@
 ---
 name: hunt-sqli
 description: Hunting skill for sqli vulnerabilities.
-category: security
-risk: offensive
-source: https://github.com/elementalsouls/Claude-BugHunter
-source_repo: elementalsouls/Claude-BugHunter
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
 compatibility: Requires explicit written authorization for a target scope plus the
   relevant testing tools for this technique. Docs-only; helper scripts and commands
   not bundled.
-sources: github, hackerone_public, github_security_advisories, snyk_research, sonarsource_research
-report_count: 29
+metadata:
+  category: security
+  risk: offensive
+  source: https://github.com/elementalsouls/Claude-BugHunter
+  source_repo: elementalsouls/Claude-BugHunter
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
+  sources: github, hackerone_public, github_security_advisories, snyk_research, sonarsource_research
+  report_count: '29'
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
@@ -414,53 +415,6 @@ The following real, verified bug-bounty / CVE / coordinated-disclosure cases ext
 9. **Rocket.Chat — Pre-auth blind NoSQL injection in `getPasswordPolicy` (CVE-2021-22911)** ([H1 #1130721](https://hackerone.com/reports/1130721) · [Sonar writeup](https://www.sonarsource.com/blog/nosql-injections-in-rocket-chat/))
     - Subclass: NoSQL injection (MongoDB `$regex` operator) — pre-auth
     - Payload (Meteor DDP method call): `{"msg":"method","method":"getPasswordPolicy","params":[{"token":{"$regex":"^a"}}]}` — brute-force password-reset token character-by-character via response-time/boolean side-channel, then chain to admin password reset → RCE via integrations
-    - Root cause: Meteor `methods` accepted raw object selectors; `getPasswordPolicy` did not validate that `token` was a string before passing it to Mongo `findOne`
-    - Year: 2021 — H1 private bounty paired with CVE-2021-22911
+    - Root cause: Meteor `methods` accepted raw object selectors; `getPasswordPolicy` did not valida
 
-10. **Mongoose ORM — `$where` injection via `populate({match})` (CVE-2024-53900 + CVE-2025-23061)** ([GHSA-m7xq-9374-9rvx](https://github.com/advisories/GHSA-m7xq-9374-9rvx))
-    - Subclass: NoSQL injection — ORM raw-operator bypass (Mongoose Node.js)
-    - Payload: `Model.find().populate({path:'author', match:{$where:"sleep(5000) || true"}})` — attacker-controlled JSON forwarded into `populate({match})` reached MongoDB `$where`, executing arbitrary server-side JavaScript → blind exfil + DoS
-    - Root cause: Mongoose < 8.8.3 did not strip `$where` inside `match` filters; developers assumed ORM-level safety
-    - Year: 2024 — reported via the Mongoose project / GitHub Security Lab IBB
-
-11. **Django — `QuerySet.values()` JSONField SQL Injection (CVE-2024-42005)** ([H1 #2646493](https://hackerone.com/reports/2646493) · [Commit](https://github.com/django/django/commit/c87bfaacf8fb84984243b5055dc70f97996cb115))
-    - Subclass: ORM raw-fragment SQLi (Django ORM — column-alias injection)
-    - Payload: `Item.objects.values('data__"); DROP TABLE x;--')` — a crafted JSON-path key (passed as `*args` from a request parameter) was used as a SQL column alias without escaping; `.values()` emitted `SELECT (data->>'…') AS "…"; DROP TABLE x;--"`
-    - Root cause: Django emitted unquoted column aliases derived from user-supplied JSONField key strings; assumed alias values were always developer-controlled
-    - Year: 2024 — CVSS 9.8, reported by Eyal Gabay (EyalSec) through Django's HackerOne program → IBB award
-
-12. **Mozilla — Boolean-based blind SQLi on `mozilla.social` invite endpoint** ([H1 #2209130](https://hackerone.com/reports/2209130))
-    - Subclass: boolean-based blind SQLi on an authentication-adjacent endpoint
-    - Payload: `POST /invite {"code":"abc' AND (SELECT COUNT(*) FROM information_schema.tables)>0--"}` — boolean differentiation between "invalid code" and "code accepted, redirect issued" allowed schema/table enumeration on the OIDC proxy Postgres backend
-    - Root cause: invite-code lookup built a raw SQL string against the proxy's Postgres DB; developers assumed the code was short/opaque and skipped parameter binding
-    - Year: 2023 — Mozilla H1 bounty (amount redacted in disclosure)
-
----
-
-## Related Skills & Chains
-
-- **`hunt-rce`** — A SQLi against a DB user with `FILE`, `xp_cmdshell`, or `COPY FROM PROGRAM` privileges is an RCE primitive, not just a data-read. Chain primitive: MSSQL union-based SQLi → `EXEC xp_cmdshell 'whoami'` → RCE as `NT AUTHORITY\SYSTEM`; Postgres SQLi with `pg_read_server_files` or `COPY ... FROM PROGRAM 'id'` → RCE; MySQL SQLi with `FILE` → write webshell to web-root via `INTO OUTFILE`.
-- **`hunt-idor`** — Once SQLi gives you arbitrary read on the users table, you have the IDs/UUIDs needed to enumerate IDOR endpoints at scale. Chain primitive: blind SQLi extracts `users.uuid` column → feed UUIDs into `/api/users/{uuid}/profile` → confirmed mass IDOR-with-PII rather than a theoretical broken-access-control.
-- **`hunt-auth-bypass`** — Classic `' OR 1=1 --` in login forms or session tables is auth-bypass-via-SQLi. Chain primitive: SQLi on the `password_reset_tokens` table → read or insert a token row for `admin@target.com` → ATO without ever seeing the original password.
-- **`security-arsenal`** — Reach for the SQLi payload tree (WAF-bypass union variants `/**/UnIoN/**/SeLeCt/**/`, MSSQL `WAITFOR DELAY '0:0:10'`, MySQL `SLEEP(10)`, Postgres `pg_sleep(10)`, Oracle `DBMS_PIPE.RECEIVE_MESSAGE`, NoSQLi `{"$ne": null}` / `{"$where": "sleep(5000)"}`, second-order via stored-then-rendered fields).
-- **`triage-validation`** — Apply the Reproducibility Gate before reporting. A 200ms delta on a sleep-10 payload is noise, not blind SQLi. Require statistical evidence (5 trials at 0s vs 5 trials at 10s, non-overlapping confidence intervals) or an OOB DNS callback with a unique marker. The hunt-sqli internal sentinel/baseline pattern exists for exactly this.
-
-## When to Use
-
-- You have explicit, written authorization to assess the target in scope, and the task matches this skill's vulnerability class or technique within a bug-bounty or penetration-test engagement.
-- You need the recon, exploitation, or validation workflow described below — executed strictly inside the approved scope.
-
-## Limitations
-
-- Authorized scope only: the confirmation gate above is mandatory before any probing, exploitation, or credential-access command.
-- Docs-only import: upstream helper scripts, commands, engine, and research assets are not bundled; reinstall tooling from the source repo when needed.
-- Validate every finding (see `triage-validation`) before reporting; report via `report-writing`. Prefer a sandbox, disposable VM, or controlled lab.
-
-### Example
-
-```bash
-# Read-only first step; confirm scope before anything active.
-cat scope.txt  # target list from the authorized engagement brief
-```
-
-> Adapted from [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) (MIT); frontmatter, When to Use/Limitations, and safety boundaries added for upstream compliance. Docs-only import: executable helpers, commands, engine, and research assets not bundled.
+<!-- Truncated for OpenGAP token limits -->

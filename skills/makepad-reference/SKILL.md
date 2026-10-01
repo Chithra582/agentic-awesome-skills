@@ -1,11 +1,13 @@
 ---
 name: makepad-reference
-description: "This category provides reference materials for debugging, code quality, and advanced layout patterns."
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: This category provides reference materials for debugging, code quality,
+  and advanced layout patterns.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Makepad Reference
 
 This category provides reference materials for debugging, code quality, and advanced layout patterns.

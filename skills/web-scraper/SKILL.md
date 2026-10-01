@@ -1,23 +1,16 @@
 ---
 name: web-scraper
-description: Web scraping inteligente multi-estrategia. Extrai dados estruturados de paginas web (tabelas, listas, precos). Paginacao, monitoramento e export CSV/JSON.
-risk: safe
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- scraping
-- data-extraction
-- automation
-- csv
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Web scraping inteligente multi-estrategia. Extrai dados estruturados
+  de paginas web (tabelas, listas, precos). Paginacao, monitoramento e export CSV/JSON.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''scraping'', ''data-extraction'', ''automation'', ''csv'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # Web Scraper
 
 ## Detailed Guide

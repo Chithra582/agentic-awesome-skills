@@ -1,26 +1,21 @@
 ---
 name: llm-council
-description: "Run Fireworks-hosted open-weight model councils that compare responses and synthesize a final answer."
+description: Run Fireworks-hosted open-weight model councils that compare responses
+  and synthesize a final answer.
 allowed-tools: Read, Write, Bash, AskUserQuestion
-category: "ai-agents"
-risk: "safe"
-source: "official"
-source_repo: "dair-ai/dair-academy-plugins"
-source_type: "official"
-date_added: "2026-06-19"
-author: "DAIR.AI"
-license: "MIT"
-license_source: "https://github.com/dair-ai/dair-academy-plugins/blob/main/README.md#license"
-tags:
-  - dair-academy
-  - ai
-  - workflow
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
+license: MIT
+metadata:
+  category: ai-agents
+  risk: safe
+  source: official
+  source_repo: dair-ai/dair-academy-plugins
+  source_type: official
+  date_added: '2026-06-19'
+  author: DAIR.AI
+  license_source: https://github.com/dair-ai/dair-academy-plugins/blob/main/README.md#license
+  tags: '[''dair-academy'', ''ai'', ''workflow'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'']'
 ---
-
 # LLM Council (Fireworks AI)
 
 ## Detailed Guide

@@ -1,13 +1,15 @@
 ---
-description: Curated upstream guidance for Monte Carlo Analyze Root Cause; use when the workflow matches the user goal.
+description: Curated upstream guidance for Monte Carlo Analyze Root Cause; use when
+  the workflow matches the user goal.
 name: monte-carlo-analyze-root-cause
-risk: critical
-source: https://github.com/monte-carlo-data/mc-agent-toolkit/tree/main/skills/analyze-root-cause
-source_repo: monte-carlo-data/mc-agent-toolkit
-source_type: community
-date_added: 2026-07-01
 license: Apache-2.0
-license_source: https://github.com/monte-carlo-data/mc-agent-toolkit/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/monte-carlo-data/mc-agent-toolkit/tree/main/skills/analyze-root-cause
+  source_repo: monte-carlo-data/mc-agent-toolkit
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/monte-carlo-data/mc-agent-toolkit/blob/main/LICENSE
 ---
 ## When to Use
 

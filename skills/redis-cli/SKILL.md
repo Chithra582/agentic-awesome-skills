@@ -1,15 +1,17 @@
 ---
 name: redis-cli
-description: "Redis command-line interface (redis-cli) reference and usage guide. Use this skill whenever the user mentions redis-cli, Redis CLI, or any task involving querying, inspecting, debugging, or managing Redis from the command line."
-risk: critical
-source: https://github.com/chaunsin/agent-skills/tree/master/skills/redis-cli
-source_repo: chaunsin/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Redis command-line interface (redis-cli) reference and usage guide. Use
+  this skill whenever the user mentions redis-cli, Redis CLI, or any task involving
+  querying, inspecting, debugging, or managing Redis from the command line.
 license: Apache-2.0
-license_source: https://github.com/chaunsin/agent-skills/blob/master/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/chaunsin/agent-skills/tree/master/skills/redis-cli
+  source_repo: chaunsin/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/chaunsin/agent-skills/blob/master/LICENSE
 ---
-
 # redis-cli — Redis Command Line Interface
 ## When to Use
 

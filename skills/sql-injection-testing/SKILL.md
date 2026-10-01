@@ -1,12 +1,15 @@
 ---
 name: sql-injection-testing
-description: "Execute comprehensive SQL injection vulnerability assessments on web applications to identify database security flaws, demonstrate exploitation techniques, and validate input sanitization mechanisms."
-risk: offensive
-source: community
-author: zebbern
-date_added: "2026-02-27"
+description: Execute comprehensive SQL injection vulnerability assessments on web
+  applications to identify database security flaws, demonstrate exploitation techniques,
+  and validate input sanitization mechanisms.
+metadata:
+  risk: offensive
+  source: community
+  author: zebbern
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

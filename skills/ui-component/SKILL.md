@@ -1,15 +1,15 @@
 ---
 name: ui-component
 description: Generate a new UI component following the StyleSeed design conventions
-risk: critical
-source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-component
-source_repo: bitjaru/styleseed
-source_type: community
-date_added: 2026-07-01
 license: MIT
-license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-component
+  source_repo: bitjaru/styleseed
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
 ---
-
 # UI Component Generator
 ## When to Use
 

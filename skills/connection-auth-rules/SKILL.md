@@ -2,13 +2,15 @@
 name: connection-auth-rules
 description: Build a Connection Auth Rules for a Monte Carlo connection type. Fetches
   live connector schemas and transform steps from the apollo-agent repo.
-bucket: Setup
-version: 1.0.0
-source_repo: monte-carlo-data/mc-agent-toolkit
-source_type: community
-source: community
-date_added: '2026-09-21'
-risk: unknown
+metadata:
+  bucket: Setup
+  version: 1.0.0
+  source_repo: monte-carlo-data/mc-agent-toolkit
+  source_type: community
+  source: community
+  date_added: '2026-09-21'
+  risk: unknown
+license: MIT
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

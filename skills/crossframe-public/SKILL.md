@@ -1,25 +1,20 @@
 ---
 name: crossframe-public
-description: "Use when CrossFrame Suite routes explicit Chinese analysis of public issues, platform governance, policy, institutional responsibility, appeals, or compliance evidence."
-category: workflow
-risk: safe
-source: community
-source_repo: xi-kari/crossframe-skill
-source_type: community
-date_added: 2026-06-16
-author: xi-kari
+description: Use when CrossFrame Suite routes explicit Chinese analysis of public
+  issues, platform governance, policy, institutional responsibility, appeals, or compliance
+  evidence.
 license: MIT
-license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
-tools:
-  - "Agent Skills"
-  - Codex
-  - Claude
-tags:
-  - crossframe
-  - chinese
-  - public-policy
-  - governance
-  - evidence
+metadata:
+  category: workflow
+  risk: safe
+  source: community
+  source_repo: xi-kari/crossframe-skill
+  source_type: community
+  date_added: '2026-06-16'
+  author: xi-kari
+  license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
+  tools: '[''Agent Skills'', ''Codex'', ''Claude'']'
+  tags: '[''crossframe'', ''chinese'', ''public-policy'', ''governance'', ''evidence'']'
 ---
 # CrossFrame Public
 

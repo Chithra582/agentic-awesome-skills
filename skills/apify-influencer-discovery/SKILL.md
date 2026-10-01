@@ -1,11 +1,13 @@
 ---
 name: apify-influencer-discovery
-description: Find and evaluate influencers for brand partnerships, verify authenticity, and track collaboration performance across Instagram, Facebook, YouTube, and TikTok.
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Find and evaluate influencers for brand partnerships, verify authenticity,
+  and track collaboration performance across Instagram, Facebook, YouTube, and TikTok.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Influencer Discovery
 
 Discover and analyze influencers across multiple platforms using Apify Actors.

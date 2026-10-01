@@ -1,12 +1,15 @@
 ---
 name: privilege-escalation-methods
-description: "Provide comprehensive techniques for escalating privileges from a low-privileged user to root/administrator access on compromised Linux and Windows systems. Essential for penetration testing post-exploitation phase and red team operations."
-risk: offensive
-source: community
-author: zebbern
-date_added: "2026-02-27"
+description: Provide comprehensive techniques for escalating privileges from a low-privileged
+  user to root/administrator access on compromised Linux and Windows systems. Essential
+  for penetration testing post-exploitation phase and red team operations.
+metadata:
+  risk: offensive
+  source: community
+  author: zebbern
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

@@ -1,16 +1,17 @@
 ---
 name: fixing-metadata
-description: "Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and robots directives."
-risk: critical
-source: https://github.com/ibelick/ui-skills/tree/main/skills/fixing-metadata
-source_repo: ibelick/ui-skills
-source_type: community
-date_added: 2026-07-01
+description: Audit and fix HTML metadata including page titles, meta descriptions,
+  canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data,
+  and robots directives.
 license: MIT
-license_source: https://github.com/ibelick/ui-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/ibelick/ui-skills/tree/main/skills/fixing-metadata
+  source_repo: ibelick/ui-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/ibelick/ui-skills/blob/main/LICENSE
 ---
-
-
 ## When to Use
 
 Use this skill when you need audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and robots directives. Use when adding SEO metadata, fixing social share previews, reviewing Open Graph tags, setting up canonical...

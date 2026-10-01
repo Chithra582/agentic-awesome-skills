@@ -1,11 +1,13 @@
 ---
 name: azure-cosmos-db-py
-description: "Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Build production-grade Azure Cosmos DB NoSQL services following clean
+  code, security best practices, and TDD principles.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Cosmos DB Service Implementation
 
 Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles.

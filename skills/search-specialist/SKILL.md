@@ -1,11 +1,12 @@
 ---
 name: search-specialist
-description: "Expert web researcher using advanced search techniques and"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Expert web researcher using advanced search techniques and
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on search specialist tasks or workflows

@@ -1,19 +1,15 @@
 ---
 name: semgrep-rule-creator
-description: Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom static analysis detections.
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Edit
-  - Glob
-  - Grep
-  - WebFetch
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Creates custom Semgrep rules for detecting security vulnerabilities,
+  bug patterns, and code patterns. Use when writing Semgrep rules or building custom
+  static analysis detections.
+allowed-tools: Bash Read Write Edit Glob Grep WebFetch
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Semgrep Rule Creator
 
 Create production-quality Semgrep rules with proper testing and validation.

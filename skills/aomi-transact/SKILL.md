@@ -1,23 +1,19 @@
 ---
 name: aomi-transact
-description: "Build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliquid, Polymarket."
-risk: critical
-source: "aomi-labs/skills (MIT)"
-source_repo: "aomi-labs/skills"
+description: 'Build natural-language crypto/DeFi agents and EVM MCP plugins (Claude
+  Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum,
+  Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps:
+  Uniswap, Aave, Lido, Morpho, GMX, Hyperliquid, Polymarket.'
 license: MIT
-license_source: "https://github.com/aomi-labs/skills/blob/main/LICENSE"
-date_added: "2026-05-06"
-tags:
-  - defi
-  - wallet
-  - account-abstraction
-  - cli
-  - eip-712
-  - onchain
-  - agent
-  - intent
+metadata:
+  risk: critical
+  source: aomi-labs/skills (MIT)
+  source_repo: aomi-labs/skills
+  license_source: https://github.com/aomi-labs/skills/blob/main/LICENSE
+  date_added: '2026-05-06'
+  tags: '[''defi'', ''wallet'', ''account-abstraction'', ''cli'', ''eip-712'', ''onchain'',
+    ''agent'', ''intent'']'
 ---
-
 # Aomi Transact
 
 > **Authorized use only.** This skill signs and broadcasts on-chain transactions on the user's behalf. The user must explicitly request each signing step. The skill will not run `aomi tx sign` without an explicit user request and a corresponding `tx-N` queued by `aomi tx list`.

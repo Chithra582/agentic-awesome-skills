@@ -1,15 +1,15 @@
 ---
 name: upgrading-expo
 description: Guidelines for upgrading Expo SDK versions and fixing dependency issues
-risk: critical
-source: https://github.com/expo/skills/tree/main/plugins/expo/skills/upgrading-expo
-source_repo: expo/skills
-source_type: official
-date_added: 2026-07-01
 license: MIT
-license_source: https://github.com/expo/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/expo/skills/tree/main/plugins/expo/skills/upgrading-expo
+  source_repo: expo/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/expo/skills/blob/main/LICENSE
 ---
-
 ## When to Use
 
 Use this skill when you need guidelines for upgrading Expo SDK versions and fixing dependency issues.

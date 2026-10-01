@@ -1,11 +1,13 @@
 ---
 name: llm-evaluation
-description: "Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Master comprehensive evaluation strategies for LLM applications, from
+  automated metrics to human evaluation and A/B testing.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # LLM Evaluation
 
 Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing.

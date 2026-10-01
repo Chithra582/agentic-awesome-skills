@@ -1,12 +1,14 @@
 ---
 name: score-eval
-disable-model-invocation: true
-source_repo: neondatabase/agent-skills
-source_type: official
-source: neondatabase
-date_added: '2026-09-21'
-risk: unknown
 description: Imported skill `score-eval` from upstream source.
+metadata:
+  disable-model-invocation: 'True'
+  source_repo: neondatabase/agent-skills
+  source_type: official
+  source: neondatabase
+  date_added: '2026-09-21'
+  risk: unknown
+license: MIT
 ---
 ## When to Use
 

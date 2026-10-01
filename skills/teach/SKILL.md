@@ -1,27 +1,21 @@
 ---
 name: teach
 description: Teach the user a new skill or concept, within this workspace.
-disable-model-invocation: true
-argument-hint: "What would you like to learn about?"
-category: "education"
-risk: "safe"
-source: "community"
-source_repo: "mattpocock/skills"
-source_type: "community"
-date_added: "2026-06-19"
-author: "Matt Pocock"
-license: "MIT"
-license_source: "https://github.com/mattpocock/skills/blob/main/LICENSE"
-tags:
-  - education
-  - workflow
-  - coding-agents
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
+license: MIT
+metadata:
+  disable-model-invocation: 'True'
+  argument-hint: What would you like to learn about?
+  category: education
+  risk: safe
+  source: community
+  source_repo: mattpocock/skills
+  source_type: community
+  date_added: '2026-06-19'
+  author: Matt Pocock
+  license_source: https://github.com/mattpocock/skills/blob/main/LICENSE
+  tags: '[''education'', ''workflow'', ''coding-agents'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'']'
 ---
-
 ## When to Use
 
 Use when this workflow matches the user request: Teach the user a new skill or concept, within this workspace.

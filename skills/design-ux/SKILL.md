@@ -1,16 +1,18 @@
 ---
 name: design-ux
-description: "UX / usability audit — heuristic evaluation of INTERACTIVE UIs (not just visual polish). Load with design when a UI \"feels off\", \"sucks to use\", is hard to learn, needs an instruction wall, or before shipping an interactive tool/editor/app."
-risk: critical
-source: https://github.com/connerkward/ckw-design-skill/tree/main/deterministic-design/design-ux
-source_repo: connerkward/ckw-design-skill
-source_type: community
-date_added: 2026-07-01
+description: UX / usability audit — heuristic evaluation of INTERACTIVE UIs (not just
+  visual polish). Load with design when a UI "feels off", "sucks to use", is hard
+  to learn, needs an instruction wall, or before shipping an interactive tool/editor/app.
 license: MIT
-license_source: https://github.com/connerkward/ckw-design-skill/blob/main/LICENSE
-author: Conner K Ward
+metadata:
+  risk: critical
+  source: https://github.com/connerkward/ckw-design-skill/tree/main/deterministic-design/design-ux
+  source_repo: connerkward/ckw-design-skill
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/connerkward/ckw-design-skill/blob/main/LICENSE
+  author: Conner K Ward
 ---
-
 # design-ux — usability audit (heuristic evaluation)
 ## When to Use
 

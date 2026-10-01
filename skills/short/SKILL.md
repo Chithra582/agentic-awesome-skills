@@ -1,20 +1,20 @@
 ---
 name: short
-description: "Rewrite the previous response more briefly while preserving the substance."
-category: writing
-risk: safe
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [writing, editing, concise]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
-disable-model-invocation: true
+description: Rewrite the previous response more briefly while preserving the substance.
+license: MIT
+metadata:
+  category: writing
+  risk: safe
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''writing'', ''editing'', ''concise'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
+  disable-model-invocation: 'True'
 ---
-
 rewrite your last response to be simpler & shorter. do not do anything else.
 
 ## When to Use

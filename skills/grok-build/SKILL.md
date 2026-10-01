@@ -1,19 +1,21 @@
 ---
 name: grok-build
-description: "Delegate well-specified implementation tasks to xAI's Grok Build CLI running headlessly while the orchestrating agent plans, writes task specs, reviews every diff, and owns the result."
-category: agent-orchestration
-risk: critical
-source: https://github.com/sanjay3290/ai-skills/tree/main/skills/grok-build
-source_repo: sanjay3290/ai-skills
-source_type: community
-date_added: "2026-07-09"
-author: sanjay3290
-tags: [grok, delegation, code-generation, xai]
-tools: [claude, cursor, gemini]
-license: "Apache-2.0"
-license_source: "https://github.com/sanjay3290/ai-skills/blob/main/LICENSE"
+description: Delegate well-specified implementation tasks to xAI's Grok Build CLI
+  running headlessly while the orchestrating agent plans, writes task specs, reviews
+  every diff, and owns the result.
+license: Apache-2.0
+metadata:
+  category: agent-orchestration
+  risk: critical
+  source: https://github.com/sanjay3290/ai-skills/tree/main/skills/grok-build
+  source_repo: sanjay3290/ai-skills
+  source_type: community
+  date_added: '2026-07-09'
+  author: sanjay3290
+  tags: '[''grok'', ''delegation'', ''code-generation'', ''xai'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/sanjay3290/ai-skills/blob/main/LICENSE
 ---
-
 # Grok Build Orchestration
 
 ## When to Use

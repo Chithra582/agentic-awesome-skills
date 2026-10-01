@@ -1,23 +1,16 @@
 ---
 name: skill-sentinel
-description: Auditoria e evolucao do ecossistema de skills. Qualidade de codigo, seguranca, custos, gaps, duplicacoes, dependencias e relatorios de saude.
-risk: safe
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- governance
-- audit
-- quality
-- skill-health
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Auditoria e evolucao do ecossistema de skills. Qualidade de codigo, seguranca,
+  custos, gaps, duplicacoes, dependencias e relatorios de saude.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''governance'', ''audit'', ''quality'', ''skill-health'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # Skill Sentinel
 
 ## Overview

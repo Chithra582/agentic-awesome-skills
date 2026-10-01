@@ -1,19 +1,21 @@
 ---
 name: project-state-governor
-description: "Govern evidence-backed canonical project state across sessions, branches, reviews, and research cycles without inventing product intent."
-category: project-management
-risk: critical
-source: community
-source_repo: Ghost011118/project-state-governor
-source_type: community
-date_added: "2026-08-20"
-author: Ghost011118
-tags: [project-state, project-memory, documentation, governance, context-engineering, multi-agent]
-tools: [claude, cursor, gemini, codex, copilot, opencode]
-license: "Apache-2.0"
-license_source: "https://github.com/Ghost011118/project-state-governor/blob/main/LICENSE"
+description: Govern evidence-backed canonical project state across sessions, branches,
+  reviews, and research cycles without inventing product intent.
+license: Apache-2.0
+metadata:
+  category: project-management
+  risk: critical
+  source: community
+  source_repo: Ghost011118/project-state-governor
+  source_type: community
+  date_added: '2026-08-20'
+  author: Ghost011118
+  tags: '[''project-state'', ''project-memory'', ''documentation'', ''governance'',
+    ''context-engineering'', ''multi-agent'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'', ''copilot'', ''opencode'']'
+  license_source: https://github.com/Ghost011118/project-state-governor/blob/main/LICENSE
 ---
-
 # Project State Governor
 
 ## Mission

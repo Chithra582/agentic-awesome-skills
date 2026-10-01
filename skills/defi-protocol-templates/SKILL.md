@@ -1,11 +1,14 @@
 ---
 name: defi-protocol-templates
-description: "Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Implement DeFi protocols with production-ready templates for staking,
+  AMMs, governance, and lending systems. Use when building decentralized finance applications
+  or smart contract protocols.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # DeFi Protocol Templates
 
 Production-ready templates for common DeFi protocols including staking, AMMs, governance, lending, and flash loans.

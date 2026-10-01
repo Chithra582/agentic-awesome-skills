@@ -1,15 +1,17 @@
 ---
 name: selenium-skill
-description: "Generates production-grade Selenium WebDriver automation scripts and tests in Java, Python, JavaScript, C#, Ruby, or PHP. Supports local execution and TestMu AI cloud with 3000+ browser/OS combinations."
-risk: critical
-source: https://github.com/LambdaTest/agent-skills/tree/main/selenium-skill
-source_repo: LambdaTest/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Generates production-grade Selenium WebDriver automation scripts and
+  tests in Java, Python, JavaScript, C#, Ruby, or PHP. Supports local execution and
+  TestMu AI cloud with 3000+ browser/OS combinations.
 license: MIT
-license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/LambdaTest/agent-skills/tree/main/selenium-skill
+  source_repo: LambdaTest/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 ---
-
 # Selenium Automation Skill
 ## When to Use
 

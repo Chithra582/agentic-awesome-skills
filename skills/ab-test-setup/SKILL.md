@@ -1,11 +1,14 @@
 ---
 name: ab-test-setup
-description: "Use when designing an A/B or split test: define the hypothesis, control and variants, estimate sample size, verify tracking, and predeclare metrics and stopping rules."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: 'Use when designing an A/B or split test: define the hypothesis, control
+  and variants, estimate sample size, verify tracking, and predeclare metrics and
+  stopping rules.'
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # A/B Test Setup
 
 ## 1️⃣ Purpose & Scope

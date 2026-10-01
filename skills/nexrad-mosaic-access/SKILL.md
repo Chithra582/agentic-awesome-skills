@@ -1,16 +1,19 @@
 ---
 name: nexrad-mosaic-access
-description: "Access official NOAA/NCEP MRMS radar and multisensor composites for a region and time; validate product, grid, domain, quality, timestamp, and provenance."
-category: data
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-25"
-author: ShianMike
-tags: [weather, nexrad, mrms, mosaic, qpe, vil, vii, mesh, composite-products]
-tools: [claude, cursor, gemini, codex]
+description: Access official NOAA/NCEP MRMS radar and multisensor composites for a
+  region and time; validate product, grid, domain, quality, timestamp, and provenance.
+metadata:
+  category: data
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-25'
+  author: ShianMike
+  tags: '[''weather'', ''nexrad'', ''mrms'', ''mosaic'', ''qpe'', ''vil'', ''vii'',
+    ''mesh'', ''composite-products'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+license: MIT
 ---
-
 # NEXRAD Mosaic Access
 
 ## Overview

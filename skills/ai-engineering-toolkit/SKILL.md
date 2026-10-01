@@ -1,15 +1,19 @@
 ---
 name: ai-engineering-toolkit
-description: "6 production-ready AI engineering workflows: prompt evaluation (8-dimension scoring), context budget planning, RAG pipeline design, agent security audit (65-point checklist), eval harness building, and product sense coaching."
-category: data-ai
-risk: offensive
-source: community
-date_added: "2026-03-15"
-author: viliawang-pm
-tags: [prompt-engineering, rag, security, evaluation, ai-engineering, llm]
-tools: [claude, cursor, gemini, copilot]
+description: '6 production-ready AI engineering workflows: prompt evaluation (8-dimension
+  scoring), context budget planning, RAG pipeline design, agent security audit (65-point
+  checklist), eval harness building, and product sense coaching.'
+metadata:
+  category: data-ai
+  risk: offensive
+  source: community
+  date_added: '2026-03-15'
+  author: viliawang-pm
+  tags: '[''prompt-engineering'', ''rag'', ''security'', ''evaluation'', ''ai-engineering'',
+    ''llm'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''copilot'']'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

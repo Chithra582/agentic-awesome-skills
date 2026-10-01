@@ -1,19 +1,20 @@
 ---
 name: unsloth-finetuning
-description: "Fine-tune and post-train LLMs with Unsloth Core on a single consumer GPU: VRAM sizing, LoRA/QLoRA, GRPO/DPO, chat-template correctness, and GGUF export."
-category: ai-ml
-risk: critical
-source: community
-source_repo: unslothai/unsloth
-source_type: community
-date_added: "2026-08-27"
-author: A-ryanVAT-S
-tags: [unsloth, fine-tuning, lora, qlora, grpo, gguf, vram]
-tools: [claude, cursor, gemini]
-license: "Apache-2.0"
-license_source: "https://github.com/unslothai/unsloth/blob/main/LICENSE"
+description: 'Fine-tune and post-train LLMs with Unsloth Core on a single consumer
+  GPU: VRAM sizing, LoRA/QLoRA, GRPO/DPO, chat-template correctness, and GGUF export.'
+license: Apache-2.0
+metadata:
+  category: ai-ml
+  risk: critical
+  source: community
+  source_repo: unslothai/unsloth
+  source_type: community
+  date_added: '2026-08-27'
+  author: A-ryanVAT-S
+  tags: '[''unsloth'', ''fine-tuning'', ''lora'', ''qlora'', ''grpo'', ''gguf'', ''vram'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/unslothai/unsloth/blob/main/LICENSE
 ---
-
 # Unsloth Fine-Tuning
 
 ## Overview

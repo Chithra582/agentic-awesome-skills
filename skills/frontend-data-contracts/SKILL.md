@@ -1,15 +1,16 @@
 ---
 name: frontend-data-contracts
-description: "A portable, framework-agnostic discipline for type safety at the network edge of any React or React Native app."
-risk: critical
-source: https://github.com/stareezy-1/frontend-architecture-skill/tree/main/skills/frontend-data-contracts
-source_repo: stareezy-1/frontend-architecture-skill
-source_type: community
-date_added: 2026-07-01
+description: A portable, framework-agnostic discipline for type safety at the network
+  edge of any React or React Native app.
 license: MIT
-license_source: https://github.com/stareezy-1/frontend-architecture-skill/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/stareezy-1/frontend-architecture-skill/tree/main/skills/frontend-data-contracts
+  source_repo: stareezy-1/frontend-architecture-skill
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/stareezy-1/frontend-architecture-skill/blob/main/LICENSE
 ---
-
 # Frontend Data Contracts (typed network boundary)
 ## When to Use
 

@@ -1,17 +1,20 @@
 ---
 name: video-content-extractor
-description: "Extract key frames from MP4 videos at configurable intervals, run Tesseract OCR, and generate structured Markdown reports with video metadata and timestamped text transcripts."
-category: media-processing
-risk: safe
-source: community
-source_repo: 274326424/video-content-extractor
-source_type: community
-date_added: "2026-06-06"
-author: 274326424
-tags: [video, ocr, ffmpeg, tesseract, frame-extraction, media]
-tools: [codex]
+description: Extract key frames from MP4 videos at configurable intervals, run Tesseract
+  OCR, and generate structured Markdown reports with video metadata and timestamped
+  text transcripts.
+metadata:
+  category: media-processing
+  risk: safe
+  source: community
+  source_repo: 274326424/video-content-extractor
+  source_type: community
+  date_added: '2026-06-06'
+  author: '274326424'
+  tags: '[''video'', ''ocr'', ''ffmpeg'', ''tesseract'', ''frame-extraction'', ''media'']'
+  tools: '[''codex'']'
+license: MIT
 ---
-
 # Video Content Extractor
 
 ## Overview

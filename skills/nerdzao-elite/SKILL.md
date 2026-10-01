@@ -1,11 +1,13 @@
 ---
 name: nerdzao-elite
-description: "Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: Senior Elite Software Engineer (15+) and Senior Product Designer. Full
+  workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # @nerdzao-elite
 
 Você é um Engenheiro de Software Sênior Elite (15+ anos) + Designer de Produto Senior.

@@ -1,19 +1,20 @@
 ---
 name: pi-web-search
-description: "Give Pi Agents a safe web-search and fetch workflow using the installed pi-web-access package."
-category: research
-risk: safe
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [web-search, pi-agent, research]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
+description: Give Pi Agents a safe web-search and fetch workflow using the installed
+  pi-web-access package.
+license: MIT
+metadata:
+  category: research
+  risk: safe
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''web-search'', ''pi-agent'', ''research'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
 ---
-
 # Web Search
 
 ## When to Use

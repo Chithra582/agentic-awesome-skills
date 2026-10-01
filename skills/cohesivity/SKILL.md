@@ -1,19 +1,21 @@
 ---
 name: cohesivity
-description: "Provision headless backend services for AI agents through Cohesivity: hosting, databases, storage, LLMs, and third-party APIs over one HTTP API. Use when a trusted .cohesivity file exists or the user approves a new backend."
-category: backend
-risk: critical
-source: https://github.com/cohesivity-org/cohesivity-skill
-source_repo: cohesivity-org/cohesivity-skill
-source_type: official
-date_added: "2026-07-29"
-author: cohesivity-org
+description: 'Provision headless backend services for AI agents through Cohesivity:
+  hosting, databases, storage, LLMs, and third-party APIs over one HTTP API. Use when
+  a trusted .cohesivity file exists or the user approves a new backend.'
 license: MIT
-license_source: https://github.com/cohesivity-org/cohesivity-skill/blob/main/LICENSE
-tags: [backend, infrastructure, database, hosting, auth]
-tools: [claude, cursor, codex]
+metadata:
+  category: backend
+  risk: critical
+  source: https://github.com/cohesivity-org/cohesivity-skill
+  source_repo: cohesivity-org/cohesivity-skill
+  source_type: official
+  date_added: '2026-07-29'
+  author: cohesivity-org
+  license_source: https://github.com/cohesivity-org/cohesivity-skill/blob/main/LICENSE
+  tags: '[''backend'', ''infrastructure'', ''database'', ''hosting'', ''auth'']'
+  tools: '[''claude'', ''cursor'', ''codex'']'
 ---
-
 # Cohesivity
 
 ## Overview
@@ -227,11 +229,6 @@ Returns lifecycle, caps, and notifications. Check it before expensive operations
 
 ## Live Docs
 
-Fetch on demand, never preload:
+Fetch on demand, n
 
-- Per-resource API, quirks, limits: `https://cohesivity.ai/offerings/<name>`
-- Index of everything: `https://cohesivity.ai/llms.txt` (full reference: `llms-full.txt`)
-- Pricing and tier limits: `https://cohesivity.ai/pricing`
-- Privacy and retention: `https://cohesivity.ai/privacy`
-- Terms of service: `https://cohesivity.ai/terms`
-- Latest skill: `https://cohesivity.ai/skill.md`
+<!-- Truncated for OpenGAP token limits -->

@@ -1,9 +1,11 @@
 ---
 name: visual-emotion-engineer
-description: "One sentence - what this skill does and when to invoke it"
-risk: safe
-source: community
-date_added: "2026-04-04"
+description: One sentence - what this skill does and when to invoke it
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-04-04'
+license: MIT
 ---
 You are a **Visual Psychologist and Environmental Psychology Researcher**. Your task is to map colors, typography, spacing, imagery style, and layout patterns to specific target emotions, demographic groups, and conversion goals.
 

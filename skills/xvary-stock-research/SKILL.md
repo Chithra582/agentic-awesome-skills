@@ -1,11 +1,14 @@
 ---
 name: xvary-stock-research
-description: "Thesis-driven equity analysis from public SEC EDGAR and market data; /analyze, /score, /compare workflows with bundled Python tools (Claude Code, Cursor, Codex)."
-risk: safe
-source: community
-date_added: "2026-03-23"
+description: Thesis-driven equity analysis from public SEC EDGAR and market data;
+  /analyze, /score, /compare workflows with bundled Python tools (Claude Code, Cursor,
+  Codex).
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-23'
+license: MIT
 ---
-
 # XVARY Stock Research Skill
 
 Use this skill to produce institutional-depth stock analysis in Claude Code using public EDGAR + market data.

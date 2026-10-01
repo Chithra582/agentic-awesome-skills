@@ -1,31 +1,24 @@
 ---
 name: competitor-analysis
-description: "Research competitors with Browserbase discovery, enrichment lanes, screenshots, matrices, and HTML reports."
+description: Research competitors with Browserbase discovery, enrichment lanes, screenshots,
+  matrices, and HTML reports.
 license: MIT
-compatibility: Requires the browse CLI (npm install -g browse) and BROWSERBASE_API_KEY env var
+compatibility: Requires the browse CLI (npm install -g browse) and BROWSERBASE_API_KEY
+  env var
 allowed-tools: Bash Agent AskUserQuestion
 metadata:
-  author: browserbase
-  version: "0.2.0"
-category: "marketing"
-risk: "safe"
-source: "official"
-source_repo: "browserbase/skills"
-source_type: "official"
-date_added: "2026-06-19"
-author: "Browserbase"
-license_source: "https://github.com/browserbase/skills/blob/main/skills/competitor-analysis/LICENSE.txt"
-tags:
-  - competitor-analysis
-  - browserbase
-  - market-research
-  - browser-automation
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
+  author: Browserbase
+  version: 0.2.0
+  category: marketing
+  risk: safe
+  source: official
+  source_repo: browserbase/skills
+  source_type: official
+  date_added: '2026-06-19'
+  license_source: https://github.com/browserbase/skills/blob/main/skills/competitor-analysis/LICENSE.txt
+  tags: '[''competitor-analysis'', ''browserbase'', ''market-research'', ''browser-automation'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'']'
 ---
-
 # Competitor Analysis
 
 ## When to Use
@@ -254,181 +247,6 @@ Each subagent writes a partial to `{OUTPUT_DIR}/partials/{slug}.{lane}.md`.
 **Critical**: Pass the user's company name, product, and key features verbatim into every subagent prompt so the technical lane can do strategic diffing. Pass the full literal `{OUTPUT_DIR}` path to every subagent.
 
 ### Merge partials → canonical per-competitor file
-After all subagents for all competitors complete:
-```bash
-node {SKILL_DIR}/scripts/merge_partials.mjs {OUTPUT_DIR}
-```
-Unions the 5 partials per competitor into one `{OUTPUT_DIR}/{slug}.md` — dedup'd Mentions (sorted by date desc), dedup'd Benchmarks, merged Findings, canonical frontmatter from the marketing lane.
+After all su
 
-### Synthesize the comparison matrix (write `matrix.json`)
-
-**Subagents write `key_features` and `integrations` as prose**, not as pipe-separated atomic feature labels. So a naive `|`-split axis becomes one-blob-per-competitor with no overlap — the rendered matrix shows a useless diagonal.
-
-The main agent fixes this by synthesizing a **shared taxonomy** across competitors and writing `{OUTPUT_DIR}/matrix.json`. `compile_report.mjs` auto-detects this file and renders the matrix from it instead of from the pipe split.
-
-**Process** — main agent:
-1. Read ALL `{slug}.md` files, INCLUDING the user's company file `{user-slug}.md` produced in Step 1. The user is competitor #0 for matrix purposes — treat with identical rigor.
-2. Produce a canonical list of 12-20 *atomic* features — each must be a yes/no proposition a competitor either has or doesn't (e.g. "MCP server", "SOC 2", "Site crawler", "Reranker"). Avoid sentence-length features. Avoid features only one competitor has.
-3. Produce a canonical list of 10-20 integrations (frameworks, marketplaces, SDK languages).
-4. For each company INCLUDING THE USER, map each taxonomy entry to `true` / `false` based on the enrichment data in their `.md` file. **Every flag must be traceable to a Research Findings bullet with a cited URL.** If the user's file says "exa-py MIT-licensed (github.com/exa-labs/exa-py)", the Open-source feature is `true` with that URL as the source. If not mentioned, leave `false`.
-5. Write the result to `{OUTPUT_DIR}/matrix.json` in this shape:
-   ```json
-   {
-     "category": "AI search APIs",
-     "features": [{ "name": "Web Search API", "description": "..." }, ...],
-     "integrations": [{ "name": "LangChain" }, ...],
-     "userCompany": {
-       "name": "Exa",
-       "winningSummary": "Exa's moats are its first-party neural index and the integrated Research API — no one else in the set ships a semantic/embeddings-native retrieval primitive alongside a multi-step agentic research endpoint. It's also the only provider with a crawler product bundled in, and ties with SerpAPI on breadth of SDK language coverage.",
-       "losingSummary": "Exa trails competitors on operational transparency — SerpAPI, Serper, and Tavily all publish hourly throughput SLAs, and Exa lacks a dedicated news endpoint that SerpAPI, Serper, and You.com all ship. Image/visual search is also missing vs 4 of 5 competitors.",
-       "features": { "Web Search API": true, "Site crawler": true, ... },
-       "integrations": { "LangChain": true, ... }
-     },
-     "competitors": {
-       "tavily": {
-         "features": { "Web Search API": true, "Site crawler": true, ... },
-         "integrations": { "LangChain": true, "Databricks Marketplace": true, ... }
-       },
-       "serpapi": { "features": {...}, "integrations": {...} }
-     }
-   }
-   ```
-
-   **`userCompany` is required**. The overview page renders two cards — "Where {user} is winning" and "Where {user} is losing". Populate `userCompany.features` and `userCompany.integrations` from the self-research profile (Step 1). Without this field those two cards don't render.
-
-   **Write order (two passes — this resolves the apparent ordering tension below).** In this step (5b) write all `features` / `integrations` cells for `userCompany` and every competitor, plus a **draft** `winningSummary` / `losingSummary`. The drafts exist only to tell the Step 5c fact-checker which claims are high-stakes (it prioritizes cells named in the summaries). After Step 5c flips cells on verified evidence, **rewrite** the two summaries so the prose reflects only fact-checked cells. The JSON shape above shows the finalized post-fact-check object.
-
-   **`userCompany.winningSummary` / `losingSummary` are strongly preferred** (analyst-style prose, 2-4 sentences each). When present, the cards render as paragraphs instead of bulleted lists — reads like a briefing, not a spreadsheet. If absent, the cards fall back to a bulleted list of winning/losing items with who-else-has-it.
-
-If this step is skipped, the matrix view falls back to the raw pipe-split axis (useless for atomic comparison) and the strategic summary doesn't render. Do not skip.
-
-### Fact-check the matrix — spot-check the high-stakes cells (default)
-
-**Do not trust the taxonomy pass alone for high-stakes cells.** It is LLM inference from prose and will hallucinate moats. Observed during a search-API run (2026-04-23): matrix.json claimed SOC 2 was unique to the user's company; verification showed three of the other competitors also have SOC 2 Type II.
-
-But verifying every cell is the opposite mistake. A 7-company × 33-axis matrix has 231 cells. The Apr 2026 search-API run got stuck at 111+ tool calls in fact-check before interrupt — the subagent kept going on table-stakes cells (REST API, JSON responses, Python SDK) that are universal in the category.
-
-**Default = spot-check, not full sweep.** Only verify cells that meaningfully change the strategic narrative.
-
-Launch a single fact-check subagent (Bash-only) with **a hard 25-call budget** that targets ONLY these high-stakes axes:
-
-1. **Every `userCompany.features` and `userCompany.integrations` cell** (the user's own moats — these go straight into "Where you're winning" prose). Typical: 17 + 16 = 33 cells, but most are obvious (your own product). Focus on:
-   - Anything claimed as a *moat* in `winningSummary`
-   - Anything claimed as a *gap* in `losingSummary`
-   - Compliance (SOC 2, HIPAA, ISO 27001, GDPR)
-   - Open-source license claims (MIT / Apache 2.0 / AGPL — observed wrong on a competitor's SDK)
-   - Published uptime SLA (status page ≠ SLA)
-
-2. **Across competitors, only the cells that drive the win/loss summary**:
-   - For each "Winning" claim, verify the user has it AND verify the competitors don't.
-   - For each "Losing" claim, verify the named competitors do have it.
-   - Compliance + license + SLA across all competitors (high-trust, frequently wrong).
-
-3. **Do NOT verify**:
-   - Universal table-stakes (REST API, JSON responses, Python SDK, API-key auth) — every search API has these.
-   - `false` cells with no claim being made (no moat lost or won).
-   - Integration cells unless they appear in the win/loss summary.
-
-```
-You are a matrix spot-check subagent. Budget: 25 browse cloud calls TOTAL across all cells.
-Stop and return what you have when you hit the budget — partial fact-check is
-better than blocking the rest of the pipeline.
-
-TOOL RULES: Bash ONLY. browse cloud search + browse cloud fetch. Count your calls; stop at 25.
-
-PRIORITY ORDER (highest-stakes first — work down until budget):
-1. Every cell that appears in userCompany.winningSummary or losingSummary
-2. Compliance cells (SOC 2, HIPAA, ISO 27001) for user + every competitor
-3. Open-source / self-hostable + license cells across all competitors
-4. Pricing tier numbers ($X/mo, /hr) for user + competitors named in summaries
-5. Funding / employee_estimate fields (only if cited in summaries)
-
-Skip:
-- Universal cells (REST API, JSON responses, Python SDK, API-key auth, etc.)
-- `false` cells where no claim is being made
-- Integration matrix cells unless they appear in summaries
-
-For each cell verified:
-- If `true` — find one source URL (docs, trust portal, GitHub LICENSE, etc).
-- If `false` — one targeted browse cloud search. Flip ONLY on first-party evidence.
-
-Output: matrix.json with `sources: { "Feature": "https://..." }` on the
-verified cells (other cells stay as-is). Cells-changed log to
-{OUTPUT_DIR}/matrix_fact_check.md with each flip + URL + quoted evidence.
-Report back: "spot-check: N cells verified, M flipped, B/25 budget used".
-```
-
-**Full-sweep mode (opt-in, slower)**: if the user explicitly says "full fact check" or for a high-stakes deliverable (board deck, press release), set the budget to 80 calls and verify every non-universal cell. Default is spot-check.
-
-After the subagent completes, re-read matrix.json, recompile, and surface `matrix_fact_check.md` delta to the user. The summary is much more trustworthy with spot-check than without — and ships in 3-5 minutes instead of stalling the pipeline.
-
-### Step 5d: Battle Card synthesis (deep/deeper only, after Step 5c)
-
-**Depends on fact-checked matrix.json from Step 5c.** This is a sales-enablement lane. For each competitor, launch a Bash-only synthesis subagent (no new `browse cloud` calls) that reads all 5 existing partials + the user's merged `.md` + fact-checked `matrix.json`, and produces per-competitor Landmines / Objection Handlers / Talk Tracks grounded in cited evidence.
-
-Prompt template: `references/battle-card-subagent.md` (substitute `{COMPETITOR_SLUG}` / `{COMPETITOR_NAME}` / `{USER_COMPANY_NAME}` / `{USER_WINNING_SUMMARY}` per competitor). Format spec: `references/battle-card.md`.
-
-Output: `{OUTPUT_DIR}/partials/{slug}.battle.md` with a `## Battle Card` section.
-
-**Re-run the merge after this lane completes.** The Step 5 merge ran *before* the battle partials existed, so the consolidated `{slug}.md` files don't contain them yet. Re-run:
-```bash
-node {SKILL_DIR}/scripts/merge_partials.mjs {OUTPUT_DIR}
-```
-This unions each `{slug}.battle.md` into its consolidated `{slug}.md` (the `battle` lane is already handled by `merge_partials.mjs`). `compile_report.mjs` reads the `## Battle Card` section from `{slug}.md` and renders it as a brand-accented card on the per-competitor HTML page. **Skip this re-merge and the battle cards never appear in the report.**
-
-**Why this lane is synthesis-only** — battle cards must be grounded in facts that already survived Step 5c. Letting the subagent do fresh `browse cloud` searches would reintroduce the hallucinated-moat problem the fact-check step exists to prevent. The subagent's adversarial self-check explicitly rejects claims not traceable to an input partial bullet or a `sources`-backed matrix cell.
-
-Parallelism: 1 subagent per competitor, all in one Agent-tool message (synthesis is fast, ~3-5 Bash calls per subagent). Skip this step in `quick` mode — there isn't enough research depth to ground the cards credibly.
-
-## Step 6: Screenshots
-
-Capture a homepage hero screenshot per competitor:
-```bash
-node {SKILL_DIR}/scripts/capture_screenshots.mjs {OUTPUT_DIR} --mode remote
-```
-
-Uses the `browse` CLI (`npm install -g browse`). The `--mode` flag selects the browser session: `remote` (default) drives a Browserbase session — best for protected/bot-detecting homepages and the only option without local Chrome; `local` uses Chrome on your machine. The script passes the corresponding `--remote` / `--local` flag on each `browse` command, so there is no separate environment-config step to run. Writes one PNG per competitor to `{OUTPUT_DIR}/screenshots/{slug}-hero.png`. The compile step in Step 7 auto-embeds the hero on each per-competitor HTML page.
-
-Cost: ~10-20s per competitor. ~60s for 5 competitors.
-
-## Step 7: HTML Report
-
-1. **Generate all views + CSV** (opens overview in browser):
-   ```bash
-   node {SKILL_DIR}/scripts/compile_report.mjs {OUTPUT_DIR} --user-company "{user_company}" --open
-   ```
-   Produces:
-   - `{OUTPUT_DIR}/index.html` — overview: competitor table with tagline, pricing summary, key features, strategic diff
-   - `{OUTPUT_DIR}/competitors/{slug}.html` — per-competitor deep dive (all sections)
-   - `{OUTPUT_DIR}/matrix.html` — side-by-side feature/pricing matrix
-   - `{OUTPUT_DIR}/mentions.html` — chronological feed with source-type pills + client-side filter
-   - `{OUTPUT_DIR}/results.csv` — flat spreadsheet
-
-2. **Present a chat summary**:
-
-```
-## Competitor Analysis Complete
-
-- **Competitors researched**: {count}
-- **Depth mode**: {mode}
-- **Mentions collected**: {total mentions} across {source types count} source types
-- **Public benchmarks found**: {count}
-- **Opened in browser**: ~/Desktop/{company_slug}_competitors_{date}/index.html
-```
-
-3. Show the **overview table** in chat:
-
-```
-| Competitor | Positioning | Pricing | Key Features | Strategic Diff |
-|------------|-------------|---------|--------------|----------------|
-| Rival Co | AI-native web search API | $99/mo entry | semantic search, reranking, crawler | Similar retrieval; cheaper entry |
-```
-
-4. Call out the top 3-5 most interesting findings — e.g., "3 competitors have public benchmarks; Rival Co is cheapest; Foo Inc launched a dedicated news-search endpoint 2 weeks ago." Offer to dig deeper into any specific competitor or re-run with different depth.
-
-
-## Limitations
-
-- Requires the upstream tool, account, API key, or local setup when the workflow names one.
-- Does not authorize destructive, production, paid, or external-message actions without explicit user approval.
-- Validate generated artifacts or recommendations against the user's real sources before treating them as final.
+<!-- Truncated for OpenGAP token limits -->

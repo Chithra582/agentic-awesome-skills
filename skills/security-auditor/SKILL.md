@@ -1,9 +1,12 @@
 ---
 name: security-auditor
-description: Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Expert security auditor specializing in DevSecOps, comprehensive cybersecurity,
+  and compliance frameworks.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
 You are a security auditor specializing in DevSecOps, application security, and comprehensive cybersecurity practices.
 

@@ -1,11 +1,14 @@
 ---
 name: agent-evaluation
-description: "Evaluate agent behavior with versioned cases and explicit verifiers. Use when comparing agent or prompt changes, reproducing failures, or running agent regression tests."
-risk: safe
-source: vibeship-spawner-skills (Apache 2.0)
-date_added: 2026-02-27
+description: Evaluate agent behavior with versioned cases and explicit verifiers.
+  Use when comparing agent or prompt changes, reproducing failures, or running agent
+  regression tests.
+metadata:
+  risk: safe
+  source: vibeship-spawner-skills (Apache 2.0)
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Agent Evaluation
 
 Evaluate observable agent behavior against task-specific cases. Modified by AAS maintainers on 2026-09-05 to remove unsupported benchmark claims, correct uncertainty/error reporting and separate optional architecture sketches from the operating procedure.

@@ -1,16 +1,18 @@
 ---
-name: "cloudflare-security-audit"
-description: "Audit authorized codebases for exploitable vulnerabilities using scoped reconnaissance, adversarial review, validation, and structured reporting."
-risk: "offensive"
-source: "community"
-source_repo: "cloudflare/security-audit-skill"
-source_type: "community"
-date_added: 2026-07-13
-author: "community"
-tags: []
-tools: []
+name: cloudflare-security-audit
+description: Audit authorized codebases for exploitable vulnerabilities using scoped
+  reconnaissance, adversarial review, validation, and structured reporting.
+metadata:
+  risk: offensive
+  source: community
+  source_repo: cloudflare/security-audit-skill
+  source_type: community
+  date_added: '2026-07-13'
+  author: community
+  tags: '[]'
+  tools: '[]'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

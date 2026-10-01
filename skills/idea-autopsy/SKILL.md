@@ -1,19 +1,22 @@
 ---
 name: idea-autopsy
-description: "Autopsy a business idea before you build it: kill-list check, five hard filters, a free-AI one-prompt test, live ad-market verification, and a verdict with a named kill-pattern."
-category: product
-risk: critical
-source: community
-source_repo: hafiz-actyte/idea-autopsy
-source_type: community
-date_added: "2026-07-10"
-author: hafiz-actyte
-tags: [business-ideas, idea-validation, market-research, startup, founders]
-tools: [claude, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/hafiz-actyte/idea-autopsy/blob/main/LICENSE"
+description: 'Autopsy a business idea before you build it: kill-list check, five hard
+  filters, a free-AI one-prompt test, live ad-market verification, and a verdict with
+  a named kill-pattern.'
+license: MIT
+metadata:
+  category: product
+  risk: critical
+  source: community
+  source_repo: hafiz-actyte/idea-autopsy
+  source_type: community
+  date_added: '2026-07-10'
+  author: hafiz-actyte
+  tags: '[''business-ideas'', ''idea-validation'', ''market-research'', ''startup'',
+    ''founders'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/hafiz-actyte/idea-autopsy/blob/main/LICENSE
 ---
-
 # Idea Autopsy
 
 ## Overview

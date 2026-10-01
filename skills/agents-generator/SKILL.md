@@ -1,23 +1,25 @@
 ---
 name: agents-generator
-description: "Generate project-specific AGENTS.md and companion rules by analyzing a codebase. Supports full, minimal, update, and dry-run modes with package-manager detection, monorepos, backups, managed blocks, confidence scoring, and command validation."
-category: developer-tools
-risk: critical
-source: https://github.com/OJPalenzuela/agents-generator/tree/7a3201208a01bd25e69ad11e665efc1392f5356a
-source_repo: OJPalenzuela/agents-generator
-source_type: community
-date_added: "2026-08-02"
-author: OJPalenzuela
-tags: [agents-md, project-conventions, developer-tools, codebase-analysis, ai-agents]
-tools: [claude, cursor, copilot, opencode, codex, gemini]
+description: Generate project-specific AGENTS.md and companion rules by analyzing
+  a codebase. Supports full, minimal, update, and dry-run modes with package-manager
+  detection, monorepos, backups, managed blocks, confidence scoring, and command validation.
 license: MIT
-license_source: https://github.com/OJPalenzuela/agents-generator/blob/7a3201208a01bd25e69ad11e665efc1392f5356a/LICENSE
-allowed-tools: Read Write Edit Bash(ls:*) Bash(git:*) Bash(tree:*) Bash(find:*) Grep Glob WebFetch
+allowed-tools: Read Write Edit Bash(ls:*) Bash(git:*) Bash(tree:*) Bash(find:*) Grep
+  Glob WebFetch
 metadata:
   author: OJPalenzuela
-  version: "1.2.3"
+  version: 1.2.3
+  category: developer-tools
+  risk: critical
+  source: https://github.com/OJPalenzuela/agents-generator/tree/7a3201208a01bd25e69ad11e665efc1392f5356a
+  source_repo: OJPalenzuela/agents-generator
+  source_type: community
+  date_added: '2026-08-02'
+  tags: '[''agents-md'', ''project-conventions'', ''developer-tools'', ''codebase-analysis'',
+    ''ai-agents'']'
+  tools: '[''claude'', ''cursor'', ''copilot'', ''opencode'', ''codex'', ''gemini'']'
+  license_source: https://github.com/OJPalenzuela/agents-generator/blob/7a3201208a01bd25e69ad11e665efc1392f5356a/LICENSE
 ---
-
 # Skill: agents-generator
 
 > [!WARNING]

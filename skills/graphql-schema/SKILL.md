@@ -1,15 +1,16 @@
 ---
 name: graphql-schema
-description: GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo Client, or generating types.
-risk: critical
-source: https://github.com/ChrisWiles/claude-code-showcase/tree/main/.claude/skills/graphql-schema
-source_repo: ChrisWiles/claude-code-showcase
-source_type: community
-date_added: 2026-07-01
+description: GraphQL queries, mutations, and code generation patterns. Use when creating
+  GraphQL operations, working with Apollo Client, or generating types.
 license: MIT
-license_source: https://github.com/ChrisWiles/claude-code-showcase/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/ChrisWiles/claude-code-showcase/tree/main/.claude/skills/graphql-schema
+  source_repo: ChrisWiles/claude-code-showcase
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/ChrisWiles/claude-code-showcase/blob/main/LICENSE
 ---
-
 # GraphQL Schema Patterns
 ## When to Use
 

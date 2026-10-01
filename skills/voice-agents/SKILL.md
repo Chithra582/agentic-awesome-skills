@@ -1,12 +1,13 @@
 ---
 name: voice-agents
-description: Voice agents represent the frontier of AI interaction - humans
-  speaking naturally with AI systems.
-risk: safe
-source: vibeship-spawner-skills (Apache 2.0)
-date_added: 2026-02-27
+description: Voice agents represent the frontier of AI interaction - humans speaking
+  naturally with AI systems.
+metadata:
+  risk: safe
+  source: vibeship-spawner-skills (Apache 2.0)
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Voice Agents
 
 Voice agents represent the frontier of AI interaction - humans speaking

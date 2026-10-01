@@ -1,15 +1,16 @@
 ---
 name: ui-setup
-description: Interactive setup wizard — guides you step-by-step to configure the design system for your project
-risk: critical
-source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-setup
-source_repo: bitjaru/styleseed
-source_type: community
-date_added: 2026-07-01
+description: Interactive setup wizard — guides you step-by-step to configure the design
+  system for your project
 license: MIT
-license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-setup
+  source_repo: bitjaru/styleseed
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
 ---
-
 # Design System Setup Wizard
 ## When to Use
 

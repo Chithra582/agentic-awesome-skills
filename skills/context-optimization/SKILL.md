@@ -1,11 +1,15 @@
 ---
 name: context-optimization
-description: "Context optimization extends the effective capacity of limited context windows through strategic compression, masking, caching, and partitioning. The goal is not to magically increase context windows but to make better use of available capacity."
-risk: none
-source: community
-date_added: "2026-09-04"
+description: Context optimization extends the effective capacity of limited context
+  windows through strategic compression, masking, caching, and partitioning. The goal
+  is not to magically increase context windows but to make better use of available
+  capacity.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Context Optimization Techniques
 
 Context optimization extends the effective capacity of limited context windows through strategic compression, masking, caching, and partitioning. The goal is not to magically increase context windows but to make better use of available capacity. Effective optimization can double or triple effective context capacity without requiring larger models or longer contexts.

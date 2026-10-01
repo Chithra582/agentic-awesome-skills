@@ -1,15 +1,17 @@
 ---
-description: Curated upstream guidance for Writing Guidelines; use when the workflow matches the user goal.
+description: Curated upstream guidance for Writing Guidelines; use when the workflow
+  matches the user goal.
 name: writing-guidelines
 metadata:
   author: vercel
   version: 1.0.0
   argument-hint: <file-or-pattern>
-source_repo: vercel-labs/agent-skills
-source_type: official
-source: vercel-labs
-date_added: '2026-09-21'
-risk: unknown
+  source_repo: vercel-labs/agent-skills
+  source_type: official
+  source: vercel-labs
+  date_added: '2026-09-21'
+  risk: unknown
+license: MIT
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

@@ -1,19 +1,20 @@
 ---
 name: testdriver-e2e-testing
-description: "Build E2E tests with TestDriver.ai, the AI code reviewer that runs every pull request in a real desktop sandbox, finds bugs, and builds regression tests"
-category: testing
-risk: safe
-source: community
-source_repo: testdriverai/testdriverai
-source_type: official
-date_added: "2026-09-24"
-author: testdriverai
-tags: [testing, e2e, qa, automation, computer-use]
-tools: [claude, cursor, gemini]
-license: "Apache-2.0"
-license_source: "https://github.com/testdriverai/testdriverai/blob/main/LICENSE"
+description: Build E2E tests with TestDriver.ai, the AI code reviewer that runs every
+  pull request in a real desktop sandbox, finds bugs, and builds regression tests
+license: Apache-2.0
+metadata:
+  category: testing
+  risk: safe
+  source: community
+  source_repo: testdriverai/testdriverai
+  source_type: official
+  date_added: '2026-09-24'
+  author: testdriverai
+  tags: '[''testing'', ''e2e'', ''qa'', ''automation'', ''computer-use'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/testdriverai/testdriverai/blob/main/LICENSE
 ---
-
 # TestDriver End-to-End Testing
 
 ## Overview

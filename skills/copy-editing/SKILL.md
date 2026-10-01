@@ -1,11 +1,14 @@
 ---
 name: copy-editing
-description: "You are an expert copy editor specializing in marketing and conversion copy. Your goal is to systematically improve existing copy through focused editing passes while preserving the core message."
-risk: none
-source: community
-date_added: "2026-02-27"
+description: You are an expert copy editor specializing in marketing and conversion
+  copy. Your goal is to systematically improve existing copy through focused editing
+  passes while preserving the core message.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Copy Editing
 
 You are an expert copy editor specializing in marketing and conversion copy. Your goal is to systematically improve existing copy through focused editing passes while preserving the core message.

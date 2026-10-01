@@ -1,15 +1,18 @@
 ---
 name: serply-search-mcp
-description: "Search Google, Bing, Google News and Google Scholar, and read public pages, with the Serply MCP server. Use when the user chooses Serply or its connected tools for current information and source verification."
-category: mcp
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-27"
-author: googio
-tags: [mcp, web-search, news, scholar, research, citations]
+description: Search Google, Bing, Google News and Google Scholar, and read public
+  pages, with the Serply MCP server. Use when the user chooses Serply or its connected
+  tools for current information and source verification.
+metadata:
+  category: mcp
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-27'
+  author: googio
+  tags: '[''mcp'', ''web-search'', ''news'', ''scholar'', ''research'', ''citations'']'
+license: MIT
 ---
-
 # Serply Search MCP
 
 ## Overview

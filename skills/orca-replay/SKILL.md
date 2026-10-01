@@ -1,29 +1,21 @@
 ---
 name: orca-replay
-description: Answers questions about a past agent run from its recording rather than from memory, and replays or forks that run. Use when asked why an earlier run did something, or to reproduce a failure.
-category: development
-risk: critical
-source: community
-source_repo: Continuum-AI-Corp/OrcaReplay
-source_type: community
-date_added: "2026-09-03"
-author: xizhuomengcontin
-tags:
-  - debugging
-  - replay
-  - trace
-  - root-cause
-  - agent-runs
-  - mcp
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
-  - gemini-cli
-license: "Apache-2.0"
-license_source: "https://github.com/Continuum-AI-Corp/OrcaReplay/blob/main/LICENSE"
+description: Answers questions about a past agent run from its recording rather than
+  from memory, and replays or forks that run. Use when asked why an earlier run did
+  something, or to reproduce a failure.
+license: Apache-2.0
+metadata:
+  category: development
+  risk: critical
+  source: community
+  source_repo: Continuum-AI-Corp/OrcaReplay
+  source_type: community
+  date_added: '2026-09-03'
+  author: xizhuomengcontin
+  tags: '[''debugging'', ''replay'', ''trace'', ''root-cause'', ''agent-runs'', ''mcp'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'', ''gemini-cli'']'
+  license_source: https://github.com/Continuum-AI-Corp/OrcaReplay/blob/main/LICENSE
 ---
-
 # Reading a recorded agent run
 
 ## Overview

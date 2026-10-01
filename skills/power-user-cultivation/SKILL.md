@@ -1,15 +1,16 @@
 ---
 name: power-user-cultivation
-description: "When the user wants to identify and nurture developer advocates, build champion programs, or turn active users into contributors and evangelists."
-risk: safe
-source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/power-user-cultivation
-source_repo: jonathimer/devmarketing-skills
-source_type: community
-date_added: 2026-07-01
+description: When the user wants to identify and nurture developer advocates, build
+  champion programs, or turn active users into contributors and evangelists.
 license: MIT
-license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
+metadata:
+  risk: safe
+  source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/power-user-cultivation
+  source_repo: jonathimer/devmarketing-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
 ---
-
 # Power User Cultivation
 
 ## Detailed Guide

@@ -1,15 +1,17 @@
 ---
 name: code-simplification
-description: Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity.
-risk: critical
-source: https://github.com/addyosmani/agent-skills/tree/main/skills/code-simplification
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Simplifies code for clarity. Use when refactoring code for clarity without
+  changing behavior. Use when code works but is harder to read, maintain, or extend
+  than it should be. Use when reviewing code that has accumulated unnecessary complexity.
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/addyosmani/agent-skills/tree/main/skills/code-simplification
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Code Simplification
 
 > Inspired by the [Claude Code Simplifier plugin](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-simplifier/agents/code-simplifier.md). Adapted here as a model-agnostic, process-driven skill for any AI coding agent.

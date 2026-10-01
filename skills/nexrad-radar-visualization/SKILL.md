@@ -1,16 +1,19 @@
 ---
 name: nexrad-radar-visualization
-description: "Plot NEXRAD Level II/III site scans and decoded radar mosaics with correct radar geometry, map grids, units, quality masks, timestamps, and provenance."
-category: analysis
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-25"
-author: ShianMike
-tags: [weather, nexrad, radar-plotting, ppi, velocity, dual-pol, cross-section, visualization]
-tools: [claude, cursor, gemini, codex]
+description: Plot NEXRAD Level II/III site scans and decoded radar mosaics with correct
+  radar geometry, map grids, units, quality masks, timestamps, and provenance.
+metadata:
+  category: analysis
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-25'
+  author: ShianMike
+  tags: '[''weather'', ''nexrad'', ''radar-plotting'', ''ppi'', ''velocity'', ''dual-pol'',
+    ''cross-section'', ''visualization'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+license: MIT
 ---
-
 # NEXRAD Radar Visualization
 
 ## Overview

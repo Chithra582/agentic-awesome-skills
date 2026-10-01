@@ -2,21 +2,21 @@
 name: artifact-yylo
 description: Capture and retrieve durable YYLO Ledger artifact Records with intentional
   profiles, payload modes, provenance, retention, and secret-safe immutable evidence.
-category: project-management
-risk: safe
-source: https://github.com/yylo-dev/yylo-skills
-source_repo: yylo-dev/yylo-skills
-source_type: community
-date_added: '2026-09-19'
 license: MIT
-license_source: https://github.com/yylo-dev/yylo-skills/blob/main/LICENSE
 compatibility: Requires the `yy` CLI with the `artifact` record group installed. Captures
   immutable, secret-safe evidence with provenance and retention; never publishes or
   deploys.
-argument-hint: '[artifact or evidence to capture/find/inspect]'
-enable-shell-directives: true
+metadata:
+  category: project-management
+  risk: safe
+  source: https://github.com/yylo-dev/yylo-skills
+  source_repo: yylo-dev/yylo-skills
+  source_type: community
+  date_added: '2026-09-19'
+  license_source: https://github.com/yylo-dev/yylo-skills/blob/main/LICENSE
+  argument-hint: '[artifact or evidence to capture/find/inspect]'
+  enable-shell-directives: 'True'
 ---
-
 # Use YYLO artifact Records
 
 Treat Ledger as the source of truth for artifact identity and metadata. Use

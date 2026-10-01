@@ -1,19 +1,21 @@
 ---
 name: telegram-bot-messaging
-description: "Send Telegram messages, files, and alerts via bot API; ask questions with inline buttons and wait for the answer. Supports multiple bots, named chat targets, and CI/cron/hook notifications."
-category: productivity
-risk: critical
-source: https://github.com/sanjay3290/ai-skills/tree/main/skills/telegram
-source_repo: sanjay3290/ai-skills
-source_type: community
-date_added: "2026-07-09"
-author: sanjay3290
-tags: [telegram, notifications, bots, approvals]
-tools: [claude, cursor, gemini]
-license: "Apache-2.0"
-license_source: "https://github.com/sanjay3290/ai-skills/blob/main/LICENSE"
+description: Send Telegram messages, files, and alerts via bot API; ask questions
+  with inline buttons and wait for the answer. Supports multiple bots, named chat
+  targets, and CI/cron/hook notifications.
+license: Apache-2.0
+metadata:
+  category: productivity
+  risk: critical
+  source: https://github.com/sanjay3290/ai-skills/tree/main/skills/telegram
+  source_repo: sanjay3290/ai-skills
+  source_type: community
+  date_added: '2026-07-09'
+  author: sanjay3290
+  tags: '[''telegram'', ''notifications'', ''bots'', ''approvals'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/sanjay3290/ai-skills/blob/main/LICENSE
 ---
-
 # Telegram
 
 ## When to Use

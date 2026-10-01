@@ -3,22 +3,21 @@ name: ebpf-observability
 description: Use eBPF for deep kernel-level observability — trace syscalls, network
   flows, and application behavior without code changes using Cilium, Tetragon, and
   bpftrace.
-category: devops
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant platform CLIs (kubectl, helm, terraform, git,
   CI runners) and authorized access to the target environment. Docs-only; helper scripts
   and templates not bundled.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: devops
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # eBPF Observability
 
 eBPF (extended Berkeley Packet Filter) allows you to run sandboxed programs in the Linux kernel without modifying kernel source code or loading kernel modules. This skill covers using eBPF for deep observability, network monitoring, and security enforcement across cloud-native infrastructure.

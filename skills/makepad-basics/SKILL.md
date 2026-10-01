@@ -1,15 +1,15 @@
 ---
 name: makepad-basics
-description: |
-  CRITICAL: Use for Makepad getting started and app structure. Triggers on:
-  makepad, makepad getting started, makepad tutorial, live_design!, app_main!,
-  makepad project setup, makepad hello world, "how to create makepad app",
-  makepad 入门, 创建 makepad 应用, makepad 教程, makepad 项目结构
-risk: critical
-source: "https://github.com/makepad/makepad"
-date_added: "2026-09-04"
+description: 'CRITICAL: Use for Makepad getting started and app structure. Triggers
+  on: makepad, makepad getting started, makepad tutorial, live_design!, app_main!,
+  makepad project setup, makepad hello world, "how to create makepad app", makepad
+  入门, 创建 makepad 应用, makepad 教程, makepad 项目结构'
+metadata:
+  risk: critical
+  source: https://github.com/makepad/makepad
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Makepad Basics Skill
 
 > **Version:** makepad-widgets (dev branch) | **Last Updated:** 2026-01-19

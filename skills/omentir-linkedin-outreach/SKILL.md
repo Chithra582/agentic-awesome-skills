@@ -1,19 +1,21 @@
 ---
 name: omentir-linkedin-outreach
-description: "Run LinkedIn prospecting and outreach through the Omentir MCP server: find people, score fit, draft messages, and check campaigns. Never signs into LinkedIn."
-category: marketing
-risk: critical
-source: https://github.com/vanshyadav1408/Omentir/tree/main/plugins/omentir/skills/linkedin-outreach
-source_repo: vanshyadav1408/Omentir
-source_type: official
-date_added: "2026-09-28"
-author: vanshyadav1408
-tags: [linkedin, sales, outreach, lead-generation, prospecting, mcp]
-tools: [claude, cursor, codex]
+description: 'Run LinkedIn prospecting and outreach through the Omentir MCP server:
+  find people, score fit, draft messages, and check campaigns. Never signs into LinkedIn.'
 license: MIT
-license_source: https://github.com/vanshyadav1408/Omentir/blob/main/LICENSE
+metadata:
+  category: marketing
+  risk: critical
+  source: https://github.com/vanshyadav1408/Omentir/tree/main/plugins/omentir/skills/linkedin-outreach
+  source_repo: vanshyadav1408/Omentir
+  source_type: official
+  date_added: '2026-09-28'
+  author: vanshyadav1408
+  tags: '[''linkedin'', ''sales'', ''outreach'', ''lead-generation'', ''prospecting'',
+    ''mcp'']'
+  tools: '[''claude'', ''cursor'', ''codex'']'
+  license_source: https://github.com/vanshyadav1408/Omentir/blob/main/LICENSE
 ---
-
 # LinkedIn outreach through Omentir
 
 Omentir already holds the user's LinkedIn connection and daily send limits. Talk to that workspace over MCP. Do not open LinkedIn in the Bot browser. Do not ask the user to take over for a LinkedIn password, passkey, two-factor code, or CAPTCHA.

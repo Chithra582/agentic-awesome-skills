@@ -1,12 +1,16 @@
 ---
 name: scanning-tools
-description: "Master essential security scanning tools for network discovery, vulnerability assessment, web application testing, wireless security, and compliance validation. This skill covers tool selection, configuration, and practical usage across different scanning categories."
-risk: offensive
-source: community
-author: zebbern
-date_added: "2026-02-27"
+description: Master essential security scanning tools for network discovery, vulnerability
+  assessment, web application testing, wireless security, and compliance validation.
+  This skill covers tool selection, configuration, and practical usage across different
+  scanning categories.
+metadata:
+  risk: offensive
+  source: community
+  author: zebbern
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

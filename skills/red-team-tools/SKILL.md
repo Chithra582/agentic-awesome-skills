@@ -1,12 +1,15 @@
 ---
 name: red-team-tools
-description: "Implement proven methodologies and tool workflows from top security researchers for effective reconnaissance, vulnerability discovery, and bug bounty hunting. Automate common tasks while maintaining thorough coverage of attack surfaces."
-risk: offensive
-source: community
-author: zebbern
-date_added: "2026-02-27"
+description: Implement proven methodologies and tool workflows from top security researchers
+  for effective reconnaissance, vulnerability discovery, and bug bounty hunting. Automate
+  common tasks while maintaining thorough coverage of attack surfaces.
+metadata:
+  risk: offensive
+  source: community
+  author: zebbern
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

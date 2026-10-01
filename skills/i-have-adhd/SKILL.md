@@ -2,22 +2,20 @@
 name: i-have-adhd
 description: 'Shape output for ADHD readers: next action first, numbered steps, restated
   state, no tangents, time estimates, visible wins. Toggle with /i-have-adhd.'
-category: productivity
-risk: safe
-source: https://github.com/ayghri/i-have-adhd
-source_repo: ayghri/i-have-adhd
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/ayghri/i-have-adhd/blob/main/LICENSE
 compatibility: Portable output-style skill; no CLI, MCP server, or network access
   required.
-disable-model-invocation: true
 metadata:
   tags: ADHD, Output Style, Productivity, Formatting
   category: productivity
+  risk: safe
+  source: https://github.com/ayghri/i-have-adhd
+  source_repo: ayghri/i-have-adhd
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/ayghri/i-have-adhd/blob/main/LICENSE
+  disable-model-invocation: 'True'
 ---
-
 # i-have-adhd
 
 The reader has ADHD. Output is not just brief. It is shaped so an ADHD brain can act on it.

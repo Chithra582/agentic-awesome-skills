@@ -1,15 +1,17 @@
 ---
-description: Curated upstream guidance for Eas Simulator; use when the workflow matches the user goal.
+description: Curated upstream guidance for Eas Simulator; use when the workflow matches
+  the user goal.
 name: eas-simulator
-version: 1.0.0
 license: MIT
-allowed-tools: "Bash(npx *eas-cli@*), Bash(npx *agent-device@*), Bash(npx expo *),  Bash(eas *), Bash(expo *), Bash(xcodebuild*), Bash(pod*), Bash(argent *), Bash(ffmpeg*)"
-
-source_repo: expo/skills
-source_type: official
-source: expo
-date_added: '2026-09-21'
-risk: unknown
+allowed-tools: Bash(npx *eas-cli@*), Bash(npx *agent-device@*), Bash(npx expo *),  Bash(eas
+  *), Bash(expo *), Bash(xcodebuild*), Bash(pod*), Bash(argent *), Bash(ffmpeg*)
+metadata:
+  version: 1.0.0
+  source_repo: expo/skills
+  source_type: official
+  source: expo
+  date_added: '2026-09-21'
+  risk: unknown
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.
@@ -185,67 +187,6 @@ If a controller fails to download a recording, retrieve it from [EAS session art
 | `install-from-source <url> --platform ios` | Install from a URL — the VM downloads it (use for EAS artifacts) |
 | `open <appId\|deep-link> --platform ios` | Launch an app (bundle id) or follow an app **deep link** (`exp+slug://…`). A first-time deep link raises a system **"Open in '<app>'?"** dialog — expect it (don't burn a snapshot discovering it) and `press 'label="Open"'` to hand off; it can be slow, so bound it with agent-device's own `--timeout` (e.g. `press 'label="Open"' --timeout 120000`) — **not** a shell `timeout` wrapper (macOS has no `timeout` binary). (Mode C sidesteps this dialog for the Metro-connect link via "Enter URL manually" — see run-your-app.md.) **Not** for the `webPreviewUrl` — that's a browser preview for the user, never the device. |
 | `snapshot -i` | Interactive accessibility tree → `@e1`-style refs |
-| `press <ref\|selector>` | Tap (e.g. `press @e2` or `press 'label="Open"'`) — **the tap verb is `press`, not `tap`** |
-| `fill <ref> "text"` | Type into a field |
-| `screenshot <path>` | Capture the screen to a local PNG (downloaded from the daemon) — requires an app to be open (`open` first) |
-| `record start` / `record stop <path>` | Record the screen to a video — use this for **motion** (animations, gestures, transitions, timing), which a single screenshot can't capture |
-| `metro prepare` / `metro reload` | Point a dev client at Metro / reload (Mode C) |
+| `press <ref\|selector>` | Tap (e.g. `press @e2` or `press 'label="Open"'`) — **the tap verb is `press`, not `
 
-**Screenshots vs. video.** Default to `screenshot` for static state, but for anything that *moves* — an animation, a transition, a gesture, a timing/jank question — **record a video and inspect the frames** instead; a still can't prove motion. Both controllers record (agent-device `record start`/`stop`, argent `screen-recording-start`/`stop`). Recordings sample at ~30fps — enough to see visible jank, not to prove sub-frame 60/120Hz hitches. For **timing** specifically, argent drops static frames by default (turn `trimStatic` off) — that plus other per-controller gotchas are in [references/controllers.md].
-
-For the full verb set and the `argent` controller alternative, see [references/controllers.md].
-
-## Operating principles
-
-The non-obvious mental model worth internalizing. Specific error→fix lookups (hung verbs, `tap`→`press`, `--platform`, `--json`, `pod install` locale, orphaned sessions, boot variability) live in [references/troubleshooting.md].
-
-1. **Establish ground truth, then reset — don't patch-loop.** Never assume an existing session or Metro is yours or healthy. Before driving, confirm:
-   - **cwd** — you're in the intended Expo project dir (a misdirected `start`/`exec` sessions the *wrong app* + drops a stray `.env.eas-simulator`; `pwd` / check `app.json`).
-   - **session live** — `IN_PROGRESS` via `simulator:get --json` (a stopped session keeps its id + `remoteConfig`, so the dotenv alone isn't proof).
-   - **Metro on its own port** — reuse only if you started it this session; else start one on a free port (`--port <N>`, e.g. 8082), don't kill another server to reclaim `:8081` (run-your-app.md).
-   - **build fits intent** — a **release build can't live-reload**; if live edits are wanted and a release build is installed, **install the dev build, don't reconnect**.
-
-   If current code isn't rendering after your **first** connect, stop poking live state: **reset to baseline** (stop session → clear dotenv → kill your Metro) and redo the mode **once**; a second failure → stop and report. Never restart Metro in place, reconnect more than once, rebuild the native client to fix a JS/connection problem, or surface a preview URL while state is unknown. (A daemon drop — `ERR_NGROK_3200` / `Remote daemon is unavailable` — is the same: reset, don't retry.)
-2. **`exec` is a wrapper, not a driver.** `simulator:exec` loads `.env.eas-simulator` and spawns the command you pass; the device verbs come from the controller (`npx agent-device@latest`). There is no `simulator:tap`.
-3. **Act immediately; don't park an idle session.** Sessions are short-lived — install and drive right after `start`. Leaving one idle drops the tunnel/daemon (→ reset, per #1).
-4. **Stop sessions you created on completion or failure and reset the dotenv.** `--non-interactive` does not stop a session when your task ends. For a requested live preview, follow the duration guidance above. Poll the existing session during a slow boot; starting another creates an extra session and overwrites the dotenv's session id.
-5. **Screenshot only the correct, fresh build.** Mode C only after the dev client connects to Metro; A/B only from a build matching current source — reusing a pre-existing build is the #1 "my edits don't show" cause (see the build caveat above). (`9:41` in the status bar is the sim default, not staleness.)
-
-## Stop and clean up
-
-After the task, stop the session you created **and reset the dotenv** so a later run doesn't try to reuse the dead session. For a requested live preview, keep it available for the agreed duration instead:
-
-```bash
-npx --yes eas-cli@latest simulator:stop          # omit --id → stops the dotenv session (or pass --id <id>)
-printf '# managed by eas-cli\n' > .env.eas-simulator   # clear the stale session id so it isn't reused
-# if you started Metro for Mode C, stop it too (Ctrl+C in its terminal, or kill the expo process)
-```
-
-## References
-
-- [references/run-your-app.md] — full command sequences for modes A, B, and C (read before running a mode).
-- [references/controllers.md] — agent-device verb reference and the `argent` alternative.
-- [references/troubleshooting.md] — concrete errors and fixes.
-
-Source of truth: Expo docs and the `eas` / `agent-device` CLIs (`npx --yes eas-cli@latest simulator:* --help`, `agent-device --help`). This skill teaches how to apply them; it doesn't replace them.
-
-## Submitting Feedback
-If you encounter errors, misleading or outdated information in this skill, report it so Expo can improve:
-```bash
-npx --yes submit-expo-feedback@latest --category skills --subject "eas-simulator" "<actionable feedback>"
-```
-Only submit when you have something specific and actionable to report. Include as much relevant context as possible.
-If an AI agent repeatedly failed or the user had to take over an Expo task, load the expo-skill-feedback skill and follow its eval-candidate flow instead of reusing the command above.
-
-
-## Examples
-
-```text
-User: Apply this skill to my current task.
-Assistant: Follow the workflow in this skill, cite limitations, and ask before risky steps.
-```
-
-## Limitations
-
-- Imported upstream skill; verify credentials, permissions, and safety boundaries before execution.
-- Does not replace environment-specific validation, testing, or maintainer review.
+<!-- Truncated for OpenGAP token limits -->

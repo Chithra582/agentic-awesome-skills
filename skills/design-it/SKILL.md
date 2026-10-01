@@ -1,16 +1,18 @@
 ---
 name: design-it
-description: "Routes frontend design tasks to 48 specific UI styles. Triggers for websites, app screens, or UI components requesting a specific aesthetic."
-category: frontend
-risk: safe
-source: self
-source_type: self
-date_added: "2026-06-17"
-author: community
-tags: [design, ui, frontend]
-tools: [claude, cursor, gemini]
+description: Routes frontend design tasks to 48 specific UI styles. Triggers for websites,
+  app screens, or UI components requesting a specific aesthetic.
+metadata:
+  category: frontend
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-06-17'
+  author: community
+  tags: '[''design'', ''ui'', ''frontend'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # Design-It: Sophisticated UI Style Router
 
 This is the main entry point for the **design-it** skill system. Instead of falling back to generic "AI slop" aesthetics, you have access to 48 distinct, deeply opinionated design styles.

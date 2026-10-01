@@ -1,15 +1,18 @@
 ---
 name: vitest-skill
-description: 'Generates Vitest tests in JavaScript/TypeScript with Vite-native speed. Jest-compatible API with ESM support and HMR. Use when user mentions "Vitest", "vi.mock", "vitest.config". Triggers on: "Vitest", "vi.mock", "vi.fn", "Vite test", "vitest config".'
-risk: critical
-source: https://github.com/LambdaTest/agent-skills/tree/main/vitest-skill
-source_repo: LambdaTest/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: 'Generates Vitest tests in JavaScript/TypeScript with Vite-native speed.
+  Jest-compatible API with ESM support and HMR. Use when user mentions "Vitest", "vi.mock",
+  "vitest.config". Triggers on: "Vitest", "vi.mock", "vi.fn", "Vite test", "vitest
+  config".'
 license: MIT
-license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/LambdaTest/agent-skills/tree/main/vitest-skill
+  source_repo: LambdaTest/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 ---
-
 # Vitest Testing Skill
 ## When to Use
 

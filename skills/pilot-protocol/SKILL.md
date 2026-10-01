@@ -1,19 +1,20 @@
 ---
 name: pilot-protocol
-description: "Give an AI agent a permanent network address, encrypted P2P messaging, and an installable app store via Pilot Protocol"
-category: ai-agents
-risk: critical
-source: community
-source_repo: pilot-protocol/pilotprotocol
-source_type: official
-date_added: "2026-07-07"
-author: pilot-protocol
-tags: [agent-networking, p2p, nat-traversal, overlay-network, agent-apps]
-tools: [claude, cursor, gemini, codex]
-license: "AGPL-3.0"
-license_source: "https://github.com/pilot-protocol/pilotprotocol/blob/main/LICENSE"
+description: Give an AI agent a permanent network address, encrypted P2P messaging,
+  and an installable app store via Pilot Protocol
+license: AGPL-3.0
+metadata:
+  category: ai-agents
+  risk: critical
+  source: community
+  source_repo: pilot-protocol/pilotprotocol
+  source_type: official
+  date_added: '2026-07-07'
+  author: pilot-protocol
+  tags: '[''agent-networking'', ''p2p'', ''nat-traversal'', ''overlay-network'', ''agent-apps'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/pilot-protocol/pilotprotocol/blob/main/LICENSE
 ---
-
 # Pilot Protocol
 
 ## Overview

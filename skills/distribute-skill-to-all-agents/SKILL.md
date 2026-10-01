@@ -1,19 +1,20 @@
 ---
 name: distribute-skill-to-all-agents
-description: "Distribute a skill across configured agent skill folders while respecting local symlink layouts."
-category: development
-risk: critical
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [skills, distribution, agents]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
+description: Distribute a skill across configured agent skill folders while respecting
+  local symlink layouts.
+license: MIT
+metadata:
+  category: development
+  risk: critical
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''skills'', ''distribution'', ''agents'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
 ---
-
 # Distribute a Skill Across All Agents
 
 ## When to Use

@@ -1,11 +1,14 @@
 ---
 name: security-bluebook-builder
-description: "Build a minimal but real security policy for sensitive apps. The output is a single, coherent Blue Book document using MUST/SHOULD/CAN language, with explicit assumptions, scope, and security gates."
-risk: safe
-source: community
-date_added: "2026-09-04"
+description: Build a minimal but real security policy for sensitive apps. The output
+  is a single, coherent Blue Book document using MUST/SHOULD/CAN language, with explicit
+  assumptions, scope, and security gates.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Security Bluebook Builder
 
 ## When to Use

@@ -1,17 +1,19 @@
 ---
 name: linkedin-profile-optimizer
-description: "High-intent expert for LinkedIn profile checks and SEO optimization. Silently audits and rewrites profiles, delivering only the finished, ready-to-paste result."
-category: growth
-risk: safe
-source: self
-source_type: self
-date_added: "2026-04-13"
-author: WHOISABHISHEKADHIKARI
-tags: [linkedin, branding, career, growth, personal-brand]
-tools: [claude, cursor, gemini, antigravity]
+description: High-intent expert for LinkedIn profile checks and SEO optimization.
+  Silently audits and rewrites profiles, delivering only the finished, ready-to-paste
+  result.
+metadata:
+  category: growth
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-04-13'
+  author: WHOISABHISHEKADHIKARI
+  tags: '[''linkedin'', ''branding'', ''career'', ''growth'', ''personal-brand'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''antigravity'']'
+license: MIT
 ---
-
-
 # LinkedIn Profile Optimizer & Authority Builder
 
 

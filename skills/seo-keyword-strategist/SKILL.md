@@ -1,11 +1,14 @@
 ---
 name: seo-keyword-strategist
-description: Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization.
-risk: safe
-source: community
-date_added: '2026-02-27'
+description: Analyzes keyword usage in provided content, calculates density, suggests
+  semantic variations and LSI keywords based on the topic. Prevents over-optimization.
+  Use PROACTIVELY for content optimization.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on seo keyword strategist tasks or workflows

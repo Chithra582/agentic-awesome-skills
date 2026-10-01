@@ -1,11 +1,13 @@
 ---
 name: code-polish
-description: Rewrites unprofessional code comments into clear ones and performs non-semantic cleanup. Use to professionalize code without altering logic or behavior.
-risk: critical
-source: community
-date_added: "2026-07-02"
+description: Rewrites unprofessional code comments into clear ones and performs non-semantic
+  cleanup. Use to professionalize code without altering logic or behavior.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-07-02'
+license: MIT
 ---
-
 # Code Polish
 
 A constraint-based protocol for normalizing code comments and performing safe, non-semantic cleanup. This skill exists because human-written code tends to carry casual, outdated, or missing comments, while the goal is professional-grade documentation without touching behavior.

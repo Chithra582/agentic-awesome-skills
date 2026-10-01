@@ -1,19 +1,19 @@
 ---
 name: report-writing
 description: Bug bounty report writing for H1/Bugcrowd/Intigriti/Immunefi
-category: security
-risk: safe
-source: https://github.com/elementalsouls/Claude-BugHunter
-source_repo: elementalsouls/Claude-BugHunter
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
 compatibility: Process guidance; no tooling required. Docs-only; upstream templates
   not bundled.
-sources: community, operator_experience
+metadata:
+  category: security
+  risk: safe
+  source: https://github.com/elementalsouls/Claude-BugHunter
+  source_repo: elementalsouls/Claude-BugHunter
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
+  sources: community, operator_experience
 ---
-
 # REPORT WRITING
 
 Impact-first. Human tone. No theoretical language. Triagers are people.

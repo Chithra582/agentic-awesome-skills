@@ -1,11 +1,13 @@
 ---
 name: internal-comms-community
-description: "Compatibility alias for internal-comms: draft status updates, newsletters and FAQs from approved sources."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: 'Compatibility alias for internal-comms: draft status updates, newsletters
+  and FAQs from approved sources.'
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Compatibility and maintenance
 
 Compatibility alias of `internal-comms`; use that ID for new references when no existing contract requires this one. The full instructions and support files remain local so existing installations

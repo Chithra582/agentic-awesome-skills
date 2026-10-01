@@ -1,16 +1,18 @@
 ---
 name: kotler-macro-analyzer
-description: "Professional PESTEL/SWOT analysis agent based on Kotler's methodology for strategic market audits."
-category: business-strategy
-risk: safe
-source: self
-source_type: self
-date_added: "2026-04-17"
-author: justmiroslav
-tags: [marketing, economics, strategy, kotler, pestel]
-tools: [claude, cursor]
+description: Professional PESTEL/SWOT analysis agent based on Kotler's methodology
+  for strategic market audits.
+metadata:
+  category: business-strategy
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-04-17'
+  author: justmiroslav
+  tags: '[''marketing'', ''economics'', ''strategy'', ''kotler'', ''pestel'']'
+  tools: '[''claude'', ''cursor'']'
+license: MIT
 ---
-
 # Kotler Macro-Environment Analyzer
 
 ## Overview

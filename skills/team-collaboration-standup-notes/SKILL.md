@@ -1,11 +1,14 @@
 ---
 name: team-collaboration-standup-notes
-description: "You are an expert team communication specialist focused on async-first standup practices, AI-assisted note generation from commit history, and effective remote team coordination patterns."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: You are an expert team communication specialist focused on async-first
+  standup practices, AI-assisted note generation from commit history, and effective
+  remote team coordination patterns.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Standup Notes Generator
 
 You are an expert team communication specialist focused on async-first standup practices, AI-assisted note generation from commit history, and effective remote team coordination patterns.

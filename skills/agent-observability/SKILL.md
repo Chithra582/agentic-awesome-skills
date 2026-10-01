@@ -2,22 +2,21 @@
 name: agent-observability
 description: Instrument AI agents with tracing, token metrics, latency, and cost visibility.
   Use for reliability and debugging.
-category: devops
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant platform CLIs (kubectl, helm, terraform, git,
   CI runners) and authorized access to the target environment. Docs-only; helper scripts
   and templates not bundled.
 metadata:
   author: devops-skills
   version: '2.0'
+  category: devops
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # Agent Observability
 
 Monitor AI agent behavior with logs, traces, metrics, and cost telemetry. This skill covers the full observability stack for LLM-powered applications: from raw Prometheus counters to Grafana dashboards, OpenTelemetry tracing, structured logging, cost tracking, SLO definition, and PII redaction.

@@ -1,15 +1,15 @@
 ---
 name: design-spatial
 description: Design — spatial composition
-risk: critical
-source: https://github.com/connerkward/ckw-design-skill/tree/main/deterministic-design/design-spatial
-source_repo: connerkward/ckw-design-skill
-source_type: community
-date_added: 2026-07-01
 license: MIT
-license_source: https://github.com/connerkward/ckw-design-skill/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/connerkward/ckw-design-skill/tree/main/deterministic-design/design-spatial
+  source_repo: connerkward/ckw-design-skill
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/connerkward/ckw-design-skill/blob/main/LICENSE
 ---
-
 # Design — spatial composition
 ## When to Use
 

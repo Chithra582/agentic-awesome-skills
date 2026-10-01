@@ -1,11 +1,13 @@
 ---
 name: django-pro
-description: Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Master Django 5.x with async views, DRF, Celery, and Django Channels.
+  Build scalable web applications with proper architecture, testing, and deployment.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on django pro tasks or workflows

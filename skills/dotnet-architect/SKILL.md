@@ -1,11 +1,13 @@
 ---
 name: dotnet-architect
-description: Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Expert .NET backend architect specializing in C#, ASP.NET Core, Entity
+  Framework, Dapper, and enterprise application patterns.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on dotnet architect tasks or workflows

@@ -1,11 +1,13 @@
 ---
 name: returns-reverse-logistics
-description: Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management.
-risk: safe
-source: https://github.com/ai-evos/agent-skills
-date_added: '2026-02-27'
+description: Codified expertise for returns authorisation, receipt and inspection,
+  disposition decisions, refund processing, fraud detection, and warranty claims management.
+metadata:
+  risk: safe
+  source: https://github.com/ai-evos/agent-skills
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## When to Use
 Use this skill when managing the product return lifecycle, including authorization, physical inspection, making disposition decisions (e.g., restock vs. liquidator), detecting return fraud, or processing warranty claims.
 
@@ -136,86 +138,6 @@ These are situations where standard workflows fail. Brief summaries — see [edg
 
 1. **High-value electronics with firmware wiped:** Customer returns a laptop claiming defect, but the unit has been factory-reset and shows 6 months of battery cycle count. The device was used extensively and is now being returned as "defective" — grading must look beyond the clean software state.
 
-2. **Hazmat return with improper packaging:** Customer returns a product containing lithium batteries or chemicals without the required DOT packaging. Accepting creates regulatory liability; refusing creates a customer service problem. The product cannot go back through standard parcel return shipping.
+2. **Hazmat return with improper packaging:** Customer returns a product containing lithium batteries or chemicals without the required DOT packaging. Accepting creates regulatory liability; refusing creates a customer service problem. The pro
 
-3. **Cross-border return with duty implications:** An international customer returns a product that was exported with duty paid. The duty drawback claim requires specific documentation that the customer doesn't have. The return shipping cost may exceed the product value.
-
-4. **Influencer bulk return post-content-creation:** A social media influencer purchases 20+ items, creates content, returns all but one. Technically within policy, but the brand value was extracted. Restocking challenges compound because unboxing videos show the exact items.
-
-5. **Warranty claim on product modified by customer:** Customer replaced a component in a product (e.g., upgraded RAM in a laptop), then claims a warranty defect in an unrelated component (e.g., screen failure). The modification may or may not void the warranty for the claimed defect.
-
-6. **Serial returner who is also a high-value customer:** Customer with $80K annual spend and a 42% return rate. Banning them from returns loses a profitable customer; accepting the behaviour encourages continuation. Requires nuanced segmentation beyond simple return rate.
-
-7. **Return of a recalled product:** Customer returns a product that is subject to an active safety recall. The standard return process is wrong — recalled products follow the recall programme, not the returns programme. Mixing them creates liability and reporting errors.
-
-8. **Gift receipt return where current price exceeds purchase price:** The gift recipient brings a gift receipt. The item is now selling for $30 more than the gift-giver paid. Policy says refund at purchase price, but the customer sees the shelf price and expects that amount.
-
-## Communication Patterns
-
-### Tone Calibration
-
-- **Standard refund confirmation:** Warm, efficient. Lead with the resolution amount and timeline, not the process.
-- **Denial of return:** Empathetic but clear. Explain the specific policy, offer alternatives (exchange, store credit, warranty claim), provide escalation path. Never leave the customer with no options.
-- **Fraud investigation hold:** Neutral, factual. "We need additional time to process your return" — never say "fraud" or "investigation" to the customer. Provide a timeline. Internal communications are where you document the fraud indicators.
-- **Restocking fee explanation:** Transparent. Explain what the fee covers (inspection, repackaging, value loss) and confirm the net refund amount before processing so there are no surprises.
-- **Vendor RTV claim:** Professional, evidence-based. Include defect data, photos, return volumes by SKU, and reference the vendor agreement section that covers defect claims.
-
-### Key Templates
-
-Brief templates below. Full versions with variables in [communication-templates.md](references/communication-templates.md).
-
-**RMA approval:** Subject: `Return Approved — Order #{order_id}`. Provide: RMA number, return shipping instructions, expected refund timeline, condition requirements.
-
-**Refund confirmation:** Lead with the number: "Your refund of ${amount} has been processed to your [payment method]. Please allow [X] business days."
-
-**Fraud hold notice:** "Your return is being reviewed by our processing team. We expect to have an update within [X] business days. We appreciate your patience."
-
-## Escalation Protocols
-
-### Automatic Escalation Triggers
-
-| Trigger                                                            | Action                                                           | Timeline          |
-| ------------------------------------------------------------------ | ---------------------------------------------------------------- | ----------------- |
-| Return value > $5,000 (single item)                                | Supervisor approval required before refund                       | Before processing |
-| Fraud score ≥ 80                                                   | Hold refund, route to fraud review team                          | Immediately       |
-| Customer has filed chargeback simultaneously                       | Halt return processing, coordinate with payments team            | Within 1 hour     |
-| Product identified as recalled                                     | Route to recall coordinator, do not process as standard return   | Immediately       |
-| Vendor defect rate exceeds 5% for SKU                              | Notify merchandise and vendor management                         | Within 24 hours   |
-| Third policy exception request from same customer in 12 months     | Manager review before granting                                   | Before processing |
-| Suspected counterfeit in return stream                             | Pull from processing, photograph, notify LP and brand protection | Immediately       |
-| Return involves regulated product (pharma, hazmat, medical device) | Route to compliance team                                         | Immediately       |
-
-### Escalation Chain
-
-Level 1 (Returns Associate) → Level 2 (Team Lead, 2 hours) → Level 3 (Returns Manager, 8 hours) → Level 4 (Director of Operations, 24 hours) → Level 5 (VP, 48+ hours or any single-item return > $25K)
-
-## Performance Indicators
-
-| Metric                                                | Target     | Red Flag   |
-| ----------------------------------------------------- | ---------- | ---------- |
-| Return processing time (receipt to refund)            | < 48 hours | > 96 hours |
-| Inspection accuracy (grade agreement on audit)        | > 95%      | < 88%      |
-| Restock rate (% of returns restocked as new/open box) | > 45%      | < 30%      |
-| Fraud detection rate (confirmed fraud caught)         | > 80%      | < 60%      |
-| False positive rate (legitimate returns flagged)      | < 3%       | > 8%       |
-| Vendor recovery rate ($ recovered / $ eligible)       | > 70%      | < 45%      |
-| Customer satisfaction (post-return CSAT)              | > 4.2/5.0  | < 3.5/5.0  |
-| Cost per return processed                             | < $8.00    | > $15.00   |
-
-## Additional Resources
-
-- For detailed disposition trees, fraud scoring, vendor recovery frameworks, and grading standards, see [decision-frameworks.md](references/decision-frameworks.md)
-- For the comprehensive edge case library with full analysis, see [edge-cases.md](references/edge-cases.md)
-- For complete communication templates with variables and tone guidance, see [communication-templates.md](references/communication-templates.md)
-
-### When to Use
-Use this skill when you need to **design, improve, or troubleshoot returns and reverse logistics operations**:
-
-- Defining or revising returns policies, grading standards, and disposition routes across channels.
-- Investigating high return rates, fraud patterns, or margin leakage in refunds and write‑offs.
-- Building SOPs, scorecards, or automation flows for RMAs, inspections, RTV, and warranty workflows in retail or e‑commerce environments.
-
-## Limitations
-- Use this skill only when the task clearly matches the scope described above.
-- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
-- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
+<!-- Truncated for OpenGAP token limits -->

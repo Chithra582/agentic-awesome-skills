@@ -1,0 +1,16 @@
+name: "catalog-inspector"
+description: "Inspects and queries the local 2,400+ skill catalog by keyword, framework, or category."
+input_schema:
+  type: "object"
+  properties:
+    query:
+      type: "string"
+      description: "Search keyword, skill name, or target domain."
+    framework:
+      type: "string"
+      description: "Target agent framework e.g. claude_code, cursor, codex, antigravity."
+    tag:
+      type: "string"
+      description: "Filtering tag such as testing, devops, database, frontend."
+  required:
+    - "query"

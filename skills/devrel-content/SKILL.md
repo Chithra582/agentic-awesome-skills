@@ -1,15 +1,16 @@
 ---
 name: devrel-content
-description: "When the user wants to create technical content for developers including blog posts, tutorials, and documentation."
-risk: critical
-source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/devrel-content
-source_repo: jonathimer/devmarketing-skills
-source_type: community
-date_added: 2026-07-01
+description: When the user wants to create technical content for developers including
+  blog posts, tutorials, and documentation.
 license: MIT
-license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/devrel-content
+  source_repo: jonathimer/devmarketing-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
 ---
-
 # DevRel Content
 ## When to Use
 

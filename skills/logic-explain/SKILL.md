@@ -1,15 +1,17 @@
 ---
 name: logic-explain
-description: "Explain what a specific piece of code actually does for a given input by producing a step-by-step execution trace (interprocedural, with name resolution and type transitions)."
-risk: safe
-source: https://github.com/hyhmrright/logic-lens/tree/main/skills/logic-explain
-source_repo: hyhmrright/logic-lens
-source_type: community
-date_added: 2026-07-01
+description: Explain what a specific piece of code actually does for a given input
+  by producing a step-by-step execution trace (interprocedural, with name resolution
+  and type transitions).
 license: MIT
-license_source: https://github.com/hyhmrright/logic-lens/blob/main/LICENSE
+metadata:
+  risk: safe
+  source: https://github.com/hyhmrright/logic-lens/tree/main/skills/logic-explain
+  source_repo: hyhmrright/logic-lens
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/hyhmrright/logic-lens/blob/main/LICENSE
 ---
-
 # Logic-Lens — Execution Explain
 ## When to Use
 

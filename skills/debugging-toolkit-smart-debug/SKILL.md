@@ -1,11 +1,12 @@
 ---
 name: debugging-toolkit-smart-debug
-description: "Use when working with debugging toolkit smart debug"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Use when working with debugging toolkit smart debug
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on debugging toolkit smart debug tasks or workflows

@@ -1,15 +1,17 @@
 ---
 name: monte-carlo-storage-cost-analysis
-description: Analyze a warehouse for stale, unused, or redundant tables via the analyze_storage_costs MCP tool. Classifies waste patterns and table categories, computes safety tiers, and handles category drill-downs and lineage follow-ups.
-risk: critical
-source: https://github.com/monte-carlo-data/mc-agent-toolkit/tree/main/skills/storage-cost-analysis
-source_repo: monte-carlo-data/mc-agent-toolkit
-source_type: community
-date_added: 2026-07-01
+description: Analyze a warehouse for stale, unused, or redundant tables via the analyze_storage_costs
+  MCP tool. Classifies waste patterns and table categories, computes safety tiers,
+  and handles category drill-downs and lineage follow-ups.
 license: Apache-2.0
-license_source: https://github.com/monte-carlo-data/mc-agent-toolkit/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/monte-carlo-data/mc-agent-toolkit/tree/main/skills/storage-cost-analysis
+  source_repo: monte-carlo-data/mc-agent-toolkit
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/monte-carlo-data/mc-agent-toolkit/blob/main/LICENSE
 ---
-
 # Monte Carlo Storage Cost Analysis Skill
 
 This skill analyzes a data warehouse for stale tables that can be removed to reduce storage costs. It delegates classification, safety scoring, and formatting to the `analyze_storage_costs` MCP tool, then presents the pre-formatted result verbatim and handles follow-up questions (category drill-downs, lineage checks).

@@ -1,15 +1,18 @@
 ---
 name: smartui-skill
-description: "Generates SmartUI visual regression test configurations for screenshot comparison on TestMu AI cloud. Framework-agnostic — works with Playwright, Selenium, Cypress, Puppeteer. Use when user mentions \"SmartUI\", \"visual regression\", \"screenshot comparison\", \"visual testing\"."
-risk: critical
-source: https://github.com/LambdaTest/agent-skills/tree/main/smartui-skill
-source_repo: LambdaTest/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Generates SmartUI visual regression test configurations for screenshot
+  comparison on TestMu AI cloud. Framework-agnostic — works with Playwright, Selenium,
+  Cypress, Puppeteer. Use when user mentions "SmartUI", "visual regression", "screenshot
+  comparison", "visual testing".
 license: MIT
-license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/LambdaTest/agent-skills/tree/main/smartui-skill
+  source_repo: LambdaTest/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 ---
-
 # SmartUI Visual Regression Skill
 ## When to Use
 

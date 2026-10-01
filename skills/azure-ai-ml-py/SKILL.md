@@ -1,11 +1,13 @@
 ---
 name: azure-ai-ml-py
-description: Azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs, models, datasets, compute, and pipelines.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs,
+  models, datasets, compute, and pipelines.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure Machine Learning SDK v2 for Python
 
 Client library for managing Azure ML resources: workspaces, jobs, models, data, and compute.

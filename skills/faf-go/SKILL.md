@@ -1,15 +1,17 @@
 ---
 name: faf-go
-description: Guided interview to Gold Code (100% AI-Readiness). Use when helping users improve their .faf file through questions. Leverages Claude Code's AskUserQuestion for seamless integration. Just type /faf-go and answer questions till done.
-risk: critical
-source: https://github.com/Wolfe-Jam/faf-skills/tree/main/skills/faf-go
-source_repo: Wolfe-Jam/faf-skills
-source_type: community
-date_added: 2026-07-01
+description: Guided interview to Gold Code (100% AI-Readiness). Use when helping users
+  improve their .faf file through questions. Leverages Claude Code's AskUserQuestion
+  for seamless integration. Just type /faf-go and answer questions till done.
 license: MIT
-license_source: https://github.com/Wolfe-Jam/faf-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/Wolfe-Jam/faf-skills/tree/main/skills/faf-go
+  source_repo: Wolfe-Jam/faf-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/Wolfe-Jam/faf-skills/blob/main/LICENSE
 ---
-
 # FAF Go — Guided Path to 100% ✪
 
 **"Just type /faf-go, answer questions till you're done. 100% target."**

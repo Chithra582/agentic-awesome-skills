@@ -1,27 +1,24 @@
 ---
 name: anywrite
-description: "Compiled CLI covering all 52 endpoints of the Anytype local API — objects, properties, tags, search, chat, files — one binary, no MCP server needed."
-category: productivity
-risk: critical
-source: community
-source_repo: Antheurus/anywrite
-source_type: community
-date_added: "2026-07-15"
-author: Antheurus
-tags: [anytype, cli, pkm, notes, api-integration, productivity, knowledge-management]
-tools: [claude, cursor, gemini, codex]
-license: "MIT"
-license_source: "https://github.com/Antheurus/anywrite/blob/main/LICENSE"
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
-  setup:
-    type: manual
-    summary: "Requires a separately installed, user-approved anywrite executable at an explicit absolute path."
-    docs: SKILL.md
+description: Compiled CLI covering all 52 endpoints of the Anytype local API — objects,
+  properties, tags, search, chat, files — one binary, no MCP server needed.
+license: MIT
+metadata:
+  category: productivity
+  risk: critical
+  source: community
+  source_repo: Antheurus/anywrite
+  source_type: community
+  date_added: '2026-07-15'
+  author: Antheurus
+  tags: '[''anytype'', ''cli'', ''pkm'', ''notes'', ''api-integration'', ''productivity'',
+    ''knowledge-management'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/Antheurus/anywrite/blob/main/LICENSE
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}, ''setup'':
+    {''type'': ''manual'', ''summary'': ''Requires a separately installed, user-approved
+    anywrite executable at an explicit absolute path.'', ''docs'': ''SKILL.md''}}'
 ---
-
 # anywrite
 
 ## Overview

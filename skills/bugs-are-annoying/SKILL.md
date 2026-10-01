@@ -1,11 +1,13 @@
 ---
 name: bugs-are-annoying
-description: Adversarial code auditor that hunts down bugs, logic errors, and security flaws. Use for deep correctness passes, not style reviews.
-risk: critical
-source: community
-date_added: "2026-06-19"
+description: Adversarial code auditor that hunts down bugs, logic errors, and security
+  flaws. Use for deep correctness passes, not style reviews.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-06-19'
+license: MIT
 ---
-
 # Bugs Are Annoying
 
 An adversarial QA pass for any codebase, in any language. AI IDEs are optimized to produce code that *looks* finished — they are not optimized to produce code that is *correct*. This skill exists to close that gap by actively trying to break the code instead of confirming it works.

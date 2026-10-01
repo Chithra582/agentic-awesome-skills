@@ -1,16 +1,18 @@
 ---
 name: noaa-radar-satellite-fetching
-description: "Retrieve NOAA NEXRAD and GOES products from public cloud archives using verified site, product, channel, sector, and scan-time selection."
-category: data
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-24"
-author: ShianMike
-tags: [weather, noaa, nexrad, goes, radar, satellite, aws-s3]
-tools: [claude, cursor, gemini, codex]
+description: Retrieve NOAA NEXRAD and GOES products from public cloud archives using
+  verified site, product, channel, sector, and scan-time selection.
+metadata:
+  category: data
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-24'
+  author: ShianMike
+  tags: '[''weather'', ''noaa'', ''nexrad'', ''goes'', ''radar'', ''satellite'', ''aws-s3'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+license: MIT
 ---
-
 # NOAA Radar and Satellite Fetching
 
 ## Overview

@@ -1,12 +1,13 @@
 ---
 name: bullmq-specialist
-description: BullMQ expert for Redis-backed job queues, background processing,
-  and reliable async execution in Node.js/TypeScript applications.
-risk: none
-source: vibeship-spawner-skills (Apache 2.0)
-date_added: 2026-02-27
+description: BullMQ expert for Redis-backed job queues, background processing, and
+  reliable async execution in Node.js/TypeScript applications.
+metadata:
+  risk: none
+  source: vibeship-spawner-skills (Apache 2.0)
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # BullMQ Specialist
 
 BullMQ expert for Redis-backed job queues, background processing, and

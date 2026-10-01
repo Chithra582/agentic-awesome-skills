@@ -1,19 +1,21 @@
 ---
 name: extract-document-data
-description: Extract structured, grounded fields from documents — values cite their page, missing values abstain instead of hallucinating. Use for parsing invoices, payslips, statements, contracts.
-category: document-verification
-risk: critical
-source: community
-source_repo: Sketchjar/stipple-agent-skills
-source_type: community
-date_added: "2026-08-31"
-author: Sketchjar
-tags: [document-verification, fact-checking, stipple, authenticity]
-tools: [claude, cursor, gemini, codex]
-license: "Apache-2.0"
-license_source: "https://github.com/Sketchjar/stipple-agent-skills/blob/main/LICENSE"
+description: Extract structured, grounded fields from documents — values cite their
+  page, missing values abstain instead of hallucinating. Use for parsing invoices,
+  payslips, statements, contracts.
+license: Apache-2.0
+metadata:
+  category: document-verification
+  risk: critical
+  source: community
+  source_repo: Sketchjar/stipple-agent-skills
+  source_type: community
+  date_added: '2026-08-31'
+  author: Sketchjar
+  tags: '[''document-verification'', ''fact-checking'', ''stipple'', ''authenticity'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/Sketchjar/stipple-agent-skills/blob/main/LICENSE
 ---
-
 # Extract Document Data
 
 Extract structured JSON from documents with per-value grounding: every extracted value cites where it came from (page number, confidence), and values that aren't clearly present are reported in `not_found` rather than hallucinated. Uses the Stipple API (free anonymous tier).

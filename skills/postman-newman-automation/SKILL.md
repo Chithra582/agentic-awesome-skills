@@ -1,15 +1,16 @@
 ---
 name: postman-newman-automation
-description: "Generate Newman CLI commands, configuration files, Jenkins pipeline scripts, and shell automation for running Postman collections in CI/CD or local environments."
-risk: critical
-source: https://github.com/LambdaTest/agent-skills/tree/main/api-skill/postman/postman-to-newman
-source_repo: LambdaTest/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Generate Newman CLI commands, configuration files, Jenkins pipeline scripts,
+  and shell automation for running Postman collections in CI/CD or local environments.
 license: MIT
-license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/LambdaTest/agent-skills/tree/main/api-skill/postman/postman-to-newman
+  source_repo: LambdaTest/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 ---
-
 # Postman Newman Automation
 ## When to Use
 

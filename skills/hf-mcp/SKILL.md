@@ -1,15 +1,17 @@
 ---
 name: hf-mcp
-description: Use Hugging Face Hub via MCP server tools. Search models, datasets, Spaces, papers. Get repo details, fetch documentation, run compute jobs, and use Gradio Spaces as AI tools. Available when connected to the HF MCP server.
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/hf-mcp/skills/hf-mcp
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: Use Hugging Face Hub via MCP server tools. Search models, datasets, Spaces,
+  papers. Get repo details, fetch documentation, run compute jobs, and use Gradio
+  Spaces as AI tools. Available when connected to the HF MCP server.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/hf-mcp/skills/hf-mcp
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 # Hugging Face MCP Server
 ## When to Use
 

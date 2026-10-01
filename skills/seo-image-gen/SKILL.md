@@ -1,20 +1,17 @@
 ---
 name: seo-image-gen
-description: "Generate SEO-focused images such as OG cards, hero images, schema assets, product visuals, and infographics. Use when image generation is part of an SEO workflow or content publishing task."
-risk: critical
-source: "https://github.com/AgriciDaniel/claude-seo"
-date_added: "2026-03-21"
-argument-hint: "[og|hero|product|infographic|custom|batch] <description>"
-user-invokable: true
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - WebFetch
-  - Write
+description: Generate SEO-focused images such as OG cards, hero images, schema assets,
+  product visuals, and infographics. Use when image generation is part of an SEO workflow
+  or content publishing task.
+allowed-tools: Read Grep Glob Bash WebFetch Write
+metadata:
+  risk: critical
+  source: https://github.com/AgriciDaniel/claude-seo
+  date_added: '2026-03-21'
+  argument-hint: '[og|hero|product|infographic|custom|batch] <description>'
+  user-invokable: 'True'
+license: MIT
 ---
-
 # SEO Image Gen: AI Image Generation for SEO Assets (Extension)
 
 Generate production-ready images for SEO use cases using Gemini's image generation

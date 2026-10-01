@@ -1,19 +1,22 @@
 ---
 name: quit-sponsor
-description: "Helps an AI agent provide non-judgmental, evidence-informed quit-smoking support with user-consented tracking, craving check-ins, and escalation to human or clinical help. Not medical care."
-category: personal-development
-risk: safe
-source: community
-source_repo: metrox-eth/quit-sponsor
-source_type: community
-date_added: "2026-07-12"
-author: metrox-eth
-tags: [quit-smoking, smoking-cessation, health, habits, addiction-recovery, wellbeing, coaching]
-tools: [claude]
-license: "MIT"
-license_source: "https://github.com/metrox-eth/quit-sponsor/blob/main/LICENSE"
+description: Helps an AI agent provide non-judgmental, evidence-informed quit-smoking
+  support with user-consented tracking, craving check-ins, and escalation to human
+  or clinical help. Not medical care.
+license: MIT
+metadata:
+  category: personal-development
+  risk: safe
+  source: community
+  source_repo: metrox-eth/quit-sponsor
+  source_type: community
+  date_added: '2026-07-12'
+  author: metrox-eth
+  tags: '[''quit-smoking'', ''smoking-cessation'', ''health'', ''habits'', ''addiction-recovery'',
+    ''wellbeing'', ''coaching'']'
+  tools: '[''claude'']'
+  license_source: https://github.com/metrox-eth/quit-sponsor/blob/main/LICENSE
 ---
-
 # Quit-sponsor
 
 ## Overview

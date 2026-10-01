@@ -1,11 +1,15 @@
 ---
 name: yield-intelligence
-description: Passive income portfolio analysis — activate when user asks about dividend yields, Treasury rates, REIT income, monthly passive income goals, or portfolio yield optimization. Scans 4 asset classes, ranks by risk-adjusted return, and builds allocations targeting a specific monthly income.
-risk: safe
-source: community
-date_added: "2026-05-31"
+description: Passive income portfolio analysis — activate when user asks about dividend
+  yields, Treasury rates, REIT income, monthly passive income goals, or portfolio
+  yield optimization. Scans 4 asset classes, ranks by risk-adjusted return, and builds
+  allocations targeting a specific monthly income.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-05-31'
+license: MIT
 ---
-
 # Yield Intelligence
 
 Passive income analysis across US Treasuries, dividend ETFs, REITs, and preferred stocks. Given a target monthly income and investment amount, returns a ranked opportunity table and optimal allocation.

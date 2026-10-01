@@ -1,11 +1,13 @@
 ---
 name: startup-financial-modeling
-description: "Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups."
-risk: none
-source: community
-date_added: '2026-02-27'
+description: Build comprehensive 3-5 year financial models with revenue projections,
+  cost structures, cash flow analysis, and scenario planning for early-stage startups.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Startup Financial Modeling
 
 Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups.

@@ -1,11 +1,13 @@
 ---
 name: angular
-description: Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns.
-risk: safe
-source: self
-date_added: '2026-02-27'
+description: Modern Angular (v20+) expert with deep knowledge of Signals, Standalone
+  Components, Zoneless applications, SSR/Hydration, and reactive patterns.
+metadata:
+  risk: safe
+  source: self
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Angular Expert
 
 Master modern Angular development with Signals, Standalone Components, Zoneless applications, SSR/Hydration, and the latest reactive patterns.

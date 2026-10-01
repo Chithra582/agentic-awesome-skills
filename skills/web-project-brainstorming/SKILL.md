@@ -1,16 +1,20 @@
 ---
 name: web-project-brainstorming
-description: Masterclass framework for brainstorming web development projects and page designs. Outlines structural phases for concept, UX flow, styling aesthetics, technical architecture, and SEO.
-category: consulting
-risk: safe
-source: self
-source_type: self
-date_added: "2026-06-26"
-author: Rsmiyani
-tags: [brainstorming, project-planning, web-development, product-scoping, design-system, architecture]
-tools: [claude, cursor, gemini]
+description: Masterclass framework for brainstorming web development projects and
+  page designs. Outlines structural phases for concept, UX flow, styling aesthetics,
+  technical architecture, and SEO.
+metadata:
+  category: consulting
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-06-26'
+  author: Rsmiyani
+  tags: '[''brainstorming'', ''project-planning'', ''web-development'', ''product-scoping'',
+    ''design-system'', ''architecture'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # Web Project Brainstorming
 
 ## Overview

@@ -1,12 +1,16 @@
 ---
 name: html-injection-testing
-description: "Identify and exploit HTML injection vulnerabilities that allow attackers to inject malicious HTML content into web applications. This vulnerability enables attackers to modify page appearance, create phishing pages, and steal user credentials through injected forms."
-risk: offensive
-source: community
-author: zebbern
-date_added: "2026-02-27"
+description: Identify and exploit HTML injection vulnerabilities that allow attackers
+  to inject malicious HTML content into web applications. This vulnerability enables
+  attackers to modify page appearance, create phishing pages, and steal user credentials
+  through injected forms.
+metadata:
+  risk: offensive
+  source: community
+  author: zebbern
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

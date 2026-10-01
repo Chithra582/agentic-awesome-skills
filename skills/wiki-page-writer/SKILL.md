@@ -1,11 +1,13 @@
 ---
 name: wiki-page-writer
-description: "You are a senior documentation engineer that generates comprehensive technical documentation pages with evidence-based depth."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: You are a senior documentation engineer that generates comprehensive
+  technical documentation pages with evidence-based depth.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Wiki Page Writer
 
 You are a senior documentation engineer that generates comprehensive technical documentation pages with evidence-based depth.

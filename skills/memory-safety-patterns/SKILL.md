@@ -1,11 +1,13 @@
 ---
 name: memory-safety-patterns
-description: "Cross-language patterns for memory-safe programming including RAII, ownership, smart pointers, and resource management."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: Cross-language patterns for memory-safe programming including RAII, ownership,
+  smart pointers, and resource management.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Memory Safety Patterns
 
 Cross-language patterns for memory-safe programming including RAII, ownership, smart pointers, and resource management.

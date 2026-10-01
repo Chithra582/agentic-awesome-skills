@@ -3,22 +3,21 @@ name: windows-hardening
 description: Harden Windows servers per security baselines and CIS benchmarks. Configure
   Group Policy, Windows Defender, and security features. Use when securing Windows
   Server environments.
-category: security
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant security tooling (scanners, vault CLIs) and an
   authorized scope for any active assessment. Docs-only; helper scripts and templates
   not bundled.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: security
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # Windows Hardening
 
 Secure Windows servers following Microsoft security baselines and CIS benchmarks.

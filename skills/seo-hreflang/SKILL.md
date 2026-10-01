@@ -1,23 +1,18 @@
 ---
 name: seo-hreflang
-description: >
-  Hreflang and international SEO audit, validation, and generation. Detects
-  common mistakes, validates language/region codes, and generates correct
-  hreflang implementations. Use when user says "hreflang", "i18n SEO",
-  "international SEO", "multi-language", "multi-region", or "language tags".
-risk: critical
-source: "https://github.com/AgriciDaniel/claude-seo"
-date_added: "2026-03-21"
-user-invokable: true
-argument-hint: "[url]"
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - WebFetch
+description: Hreflang and international SEO audit, validation, and generation. Detects
+  common mistakes, validates language/region codes, and generates correct hreflang
+  implementations. Use when user says "hreflang", "i18n SEO", "international SEO",
+  "multi-language", "multi-region", or "language tags".
+allowed-tools: Read Grep Glob Bash WebFetch
+metadata:
+  risk: critical
+  source: https://github.com/AgriciDaniel/claude-seo
+  date_added: '2026-03-21'
+  user-invokable: 'True'
+  argument-hint: '[url]'
+license: MIT
 ---
-
 # Hreflang & International SEO
 
 ## When to Use

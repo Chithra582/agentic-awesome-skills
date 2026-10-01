@@ -1,15 +1,18 @@
 ---
 name: frontend-architecture
-description: "A portable, framework-agnostic architecture style for any React or React Native frontend. Organizes apps into feature modules with page/screen directories, a strict server-state vs UI-state split, barrel-only cross-module imports, co-located styles, and clear component-promotion rules."
-risk: critical
-source: https://github.com/stareezy-1/frontend-architecture-skill/tree/main/skills/frontend-architecture
-source_repo: stareezy-1/frontend-architecture-skill
-source_type: community
-date_added: 2026-07-01
+description: A portable, framework-agnostic architecture style for any React or React
+  Native frontend. Organizes apps into feature modules with page/screen directories,
+  a strict server-state vs UI-state split, barrel-only cross-module imports, co-located
+  styles, and clear component-promotion rules.
 license: MIT
-license_source: https://github.com/stareezy-1/frontend-architecture-skill/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/stareezy-1/frontend-architecture-skill/tree/main/skills/frontend-architecture
+  source_repo: stareezy-1/frontend-architecture-skill
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/stareezy-1/frontend-architecture-skill/blob/main/LICENSE
 ---
-
 # Frontend Architecture (portable, module-based)
 ## When to Use
 
@@ -364,56 +367,6 @@ If you target both web and Expo, push framework-free code (types, validators, fo
 - [ ] New feature → new `modules/{feature}/` with `index.ts` + `README.md`, not files scattered into `shared/`.
 - [ ] New route → a **page/screen directory** (`{page}.tsx` + `{page}.styles.ts` + `index.ts` + `README.md`), not a loose file.
 - [ ] Cross-module imports go through the barrel (`@/modules/{feature}`) — no deep internal paths.
-- [ ] Server data is in the query/cache layer; UI state is in the module store; **neither leaks into the other** (whatever libraries are chosen).
-- [ ] No `fetch()` in components — only typed data hooks built on the shared client.
-- [ ] No inline styles — co-located `{name}.styles.ts` (Tailwind/CSS Modules/Tamagui/StyleSheet/styled-components).
-- [ ] Components/hooks/utils placed at the narrowest scope; promoted only when a 2nd consumer appears.
-- [ ] One store unit per module, accessed via the barrel, with selectors and a `reset`.
-- [ ] Interfaces use the `I` prefix; components/hooks/files follow §6.
-- [ ] Query keys/tags come from a per-module factory; invalidation is hierarchical.
-- [ ] Routing files are thin — they mount module pages and own only layout/auth boundaries.
-- [ ] Module/page READMEs updated when routes, params, or data deps change.
+- [ ] Server data is in the query/cache layer; U
 
----
-
-## 9. Component promotion (start local, move outward)
-
-A component is born in the narrowest scope that uses it and is **promoted** only when a second consumer appears. Never pre-place a component "because it might be reused."
-
-| A component used by…   | Lives in                          | Imported as                        |
-| ---------------------- | --------------------------------- | ---------------------------------- |
-| Only one page          | `pages/{page}/components/`        | relative path within the page      |
-| 2+ pages in one module | `modules/{feature}/components/`   | `@/modules/{feature}` (via barrel) |
-| 2+ modules             | `shared/components/`              | `@/shared/...`                     |
-| 2+ apps / repos        | a published design-system package | the package name                   |
-
-The same ladder applies to **hooks**, **utils**, and **constants**: local → module → shared → package. Promotion is a deliberate move (update the import sites), not a guess made up front.
-
----
-
-## 10. How to apply this skill
-
-**Scaffolding a new app:** create `src/modules/`, `src/shared/`, and the framework routing layer (§7). Add the shared `api-client`, the query layer, and your chosen client-store provider. Drop a store template into the first module.
-
-**Adding a feature:** create `modules/{feature}/` with the full subfolder set (`pages/ components/ hooks/ stores/ services/ utils/ constants/ types/`), a curated `index.ts`, and a `README.md`. Build the first screen as a page directory.
-
-**Deciding where code goes:** ask "who consumes this?" → narrowest scope wins (§9). Ask "where did this data come from?" → server = query layer, UI = store (§4).
-
-**Reviewing structure:** run the checklist in §8. The most valuable catches are state-origin leaks (server data in the client store) and deep cross-module imports (bypassing the barrel) — both erode the architecture fastest.
-
----
-
-## Publishing / installing this skill
-
-This skill follows the Anthropic `SKILL.md` format and is portable across agents. To make it installable and discoverable (e.g. on skills.sh / `npx skills`):
-
-1. Put this folder under a `skills/` directory in a **public GitHub repo** (path like `skills/frontend-architecture/SKILL.md`).
-2. Keep the frontmatter `name` and a high-signal `description` (above) — that description is what discovery indexes match against.
-3. Install from any project with: `npx skills add <org>/<repo> --skill "frontend-architecture"`.
-4. Non-`SKILL.md` agents can be pointed here from `AGENTS.md` / `CLAUDE.md`; Kiro can mirror it as a steering file.
-
-## Limitations
-
-- Use this skill only when the task clearly matches its upstream source and local project context.
-- Verify commands, generated code, dependencies, credentials, and external service behavior before applying changes.
-- Do not treat examples as a substitute for environment-specific tests, security review, or user approval for destructive or costly actions.
+<!-- Truncated for OpenGAP token limits -->

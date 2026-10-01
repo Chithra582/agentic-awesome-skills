@@ -1,11 +1,12 @@
 ---
 name: debugging-toolkit
-description: "Use when working with debugging toolkit smart debug (Alias for debugging-toolkit-smart-debug)"
-risk: none
-source: "alias"
-date_added: "2026-06-02"
+description: Use when working with debugging toolkit smart debug (Alias for debugging-toolkit-smart-debug)
+metadata:
+  risk: none
+  source: alias
+  date_added: '2026-06-02'
+license: MIT
 ---
-
 # Debugging Toolkit
 
 > **This is an alias.** The canonical skill is **`debugging-toolkit-smart-debug`**.

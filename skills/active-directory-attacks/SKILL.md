@@ -1,12 +1,16 @@
 ---
 name: active-directory-attacks
-description: "Provide comprehensive techniques for attacking Microsoft Active Directory environments. Covers reconnaissance, credential harvesting, Kerberos attacks, lateral movement, privilege escalation, and domain dominance for red team operations and penetration testing."
-risk: offensive
-source: community
-author: zebbern
-date_added: "2026-02-27"
+description: Provide comprehensive techniques for attacking Microsoft Active Directory
+  environments. Covers reconnaissance, credential harvesting, Kerberos attacks, lateral
+  movement, privilege escalation, and domain dominance for red team operations and
+  penetration testing.
+metadata:
+  risk: offensive
+  source: community
+  author: zebbern
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

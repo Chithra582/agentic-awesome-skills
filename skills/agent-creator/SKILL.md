@@ -1,15 +1,14 @@
 ---
 name: agent-creator
-description: "Create custom AI subagents with proper plugin structure, persona generation, and companion routing skills."
-risk: critical
-source: community
-date_added: "2026-06-20"
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
+description: Create custom AI subagents with proper plugin structure, persona generation,
+  and companion routing skills.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-06-20'
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}}'
+license: MIT
 ---
-
 # Agent Creator
 
 A skill for creating custom subagents packaged inside proper plugins. This skill

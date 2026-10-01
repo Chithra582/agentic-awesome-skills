@@ -1,14 +1,13 @@
 ---
 name: moyu
-description: >
-  Anti-over-engineering guardrail that activates when an AI coding agent expands
-  scope, adds abstractions, or changes files the user did not request.
-risk: safe
-source: community
-date_added: "2026-03-23"
+description: Anti-over-engineering guardrail that activates when an AI coding agent
+  expands scope, adds abstractions, or changes files the user did not request.
 license: MIT
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-23'
 ---
-
 # Moyu
 
 > The best code is code you didn't write. The best PR is the smallest PR.

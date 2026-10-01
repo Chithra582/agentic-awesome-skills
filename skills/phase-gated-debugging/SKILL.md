@@ -1,11 +1,13 @@
 ---
 name: phase-gated-debugging
-description: "Use when debugging any bug. Enforces a 5-phase protocol where code edits are blocked until root cause is confirmed. Prevents premature fix attempts."
-risk: safe
-source: community
-date_added: "2026-03-28"
+description: Use when debugging any bug. Enforces a 5-phase protocol where code edits
+  are blocked until root cause is confirmed. Prevents premature fix attempts.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-28'
+license: MIT
 ---
-
 # Phase-Gated Debugging
 
 ## Overview

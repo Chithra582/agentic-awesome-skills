@@ -1,11 +1,15 @@
 ---
 name: defuddle
-description: Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.
-risk: critical
-source: "https://github.com/kepano/obsidian-skills"
-date_added: "2026-03-21"
+description: Extract clean markdown content from web pages using Defuddle CLI, removing
+  clutter and navigation to save tokens. Use instead of WebFetch when the user provides
+  a URL to read or analyze, for online documentation, articles, blog posts, or any
+  standard web page.
+metadata:
+  risk: critical
+  source: https://github.com/kepano/obsidian-skills
+  date_added: '2026-03-21'
+license: MIT
 ---
-
 # Defuddle
 
 Use Defuddle CLI to extract clean readable content from web pages. Prefer over WebFetch for standard web pages — it removes navigation, ads, and clutter, reducing token usage.

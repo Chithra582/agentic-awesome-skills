@@ -1,19 +1,22 @@
 ---
 name: feature-tracking
-description: "Maintain durable feature-level memory across AI coding sessions with lightweight Markdown tracks for status, source-of-truth docs, decisions, risks, and changes."
-category: project-management
-risk: critical
-source: community
-source_repo: JunsW/feature-track
-source_type: community
-date_added: "2026-07-13"
-author: JunsW
-tags: [feature-tracking, project-memory, documentation, ai-agents, session-handoff]
-tools: [claude, cursor, gemini, codex]
+description: Maintain durable feature-level memory across AI coding sessions with
+  lightweight Markdown tracks for status, source-of-truth docs, decisions, risks,
+  and changes.
 license: MIT
-license_source: "https://github.com/JunsW/feature-track/blob/main/LICENSE"
+metadata:
+  category: project-management
+  risk: critical
+  source: community
+  source_repo: JunsW/feature-track
+  source_type: community
+  date_added: '2026-07-13'
+  author: JunsW
+  tags: '[''feature-tracking'', ''project-memory'', ''documentation'', ''ai-agents'',
+    ''session-handoff'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/JunsW/feature-track/blob/main/LICENSE
 ---
-
 # Feature Tracking
 
 ## Overview

@@ -1,11 +1,13 @@
 ---
 name: seo-aeo-schema-generator
-description: "Generates and validates implementation-ready JSON-LD structured data for relevant page types and rich-result eligibility."
-risk: safe
-source: community
-date_added: "2026-04-01"
+description: Generates and validates implementation-ready JSON-LD structured data
+  for relevant page types and rich-result eligibility.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-04-01'
+license: MIT
 ---
-
 # Schema Generator Skill
 
 ## Description

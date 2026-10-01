@@ -1,11 +1,14 @@
 ---
 name: threat-mitigation-mapping
-description: "Map identified threats to appropriate security controls and mitigations. Use when prioritizing security investments, creating remediation plans, or validating control effectiveness."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: Map identified threats to appropriate security controls and mitigations.
+  Use when prioritizing security investments, creating remediation plans, or validating
+  control effectiveness.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Threat Mitigation Mapping
 
 Connect threats to controls for effective security planning.

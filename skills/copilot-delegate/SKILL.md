@@ -3,19 +3,19 @@ name: copilot-delegate
 description: Delegate coding tasks to the GitHub Copilot CLI (`copilot`) only when
   the user explicitly requests it, while the orchestrator retains review and landing
   responsibility.
-risk: critical
-category: agent-orchestration
-source: https://github.com/amElnagdy/delegate-skills
-source_repo: amElnagdy/delegate-skills
-source_type: community
-date_added: '2026-08-26'
 license: MIT
-license_source: https://github.com/amElnagdy/delegate-skills/blob/master/LICENSE
 compatibility: Requires the `copilot` CLI installed and authenticated (`copilot login`),
   Node 18+ to run the relay (the copilot CLI itself requires Node 22+), and git. The
   orchestrator must be able to run shell commands and read files.
 metadata:
   version: 0.5.0
+  risk: critical
+  category: agent-orchestration
+  source: https://github.com/amElnagdy/delegate-skills
+  source_repo: amElnagdy/delegate-skills
+  source_type: community
+  date_added: '2026-08-26'
+  license_source: https://github.com/amElnagdy/delegate-skills/blob/master/LICENSE
 ---
 # Copilot Delegate
 

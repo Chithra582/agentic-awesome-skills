@@ -1,15 +1,15 @@
 ---
 name: github-actions-advanced
-description: >
-  Design, debug, and harden GitHub Actions CI/CD workflows, including reusable
-  workflows, matrix builds, self-hosted runners, OIDC authentication, caching,
-  environments, secrets, and release automation.
-category: devops
-risk: safe
-source: community
-date_added: "2026-05-30"
+description: Design, debug, and harden GitHub Actions CI/CD workflows, including reusable
+  workflows, matrix builds, self-hosted runners, OIDC authentication, caching, environments,
+  secrets, and release automation.
+metadata:
+  category: devops
+  risk: safe
+  source: community
+  date_added: '2026-05-30'
+license: MIT
 ---
-
 # GitHub Actions Advanced Skill
 
 Expert guidance for designing, writing, debugging, and securing **production-grade** GitHub Actions workflows.

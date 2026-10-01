@@ -1,11 +1,12 @@
 ---
 name: conductor-status
-description: "Display project status, active tracks, and next actions"
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: Display project status, active tracks, and next actions
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Conductor Status
 
 Display the current status of the Conductor project, including overall progress, active tracks, and next actions.

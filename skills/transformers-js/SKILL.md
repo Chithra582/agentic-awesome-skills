@@ -1,15 +1,16 @@
 ---
 name: transformers-js
-description: "Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript."
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/skills/transformers-js
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: Use Transformers.js to run state-of-the-art machine learning models directly
+  in JavaScript/TypeScript.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/skills/transformers-js
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 # Transformers.js - Machine Learning for JavaScript
 
 Transformers.js enables running state-of-the-art machine learning models directly in JavaScript across browsers and server-side runtimes (Node.js, Bun, Deno), with no Python server required.

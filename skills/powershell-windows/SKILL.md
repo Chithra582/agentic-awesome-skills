@@ -1,11 +1,13 @@
 ---
 name: powershell-windows
-description: "PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: PowerShell Windows patterns. Critical pitfalls, operator syntax, error
+  handling.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # PowerShell Windows Patterns
 
 > Critical patterns and pitfalls for Windows PowerShell.

@@ -1,15 +1,17 @@
 ---
 name: hugging-face-papers
-description: "Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page."
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/skills/huggingface-papers
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: Look up and read Hugging Face paper pages in markdown, and use the papers
+  API for structured metadata such as authors, linked models/datasets/spaces, Github
+  repo and project page.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/skills/huggingface-papers
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 # Hugging Face Paper Pages
 
 Hugging Face Paper pages (hf.co/papers) is a platform built on top of arXiv (arxiv.org), specifically for research papers in the field of artificial intelligence (AI) and computer science. Hugging Face users can submit their paper at hf.co/papers/submit, which features it on the Daily Papers feed (hf.co/papers). Each day, users can upvote papers and comment on papers. Each paper page allows authors to:

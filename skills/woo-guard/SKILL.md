@@ -1,17 +1,18 @@
 ---
-name: "woo-guard"
-description: "Review generated or changed WooCommerce extensions, payment and shipping integrations, checkout customizations, and order or product logic."
-risk: "critical"
-source: "community"
-source_repo: "amElnagdy/guard-skills"
-source_type: "community"
-date_added: 2026-07-13
-author: "community"
-tags: []
-tools: []
+name: woo-guard
+description: Review generated or changed WooCommerce extensions, payment and shipping
+  integrations, checkout customizations, and order or product logic.
+metadata:
+  risk: critical
+  source: community
+  source_repo: amElnagdy/guard-skills
+  source_type: community
+  date_added: '2026-07-13'
+  author: community
+  tags: '[]'
+  tools: '[]'
+license: MIT
 ---
-
-
 # Woo Guard
 
 You are reviewing generated or changed WooCommerce code before it ships. Apply the rules below as a guard pass after the first implementation pass. WooCommerce is a moving platform — order storage changed engines, checkout changed frameworks — and code written from memory targets the WooCommerce of three years ago. With money on the line, "works on my demo store" is not a standard.

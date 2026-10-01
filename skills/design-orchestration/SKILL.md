@@ -1,11 +1,13 @@
 ---
 name: design-orchestration
-description: Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order.
-risk: none
-source: community
-date_added: '2026-02-27'
+description: Orchestrates design workflows by routing work through brainstorming,
+  multi-agent review, and execution readiness in the correct order.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Design Orchestration (Meta-Skill)
 
 ## Purpose

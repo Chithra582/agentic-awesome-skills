@@ -1,15 +1,16 @@
 ---
 name: bug-hunt-swarm
-description: "Parallel read-only multi-agent root-cause investigation for bugs, regressions, crashes, flaky behavior, or unexplained failures."
-risk: safe
-source: https://github.com/Dimillian/Skills/tree/main/bug-hunt-swarm
-source_repo: Dimillian/Skills
-source_type: community
-date_added: 2026-07-01
+description: Parallel read-only multi-agent root-cause investigation for bugs, regressions,
+  crashes, flaky behavior, or unexplained failures.
 license: MIT
-license_source: https://github.com/Dimillian/Skills/blob/main/LICENSE
+metadata:
+  risk: safe
+  source: https://github.com/Dimillian/Skills/tree/main/bug-hunt-swarm
+  source_repo: Dimillian/Skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/Dimillian/Skills/blob/main/LICENSE
 ---
-
 # Bug Hunt Swarm
 ## When to Use
 

@@ -1,25 +1,26 @@
 ---
 name: youtube-full
-description: "Fetch YouTube transcripts, search videos, browse channels, and extract playlists via TranscriptAPI — no yt-dlp, no Google API key, works from any cloud server."
-category: api-integration
-risk: safe
-source: community
-source_repo: ZeroPointRepo/youtube-skills
-source_type: community
-date_added: "2026-05-29"
-author: ZeroPointRepo
-tags: [youtube, transcripts, video-search, channels, playlists, api, transcriptapi]
-tools: [claude, cursor, gemini, codex, antigravity]
+description: Fetch YouTube transcripts, search videos, browse channels, and extract
+  playlists via TranscriptAPI — no yt-dlp, no Google API key, works from any cloud
+  server.
 license: MIT
-license_source: "https://github.com/ZeroPointRepo/youtube-skills/blob/main/LICENSE"
-upstream: "https://github.com/ZeroPointRepo/youtube-skills"
-plugin:
-  setup:
-    type: automatic
-    summary: "TranscriptAPI OAuth provisions the API key on first skill invocation. No manual credential setup. 100 free credits included."
-    docs: "https://transcriptapi.com/docs"
+metadata:
+  category: api-integration
+  risk: safe
+  source: community
+  source_repo: ZeroPointRepo/youtube-skills
+  source_type: community
+  date_added: '2026-05-29'
+  author: ZeroPointRepo
+  tags: '[''youtube'', ''transcripts'', ''video-search'', ''channels'', ''playlists'',
+    ''api'', ''transcriptapi'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'', ''antigravity'']'
+  license_source: https://github.com/ZeroPointRepo/youtube-skills/blob/main/LICENSE
+  upstream: https://github.com/ZeroPointRepo/youtube-skills
+  plugin: '{''setup'': {''type'': ''automatic'', ''summary'': ''TranscriptAPI OAuth
+    provisions the API key on first skill invocation. No manual credential setup.
+    100 free credits included.'', ''docs'': ''https://transcriptapi.com/docs''}}'
 ---
-
 # youtube-full — YouTube transcript, search, channels & playlists via TranscriptAPI
 
 YouTube transcripts, video search, channel browsing, in-channel search, playlist extraction, and new-upload monitoring — all via [TranscriptAPI](https://transcriptapi.com). Processes 500K+ transcripts daily, fast. No yt-dlp, no headless browsers, no Google API key.

@@ -1,34 +1,23 @@
 ---
 name: macos-screen-recorder
-description: "macOS screen recorder that captures the main display PLUS system audio via ScreenCaptureKit — no BlackHole/loopback driver, no sudo, just the standard Screen Recording permission. CLI-driven; fills the headless-screen-recording-with-system-sound gap QuickTime and `screencapture -v` can't."
-risk: critical
-source: community
-source_type: community
-source_repo: connerkward/macos-screen-recorder-system-audio
-date_added: "2026-06-16"
-author: Conner K Ward
+description: macOS screen recorder that captures the main display PLUS system audio
+  via ScreenCaptureKit — no BlackHole/loopback driver, no sudo, just the standard
+  Screen Recording permission. CLI-driven; fills the headless-screen-recording-with-system-sound
+  gap QuickTime and `screencapture -v` can't.
 license: MIT
-tags:
-  - macos
-  - screen-recording
-  - system-audio
-  - screencapturekit
-  - cli
-  - swift
-tools:
-  - claude-code
-  - antigravity
-  - cursor
-  - gemini-cli
-  - codex-cli
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
-  setup:
-    type: manual
-    summary: "Screen/audio/input capture requires sensitive macOS permissions; keep out of plugin-safe bundles."
-    docs: SKILL.md
+metadata:
+  risk: critical
+  source: community
+  source_type: community
+  source_repo: connerkward/macos-screen-recorder-system-audio
+  date_added: '2026-06-16'
+  author: Conner K Ward
+  tags: '[''macos'', ''screen-recording'', ''system-audio'', ''screencapturekit'',
+    ''cli'', ''swift'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}, ''setup'':
+    {''type'': ''manual'', ''summary'': ''Screen/audio/input capture requires sensitive
+    macOS permissions; keep out of plugin-safe bundles.'', ''docs'': ''SKILL.md''}}'
 ---
 ## When to Use
 

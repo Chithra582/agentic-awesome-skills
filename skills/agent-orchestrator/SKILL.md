@@ -1,23 +1,17 @@
 ---
 name: agent-orchestrator
-description: Meta-skill que orquestra todos os agentes do ecossistema. Scan automatico de skills, match por capacidades, coordenacao de workflows multi-skill e registry management.
-risk: safe
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- orchestration
-- multi-agent
-- workflow
-- automation
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Meta-skill que orquestra todos os agentes do ecossistema. Scan automatico
+  de skills, match por capacidades, coordenacao de workflows multi-skill e registry
+  management.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''orchestration'', ''multi-agent'', ''workflow'', ''automation'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # Agent Orchestrator
 
 ## Overview

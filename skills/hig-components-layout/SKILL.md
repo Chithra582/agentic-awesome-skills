@@ -1,11 +1,12 @@
 ---
 name: hig-components-layout
 description: Apple Human Interface Guidelines for layout and navigation components.
-risk: none
-source: community
-date_added: '2026-02-27'
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Apple HIG: Layout and Navigation Components
 
 Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.

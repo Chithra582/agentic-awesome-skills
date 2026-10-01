@@ -1,16 +1,17 @@
 ---
 name: permission-manager
-version: 1.0.0
-description: "Manage opencode permissions: review always-allow lists, suggest safe read-only commands, configure permission patterns"
-risk: critical
-source: community
-source_type: community
-source_repo: mskadu/opencode-agent-skills
+description: 'Manage opencode permissions: review always-allow lists, suggest safe
+  read-only commands, configure permission patterns'
 license: MIT
-license_source: "https://github.com/mskadu/opencode-agent-skills/blob/main/LICENSE"
-date_added: "2026-06-05"
+metadata:
+  version: 1.0.0
+  risk: critical
+  source: community
+  source_type: community
+  source_repo: mskadu/opencode-agent-skills
+  license_source: https://github.com/mskadu/opencode-agent-skills/blob/main/LICENSE
+  date_added: '2026-06-05'
 ---
-
 ## What I do
 - Review and summarize currently always-allowed commands
 - Suggest safe read-only commands for auto-approval

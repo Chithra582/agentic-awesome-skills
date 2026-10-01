@@ -1,11 +1,13 @@
 ---
 name: bash-linux
-description: "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Bash/Linux terminal patterns. Critical commands, piping, error handling,
+  scripting. Use when working on macOS or Linux systems.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Bash Linux Patterns
 
 > Essential patterns for Bash on Linux/macOS.

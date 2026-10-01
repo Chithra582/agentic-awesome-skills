@@ -1,11 +1,13 @@
 ---
 name: copywriting
-description: Write rigorous, conversion-focused marketing copy for landing pages and emails. Enforces brief confirmation and strict no-fabrication rules.
-risk: none
-source: community
-date_added: "2026-02-27"
+description: Write rigorous, conversion-focused marketing copy for landing pages and
+  emails. Enforces brief confirmation and strict no-fabrication rules.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Copywriting
 
 ## Purpose

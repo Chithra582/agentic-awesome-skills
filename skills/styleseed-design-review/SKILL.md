@@ -1,15 +1,16 @@
 ---
 name: styleseed-design-review
-description: "Reviews UI/frontend code and tells you exactly why it \"looks AI-generated\" — then how to fix it."
-risk: safe
-source: https://github.com/bitjaru/styleseed/tree/main/skills/styleseed-design-review
-source_repo: bitjaru/styleseed
-source_type: community
-date_added: 2026-07-01
+description: Reviews UI/frontend code and tells you exactly why it "looks AI-generated"
+  — then how to fix it.
 license: MIT
-license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
+metadata:
+  risk: safe
+  source: https://github.com/bitjaru/styleseed/tree/main/skills/styleseed-design-review
+  source_repo: bitjaru/styleseed
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
 ---
-
 # StyleSeed Design Review
 
 ## Overview

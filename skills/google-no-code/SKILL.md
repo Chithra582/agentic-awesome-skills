@@ -1,16 +1,18 @@
 ---
 name: google-no-code
-description: "Design Google Forms and wire Apps Script triggers (onFormSubmit) for email alerts, spreadsheet logging, and dynamic questions — no code editor required."
-category: automation
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-19"
-author: WHOISABHISHEKADHIKARI
-tags: [google, forms, apps-script]
-tools: [claude, cursor, gemini]
+description: Design Google Forms and wire Apps Script triggers (onFormSubmit) for
+  email alerts, spreadsheet logging, and dynamic questions — no code editor required.
+metadata:
+  category: automation
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-19'
+  author: WHOISABHISHEKADHIKARI
+  tags: '[''google'', ''forms'', ''apps-script'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # Google No-Code Forms Automation
 
 ## Overview

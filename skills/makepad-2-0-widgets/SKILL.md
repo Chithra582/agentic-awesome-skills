@@ -1,11 +1,14 @@
 ---
 name: makepad-2-0-widgets
-description: Makepad 2.0 guidance for widgets; use when building or debugging Makepad UI code.
-source_repo: zhanghandong/makepad-skills
-source_type: community
-source: community
-date_added: '2026-09-21'
-risk: unknown
+description: Makepad 2.0 guidance for widgets; use when building or debugging Makepad
+  UI code.
+metadata:
+  source_repo: zhanghandong/makepad-skills
+  source_type: community
+  source: community
+  date_added: '2026-09-21'
+  risk: unknown
+license: MIT
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

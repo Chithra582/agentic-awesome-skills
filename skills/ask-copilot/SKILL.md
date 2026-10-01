@@ -1,17 +1,19 @@
 ---
 name: ask-copilot
-description: "Use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction."
-category: development
-risk: critical
-source: self
-source_repo: cshara1/antigravity-awesome-skills
-source_type: self
-date_added: "2026-07-08"
-author: cshara1
-tags: [copilot, github, cli, review, prompt]
-tools: [claude, cursor, gemini]
+description: Use GitHub Copilot CLI in non-interactive mode to ask questions, review
+  code, or generate snippets without manual interaction.
+metadata:
+  category: development
+  risk: critical
+  source: self
+  source_repo: cshara1/antigravity-awesome-skills
+  source_type: self
+  date_added: '2026-07-08'
+  author: cshara1
+  tags: '[''copilot'', ''github'', ''cli'', ''review'', ''prompt'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # Ask Copilot
 
 ## Overview

@@ -1,19 +1,21 @@
 ---
 name: pre-ship-gate
-description: "A ship gate that runs before any production deploy: checks the silent failure modes that make a deploy 'succeed' while prod stays broken, then verifies the live revision instead of trusting deploy output."
-category: quality
-risk: safe
-source: community
-source_repo: Sharrmavishal/operating-kit
-source_type: community
-date_added: "2026-07-07"
-author: Sharrmavishal
-tags: [deployment, quality-gate, verification, ci-cd, production]
-tools: [claude, cursor, gemini]
+description: 'A ship gate that runs before any production deploy: checks the silent
+  failure modes that make a deploy ''succeed'' while prod stays broken, then verifies
+  the live revision instead of trusting deploy output.'
 license: MIT
-license_source: "https://github.com/Sharrmavishal/operating-kit/blob/main/LICENSE"
+metadata:
+  category: quality
+  risk: safe
+  source: community
+  source_repo: Sharrmavishal/operating-kit
+  source_type: community
+  date_added: '2026-07-07'
+  author: Sharrmavishal
+  tags: '[''deployment'', ''quality-gate'', ''verification'', ''ci-cd'', ''production'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/Sharrmavishal/operating-kit/blob/main/LICENSE
 ---
-
 # Pre-Ship Gate
 
 ## Overview

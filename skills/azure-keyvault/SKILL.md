@@ -3,22 +3,21 @@ name: azure-keyvault
 description: Manage secrets and certificates in Azure Key Vault. Configure access
   policies, integrate with Azure services, and implement secure secret management.
   Use when managing secrets in Azure environments.
-category: security
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant security tooling (scanners, vault CLIs) and an
   authorized scope for any active assessment. Docs-only; helper scripts and templates
   not bundled.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: security
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # Azure Key Vault
 
 Securely store and manage secrets, keys, and certificates in Azure.

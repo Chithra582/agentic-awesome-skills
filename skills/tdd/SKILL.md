@@ -1,25 +1,20 @@
 ---
 name: tdd
-description: Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refactor", or wants integration tests.
-category: "development"
-risk: "safe"
-source: "community"
-source_repo: "mattpocock/skills"
-source_type: "community"
-date_added: "2026-06-19"
-author: "Matt Pocock"
-license: "MIT"
-license_source: "https://github.com/mattpocock/skills/blob/main/LICENSE"
-tags:
-  - engineering
-  - workflow
-  - coding-agents
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
+description: Test-driven development. Use when the user wants to build features or
+  fix bugs test-first, mentions "red-green-refactor", or wants integration tests.
+license: MIT
+metadata:
+  category: development
+  risk: safe
+  source: community
+  source_repo: mattpocock/skills
+  source_type: community
+  date_added: '2026-06-19'
+  author: Matt Pocock
+  license_source: https://github.com/mattpocock/skills/blob/main/LICENSE
+  tags: '[''engineering'', ''workflow'', ''coding-agents'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'']'
 ---
-
 # Test-Driven Development
 
 ## When to Use

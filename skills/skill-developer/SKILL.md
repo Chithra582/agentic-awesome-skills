@@ -1,11 +1,14 @@
 ---
 name: skill-developer
-description: "Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic's official best practices including the 500-line rule and progressive disclosure pattern."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Comprehensive guide for creating and managing skills in Claude Code with
+  auto-activation system, following Anthropic's official best practices including
+  the 500-line rule and progressive disclosure pattern.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Skill Developer Guide
 
 ## Purpose

@@ -1,11 +1,13 @@
 ---
 name: podcast-generation
-description: "Generate real audio narratives from text content using Azure OpenAI's Realtime API."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Generate real audio narratives from text content using Azure OpenAI's
+  Realtime API.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Podcast Generation with GPT Realtime Mini
 
 Generate real audio narratives from text content using Azure OpenAI's Realtime API.

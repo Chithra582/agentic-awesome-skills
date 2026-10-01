@@ -1,15 +1,15 @@
 ---
 name: hasdata
 description: Use HasData APIs for web scraping and structured web data extraction.
-risk: safe
-source: official
-source_type: official
-source_repo: HasData/hasdata-cli
 license: MIT
-license_source: "https://github.com/HasData/hasdata-cli/blob/main/LICENSE"
-date_added: "2026-06-04"
+metadata:
+  risk: safe
+  source: official
+  source_type: official
+  source_repo: HasData/hasdata-cli
+  license_source: https://github.com/HasData/hasdata-cli/blob/main/LICENSE
+  date_added: '2026-06-04'
 ---
-
 # HasData
 
 Cloud platform for extracting public web data. One API key, three execution modes. All endpoints sit under `https://api.hasdata.com` and authenticate with `x-api-key`.

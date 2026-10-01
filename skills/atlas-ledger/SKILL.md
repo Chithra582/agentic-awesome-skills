@@ -1,27 +1,23 @@
 ---
 name: atlas-ledger
-description: "Companion to atlas-contract. Auto-invoked by its Final Audit on caught drift; also use after Post Reviews or user requests to record a mistake. Distills drift into WHEN/DON'T/INSTEAD clauses, writes to Atlas.md after confirmation."
-risk: critical
-source: community
-source_repo: wede-wx/atlas
-source_type: community
-date_added: "2026-06-12"
+description: Companion to atlas-contract. Auto-invoked by its Final Audit on caught
+  drift; also use after Post Reviews or user requests to record a mistake. Distills
+  drift into WHEN/DON'T/INSTEAD clauses, writes to Atlas.md after confirmation.
 license: MIT
-license_source: "https://github.com/wede-wx/atlas/blob/main/LICENSE"
 metadata:
-  version: "2.2.0"
+  version: 2.2.0
   author: wede-wx
   repository: https://github.com/wede-wx/atlas
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
-  setup:
-    type: manual
-    summary: "Writes durable Atlas.md project memory after confirmation; keep out of plugin-safe bundles."
-    docs: SKILL.md
+  risk: critical
+  source: community
+  source_repo: wede-wx/atlas
+  source_type: community
+  date_added: '2026-06-12'
+  license_source: https://github.com/wede-wx/atlas/blob/main/LICENSE
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}, ''setup'':
+    {''type'': ''manual'', ''summary'': ''Writes durable Atlas.md project memory after
+    confirmation; keep out of plugin-safe bundles.'', ''docs'': ''SKILL.md''}}'
 ---
-
 # Atlas Ledger v2.2
 
 Give the Atlas series a memory.

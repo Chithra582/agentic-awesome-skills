@@ -2,21 +2,20 @@
 name: backup-recovery
 description: Implement backup and recovery strategies. Configure rsync, Restic, and
   cloud backups. Use when designing data protection solutions.
-category: devops
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant OS/platform tooling and privileged access where
   noted. Docs-only; helper scripts and templates not bundled.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: devops
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # Backup and Recovery
 
 Implement comprehensive backup and recovery strategies using rsync, Restic, and cloud storage backends. Covers the 3-2-1 rule, automated scheduling, S3/B2 backends, encryption, restore procedures, and verification testing.

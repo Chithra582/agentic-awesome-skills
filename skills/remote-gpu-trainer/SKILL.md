@@ -1,22 +1,32 @@
 ---
 name: remote-gpu-trainer
-description: "Deploy, monitor, and debug long GPU jobs on RENTED/remote instances (AutoDL, RunPod, vast.ai, Lambda, Slurm, K8s): teardown/billing safety, spot resilience, resumable checkpointing, OOM/NaN triage."
-risk: safe
-source: community
-source_type: community
-source_repo: Hanyuyuan6/remote-gpu-trainer
-date_added: "2026-06-20"
-category: ml-ops
-license: "MIT"
-license_source: "https://github.com/Hanyuyuan6/remote-gpu-trainer/blob/main/LICENSE"
-compatibility: |
-  Any Agent-Skills (SKILL.md)-compatible agent — Claude Code, Codex, Cursor, Trae, Gemini CLI, etc.
-  Needs a shell + SSH (or a platform CLI/API) to drive the remote box; scripts are bash/python. A few
-  durable-monitoring recipes assume a host background-task runner + scheduler — map to the running
-  agent's equivalents (references/monitoring_patterns.md §7). Companion skills (verifying-dl-experiments,
-  superpowers:*, huggingface-skills:*) are optional separate installs.
----
+description: 'Deploy, monitor, and debug long GPU jobs on RENTED/remote instances
+  (AutoDL, RunPod, vast.ai, Lambda, Slurm, K8s): teardown/billing safety, spot resilience,
+  resumable checkpointing, OOM/NaN triage.'
+license: MIT
+compatibility: 'Any Agent-Skills (SKILL.md)-compatible agent — Claude Code, Codex,
+  Cursor, Trae, Gemini CLI, etc.
 
+  Needs a shell + SSH (or a platform CLI/API) to drive the remote box; scripts are
+  bash/python. A few
+
+  durable-monitoring recipes assume a host background-task runner + scheduler — map
+  to the running
+
+  agent''s equivalents (references/monitoring_patterns.md §7). Companion skills (verifying-dl-experiments,
+
+  superpowers:*, huggingface-skills:*) are optional separate installs.
+
+  '
+metadata:
+  risk: safe
+  source: community
+  source_type: community
+  source_repo: Hanyuyuan6/remote-gpu-trainer
+  date_added: '2026-06-20'
+  category: ml-ops
+  license_source: https://github.com/Hanyuyuan6/remote-gpu-trainer/blob/main/LICENSE
+---
 # remote-gpu-trainer — Remote GPU Job Orchestration
 
 ## Overview
@@ -204,46 +214,6 @@ These are **separate** Agent Skills, not bundled here — install them for the f
 agent where a companion isn't installed, treat its pointer below as an optional cross-reference; this
 skill still works standalone.
 
-- **`verifying-dl-experiments`** — owns *is-the-number-real*: smoke content, retry-vs-safeguard, keepable-checkpoint, eval sizing, tracker forensics, GPU-0%-util diagnosis. This skill owns *where/when/how-much-$*.
-- **`huggingface-skills:hf-cli`** — the transport verbs (`hf download --resume`, `hf upload-large-folder`, `hf cache verify`); this skill owns the China-mirror swap + stall-retry (`references/china-network.md`).
-- **`huggingface-skills:huggingface-trackio`** — hosted tracker so metrics survive teardown (gotcha U20); poll `trackio` alerts as a structured monitor instead of brittle ssh-tail.
-- **`superpowers:verification-before-completion`** — the Iron Law's general form; gates every "training done / synced / teardown complete" claim.
-- **`superpowers:dispatching-parallel-agents`** — independence predicate + reconciliation for ablation fan-out.
+- **`verifying-dl-experi
 
-## Getting better over time (capture new gotchas + personalize)
-
-This skill is static, but every run can teach it something — without corrupting it.
-Protocol → **`references/self-improvement.md`**. In short: when a run surfaces a gotcha the catalog
-lacks, **only sediment a root-caused, reproduced, generalizable one** (a one-off flake is a hypothesis,
-not a gotcha — principle #3); **route it** — user/project-specific → the host's memory system,
-generalizable → propose adding to `references/gotchas_universal.md` / the profile §7 /
-`references/training/` (and offer an upstream PR); **never silently rewrite a skill file — draft the
-`symptom → root cause → fix` and let the user approve.** On first use, capture the user's platforms +
-paths + tracker entity into memory so later runs are pre-parameterized. Platform facts carry a `verified
-<month>` stamp — re-verify any teardown/billing fact against current docs before betting money or data.
-
-## Limitations
-
-- Does not replace a real cloud orchestrator or managed provisioner; use it to make rented-box work survivable, not to optimize multi-cloud procurement.
-- Platform billing, stop, destroy, and data-retention behavior can drift; re-check current provider docs before destructive or money-impacting actions.
-- Requires user-owned credentials, SSH/API access, and explicit confirmation before teardown, deletion, or other irreversible cleanup.
-- Companion skills named above are not bundled here; treat them as optional references unless installed in the current agent environment.
-
-## Bundled resources
-
-Load only what the current phase needs.
-
-- `references/principles.md` — the 10 invariants expanded, with the cross-platform nuance behind each.
-- `references/lifecycle_checklist.md` — the 6-phase runbook as a per-platform checklist.
-- `references/gotchas_universal.md` — universal + mixed gotchas (TOC + grep index at top).
-- `references/monitoring_patterns.md` — the four-layer durable-monitoring architecture + robust ssh-poll template.
-- `references/ssh_transport.md` — ssh config, rsync/scp resumable patterns, secrets-via-stdin, CRLF, two-SSH-flavor caveat.
-- `references/china-network.md` — mirrors table + HF_ENDPOINT + resumable-download ladder + the `no_proxy` trap (all CN platforms).
-- `references/spot-resilience.md` — preemption signals, Young/Daly checkpoint cadence, atomic-write resume.
-- `references/parallel_ablation.md` — FS-shared fan-out + the independence predicate + reconciliation.
-- `references/multinode.md` — (advanced) NCCL / fabric-manager / elastic-training gotchas; single-box users skip.
-- `references/training/` — the **DL-training debug layer** (8 files: oom-memory, distributed-launch, precision-stability, throughput-profiling, checkpoint-resume, by-domain, convergence-debugging, data-pipeline) — see "When training breaks" above.
-- `references/self-improvement.md` — the feedback loop: capture a new gotcha (at a bar) into memory or the catalog, personalize on first run, keep platform facts fresh.
-- `scripts/` — wrapper templates (`run_one`/`run_queue`), monitors (`mem_monitor`, `gpu_health`, `reap_vram_zombies`), the read-only patrol (`health_patrol.sh.template`), transfer/aggregation (`download_loop`, `aggregate_to_fs`, `setup-china-mirrors`), the load-and-verify checker (`verify_local.py`), and the `verified`-stamp freshness linter (`check_staleness.py`).
-- `profiles/<platform>.md` — the per-platform substrate (one per platform; `_schema.md` defines the 8 fields).
-- `examples/autodl_sweep/` — one complete, runnable worked case end to end.
+<!-- Truncated for OpenGAP token limits -->

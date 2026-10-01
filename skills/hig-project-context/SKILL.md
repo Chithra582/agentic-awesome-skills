@@ -1,11 +1,13 @@
 ---
 name: hig-project-context
-description: Create or update a shared Apple design context document that other HIG skills use to tailor guidance.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Create or update a shared Apple design context document that other HIG
+  skills use to tailor guidance.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Apple HIG: Project Context
 
 Create and maintain `.claude/apple-design-context.md` so other HIG skills can skip redundant questions.

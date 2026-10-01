@@ -1,19 +1,20 @@
 ---
 name: agent-qa-authoring
-description: "Create, edit, validate, and run Agent QA tests, suites, and hooks through MCP or CLI while preserving canonical IDs and schema contracts."
-category: testing
-risk: critical
-source: https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-authoring
-source_repo: vostride/agent-qa
-source_type: official
-date_added: "2026-08-16"
-author: Vostride
-tags: [testing, qa, mcp, web-testing, mobile-testing]
-tools: [claude, cursor, gemini, codex]
+description: Create, edit, validate, and run Agent QA tests, suites, and hooks through
+  MCP or CLI while preserving canonical IDs and schema contracts.
 license: FSL-1.1-ALv2
-license_source: https://github.com/vostride/agent-qa/blob/main/LICENSE.md
+metadata:
+  category: testing
+  risk: critical
+  source: https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-authoring
+  source_repo: vostride/agent-qa
+  source_type: official
+  date_added: '2026-08-16'
+  author: Vostride
+  tags: '[''testing'', ''qa'', ''mcp'', ''web-testing'', ''mobile-testing'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/vostride/agent-qa/blob/main/LICENSE.md
 ---
-
 # Agent QA Authoring
 
 ## Overview

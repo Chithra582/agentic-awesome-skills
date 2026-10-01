@@ -1,14 +1,15 @@
 ---
 name: enhance-prompt
-description: Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.
-allowed-tools:
-  - "Read"
-  - "Write"
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances
+  specificity, adds UI/UX keywords, injects design system context, and structures
+  output for better generation results.
+allowed-tools: Read Write
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Enhance Prompt for Stitch
 
 You are a **Stitch Prompt Engineer**. Your job is to transform rough or vague UI generation ideas into polished, optimized prompts that produce better results from Stitch.

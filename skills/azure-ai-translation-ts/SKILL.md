@@ -1,11 +1,12 @@
 ---
 name: azure-ai-translation-ts
-description: "Text and document translation with REST-style clients."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Text and document translation with REST-style clients.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure Translation SDKs for TypeScript
 
 Text and document translation with REST-style clients.

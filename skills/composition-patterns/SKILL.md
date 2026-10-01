@@ -1,11 +1,12 @@
 ---
 name: composition-patterns
-description: "Use when working with composition-patterns tasks or workflows"
-risk: safe
-source: "https://github.com/vercel-labs/agent-skills"
-date_added: "2026-06-02"
+description: Use when working with composition-patterns tasks or workflows
+metadata:
+  risk: safe
+  source: https://github.com/vercel-labs/agent-skills
+  date_added: '2026-06-02'
+license: MIT
 ---
-
 # React Composition Patterns
 
 Composition patterns for building flexible, maintainable React components. Avoid

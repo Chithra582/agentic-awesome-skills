@@ -1,15 +1,17 @@
 ---
 name: aws-serverless-eda
-description: "AWS serverless and event-driven architecture expert based on Well-Architected Framework. Use when building serverless APIs, Lambda functions, REST APIs, microservices, or async workflows."
-risk: critical
-source: https://github.com/zxkane/aws-skills/tree/main/plugins/serverless-eda/skills/aws-serverless-eda
-source_repo: zxkane/aws-skills
-source_type: community
-date_added: 2026-07-01
+description: AWS serverless and event-driven architecture expert based on Well-Architected
+  Framework. Use when building serverless APIs, Lambda functions, REST APIs, microservices,
+  or async workflows.
 license: MIT
-license_source: https://github.com/zxkane/aws-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/zxkane/aws-skills/tree/main/plugins/serverless-eda/skills/aws-serverless-eda
+  source_repo: zxkane/aws-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/zxkane/aws-skills/blob/main/LICENSE
 ---
-
 # AWS Serverless & Event-Driven Architecture
 
 This skill provides comprehensive guidance for building serverless applications and event-driven architectures on AWS based on Well-Architected Framework principles.

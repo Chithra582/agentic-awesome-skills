@@ -1,27 +1,19 @@
 ---
 name: web-media-getter
-description: "One query across free image / video / GIF APIs (stock + historical/archival + GIF engines), returning normalized, license-tagged results with optional top-K download + attribution sidecar. The retrieval peer to local semantic search and generative media."
-risk: safe
-source: community
-source_type: community
-source_repo: connerkward/web-media-getter-skill
-date_added: "2026-06-16"
-author: Conner K Ward
+description: One query across free image / video / GIF APIs (stock + historical/archival
+  + GIF engines), returning normalized, license-tagged results with optional top-K
+  download + attribution sidecar. The retrieval peer to local semantic search and
+  generative media.
 license: MIT
-tags:
-  - media
-  - images
-  - video
-  - gif
-  - stock
-  - archival
-  - attribution
-tools:
-  - claude-code
-  - antigravity
-  - cursor
-  - gemini-cli
-  - codex-cli
+metadata:
+  risk: safe
+  source: community
+  source_type: community
+  source_repo: connerkward/web-media-getter-skill
+  date_added: '2026-06-16'
+  author: Conner K Ward
+  tags: '[''media'', ''images'', ''video'', ''gif'', ''stock'', ''archival'', ''attribution'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
 ---
 ## When to Use
 

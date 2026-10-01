@@ -1,15 +1,16 @@
 ---
 name: agent-memory
-description: A hybrid memory system that provides persistent, searchable knowledge management for AI agents.
-risk: critical
-source: https://github.com/webzler/agentMemory/tree/main/
-source_repo: webzler/agentMemory
-source_type: community
-date_added: 2026-07-01
+description: A hybrid memory system that provides persistent, searchable knowledge
+  management for AI agents.
 license: MIT
-license_source: https://github.com/webzler/agentMemory/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/webzler/agentMemory/tree/main/
+  source_repo: webzler/agentMemory
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/webzler/agentMemory/blob/main/LICENSE
 ---
-
 # agentMemory Skill
 ## When to Use
 

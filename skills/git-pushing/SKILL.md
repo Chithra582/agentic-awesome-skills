@@ -1,11 +1,14 @@
 ---
 name: git-pushing
-description: "Safely stage, commit, and push intended git changes with conventional commit messages. Use for ordinary non-release pushes when explicitly asked to push, save work remotely, or share a completed change."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Safely stage, commit, and push intended git changes with conventional
+  commit messages. Use for ordinary non-release pushes when explicitly asked to push,
+  save work remotely, or share a completed change.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Git Push Workflow
 
 Stage only intended changes, create a conventional commit, and push to the remote branch.

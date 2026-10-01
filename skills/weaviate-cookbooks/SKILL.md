@@ -1,19 +1,20 @@
 ---
 name: weaviate-cookbooks
-description: "Build Weaviate AI apps from official cookbook blueprints for RAG, agentic RAG, data exploration, multimodal PDF search, async clients, and frontends."
-category: ai
-risk: safe
-source: community
-source_repo: weaviate/agent-skills
-source_type: official
-date_added: "2026-06-29"
-author: Weaviate
-tags: [weaviate, rag, agents, vector-database, ai-apps]
-tools: [python, weaviate, nextjs]
-license: "BSD-3-Clause"
-license_source: "https://github.com/weaviate/agent-skills/blob/main/LICENSE"
+description: Build Weaviate AI apps from official cookbook blueprints for RAG, agentic
+  RAG, data exploration, multimodal PDF search, async clients, and frontends.
+license: BSD-3-Clause
+metadata:
+  category: ai
+  risk: safe
+  source: community
+  source_repo: weaviate/agent-skills
+  source_type: official
+  date_added: '2026-06-29'
+  author: Weaviate
+  tags: '[''weaviate'', ''rag'', ''agents'', ''vector-database'', ''ai-apps'']'
+  tools: '[''python'', ''weaviate'', ''nextjs'']'
+  license_source: https://github.com/weaviate/agent-skills/blob/main/LICENSE
 ---
-
 # Weaviate Cookbooks
 
 ## Overview

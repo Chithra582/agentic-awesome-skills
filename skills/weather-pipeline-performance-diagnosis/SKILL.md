@@ -1,16 +1,18 @@
 ---
 name: weather-pipeline-performance-diagnosis
-description: "Diagnose slow weather-data workflows by measuring discovery, transfer, parsing, scientific processing, and rendering separately before changing code."
-category: data
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-24"
-author: ShianMike
-tags: [weather, performance, profiling, diagnostics, pipelines]
-tools: [claude, cursor, gemini, codex]
+description: Diagnose slow weather-data workflows by measuring discovery, transfer,
+  parsing, scientific processing, and rendering separately before changing code.
+metadata:
+  category: data
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-24'
+  author: ShianMike
+  tags: '[''weather'', ''performance'', ''profiling'', ''diagnostics'', ''pipelines'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+license: MIT
 ---
-
 # Weather Pipeline Performance Diagnosis
 
 ## Overview

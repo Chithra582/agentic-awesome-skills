@@ -1,15 +1,16 @@
 ---
 name: monte-carlo-monitoring-advisor
-description: Analyze data coverage, create monitors for warehouse tables and AI agents. Covers coverage gaps, use-case analysis, data monitor creation, and agent observability.
-risk: critical
-source: https://github.com/monte-carlo-data/mc-agent-toolkit/tree/main/skills/monitoring-advisor
-source_repo: monte-carlo-data/mc-agent-toolkit
-source_type: community
-date_added: 2026-07-01
+description: Analyze data coverage, create monitors for warehouse tables and AI agents.
+  Covers coverage gaps, use-case analysis, data monitor creation, and agent observability.
 license: Apache-2.0
-license_source: https://github.com/monte-carlo-data/mc-agent-toolkit/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/monte-carlo-data/mc-agent-toolkit/tree/main/skills/monitoring-advisor
+  source_repo: monte-carlo-data/mc-agent-toolkit
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/monte-carlo-data/mc-agent-toolkit/blob/main/LICENSE
 ---
-
 # Monte Carlo Monitoring Advisor Skill
 
 This skill handles all monitoring requests -- coverage analysis, data monitor creation, and AI agent monitoring. It routes to the right reference file based on the user's intent.
@@ -280,38 +281,6 @@ Some tables show 0 rows when queried directly but have recent write activity in 
 Signs of a transient table:
 - `get_table` shows recent `last_write` timestamp and high read/write activity
 - Direct SQL query returns 0 rows or all-NULL timestamp columns
-- Monte Carlo detected freshness anomalies (the table stayed empty longer than expected between loads)
+- Monte Carlo detected freshness anomalies (t
 
----
-
-## Graceful degradation
-
-Handle missing or unavailable tools gracefully:
-
-| Scenario | Behavior |
-| --- | --- |
-| No use cases defined | Fall back to importance-based discovery |
-| No database MCP available | Skip SQL profiling, rely on MC tools only |
-| `get_unmonitored_tables_with_anomalies` returns empty | Note that no recent anomalies were found; proceed with use-case or importance-based prioritization |
-| `get_use_case_tables` returns no tables | Note the use case has no tables; suggest exploring other use cases |
-| `get_audiences` returns empty | Inform user no audiences are configured; monitors can still be created without notification routing |
-| User has no warehouses | Inform user that no warehouses are accessible; they may need to check their Monte Carlo permissions |
-
-Never error out or stop the conversation because one tool returned empty results. Explain what happened and offer the next best path.
-
----
-
-## Rules
-
-- **Never expose UUIDs, MCONs, or internal identifiers** to the user -- always use human-readable names for warehouses, audiences, use cases, and tables. Keep internal identifiers for tool calls only.
-- When the user asks about relationships between tables, use `get_asset_lineage` to fetch upstream/downstream connections and explain the data flow.
-- Be concise but thorough. Use bullet points and tables for clarity.
-- Always use **ISO 8601** format for datetime values in tool calls.
-- Never reformat YAML values returned by creation tools.
-- When passing `audiences` or `failure_audiences` to monitor creation tools, use the audience **name/label** (not UUID). The API accepts audience names.
-
-## Limitations
-
-- Use this skill only when the task clearly matches its upstream source and local project context.
-- Verify commands, generated code, dependencies, credentials, and external service behavior before applying changes.
-- Do not treat examples as a substitute for environment-specific tests, security review, or user approval for destructive or costly actions.
+<!-- Truncated for OpenGAP token limits -->

@@ -1,19 +1,21 @@
 ---
 name: marketing-mindset
-description: "Use when a user asks how to win first customers, whether doing X will produce Y, how to write an ad or judge a marketing test — a marketer's decision framework, not a tactic library."
-category: marketing
-risk: safe
-source: https://github.com/axelfreeman/marketing-mindset
-source_repo: axelfreeman/marketing-mindset
-source_type: community
-date_added: 2026-09-21
-author: axelfreeman
-tags: [marketing, growth, positioning, cold-email, decision-making]
-tools: [claude-code, cursor, codex-cli, gemini-cli]
+description: Use when a user asks how to win first customers, whether doing X will
+  produce Y, how to write an ad or judge a marketing test — a marketer's decision
+  framework, not a tactic library.
 license: MIT
-license_source: https://github.com/axelfreeman/marketing-mindset/blob/master/LICENSE
+metadata:
+  category: marketing
+  risk: safe
+  source: https://github.com/axelfreeman/marketing-mindset
+  source_repo: axelfreeman/marketing-mindset
+  source_type: community
+  date_added: '2026-09-21'
+  author: axelfreeman
+  tags: '[''marketing'', ''growth'', ''positioning'', ''cold-email'', ''decision-making'']'
+  tools: '[''claude-code'', ''cursor'', ''codex-cli'', ''gemini-cli'']'
+  license_source: https://github.com/axelfreeman/marketing-mindset/blob/master/LICENSE
 ---
-
 # Marketing Mindset
 
 ## Overview

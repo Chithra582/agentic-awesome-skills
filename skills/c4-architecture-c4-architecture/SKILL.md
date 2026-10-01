@@ -1,11 +1,13 @@
 ---
 name: c4-architecture-c4-architecture
-description: "Generate comprehensive C4 architecture documentation for an existing repository/codebase using a bottom-up analysis approach."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Generate comprehensive C4 architecture documentation for an existing
+  repository/codebase using a bottom-up analysis approach.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # C4 Architecture Documentation Workflow
 
 Generate comprehensive C4 architecture documentation for an existing repository/codebase using a bottom-up analysis approach.

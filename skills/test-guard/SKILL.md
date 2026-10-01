@@ -1,17 +1,18 @@
 ---
-name: "test-guard"
-description: "Review generated or changed test code against universal testing rules before it ships or is presented for approval."
-risk: "critical"
-source: "community"
-source_repo: "amElnagdy/guard-skills"
-source_type: "community"
-date_added: 2026-07-13
-author: "community"
-tags: []
-tools: []
+name: test-guard
+description: Review generated or changed test code against universal testing rules
+  before it ships or is presented for approval.
+metadata:
+  risk: critical
+  source: community
+  source_repo: amElnagdy/guard-skills
+  source_type: community
+  date_added: '2026-07-13'
+  author: community
+  tags: '[]'
+  tools: '[]'
+license: MIT
 ---
-
-
 # Test Guard
 
 You are reviewing generated or changed test code before it ships. Enforce the rules below after the first test-writing pass and before the tests are presented, committed, or merged. Be a sharp reviewer, not a pedantic one: flag what wastes maintenance effort or hides real bugs, ignore cosmetic preferences.

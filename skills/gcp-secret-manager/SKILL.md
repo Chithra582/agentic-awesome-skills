@@ -3,22 +3,21 @@ name: gcp-secret-manager
 description: Secure secrets in Google Cloud Secret Manager. Configure IAM policies,
   integrate with GKE, and manage secret versions. Use when managing secrets in GCP
   environments.
-category: security
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant security tooling (scanners, vault CLIs) and an
   authorized scope for any active assessment. Docs-only; helper scripts and templates
   not bundled.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: security
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # GCP Secret Manager
 
 Store and manage secrets securely in Google Cloud Platform.

@@ -1,15 +1,18 @@
 ---
 name: longbridge-market-data
-description: "Real-time quotes, K-line charts, order book, trade ticks, intraday capital flow, market sentiment temperature, trading session schedule, security lists, exchange rates, and IPO calendar for HK/US/A-share/SG via Longbridge. Also covers ADR premium and FX carry frameworks."
-risk: critical
-source: https://github.com/longbridge/skills/tree/main/skills/longbridge-market-data
-source_repo: longbridge/skills
-source_type: official
-date_added: 2026-07-01
+description: Real-time quotes, K-line charts, order book, trade ticks, intraday capital
+  flow, market sentiment temperature, trading session schedule, security lists, exchange
+  rates, and IPO calendar for HK/US/A-share/SG via Longbridge. Also covers ADR premium
+  and FX carry frameworks.
 license: MIT
-license_source: https://github.com/longbridge/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/longbridge/skills/tree/main/skills/longbridge-market-data
+  source_repo: longbridge/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/longbridge/skills/blob/main/LICENSE
 ---
-
 # Longbridge Market Data
 
 Real-time and historical market data for HK / US / A-share / Singapore via the Longbridge CLI.

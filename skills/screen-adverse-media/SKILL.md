@@ -1,19 +1,22 @@
 ---
 name: screen-adverse-media
-description: Screen a person or organisation for adverse media coverage, PEP status, and sanctions exposure — corroboration-gated, returns "review" never "guilty". Use when the user asks to screen someone before onboarding, partnership, or investment; for AML/CTF flows; or for ongoing counterparty monitoring.
-category: document-verification
-risk: critical
-source: community
-source_repo: Sketchjar/stipple-agent-skills
-source_type: community
-date_added: "2026-08-31"
-author: Sketchjar
-tags: [document-verification, fact-checking, stipple, authenticity]
-tools: [claude, cursor, gemini, codex]
-license: "Apache-2.0"
-license_source: "https://github.com/Sketchjar/stipple-agent-skills/blob/main/LICENSE"
+description: Screen a person or organisation for adverse media coverage, PEP status,
+  and sanctions exposure — corroboration-gated, returns "review" never "guilty". Use
+  when the user asks to screen someone before onboarding, partnership, or investment;
+  for AML/CTF flows; or for ongoing counterparty monitoring.
+license: Apache-2.0
+metadata:
+  category: document-verification
+  risk: critical
+  source: community
+  source_repo: Sketchjar/stipple-agent-skills
+  source_type: community
+  date_added: '2026-08-31'
+  author: Sketchjar
+  tags: '[''document-verification'', ''fact-checking'', ''stipple'', ''authenticity'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/Sketchjar/stipple-agent-skills/blob/main/LICENSE
 ---
-
 # Screen Adverse Media
 
 Screen a person or organisation for adverse media coverage, PEP (Politically Exposed Person) status, and sanctions exposure. Every hit is **corroboration-gated**: the screen returns "review", never "guilty", and "nothing found" is never a clean record. Uses the Stipple API (free anonymous tier).

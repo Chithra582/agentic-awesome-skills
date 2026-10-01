@@ -1,15 +1,17 @@
 ---
 name: security-and-hardening
-description: Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services.
-risk: critical
-source: https://github.com/addyosmani/agent-skills/tree/main/skills/security-and-hardening
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Hardens code against vulnerabilities. Use when handling user input, authentication,
+  data storage, or external integrations. Use when building any feature that accepts
+  untrusted data, manages user sessions, or interacts with third-party services.
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/addyosmani/agent-skills/tree/main/skills/security-and-hardening
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Security and Hardening
 
 ## Overview
@@ -451,26 +453,6 @@ For detailed security checklists and pre-commit verification steps, see `referen
 - No rate limiting on authentication endpoints
 - Stack traces or internal errors exposed to users
 - Dependencies with known critical vulnerabilities
-- Server fetches user-supplied URLs without an allowlist (SSRF)
-- LLM/model output passed into a query, the DOM, a shell, or `eval`
-- Secrets, PII, or the full system prompt placed inside an LLM context window
+- Server fetches user
 
-## Verification
-
-After implementing security-relevant code:
-
-- [ ] `npm audit` shows no critical or high vulnerabilities
-- [ ] No secrets in source code or git history
-- [ ] All user input validated at system boundaries
-- [ ] Authentication and authorization checked on every protected endpoint
-- [ ] Security headers present in response (check with browser DevTools)
-- [ ] Error responses don't expose internal details
-- [ ] Rate limiting active on auth endpoints
-- [ ] Server-side URL fetches validated against an allowlist (no SSRF)
-- [ ] LLM/model output validated and encoded before use (if AI features present)
-
-## Limitations
-
-- Use this skill only when the task clearly matches its upstream source and local project context.
-- Verify commands, generated code, dependencies, credentials, and external service behavior before applying changes.
-- Do not treat examples as a substitute for environment-specific tests, security review, or user approval for destructive or costly actions.
+<!-- Truncated for OpenGAP token limits -->

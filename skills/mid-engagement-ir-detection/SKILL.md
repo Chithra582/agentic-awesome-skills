@@ -2,20 +2,20 @@
 name: mid-engagement-ir-detection
 description: Methodology for detecting client SOC patches, attacker activity, and
   security-state changes that occur DURING a red-team engagement
-category: security
-risk: safe
-source: https://github.com/elementalsouls/Claude-BugHunter
-source_repo: elementalsouls/Claude-BugHunter
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
 compatibility: Process guidance; no tooling required. Docs-only; upstream templates
   not bundled.
-sources: authorized-engagement
-report_count: 1
+metadata:
+  category: security
+  risk: safe
+  source: https://github.com/elementalsouls/Claude-BugHunter
+  source_repo: elementalsouls/Claude-BugHunter
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
+  sources: authorized-engagement
+  report_count: '1'
 ---
-
 ## When to use this skill
 
 Trigger when:

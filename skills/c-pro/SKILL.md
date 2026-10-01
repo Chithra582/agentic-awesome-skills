@@ -1,11 +1,12 @@
 ---
 name: c-pro
-description: "Write efficient C code with proper memory management, pointer"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Write efficient C code with proper memory management, pointer
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on c pro tasks or workflows

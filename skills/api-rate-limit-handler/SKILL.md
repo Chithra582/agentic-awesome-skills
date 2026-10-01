@@ -1,17 +1,19 @@
 ---
 name: api-rate-limit-handler
-description: "Implement bounded, idempotency-aware API throttling, backoff, and retry handling for 429 and transient 5xx responses."
-category: development
-risk: safe
-source: self
-source_type: self
-date_added: "2026-08-26"
-author: Prajeeth-12
-tags: [rate-limiting, retry, backoff, api, resilience, throttle, 429]
-tools: [claude, cursor, codex, gemini]
-license: "MIT"
+description: Implement bounded, idempotency-aware API throttling, backoff, and retry
+  handling for 429 and transient 5xx responses.
+license: MIT
+metadata:
+  category: development
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-08-26'
+  author: Prajeeth-12
+  tags: '[''rate-limiting'', ''retry'', ''backoff'', ''api'', ''resilience'', ''throttle'',
+    429]'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'']'
 ---
-
 # API Rate Limit Handler
 
 ## Overview

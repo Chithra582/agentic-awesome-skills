@@ -1,18 +1,21 @@
 ---
 name: lemmaly
-description: "Algorithm-first discipline: state Big-O, data structure, and algorithm family BEFORE writing loops, queries, or recursion. Catches O(n^2), N+1, and brute-force defaults."
-risk: safe
-source: community
-source_repo: morsechimwai/lemmaly
-source_type: community
-date_added: "2026-05-26"
-author: morsechimwai
-tags: [algorithms, big-o, performance, code-review, complexity, gateway]
-tools: [claude-code, antigravity, cursor, gemini-cli, codex-cli]
-license: "Apache-2.0"
-license_source: "https://github.com/morsechimwai/lemmaly/blob/main/LICENSE"
+description: 'Algorithm-first discipline: state Big-O, data structure, and algorithm
+  family BEFORE writing loops, queries, or recursion. Catches O(n^2), N+1, and brute-force
+  defaults.'
+license: Apache-2.0
+metadata:
+  risk: safe
+  source: community
+  source_repo: morsechimwai/lemmaly
+  source_type: community
+  date_added: '2026-05-26'
+  author: morsechimwai
+  tags: '[''algorithms'', ''big-o'', ''performance'', ''code-review'', ''complexity'',
+    ''gateway'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+  license_source: https://github.com/morsechimwai/lemmaly/blob/main/LICENSE
 ---
-
 # lemmaly — Algorithm-First Proof
 
 The model already knows Big-O, hash tables, divide-and-conquer, dynamic programming, sorting, graph algorithms, and amortized analysis. It just does not apply them spontaneously. lemmaly fixes the behavior, not the knowledge.

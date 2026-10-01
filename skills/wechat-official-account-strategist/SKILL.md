@@ -1,17 +1,20 @@
 ---
 name: wechat-official-account-strategist
-description: "Grow WeChat Official Accounts (微信公众号) with high-conversion content strategy, title formulas, article architecture, and Mini-Program integration."
-category: marketing
-risk: safe
-source: community
-source_repo: demo112/yunqu-ai-skills
-source_type: community
-date_added: "2026-05-13"
-author: yundu-ai
-tags: [wechat, chinese-market, content-strategy, marketing, 公众号, 微信]
-tools: [claude, cursor, gemini]
+description: Grow WeChat Official Accounts (微信公众号) with high-conversion content strategy,
+  title formulas, article architecture, and Mini-Program integration.
+metadata:
+  category: marketing
+  risk: safe
+  source: community
+  source_repo: demo112/yunqu-ai-skills
+  source_type: community
+  date_added: '2026-05-13'
+  author: yundu-ai
+  tags: '[''wechat'', ''chinese-market'', ''content-strategy'', ''marketing'', ''公众号'',
+    ''微信'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # WeChat Official Account Strategist
 
 ## Overview

@@ -1,15 +1,17 @@
 ---
 name: performance-optimization
-description: Optimizes application performance. Use when performance requirements exist, when you suspect performance regressions, or when Core Web Vitals or load times need improvement. Use when profiling reveals bottlenecks that need fixing.
-risk: critical
-source: https://github.com/addyosmani/agent-skills/tree/main/skills/performance-optimization
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Optimizes application performance. Use when performance requirements
+  exist, when you suspect performance regressions, or when Core Web Vitals or load
+  times need improvement. Use when profiling reveals bottlenecks that need fixing.
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/addyosmani/agent-skills/tree/main/skills/performance-optimization
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Performance Optimization
 
 ## Overview

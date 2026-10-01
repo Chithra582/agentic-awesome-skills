@@ -1,13 +1,14 @@
 ---
 name: vibe-code-auditor
-description: Audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
-risk: safe
-source: original
-date_added: "2026-02-28"
+description: Audit rapidly generated or AI-produced code for structural flaws, fragility,
+  and production risks.
 metadata:
   version: 2.0.0
+  risk: safe
+  source: original
+  date_added: '2026-02-28'
+license: MIT
 ---
-
 # Vibe Code Auditor
 
 ## Identity

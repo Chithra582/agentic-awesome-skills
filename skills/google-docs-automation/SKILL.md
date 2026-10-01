@@ -1,15 +1,15 @@
 ---
 name: google-docs-automation
-description: "Read and edit Google Docs through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification."
+description: Read and edit Google Docs through an available authenticated connector
+  or reviewed API integration, with scoped changes and read-back verification.
 license: Apache-2.0
-risk: critical
-source: community
-date_added: "2026-09-04"
 metadata:
   author: sanjay3290
-  version: "1.0"
+  version: '1.0'
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
 ---
-
 # Google Docs Automation
 
 ## When to Use

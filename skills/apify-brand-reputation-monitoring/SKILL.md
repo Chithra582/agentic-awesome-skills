@@ -1,11 +1,13 @@
 ---
 name: apify-brand-reputation-monitoring
-description: "Scrape reviews, ratings, and brand mentions from multiple platforms using Apify Actors."
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Scrape reviews, ratings, and brand mentions from multiple platforms using
+  Apify Actors.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Brand Reputation Monitoring
 
 Scrape reviews, ratings, and brand mentions from multiple platforms using Apify Actors.

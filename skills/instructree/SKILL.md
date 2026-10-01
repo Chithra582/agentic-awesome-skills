@@ -1,19 +1,20 @@
 ---
 name: instructree
-description: "Map, explain, and lint repository-scoped coding-agent instructions before changing code."
-category: development
-risk: safe
-source: community
-source_repo: kotobuki09/instructree
-source_type: community
-date_added: "2026-08-26"
-author: kotobuki09
-tags: [agent-instructions, agents-md, codex, static-analysis]
-tools: [claude, codex, cursor, gemini]
+description: Map, explain, and lint repository-scoped coding-agent instructions before
+  changing code.
 license: MIT
-license_source: "https://github.com/kotobuki09/instructree/blob/v0.7.0/LICENSE"
+metadata:
+  category: development
+  risk: safe
+  source: community
+  source_repo: kotobuki09/instructree
+  source_type: community
+  date_added: '2026-08-26'
+  author: kotobuki09
+  tags: '[''agent-instructions'', ''agents-md'', ''codex'', ''static-analysis'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/kotobuki09/instructree/blob/v0.7.0/LICENSE
 ---
-
 # Instructree
 
 ## Overview

@@ -1,18 +1,15 @@
 ---
 name: itil-expert
-description: Expert advisor for ITIL 4 and ITIL 5 (2026 digital product paradigm), specialized in AI-native governance, sustainability, and value co-creation.
-risk: safe
-source: community
-date_added: "2026-04-18"
-triggers:
-  - "itil expert"
-  - "itil 5 guidance"
-  - "itil 4 process"
-  - "design service value stream"
-  - "ai governance guidance"
-  - "digital product management itil"
+description: Expert advisor for ITIL 4 and ITIL 5 (2026 digital product paradigm),
+  specialized in AI-native governance, sustainability, and value co-creation.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-04-18'
+  triggers: '[''itil expert'', ''itil 5 guidance'', ''itil 4 process'', ''design service
+    value stream'', ''ai governance guidance'', ''digital product management itil'']'
+license: MIT
 ---
-
 # ITIL Expert (ITIL 4 & 5)
 
 ## Purpose

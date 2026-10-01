@@ -1,11 +1,15 @@
 ---
 name: review-multi-agent-orchestration
-description: "Use when a supervisor, swarm, graph, planner-worker system, or parallel agent workflow needs review for task boundaries, shared state, branch joins, retries, cancellation, context handoffs, budgets, deadlocks, or human escalation before implementation or production rollout."
-risk: safe
-source: self
-date_added: "2026-08-19"
+description: Use when a supervisor, swarm, graph, planner-worker system, or parallel
+  agent workflow needs review for task boundaries, shared state, branch joins, retries,
+  cancellation, context handoffs, budgets, deadlocks, or human escalation before implementation
+  or production rollout.
+metadata:
+  risk: safe
+  source: self
+  date_added: '2026-08-19'
+license: MIT
 ---
-
 # Review Multi-Agent Orchestration
 
 ## Overview

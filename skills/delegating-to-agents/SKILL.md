@@ -1,19 +1,20 @@
 ---
 name: delegating-to-agents
-description: "Delegate bounded work to other AI agents while preserving context, ownership, and progress checks."
-category: agent-orchestration
-risk: critical
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [agents, delegation, orchestration]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
+description: Delegate bounded work to other AI agents while preserving context, ownership,
+  and progress checks.
+license: MIT
+metadata:
+  category: agent-orchestration
+  risk: critical
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''agents'', ''delegation'', ''orchestration'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
 ---
-
 # Delegating to Agents
 
 ## When to Use

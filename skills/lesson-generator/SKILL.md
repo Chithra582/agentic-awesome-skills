@@ -1,25 +1,20 @@
 ---
 name: lesson-generator
-description: Build compact, standalone multi-lesson course artifacts with lesson navigation, objectives, flashcards, quizzes, and source links.
-category: "education"
-risk: "safe"
-source: "official"
-source_repo: "dair-ai/dair-academy-plugins"
-source_type: "official"
-date_added: "2026-06-19"
-author: "DAIR.AI"
-license: "MIT"
-license_source: "https://github.com/dair-ai/dair-academy-plugins/blob/main/README.md#license"
-tags:
-  - dair-academy
-  - ai
-  - workflow
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
+description: Build compact, standalone multi-lesson course artifacts with lesson navigation,
+  objectives, flashcards, quizzes, and source links.
+license: MIT
+metadata:
+  category: education
+  risk: safe
+  source: official
+  source_repo: dair-ai/dair-academy-plugins
+  source_type: official
+  date_added: '2026-06-19'
+  author: DAIR.AI
+  license_source: https://github.com/dair-ai/dair-academy-plugins/blob/main/README.md#license
+  tags: '[''dair-academy'', ''ai'', ''workflow'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'']'
 ---
-
 ## When to Use
 
 Use when this workflow matches the user request: Build compact, standalone multi-lesson course artifacts with lesson navigation, objectives, flashcards, quizzes, and source links.

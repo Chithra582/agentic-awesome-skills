@@ -1,11 +1,13 @@
 ---
 name: minecraft-bukkit-pro
-description: Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs.
-risk: safe
-source: community
-date_added: '2026-02-27'
+description: Master Minecraft server plugin development with Bukkit, Spigot, and Paper
+  APIs.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on minecraft bukkit pro tasks or workflows

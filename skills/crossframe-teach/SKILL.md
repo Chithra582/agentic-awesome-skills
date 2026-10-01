@@ -1,25 +1,19 @@
 ---
 name: crossframe-teach
-description: "Use when CrossFrame Suite routes explicit Chinese teaching of CrossFrame concepts, misreading boundaries, plain-language examples, signals, or exercises."
-category: content
-risk: safe
-source: community
-source_repo: xi-kari/crossframe-skill
-source_type: community
-date_added: 2026-06-16
-author: xi-kari
+description: Use when CrossFrame Suite routes explicit Chinese teaching of CrossFrame
+  concepts, misreading boundaries, plain-language examples, signals, or exercises.
 license: MIT
-license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
-tools:
-  - "Agent Skills"
-  - Codex
-  - Claude
-tags:
-  - crossframe
-  - chinese
-  - teaching
-  - concepts
-  - plain-language
+metadata:
+  category: content
+  risk: safe
+  source: community
+  source_repo: xi-kari/crossframe-skill
+  source_type: community
+  date_added: '2026-06-16'
+  author: xi-kari
+  license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
+  tools: '[''Agent Skills'', ''Codex'', ''Claude'']'
+  tags: '[''crossframe'', ''chinese'', ''teaching'', ''concepts'', ''plain-language'']'
 ---
 # CrossFrame Teach
 

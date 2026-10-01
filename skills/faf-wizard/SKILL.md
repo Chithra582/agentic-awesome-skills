@@ -1,17 +1,19 @@
 ---
 name: faf-wizard
-description: "Done-for-you .faf generator. One-click AI context for any project - new, legacy, or famous. Auto-detects stack, scores readiness, works everywhere."
-category: productivity
-risk: safe
-source: community
-source_repo: Wolfe-Jam/faf-skills
-source_type: community
-date_added: "2026-04-07"
-author: wolfejam
-tags: [faf, automation, project-setup, ai-context, productivity]
-tools: [claude, cursor, gemini, windsurf, any-ai]
+description: Done-for-you .faf generator. One-click AI context for any project - new,
+  legacy, or famous. Auto-detects stack, scores readiness, works everywhere.
+metadata:
+  category: productivity
+  risk: safe
+  source: community
+  source_repo: Wolfe-Jam/faf-skills
+  source_type: community
+  date_added: '2026-04-07'
+  author: wolfejam
+  tags: '[''faf'', ''automation'', ''project-setup'', ''ai-context'', ''productivity'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''windsurf'', ''any-ai'']'
+license: MIT
 ---
-
 # FAF Wizard - One-Click AI Intelligence
 
 **The pit crew for your projects.** Point it at any codebase and get scored, AI-ready context in 60 seconds.

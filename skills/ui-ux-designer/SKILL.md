@@ -1,11 +1,13 @@
 ---
 name: ui-ux-designer
-description: Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Create interface designs, wireframes, and design systems. Masters user
+  research, accessibility standards, and modern design tools.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on ui ux designer tasks or workflows

@@ -1,16 +1,18 @@
 ---
-name: "wp-guard"
-description: "Review generated or changed WordPress plugins, themes, and blocks for security, internationalization, performance, and API correctness."
-risk: "offensive"
-source: "community"
-source_repo: "amElnagdy/guard-skills"
-source_type: "community"
-date_added: 2026-07-13
-author: "community"
-tags: []
-tools: []
+name: wp-guard
+description: Review generated or changed WordPress plugins, themes, and blocks for
+  security, internationalization, performance, and API correctness.
+metadata:
+  risk: offensive
+  source: community
+  source_repo: amElnagdy/guard-skills
+  source_type: community
+  date_added: '2026-07-13'
+  author: community
+  tags: '[]'
+  tools: '[]'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

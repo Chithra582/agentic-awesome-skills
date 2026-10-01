@@ -1,11 +1,12 @@
 ---
 name: build
 description: build
-risk: critical
-source: community
-date_added: "2026-09-04"
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 ---
 name: build
 description: Feature development pipeline - research, plan, track, and implement major features.

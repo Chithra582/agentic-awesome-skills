@@ -1,16 +1,17 @@
 ---
 name: using-n8n-mcp-skills
-description: Route n8n MCP workflow design, editing, validation, testing, deployment, credential, execution, and debugging tasks to specialist guidance.
-risk: critical
-source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/using-n8n-mcp-skills
-source_repo: czlonkowski/n8n-skills
-source_type: community
-date_added: "2026-07-21"
-author: Romuald Czlonkowski
+description: Route n8n MCP workflow design, editing, validation, testing, deployment,
+  credential, execution, and debugging tasks to specialist guidance.
 license: MIT
-license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/using-n8n-mcp-skills
+  source_repo: czlonkowski/n8n-skills
+  source_type: community
+  date_added: '2026-07-21'
+  author: Romuald Czlonkowski
+  license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
 ---
-
 # Using the n8n-mcp Skills
 
 ## When to Use

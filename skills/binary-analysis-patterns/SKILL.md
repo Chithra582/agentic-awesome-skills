@@ -1,11 +1,13 @@
 ---
 name: binary-analysis-patterns
-description: "Comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Comprehensive patterns and techniques for analyzing compiled binaries,
+  understanding assembly code, and reconstructing program logic.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Binary Analysis Patterns
 
 Comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic.

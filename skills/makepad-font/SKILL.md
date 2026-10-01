@@ -1,15 +1,15 @@
 ---
 name: makepad-font
-description: |
-  CRITICAL: Use for Makepad font and text rendering. Triggers on:
-  makepad font, makepad text, makepad glyph, makepad typography,
-  font atlas, text layout, font family, font size, text shaping,
-  makepad 字体, makepad 文字, makepad 排版, makepad 字形
-risk: safe
-source: community
-date_added: "2026-09-04"
+description: 'CRITICAL: Use for Makepad font and text rendering. Triggers on: makepad
+  font, makepad text, makepad glyph, makepad typography, font atlas, text layout,
+  font family, font size, text shaping, makepad 字体, makepad 文字, makepad 排版, makepad
+  字形'
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Makepad Font Skill
 
 > **Version:** makepad-widgets (dev branch) | **Last Updated:** 2026-01-19

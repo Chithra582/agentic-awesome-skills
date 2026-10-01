@@ -1,15 +1,16 @@
 ---
 name: hugo-to-markdown
-description: "Convert Hugo documentation sites and Hugo-managed content into standard Markdown."
-risk: critical
-source: https://github.com/chaunsin/agent-skills/tree/master/skills/hugo-to-markdown
-source_repo: chaunsin/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Convert Hugo documentation sites and Hugo-managed content into standard
+  Markdown.
 license: Apache-2.0
-license_source: https://github.com/chaunsin/agent-skills/blob/master/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/chaunsin/agent-skills/tree/master/skills/hugo-to-markdown
+  source_repo: chaunsin/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/chaunsin/agent-skills/blob/master/LICENSE
 ---
-
 # Hugo To Markdown
 ## When to Use
 

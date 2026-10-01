@@ -1,11 +1,13 @@
 ---
 name: ui-visual-validator
-description: Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification.
-risk: safe
-source: community
-date_added: '2026-02-27'
+description: Rigorous visual validation expert specializing in UI testing, design
+  system compliance, and accessibility verification.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on ui visual validator tasks or workflows

@@ -1,26 +1,21 @@
 ---
 name: grill-with-docs
-description: A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.
-disable-model-invocation: true
-category: "productivity"
-risk: "safe"
-source: "community"
-source_repo: "mattpocock/skills"
-source_type: "community"
-date_added: "2026-06-19"
-author: "Matt Pocock"
-license: "MIT"
-license_source: "https://github.com/mattpocock/skills/blob/main/LICENSE"
-tags:
-  - productivity
-  - workflow
-  - coding-agents
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
+description: A relentless interview to sharpen a plan or design, which also creates
+  docs (ADR's and glossary) as we go.
+license: MIT
+metadata:
+  disable-model-invocation: 'True'
+  category: productivity
+  risk: safe
+  source: community
+  source_repo: mattpocock/skills
+  source_type: community
+  date_added: '2026-06-19'
+  author: Matt Pocock
+  license_source: https://github.com/mattpocock/skills/blob/main/LICENSE
+  tags: '[''productivity'', ''workflow'', ''coding-agents'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'']'
 ---
-
 ## When to Use
 
 Use when this workflow matches the user request: A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.

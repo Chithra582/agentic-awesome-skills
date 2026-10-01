@@ -1,23 +1,24 @@
 ---
 name: socialclaw
-description: "Agent-first social media publishing skill — schedule and publish posts across 13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, Pinterest) via a single workspace API key."
-category: marketing
-risk: critical
-source: community
-source_repo: ndesv21/socialclaw
-source_type: community
-date_added: "2026-05-25"
-author: ndesv21
-tags: [social-media, publishing, scheduling, marketing, twitter, linkedin, instagram, tiktok, discord, telegram, reddit, wordpress, pinterest]
-tools: [claude]
-license: "MIT"
-license_source: "https://github.com/ndesv21/socialclaw/blob/main/LICENSE"
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
+description: Agent-first social media publishing skill — schedule and publish posts
+  across 13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram,
+  YouTube, Reddit, WordPress, Pinterest) via a single workspace API key.
+license: MIT
+metadata:
+  category: marketing
+  risk: critical
+  source: community
+  source_repo: ndesv21/socialclaw
+  source_type: community
+  date_added: '2026-05-25'
+  author: ndesv21
+  tags: '[''social-media'', ''publishing'', ''scheduling'', ''marketing'', ''twitter'',
+    ''linkedin'', ''instagram'', ''tiktok'', ''discord'', ''telegram'', ''reddit'',
+    ''wordpress'', ''pinterest'']'
+  tools: '[''claude'']'
+  license_source: https://github.com/ndesv21/socialclaw/blob/main/LICENSE
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}}'
 ---
-
 # SocialClaw — Social Media Publisher
 
 ## Overview

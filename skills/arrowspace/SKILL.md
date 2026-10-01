@@ -1,19 +1,21 @@
 ---
 name: arrowspace
-description: "Spectral vector search using graph Laplacian eigenstructure. Use when cosine/L2 similarity misses latent structure in your embeddings."
-category: data
-risk: safe
-source: community
-source_repo: Genefold/arrowspace-skills
-source_type: community
-date_added: "2026-06-25"
-author: Genefold AI
+description: Spectral vector search using graph Laplacian eigenstructure. Use when
+  cosine/L2 similarity misses latent structure in your embeddings.
 license: Apache-2.0
-license_source: "https://github.com/Genefold/arrowspace-skills/blob/main/LICENSE"
-tags: [vector-search, spectral-analysis, graph-laplacian, embeddings, lambda-tau]
-tools: [claude, cursor, codex, gemini, opencode]
+metadata:
+  category: data
+  risk: safe
+  source: community
+  source_repo: Genefold/arrowspace-skills
+  source_type: community
+  date_added: '2026-06-25'
+  author: Genefold AI
+  license_source: https://github.com/Genefold/arrowspace-skills/blob/main/LICENSE
+  tags: '[''vector-search'', ''spectral-analysis'', ''graph-laplacian'', ''embeddings'',
+    ''lambda-tau'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'', ''opencode'']'
 ---
-
 # ArrowSpace
 
 Spectral vector search that augments nearest-neighbour search with graph Laplacian features. Computes a Laplacian over the item graph and uses the Rayleigh quotient to produce a λτ (lambda-tau) score per item, enabling search that respects both semantic similarity and structural role.

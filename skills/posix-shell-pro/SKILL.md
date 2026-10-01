@@ -1,11 +1,14 @@
 ---
 name: posix-shell-pro
-description: Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix).
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Expert in strict POSIX sh scripting for maximum portability across Unix-like
+  systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash,
+  ash, sh, bash --posix).
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on posix shell pro tasks or workflows

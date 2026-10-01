@@ -1,25 +1,20 @@
 ---
 name: wiki-builder
-description: "Create and maintain reusable research wikis with source provenance, configurable structure, and local markdown outputs."
-category: "knowledge-management"
-risk: "safe"
-source: "official"
-source_repo: "dair-ai/dair-academy-plugins"
-source_type: "official"
-date_added: "2026-06-19"
-author: "DAIR.AI"
-license: "MIT"
-license_source: "https://github.com/dair-ai/dair-academy-plugins/blob/main/README.md#license"
-tags:
-  - dair-academy
-  - ai
-  - workflow
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
+description: Create and maintain reusable research wikis with source provenance, configurable
+  structure, and local markdown outputs.
+license: MIT
+metadata:
+  category: knowledge-management
+  risk: safe
+  source: official
+  source_repo: dair-ai/dair-academy-plugins
+  source_type: official
+  date_added: '2026-06-19'
+  author: DAIR.AI
+  license_source: https://github.com/dair-ai/dair-academy-plugins/blob/main/README.md#license
+  tags: '[''dair-academy'', ''ai'', ''workflow'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'']'
 ---
-
 # Wiki Builder
 
 _Source: [dair-ai/dair-academy-plugins](https://github.com/dair-ai/dair-academy-plugins) (MIT)._

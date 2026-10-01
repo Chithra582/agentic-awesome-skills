@@ -1,11 +1,12 @@
 ---
 name: azure-ai-contentsafety-ts
-description: "Analyze text and images for harmful content with customizable blocklists."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Analyze text and images for harmful content with customizable blocklists.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure AI Content Safety REST SDK for TypeScript
 
 Analyze text and images for harmful content with customizable blocklists.

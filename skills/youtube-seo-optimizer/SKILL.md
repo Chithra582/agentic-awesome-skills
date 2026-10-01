@@ -1,17 +1,17 @@
 ---
 name: youtube-seo-optimizer
-description: >
-  Generate complete YouTube & podcast SEO packages with live-researched keywords —
-  titles, descriptions, tags, hashtags, chapters, and audit fixes. Use for new or
-  underperforming content.
-risk: safe
-source: community
-source_type: community
-author: whoisabhishekadhikari
-date_added: "2026-06-15"
+description: Generate complete YouTube & podcast SEO packages with live-researched
+  keywords — titles, descriptions, tags, hashtags, chapters, and audit fixes. Use
+  for new or underperforming content.
 allowed-tools: web_search web_fetch
+metadata:
+  risk: safe
+  source: community
+  source_type: community
+  author: whoisabhishekadhikari
+  date_added: '2026-06-15'
+license: MIT
 ---
-
 # YouTube & Podcast SEO Optimizer
 
 ## Detailed Guide

@@ -1,13 +1,15 @@
 ---
-description: Curated upstream guidance for Expo Animation; use when the workflow matches the user goal.
+description: Curated upstream guidance for Expo Animation; use when the workflow matches
+  the user goal.
 name: expo-animation
-version: 1.0.0
 license: MIT
-source_repo: expo/skills
-source_type: official
-source: expo
-date_added: '2026-09-21'
-risk: unknown
+metadata:
+  version: 1.0.0
+  source_repo: expo/skills
+  source_type: official
+  source: expo
+  date_added: '2026-09-21'
+  risk: unknown
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.
@@ -276,20 +278,6 @@ Opinionated and brief. When the honest answer is "this shouldn't animate," or "t
 ## Submitting Feedback
 If you encounter errors, misleading or outdated information in this skill, report it so Expo can improve:
 ```bash
-npx --yes submit-expo-feedback@latest --category skills --subject "expo-animation" "<actionable feedback>"
-```
-Only submit when you have something specific and actionable to report. Include as much relevant context as possible.
-If an AI agent repeatedly failed or the user had to take over an Expo task, load the expo-skill-feedback skill and follow its eval-candidate flow instead of reusing the command above.
+npx --yes
 
-
-## Examples
-
-```text
-User: Apply this skill to my current task.
-Assistant: Follow the workflow in this skill, cite limitations, and ask before risky steps.
-```
-
-## Limitations
-
-- Imported upstream skill; verify credentials, permissions, and safety boundaries before execution.
-- Does not replace environment-specific validation, testing, or maintainer review.
+<!-- Truncated for OpenGAP token limits -->

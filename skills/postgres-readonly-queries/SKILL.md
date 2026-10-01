@@ -1,19 +1,20 @@
 ---
 name: postgres-readonly-queries
-description: "Execute safe read-only SQL queries against PostgreSQL databases with multi-connection support and defense-in-depth write protection."
-category: data
-risk: safe
-source: https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres
-source_repo: sanjay3290/ai-skills
-source_type: community
-date_added: "2026-07-09"
-author: sanjay3290
-tags: [postgres, sql, database, read-only]
-tools: [claude, cursor, gemini]
-license: "Apache-2.0"
-license_source: "https://github.com/sanjay3290/ai-skills/blob/main/LICENSE"
+description: Execute safe read-only SQL queries against PostgreSQL databases with
+  multi-connection support and defense-in-depth write protection.
+license: Apache-2.0
+metadata:
+  category: data
+  risk: safe
+  source: https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres
+  source_repo: sanjay3290/ai-skills
+  source_type: community
+  date_added: '2026-07-09'
+  author: sanjay3290
+  tags: '[''postgres'', ''sql'', ''database'', ''read-only'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/sanjay3290/ai-skills/blob/main/LICENSE
 ---
-
 # PostgreSQL Read-Only Query Skill
 
 ## When to Use

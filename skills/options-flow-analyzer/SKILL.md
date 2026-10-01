@@ -1,14 +1,17 @@
 ---
 name: options-flow-analyzer
-description: Real vs lottery call separation for options P/C ratio analysis — prevents signal inversion from deep OTM noise
-category: finance
-risk: safe
-source: community
-source_type: community
-date_added: "2026-05-13"
-author: tellmefrankie
-tags: [options, sentiment-analysis, trading, polygon, market-analysis]
-tools: [websearch]
+description: Real vs lottery call separation for options P/C ratio analysis — prevents
+  signal inversion from deep OTM noise
+metadata:
+  category: finance
+  risk: safe
+  source: community
+  source_type: community
+  date_added: '2026-05-13'
+  author: tellmefrankie
+  tags: '[''options'', ''sentiment-analysis'', ''trading'', ''polygon'', ''market-analysis'']'
+  tools: '[''websearch'']'
+license: MIT
 ---
 # Options Flow Analyzer
 

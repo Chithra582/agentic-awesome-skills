@@ -1,11 +1,13 @@
 ---
 name: analytics-tracking
-description: Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Design, audit, and improve analytics tracking systems that produce reliable,
+  decision-ready data.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Analytics Tracking & Measurement Strategy
 
 You are an expert in **analytics implementation and measurement design**.

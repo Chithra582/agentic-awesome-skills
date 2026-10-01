@@ -1,11 +1,13 @@
 ---
 name: hybrid-cloud-architect
-description: Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware).
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Expert hybrid cloud architect specializing in complex multi-cloud solutions
+  across AWS/Azure/GCP and private clouds (OpenStack/VMware).
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on hybrid cloud architect tasks or workflows

@@ -1,23 +1,16 @@
 ---
 name: leiloeiro-mercado
-description: Analise de mercado imobiliario para leiloes. Liquidez, desagio tipico, ROI, estrategias de saida (flip/reforma/renda), Selic 2025 e benchmark CDI/FII.
-risk: safe
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- market-analysis
-- real-estate
-- roi
-- brazilian
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Analise de mercado imobiliario para leiloes. Liquidez, desagio tipico,
+  ROI, estrategias de saida (flip/reforma/renda), Selic 2025 e benchmark CDI/FII.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''market-analysis'', ''real-estate'', ''roi'', ''brazilian'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # SKILL DE MERCADO — ANALISTA DE ATIVOS IMOBILIÁRIOS EM LEILÃO
 
 ## Detailed Guide

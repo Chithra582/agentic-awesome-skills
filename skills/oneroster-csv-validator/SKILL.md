@@ -1,18 +1,22 @@
 ---
 name: oneroster-csv-validator
-description: "Validates 1EdTech / IMS Global OneRoster v1.1 and v1.2 CSV roster sets: manifest integrity, bulk vs delta strictness, foreign key references, and encoding sanitization. Trigger phrases: oneroster csv validator, validate oneroster zip, clever roster error, oneroster sourcedid."
-category: testing
-risk: safe
-source: community
-source_repo: wwewtech/oneroster-csv-validator
-source_type: community
-date_added: "2026-09-22"
-author: wwewtech
-tags: [edtech, oneroster, csv-validation, ims-global, 1edtech, data-engineering]
-tools: [claude, cursor, gemini, windsurf]
-license: "MIT"
+description: 'Validates 1EdTech / IMS Global OneRoster v1.1 and v1.2 CSV roster sets:
+  manifest integrity, bulk vs delta strictness, foreign key references, and encoding
+  sanitization. Trigger phrases: oneroster csv validator, validate oneroster zip,
+  clever roster error, oneroster sourcedid.'
+license: MIT
+metadata:
+  category: testing
+  risk: safe
+  source: community
+  source_repo: wwewtech/oneroster-csv-validator
+  source_type: community
+  date_added: '2026-09-22'
+  author: wwewtech
+  tags: '[''edtech'', ''oneroster'', ''csv-validation'', ''ims-global'', ''1edtech'',
+    ''data-engineering'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''windsurf'']'
 ---
-
 # OneRoster CSV Validator: Strict 1EdTech Data Integrity & Pre-Flight Linter
 
 Perform rigorous pre-flight validation on OneRoster v1.1 and v1.2 CSV roster bundles prior to SIS/Clever/ClassLink ingestion: audit foreign key referential integrity, eliminate orphan enrollments, enforce bulk vs delta partitioning, and sanitize encoding traps.

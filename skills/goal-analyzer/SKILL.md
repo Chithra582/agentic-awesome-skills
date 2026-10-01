@@ -2,11 +2,12 @@
 name: goal-analyzer
 description: 分析健康目标数据、识别目标模式、评估目标进度,并提供个性化目标管理建议。支持与营养、运动、睡眠等健康数据的关联分析。
 allowed-tools: Read, Grep, Glob, Write
-risk: critical
-source: community
-date_added: "2026-09-04"
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # 健康目标分析器技能
 
 分析健康目标数据,识别目标模式和进度,评估目标达成情况,并提供个性化目标管理建议。

@@ -2,21 +2,20 @@
 name: policy-as-code
 description: Implement policy as code with OPA, Sentinel, and Kyverno. Automate policy
   enforcement in CI/CD and infrastructure. Use when enforcing compliance through automation.
-category: security
-risk: safe
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Checklist and framework guidance; no privileged tooling required. Apply
   controls through your own change process.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: security
+  risk: safe
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # Policy as Code
 
 Automate policy enforcement through code using OPA/Rego, Kyverno, Checkov, and CI/CD integration to prevent compliance violations before they reach production.

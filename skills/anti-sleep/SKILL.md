@@ -1,19 +1,20 @@
 ---
 name: anti-sleep
-description: "Keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs."
-category: operations
-risk: critical
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [macos, caffeinate, operations]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
+description: Keep a Mac awake with caffeinate during long builds, downloads, or supervised
+  automation runs.
+license: MIT
+metadata:
+  category: operations
+  risk: critical
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''macos'', ''caffeinate'', ''operations'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
 ---
-
 # Anti-Sleep (macOS caffeinate)
 
 ## When to Use

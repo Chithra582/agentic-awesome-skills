@@ -1,15 +1,16 @@
 ---
 name: formik-patterns
-description: Formik form handling with validation patterns. Use when building forms, implementing validation, or handling form submission.
-risk: critical
-source: https://github.com/ChrisWiles/claude-code-showcase/tree/main/.claude/skills/formik-patterns
-source_repo: ChrisWiles/claude-code-showcase
-source_type: community
-date_added: 2026-07-01
+description: Formik form handling with validation patterns. Use when building forms,
+  implementing validation, or handling form submission.
 license: MIT
-license_source: https://github.com/ChrisWiles/claude-code-showcase/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/ChrisWiles/claude-code-showcase/tree/main/.claude/skills/formik-patterns
+  source_repo: ChrisWiles/claude-code-showcase
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/ChrisWiles/claude-code-showcase/blob/main/LICENSE
 ---
-
 # Formik Patterns
 ## When to Use
 

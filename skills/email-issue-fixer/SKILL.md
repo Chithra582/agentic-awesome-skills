@@ -1,15 +1,18 @@
 ---
 name: email-issue-fixer
-description: "Fix small email mistakes without touching the writer's voice, and strip tracking parameters from links on request. Always returns the corrected draft plus a change list."
-category: writing
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-01"
-author: whoisabhishekadhikari
-tags: [email, proofreading, grammar, links]
+description: Fix small email mistakes without touching the writer's voice, and strip
+  tracking parameters from links on request. Always returns the corrected draft plus
+  a change list.
+metadata:
+  category: writing
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-01'
+  author: whoisabhishekadhikari
+  tags: '[''email'', ''proofreading'', ''grammar'', ''links'']'
+license: MIT
 ---
-
 # Email Issue Fixer
 
 Fix the small mistakes that make an email look careless, without touching the writer's voice or what the email commits to. Always return the corrected draft plus a list of what changed.

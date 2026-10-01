@@ -1,24 +1,16 @@
 ---
 name: growth-engine
-description: "Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica."
-risk: none
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- growth
-- seo
-- marketing
-- viral
-- acquisition
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO,
+  viral loops, email marketing, CRM, referral programs e aquisicao organica.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''growth'', ''seo'', ''marketing'', ''viral'', ''acquisition'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # GROWTH-ENGINE -- Crescimento Exponencial
 
 ## Overview

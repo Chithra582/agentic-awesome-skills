@@ -3,11 +3,13 @@ name: huggingface-datasets
 description: Use this skill for Hugging Face Dataset Viewer API workflows that fetch
   subset/split metadata, paginate rows, search text, apply filters, download parquet
   URLs, and read size or statistics.
-source_repo: huggingface/skills
-source_type: official
-source: huggingface
-date_added: '2026-09-21'
-risk: unknown
+metadata:
+  source_repo: huggingface/skills
+  source_type: official
+  source: huggingface
+  date_added: '2026-09-21'
+  risk: unknown
+license: MIT
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

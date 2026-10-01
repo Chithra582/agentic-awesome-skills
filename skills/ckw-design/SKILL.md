@@ -1,26 +1,19 @@
 ---
 name: ckw-design
-description: "Frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, color, type, or polish."
-risk: safe
-source: community
-source_type: community
-source_repo: connerkward/ckw-design-skill
-date_added: "2026-06-16"
-author: Conner K Ward
+description: 'Frontend design entry point: direction, design system, visual philosophy.
+  Use whenever building or touching the look of any web UI (components, pages, dashboards,
+  React/Vue/HTML-CSS) or when the user says "make this look better", "fix the spacing/layout",
+  or mentions styling, color, type, or polish.'
 license: MIT
-tags:
-  - design
-  - frontend
-  - ui
-  - css
-  - typography
-  - responsive
-tools:
-  - claude-code
-  - antigravity
-  - cursor
-  - gemini-cli
-  - codex-cli
+metadata:
+  risk: safe
+  source: community
+  source_type: community
+  source_repo: connerkward/ckw-design-skill
+  date_added: '2026-06-16'
+  author: Conner K Ward
+  tags: '[''design'', ''frontend'', ''ui'', ''css'', ''typography'', ''responsive'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
 ---
 ## When to Use
 

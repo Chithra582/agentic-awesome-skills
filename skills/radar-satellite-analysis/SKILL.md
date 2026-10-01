@@ -1,16 +1,20 @@
 ---
 name: radar-satellite-analysis
-description: "Interpret weather radar and satellite observations by validating product metadata and geometry, deriving storm and cloud structures, tracking evolution, and quantifying uncertainty."
-category: analysis
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-25"
-author: ShianMike
-tags: [weather, radar, satellite, nexrad, goes, nowcasting, storm-analysis, remote-sensing, uncertainty]
-tools: [claude, cursor, gemini, codex]
+description: Interpret weather radar and satellite observations by validating product
+  metadata and geometry, deriving storm and cloud structures, tracking evolution,
+  and quantifying uncertainty.
+metadata:
+  category: analysis
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-25'
+  author: ShianMike
+  tags: '[''weather'', ''radar'', ''satellite'', ''nexrad'', ''goes'', ''nowcasting'',
+    ''storm-analysis'', ''remote-sensing'', ''uncertainty'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+license: MIT
 ---
-
 # Radar and Satellite Analysis
 
 ## Overview

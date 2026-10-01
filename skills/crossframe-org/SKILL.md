@@ -1,25 +1,20 @@
 ---
 name: crossframe-org
-description: "Use when CrossFrame Suite routes explicit Chinese analysis of teams, projects, organizations, responsibility chains, feedback write-back, repair, or retrospectives."
-category: business
-risk: safe
-source: community
-source_repo: xi-kari/crossframe-skill
-source_type: community
-date_added: 2026-06-16
-author: xi-kari
+description: Use when CrossFrame Suite routes explicit Chinese analysis of teams,
+  projects, organizations, responsibility chains, feedback write-back, repair, or
+  retrospectives.
 license: MIT
-license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
-tools:
-  - "Agent Skills"
-  - Codex
-  - Claude
-tags:
-  - crossframe
-  - chinese
-  - organization
-  - retrospective
-  - repair
+metadata:
+  category: business
+  risk: safe
+  source: community
+  source_repo: xi-kari/crossframe-skill
+  source_type: community
+  date_added: '2026-06-16'
+  author: xi-kari
+  license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
+  tools: '[''Agent Skills'', ''Codex'', ''Claude'']'
+  tags: '[''crossframe'', ''chinese'', ''organization'', ''retrospective'', ''repair'']'
 ---
 # CrossFrame Org
 

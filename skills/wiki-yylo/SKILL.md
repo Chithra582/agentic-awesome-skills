@@ -3,20 +3,20 @@ name: wiki-yylo
 description: Use YYLO Ledger wiki Records as durable project knowledge. Search before
   creating, classify information correctly, and make revision-safe Markdown updates
   without editing Ledger storage directly.
-category: project-management
-risk: safe
-source: https://github.com/yylo-dev/yylo-skills
-source_repo: yylo-dev/yylo-skills
-source_type: community
-date_added: '2026-09-19'
 license: MIT
-license_source: https://github.com/yylo-dev/yylo-skills/blob/main/LICENSE
 compatibility: Requires the `yy` CLI with the `wiki` record group installed (controller
   or standalone). Revision-safe Markdown updates only; never edit Ledger storage directly.
-argument-hint: '[wiki question or knowledge to find/create/update]'
-enable-shell-directives: true
+metadata:
+  category: project-management
+  risk: safe
+  source: https://github.com/yylo-dev/yylo-skills
+  source_repo: yylo-dev/yylo-skills
+  source_type: community
+  date_added: '2026-09-19'
+  license_source: https://github.com/yylo-dev/yylo-skills/blob/main/LICENSE
+  argument-hint: '[wiki question or knowledge to find/create/update]'
+  enable-shell-directives: 'True'
 ---
-
 # Use YYLO wiki Records
 
 Treat Ledger as the source of truth. Use `yy ledger` in a YYLO controller and

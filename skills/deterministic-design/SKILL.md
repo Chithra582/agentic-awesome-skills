@@ -1,26 +1,19 @@
 ---
 name: deterministic-design
-description: "Render the UI and prove it's balanced + usable: a deterministic layout audit (centroid / optical-center / pixel-oracle balance via explicit math + annotated screenshot) plus a vision-judged Nielsen usability audit by a separate fresh-eyes judge. The measurement layer taste-only design skills lack."
-risk: safe
-source: community
-source_type: community
-source_repo: connerkward/deterministic-design-skill
-date_added: "2026-06-16"
-author: Conner K Ward
+description: 'Render the UI and prove it''s balanced + usable: a deterministic layout
+  audit (centroid / optical-center / pixel-oracle balance via explicit math + annotated
+  screenshot) plus a vision-judged Nielsen usability audit by a separate fresh-eyes
+  judge. The measurement layer taste-only design skills lack.'
 license: MIT
-tags:
-  - design
-  - layout
-  - usability
-  - audit
-  - verification
-  - vision
-tools:
-  - claude-code
-  - antigravity
-  - cursor
-  - gemini-cli
-  - codex-cli
+metadata:
+  risk: safe
+  source: community
+  source_type: community
+  source_repo: connerkward/deterministic-design-skill
+  date_added: '2026-06-16'
+  author: Conner K Ward
+  tags: '[''design'', ''layout'', ''usability'', ''audit'', ''verification'', ''vision'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
 ---
 ## When to Use
 

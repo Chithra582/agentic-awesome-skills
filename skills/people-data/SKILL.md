@@ -1,19 +1,21 @@
 ---
 name: people-data
-description: "Research LinkedIn professional profiles and public business-contact data, including email/phone lookup, people search, and YouTube channel business-email discovery."
-category: research
-risk: safe
-source: https://github.com/agentbody/skills/blob/main/skills/people-data/SKILL.md
-source_repo: agentbody/skills
-source_type: community
-date_added: "2026-08-07"
-author: agentbody
-tags: [linkedin, youtube, people-search, business-contacts, research]
-tools: [claude, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/agentbody/skills/blob/main/LICENSE"
+description: Research LinkedIn professional profiles and public business-contact data,
+  including email/phone lookup, people search, and YouTube channel business-email
+  discovery.
+license: MIT
+metadata:
+  category: research
+  risk: safe
+  source: https://github.com/agentbody/skills/blob/main/skills/people-data/SKILL.md
+  source_repo: agentbody/skills
+  source_type: community
+  date_added: '2026-08-07'
+  author: agentbody
+  tags: '[''linkedin'', ''youtube'', ''people-search'', ''business-contacts'', ''research'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/agentbody/skills/blob/main/LICENSE
 ---
-
 # People Data
 
 ## Overview

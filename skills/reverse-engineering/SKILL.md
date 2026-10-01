@@ -1,13 +1,16 @@
 ---
 name: reverse-engineering
-description: "General reverse-engineering methodology for compiled, obfuscated, packed, or virtualized targets: GDB, Frida, angr, Unicorn, and Qiling workflows across languages and platforms, with anti-analysis countermeasures."
-risk: safe
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
-source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+description: 'General reverse-engineering methodology for compiled, obfuscated, packed,
+  or virtualized targets: GDB, Frida, angr, Unicorn, and Qiling workflows across languages
+  and platforms, with anti-analysis countermeasures.'
+license: MIT
+metadata:
+  risk: safe
+  source: https://github.com/zhaoxuya520/reverse-skill
+  source_repo: zhaoxuya520/reverse-skill
+  source_type: community
+  date_added: '2026-08-25'
+  license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 # Reverse Engineering
 ## When to Use

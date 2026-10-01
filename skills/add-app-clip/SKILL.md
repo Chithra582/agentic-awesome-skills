@@ -1,15 +1,17 @@
 ---
 name: add-app-clip
-description: Add an iOS App Clip target to an Expo app. Use when the user mentions App Clip, AASA, apple-app-site-association, appclips, smart app banner, or wants to ship a lightweight iOS Clip invoked from a URL alongside their parent app.
-risk: critical
-source: https://github.com/expo/skills/tree/main/plugins/expo/skills/add-app-clip
-source_repo: expo/skills
-source_type: official
-date_added: 2026-07-01
+description: Add an iOS App Clip target to an Expo app. Use when the user mentions
+  App Clip, AASA, apple-app-site-association, appclips, smart app banner, or wants
+  to ship a lightweight iOS Clip invoked from a URL alongside their parent app.
 license: MIT
-license_source: https://github.com/expo/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/expo/skills/tree/main/plugins/expo/skills/add-app-clip
+  source_repo: expo/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/expo/skills/blob/main/LICENSE
 ---
-
 # Add an App Clip to an Expo App
 ## When to Use
 

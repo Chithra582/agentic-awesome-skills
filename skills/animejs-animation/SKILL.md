@@ -1,11 +1,13 @@
 ---
 name: animejs-animation
-description: Advanced JavaScript animation library skill for creating complex, high-performance web animations.
-risk: safe
-source: community
-date_added: "2026-03-07"
+description: Advanced JavaScript animation library skill for creating complex, high-performance
+  web animations.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-07'
+license: MIT
 ---
-
 # Anime.js Animation Skill
 
 [Anime.js](https://animejs.com/) is a lightweight but extremely powerful JavaScript animation engine. It excels at complex timelines, staggering, and precise control over DOM, CSS, and SVGs.

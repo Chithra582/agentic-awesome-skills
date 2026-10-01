@@ -1,23 +1,18 @@
 ---
 name: multi-advisor
-description: "Conselho de especialistas — consulta multiplos agentes do ecossistema em paralelo para analise multi-perspectiva de qualquer topico. Ativa personas, especialistas e agentes tecnicos simultaneamente, cada um pela sua otica unica, e consolida em sintese decisoria final."
-risk: none
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- multi-agent
-- advisory
-- parallel-analysis
-- synthesis
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Conselho de especialistas — consulta multiplos agentes do ecossistema
+  em paralelo para analise multi-perspectiva de qualquer topico. Ativa personas, especialistas
+  e agentes tecnicos simultaneamente, cada um pela sua otica unica, e consolida em
+  sintese decisoria final.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''multi-agent'', ''advisory'', ''parallel-analysis'', ''synthesis'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # MULTI-ADVISOR: Board de Especialistas em Paralelo
 
 ## Overview

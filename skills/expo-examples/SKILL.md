@@ -1,15 +1,17 @@
 ---
 name: expo-examples
-description: "Expo's official example projects — the expo/examples repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI, maps, Reanimated, SQLite, Skia, NativeWind, and more)."
-risk: critical
-source: https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-examples
-source_repo: expo/skills
-source_type: official
-date_added: 2026-07-01
+description: Expo's official example projects — the expo/examples repo of ~70 `with-*`
+  integrations (Stripe, Clerk, Supabase, OpenAI, maps, Reanimated, SQLite, Skia, NativeWind,
+  and more).
 license: MIT
-license_source: https://github.com/expo/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-examples
+  source_repo: expo/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/expo/skills/blob/main/LICENSE
 ---
-
 # Expo Examples
 ## When to Use
 

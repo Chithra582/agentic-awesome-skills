@@ -1,19 +1,21 @@
 ---
 name: bumblebee
-description: "Run Bumblebee supply-chain inventory and exposure scans on macOS/Linux to detect compromised packages, extensions, and MCP host configs."
-category: security
-risk: safe
-source: community
-source_repo: mycelos-ai/bumblebee-skill
-source_type: community
-date_added: "2026-05-27"
-author: stefan-kp
-tags: [security, supply-chain, incident-response, npm, pypi, tooling]
-tools: [claude]
-license: "MIT"
-license_source: "https://github.com/mycelos-ai/bumblebee-skill/blob/main/LICENSE"
+description: Run Bumblebee supply-chain inventory and exposure scans on macOS/Linux
+  to detect compromised packages, extensions, and MCP host configs.
+license: MIT
+metadata:
+  category: security
+  risk: safe
+  source: community
+  source_repo: mycelos-ai/bumblebee-skill
+  source_type: community
+  date_added: '2026-05-27'
+  author: stefan-kp
+  tags: '[''security'', ''supply-chain'', ''incident-response'', ''npm'', ''pypi'',
+    ''tooling'']'
+  tools: '[''claude'']'
+  license_source: https://github.com/mycelos-ai/bumblebee-skill/blob/main/LICENSE
 ---
-
 # Bumblebee Security Scan
 
 Bumblebee (https://github.com/perplexityai/bumblebee) is a read-only inventory collector that surfaces package, extension, and developer-tool metadata on developer endpoints. It answers a focused supply-chain question: when an advisory names a package or version, do any matches exist on this machine right now?

@@ -1,11 +1,13 @@
 ---
 name: deployment-procedures
-description: "Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Production deployment principles and decision-making. Safe deployment
+  workflows, rollback strategies, and verification. Teaches thinking, not scripts.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Deployment Procedures
 
 > Deployment principles and decision-making for safe production releases.

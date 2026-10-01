@@ -1,20 +1,22 @@
 ---
-id: skill-issue
 name: skill-issue
-description: "Find out why a coding-agent skill won't fire — grade each SKILL.md A–F on activation, simulate which skill a prompt triggers, and flag collisions where one silently shadows another."
-category: meta
-risk: safe
-source: community
-source_repo: mishanefedov/skill-issue
-source_type: community
-date_added: "2026-06-02"
-author: mishanefedov
-tags: [skills, linter, activation, meta, ci]
-tools: [claude, cursor, gemini, codex]
-license: "MIT"
-license_source: "https://github.com/mishanefedov/skill-issue/blob/main/LICENSE"
+description: Find out why a coding-agent skill won't fire — grade each SKILL.md A–F
+  on activation, simulate which skill a prompt triggers, and flag collisions where
+  one silently shadows another.
+license: MIT
+metadata:
+  id: skill-issue
+  category: meta
+  risk: safe
+  source: community
+  source_repo: mishanefedov/skill-issue
+  source_type: community
+  date_added: '2026-06-02'
+  author: mishanefedov
+  tags: '[''skills'', ''linter'', ''activation'', ''meta'', ''ci'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/mishanefedov/skill-issue/blob/main/LICENSE
 ---
-
 # skill-issue — skill activation audit
 
 ## Overview

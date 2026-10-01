@@ -3,22 +3,21 @@ name: firewall-config
 description: Configure iptables, nftables, and cloud firewalls. Implement network
   segmentation and traffic filtering. Use when securing network perimeters or implementing
   security zones.
-category: security
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant security tooling (scanners, vault CLIs) and an
   authorized scope for any active assessment. Docs-only; helper scripts and templates
   not bundled.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: security
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # Firewall Configuration
 
 Configure host-based and cloud firewalls for network security.

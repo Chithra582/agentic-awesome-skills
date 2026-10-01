@@ -1,12 +1,14 @@
 ---
 name: crypto-bd-agent
-description: "Production-tested patterns for building AI agents that autonomously discover, > evaluate, and acquire token listings for cryptocurrency exchanges."
-risk: safe
-source: community
-tags: null
-date_added: '2026-02-27'
+description: Production-tested patterns for building AI agents that autonomously discover,
+  > evaluate, and acquire token listings for cryptocurrency exchanges.
+metadata:
+  risk: safe
+  source: community
+  tags: None
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Crypto BD Agent — Autonomous Business Development for Exchanges
 
 > Production-tested patterns for building AI agents that autonomously discover,

@@ -1,11 +1,13 @@
 ---
 name: claude-d3js-skill
-description: "This skill provides guidance for creating sophisticated, interactive data visualisations using d3.js."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: This skill provides guidance for creating sophisticated, interactive
+  data visualisations using d3.js.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # D3.js Visualisation
 
 ## Detailed Guide

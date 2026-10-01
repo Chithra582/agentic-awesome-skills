@@ -1,11 +1,14 @@
 ---
 name: azure-communication-callingserver-java
-description: "⚠️ DEPRECATED: This SDK has been renamed to Call Automation. For new projects, use azure-communication-callautomation instead. This skill is for maintaining legacy code only."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: '⚠️ DEPRECATED: This SDK has been renamed to Call Automation. For new
+  projects, use azure-communication-callautomation instead. This skill is for maintaining
+  legacy code only.'
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure Communication CallingServer (Java) - DEPRECATED
 
 > **⚠️ DEPRECATED**: This SDK has been renamed to **Call Automation**. For new projects, use `azure-communication-callautomation` instead. This skill is for maintaining legacy code only.

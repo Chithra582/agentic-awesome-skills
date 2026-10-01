@@ -1,19 +1,20 @@
 ---
 name: seo-drift
-description: "Snapshot a site's SEO state and detect ranking, indexation, metadata, canonical, robots, schema, and on-page regressions over time."
-category: marketing
-risk: safe
-source: https://github.com/nowork-studio/NotFair/tree/main/seo/seo-drift
-source_repo: nowork-studio/NotFair
-source_type: official
-date_added: "2026-07-22"
-author: nowork-studio
-tags: [seo, monitoring, search-console, technical-seo, regression-testing]
-tools: [claude, cursor, gemini, codex]
+description: Snapshot a site's SEO state and detect ranking, indexation, metadata,
+  canonical, robots, schema, and on-page regressions over time.
 license: MIT
-license_source: https://github.com/nowork-studio/NotFair/blob/main/LICENSE
+metadata:
+  category: marketing
+  risk: safe
+  source: https://github.com/nowork-studio/NotFair/tree/main/seo/seo-drift
+  source_repo: nowork-studio/NotFair
+  source_type: official
+  date_added: '2026-07-22'
+  author: nowork-studio
+  tags: '[''seo'', ''monitoring'', ''search-console'', ''technical-seo'', ''regression-testing'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/nowork-studio/NotFair/blob/main/LICENSE
 ---
-
 # SEO Drift Monitoring
 
 ## Overview

@@ -1,20 +1,21 @@
 ---
 name: read-all-adrs
-description: "Read every ADR in a project before summarizing architectural context or decisions."
-category: productivity
-risk: safe
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [adr, documentation, architecture]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
-disable-model-invocation: true
+description: Read every ADR in a project before summarizing architectural context
+  or decisions.
+license: MIT
+metadata:
+  category: productivity
+  risk: safe
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''adr'', ''documentation'', ''architecture'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
+  disable-model-invocation: 'True'
 ---
-
 <!-- TODO(David): write the strong wording here -->
 
 ## When to Use

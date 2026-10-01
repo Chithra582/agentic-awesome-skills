@@ -2,21 +2,21 @@
 name: workflow-yylo
 description: Create and maintain validated YYLO Ledger workflow Records while keeping
   storage, execution, and run evidence as separate explicit boundaries.
-category: project-management
-risk: safe
-source: https://github.com/yylo-dev/yylo-skills
-source_repo: yylo-dev/yylo-skills
-source_type: community
-date_added: '2026-09-19'
 license: MIT
-license_source: https://github.com/yylo-dev/yylo-skills/blob/main/LICENSE
 compatibility: Requires the `yy` CLI with the `workflow` record group installed. Ledger
   stores and validates workflow data; execution needs a separately selected runner
   plus explicit authority.
-argument-hint: '[workflow to find/create/update or execution question]'
-enable-shell-directives: true
+metadata:
+  category: project-management
+  risk: safe
+  source: https://github.com/yylo-dev/yylo-skills
+  source_repo: yylo-dev/yylo-skills
+  source_type: community
+  date_added: '2026-09-19'
+  license_source: https://github.com/yylo-dev/yylo-skills/blob/main/LICENSE
+  argument-hint: '[workflow to find/create/update or execution question]'
+  enable-shell-directives: 'True'
 ---
-
 # Use YYLO workflow Records
 
 Treat Ledger as the source of truth for workflow identity, validated definition,

@@ -1,14 +1,16 @@
 ---
-id: zipai-optimizer
 name: zipai-optimizer
-version: "14.0"
-description: "Ultra-dense token optimizer skill for prompt caching, log pruning, AST-based inspection, and minified JSON payloads."
-category: agent-behavior
-risk: safe
-source: community
-date_added: "2026-09-04"
+description: Ultra-dense token optimizer skill for prompt caching, log pruning, AST-based
+  inspection, and minified JSON payloads.
+metadata:
+  id: zipai-optimizer
+  version: '14.0'
+  category: agent-behavior
+  risk: safe
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # ZipAI: Context & Token Optimizer
 
 ## When to Use

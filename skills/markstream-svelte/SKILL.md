@@ -1,19 +1,20 @@
 ---
 name: markstream-svelte
-description: "Integrate the beta markstream-svelte renderer into Svelte 5 or SvelteKit with runes, explicit CSS, smooth streaming, workers, and SSR-safe boundaries."
-category: frontend
-risk: critical
-source: https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-svelte
-source_repo: Simon-He95/markstream-vue
-source_type: official
-date_added: "2026-07-21"
-author: Simon-He95
-tags: [svelte, sveltekit, markdown, streaming, ssr]
-tools: [claude, cursor, gemini, codex]
+description: Integrate the beta markstream-svelte renderer into Svelte 5 or SvelteKit
+  with runes, explicit CSS, smooth streaming, workers, and SSR-safe boundaries.
 license: MIT
-license_source: https://github.com/Simon-He95/markstream-vue/blob/main/license
+metadata:
+  category: frontend
+  risk: critical
+  source: https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-svelte
+  source_repo: Simon-He95/markstream-vue
+  source_type: official
+  date_added: '2026-07-21'
+  author: Simon-He95
+  tags: '[''svelte'', ''sveltekit'', ''markdown'', ''streaming'', ''ssr'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/Simon-He95/markstream-vue/blob/main/license
 ---
-
 # Markstream Svelte
 
 ## Overview

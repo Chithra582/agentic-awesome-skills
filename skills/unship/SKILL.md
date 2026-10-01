@@ -1,23 +1,22 @@
 ---
 name: unship
-description: "Compare AI agent-made UI variants locally in a real app, then keep one and clean up unused temporary code."
-category: development
-risk: critical
-source: community
-source_repo: mbenhard/unship
-source_type: community
-date_added: "2026-06-07"
-author: Marcus Benhard
-tags: [ui-variants, frontend, local-first, coding-agents]
-tools: [claude-code, antigravity, cursor, gemini-cli, codex-cli, opencode]
-license: "MIT"
-license_source: "https://github.com/mbenhard/unship/blob/main/LICENSE"
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
+description: Compare AI agent-made UI variants locally in a real app, then keep one
+  and clean up unused temporary code.
+license: MIT
+metadata:
+  category: development
+  risk: critical
+  source: community
+  source_repo: mbenhard/unship
+  source_type: community
+  date_added: '2026-06-07'
+  author: Marcus Benhard
+  tags: '[''ui-variants'', ''frontend'', ''local-first'', ''coding-agents'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'',
+    ''opencode'']'
+  license_source: https://github.com/mbenhard/unship/blob/main/LICENSE
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}}'
 ---
-
 # Unship
 
 ## Overview

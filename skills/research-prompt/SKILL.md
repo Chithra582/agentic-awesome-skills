@@ -1,19 +1,20 @@
 ---
 name: research-prompt
-description: "Turn vague research needs into one precise deep-research prompt with context and output criteria."
-category: research
-risk: safe
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [research, prompting, briefs]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
+description: Turn vague research needs into one precise deep-research prompt with
+  context and output criteria.
+license: MIT
+metadata:
+  category: research
+  risk: safe
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''research'', ''prompting'', ''briefs'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
 ---
-
 # Research Prompt
 
 ## When to Use

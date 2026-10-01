@@ -1,15 +1,17 @@
 ---
 name: trl-training
-description: Train and fine-tune transformer language models using TRL (Transformers Reinforcement Learning). Supports SFT, DPO, GRPO, KTO, RLOO and Reward Model training via CLI commands.
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/skills/trl-training
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: Train and fine-tune transformer language models using TRL (Transformers
+  Reinforcement Learning). Supports SFT, DPO, GRPO, KTO, RLOO and Reward Model training
+  via CLI commands.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/skills/trl-training
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 # TRL Training Skill
 ## When to Use
 

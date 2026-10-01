@@ -1,11 +1,13 @@
 ---
 name: api-security-best-practices
-description: "Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Implement secure API design patterns including authentication, authorization,
+  input validation, rate limiting, and protection against common API vulnerabilities
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # API Security Best Practices
 
 Review the request boundary from caller identity through authorization, validated

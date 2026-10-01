@@ -1,19 +1,21 @@
 ---
 name: find-matching-tenders
-description: Find open AU/NZ government tenders matching what a company does, ranked by fit with why and gap analysis. Use when the user asks to find tenders, bid opportunities, government contracts, or RFPs for their business (or a client's).
-category: document-verification
-risk: critical
-source: community
-source_repo: Sketchjar/stipple-agent-skills
-source_type: community
-date_added: "2026-08-31"
-author: Sketchjar
-tags: [document-verification, fact-checking, stipple, authenticity]
-tools: [claude, cursor, gemini, codex]
-license: "Apache-2.0"
-license_source: "https://github.com/Sketchjar/stipple-agent-skills/blob/main/LICENSE"
+description: Find open AU/NZ government tenders matching what a company does, ranked
+  by fit with why and gap analysis. Use when the user asks to find tenders, bid opportunities,
+  government contracts, or RFPs for their business (or a client's).
+license: Apache-2.0
+metadata:
+  category: document-verification
+  risk: critical
+  source: community
+  source_repo: Sketchjar/stipple-agent-skills
+  source_type: community
+  date_added: '2026-08-31'
+  author: Sketchjar
+  tags: '[''document-verification'', ''fact-checking'', ''stipple'', ''authenticity'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/Sketchjar/stipple-agent-skills/blob/main/LICENSE
 ---
-
 # Find Matching Tenders
 
 Search live AU/NZ government tenders, rank them against what a company actually does (read from its website), and explain why each opportunity is relevant — including the capability gaps to prepare evidence for. Tender search is free forever on the Stipple API; no API key or signup needed.

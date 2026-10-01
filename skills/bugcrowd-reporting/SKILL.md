@@ -1,19 +1,19 @@
 ---
 name: bugcrowd-reporting
 description: Bugcrowd-specific reporting tactics complementing report-writing
-category: security
-risk: safe
-source: https://github.com/elementalsouls/Claude-BugHunter
-source_repo: elementalsouls/Claude-BugHunter
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
 compatibility: Process guidance; no tooling required. Docs-only; upstream templates
   not bundled.
-sources: bugcrowd, community
+metadata:
+  category: security
+  risk: safe
+  source: https://github.com/elementalsouls/Claude-BugHunter
+  source_repo: elementalsouls/Claude-BugHunter
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
+  sources: bugcrowd, community
 ---
-
 # BUGCROWD REPORTING — Program-Specific Tactics
 
 > Companion to the generic `report-writing` skill. Use when working specifically on Bugcrowd submissions where VRT mapping, OOS-clause rebuttals, or per-program target selection matter.
@@ -274,78 +274,6 @@ After submitting any report that includes session-cookie-derived evidence:
 
 ### 7.4 If the test account gets locked
 
-1. Don't create a second account to bypass the lock — that looks like fraud
-2. Email the program-specific contact (if provided) with your Bugcrowd username and the report ID
-3. Wait for the program team to unblock you; testing during the lock period damages credibility
+1. Don
 
----
-
-## 8. Submission-Order Strategy for Multi-Finding Engagements
-
-When you have multiple findings from a single engagement, the order matters.
-
-### 8.1 Recommended order
-
-1. **Chain primitives before their consumer.** A consumer references the primitives' report UUIDs, which only exist once the primitives are filed (see §5.1). File the best-evidenced primitive first to lock your timestamp, then the rest of the chain's primitives.
-2. **The chain consumer next** — fill in the real primitive UUIDs, then edit each primitive to backfill the consumer's UUID (Bugcrowd allows post-submission body edits).
-3. **Standalone P3 findings next.** Order by quality of evidence: best-evidenced first, riskier (OOS-adjacent) findings later.
-4. **OOS-risky findings last.** By the time these land, you've established a credible track record on this engagement.
-
-### 8.2 Tracking submission IDs
-
-Maintain a simple text file with each submission's UUID, severity, and one-line description. You'll reference these IDs across reports and during any subsequent triager dialogue.
-
-### 8.3 What to avoid
-
-- Don't file all findings in a single batch within minutes. Triagers see this as low-effort spam.
-- Don't file an OOS-risky finding before a clean P3 from the same engagement. The clean one establishes credibility; the risky one benefits from being read in that context.
-- Don't disclose any findings publicly until the program explicitly says it's OK. Bugcrowd's confidentiality applies to both unresolved AND resolved issues.
-
----
-
-## 9. Pairing with Other Skills
-
-| For this question / task | Use this skill |
-|---|---|
-| "Should I report this finding at all?" | `triage-validation` (7-Question Gate) |
-| "What's the report body template for Bugcrowd?" | `report-writing` |
-| "What VRT do I pick?" | This skill (`bugcrowd-reporting`) §1 |
-| "How do I argue for higher severity?" | This skill §2-3 |
-| "How do I rebut an OOS objection?" | This skill §4 |
-| "How do I redact cookies / PII in screenshots?" | `evidence-hygiene` |
-| "Where do I find the payload for this exploitation step?" | `security-arsenal` |
-| "Where do I find recon probes for this asset class?" | `offensive-osint` |
-
----
-
-## Notes on usage
-
-This skill is small and focused. It does NOT duplicate content from `report-writing` (per-platform templates, CVSS scoring, downgrade counters, 60-second pre-submit checklist) — load both skills together when filing a Bugcrowd report. The two skills' content composes naturally because their boundaries are clean: `report-writing` is the body templates, `bugcrowd-reporting` is the program-specific tactics layered on top.
-
----
-
-## Related Skills & Chains
-
-- **`report-writing`** — Always load this skill alongside `bugcrowd-reporting`. Workflow primitive: `report-writing` provides the body skeleton; this skill layers VRT selection + severity-request paragraph + OOS-clause rebuttals on top of that skeleton.
-- **`triage-validation`** — When deciding if a Bugcrowd-bound finding will pass triage. Workflow primitive: 7Q gate runs first; only validated findings reach this skill for VRT mapping.
-- **`evidence-hygiene`** — When attaching screenshots / HARs to a Bugcrowd submission. Workflow primitive: Bugcrowd's private attachment system requires redacted evidence; route everything through `evidence-hygiene` before clicking attach.
-- **`security-arsenal`** — When the PoC step needs payloads cited verbatim. Workflow primitive: the "Steps to Reproduce" section in this skill's report bodies pulls exact payloads from `security-arsenal` so the triager can paste-and-run.
-- **`bb-methodology`** — When confirming engagement mode is bug-bounty (not red-team). Workflow primitive: PART 0 of `bb-methodology` answers "bug bounty?"; if yes AND the target is Bugcrowd, this skill becomes the reporting overlay.
-
-## When to Use
-
-- You need this skill's process guidance (reporting format, evidence handling, detection notes, or scope triage) during an authorized engagement.
-- No active probing is involved in this step.
-
-## Limitations
-
-- Process guidance only; it does not authorize probing or exploitation — those steps need their own authorized skill and confirmation gate.
-- Docs-only import: upstream templates, commands, and research assets are not bundled.
-
-### Example
-
-```markdown
-Apply this skill's checklist to the current engagement notes and report gaps.
-```
-
-> Adapted from [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) (MIT); frontmatter, When to Use/Limitations, and safety boundaries added for upstream compliance. Docs-only import: executable helpers, commands, engine, and research assets not bundled.
+<!-- Truncated for OpenGAP token limits -->

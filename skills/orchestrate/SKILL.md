@@ -1,19 +1,21 @@
 ---
 name: orchestrate
-description: "Coordinate focused subagents on substantial work, keep their ownership non-overlapping, and integrate verified results. Use for large-scope Codex tasks; keep trivial work with the coordinator."
-category: agent-orchestration
-risk: safe
-source: https://github.com/provencher/codex-skills/tree/8aa6c42b73781c905c55f8a1253a18127079ac21/orchestrate
-source_repo: provencher/codex-skills
-source_type: community
-date_added: "2026-07-26"
-author: provencher
-tags: [codex, orchestration, multi-agent, delegation, subagents]
-tools: [codex]
+description: Coordinate focused subagents on substantial work, keep their ownership
+  non-overlapping, and integrate verified results. Use for large-scope Codex tasks;
+  keep trivial work with the coordinator.
 license: MIT
-license_source: https://github.com/provencher/codex-skills/blob/8aa6c42b73781c905c55f8a1253a18127079ac21/LICENSE
+metadata:
+  category: agent-orchestration
+  risk: safe
+  source: https://github.com/provencher/codex-skills/tree/8aa6c42b73781c905c55f8a1253a18127079ac21/orchestrate
+  source_repo: provencher/codex-skills
+  source_type: community
+  date_added: '2026-07-26'
+  author: provencher
+  tags: '[''codex'', ''orchestration'', ''multi-agent'', ''delegation'', ''subagents'']'
+  tools: '[''codex'']'
+  license_source: https://github.com/provencher/codex-skills/blob/8aa6c42b73781c905c55f8a1253a18127079ac21/LICENSE
 ---
-
 # Orchestrate
 
 Coordinate substantial work across focused subagents while remaining available

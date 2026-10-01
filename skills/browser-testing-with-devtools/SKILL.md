@@ -1,19 +1,20 @@
 ---
 name: browser-testing-with-devtools
-description: "Test browser apps with Chrome DevTools MCP by inspecting live DOM, console logs, network traffic, screenshots, accessibility, and performance traces."
-category: testing
-risk: critical
-source: community
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: "2026-06-29"
-author: Addy Osmani
-tags: [browser-testing, chrome-devtools, mcp, frontend, performance]
-tools: [chrome-devtools-mcp, chrome, playwright]
-license: "MIT"
-license_source: "https://github.com/addyosmani/agent-skills/blob/main/LICENSE"
+description: Test browser apps with Chrome DevTools MCP by inspecting live DOM, console
+  logs, network traffic, screenshots, accessibility, and performance traces.
+license: MIT
+metadata:
+  category: testing
+  risk: critical
+  source: community
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-06-29'
+  author: Addy Osmani
+  tags: '[''browser-testing'', ''chrome-devtools'', ''mcp'', ''frontend'', ''performance'']'
+  tools: '[''chrome-devtools-mcp'', ''chrome'', ''playwright'']'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Browser Testing with DevTools
 
 ## Overview

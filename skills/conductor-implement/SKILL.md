@@ -1,11 +1,12 @@
 ---
 name: conductor-implement
-description: "Execute tasks from a track's implementation plan following TDD workflow"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Execute tasks from a track's implementation plan following TDD workflow
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Implement Track
 
 Execute tasks from a track's implementation plan, following the workflow rules defined in `conductor/workflow.md`.

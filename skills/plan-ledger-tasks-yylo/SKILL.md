@@ -2,21 +2,21 @@
 name: plan-ledger-tasks-yylo
 description: Create a concise Product Development Requirement and one or more implementation-sized
   YYLO Ledger tasks when the user explicitly asks to plan or register work.
-category: project-management
-risk: safe
-source: https://github.com/yylo-dev/yylo-skills
-source_repo: yylo-dev/yylo-skills
-source_type: community
-date_added: '2026-09-19'
 license: MIT
-license_source: https://github.com/yylo-dev/yylo-skills/blob/main/LICENSE
 compatibility: Requires the `yy` CLI with the `ledger` and `artifact` groups installed.
   Planning only - implementation, worktrees, push, deploy and production mutation
   need a separate explicit request.
-argument-hint: '[Required Features] [Constraints] [Acceptance Criteria]'
-enable-shell-directives: true
+metadata:
+  category: project-management
+  risk: safe
+  source: https://github.com/yylo-dev/yylo-skills
+  source_repo: yylo-dev/yylo-skills
+  source_type: community
+  date_added: '2026-09-19'
+  license_source: https://github.com/yylo-dev/yylo-skills/blob/main/LICENSE
+  argument-hint: '[Required Features] [Constraints] [Acceptance Criteria]'
+  enable-shell-directives: 'True'
 ---
-
 # Plan Kanban work
 
 1. Read the project instructions and relevant product code from the integration or feature worktree. Read existing task/spec metadata through the canonical controller; do not assume `.juno_task/plan.md` exists.

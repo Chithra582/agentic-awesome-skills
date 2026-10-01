@@ -1,11 +1,13 @@
 ---
 name: android-dev
-description: "Production-grade Android app development guide covering native (Kotlin/Java), cross-platform (Flutter, RN, KMM), and hybrid architectures."
-risk: safe
-source: community
-date_added: "2026-06-08"
+description: Production-grade Android app development guide covering native (Kotlin/Java),
+  cross-platform (Flutter, RN, KMM), and hybrid architectures.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-06-08'
+license: MIT
 ---
-
 # Android App Development Skill
 
 ## Detailed Guide

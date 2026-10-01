@@ -2,30 +2,24 @@
 name: geo-platform-optimizer
 description: Platform-specific AI search optimization — audit and optimize for Google
   AI Overviews, ChatGPT, Perplexity, Gemini, and Bing Copilot individually
-category: seo
-risk: safe
-source: https://github.com/zubair-trabzada/geo-seo-claude
-source_repo: zubair-trabzada/geo-seo-claude
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/zubair-trabzada/geo-seo-claude/blob/main/LICENSE
 compatibility: Docs-only; upstream helper scripts and templates are not bundled. Site
   audits need network access to the target site; PDF reports need pandoc and headless
   Chrome.
-version: 1.0.0
-author: geo-seo-claude
-tags:
-- geo
-- ai-search
-- platform-optimization
-- chatgpt
-- perplexity
-- gemini
-- aio
 allowed-tools: Read, Grep, Glob, Bash, WebFetch, Write
+metadata:
+  category: seo
+  risk: safe
+  source: https://github.com/zubair-trabzada/geo-seo-claude
+  source_repo: zubair-trabzada/geo-seo-claude
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/zubair-trabzada/geo-seo-claude/blob/main/LICENSE
+  version: 1.0.0
+  author: geo-seo-claude
+  tags: '[''geo'', ''ai-search'', ''platform-optimization'', ''chatgpt'', ''perplexity'',
+    ''gemini'', ''aio'']'
 ---
-
 # GEO Platform Optimizer
 
 ## Core Insight
@@ -273,42 +267,6 @@ Date: [Date]
 |---|---|---|
 | Google AI Overviews | XX/100 | [Strong/Moderate/Weak] |
 | ChatGPT Web Search | XX/100 | [Strong/Moderate/Weak] |
-| Perplexity AI | XX/100 | [Strong/Moderate/Weak] |
-| Google Gemini | XX/100 | [Strong/Moderate/Weak] |
-| Bing Copilot | XX/100 | [Strong/Moderate/Weak] |
+| Perplexity AI | XX/100 |
 
-Status thresholds: Strong = 70+, Moderate = 40-69, Weak = 0-39
-
-## Platform Details
-[Per-platform breakdown with score, gaps found, specific actions]
-
-## Prioritized Action Plan
-### Quick Wins (this week)
-[Actions that improve multiple platform scores with minimal effort]
-
-### Medium-Term (this month)
-[Actions requiring content creation or technical changes]
-
-### Strategic (this quarter)
-[Actions requiring entity building, community development, or platform presence]
-```
-
-## When to Use
-
-- You need a Generative Engine Optimization task for a website: audit, citability, crawlers, schema, llms.txt, content, platform tuning, or client reporting.
-- Run read-only analysis first; propose site changes before making any.
-
-## Limitations
-
-- Audits are read-only analysis; never publish, deploy, or modify the target site without explicit approval.
-- Scores and citation likelihoods are heuristics, not guarantees from AI search platforms.
-- Docs-only import: upstream scripts, agents, hooks, and schema templates are not bundled.
-
-### Example
-
-```bash
-curl -s https://example.com/robots.txt
-curl -s https://example.com/llms.txt
-```
-
-> Adapted from [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) (MIT); frontmatter, When to Use/Limitations, and safety boundaries added for upstream compliance. Docs-only import: upstream runtime helpers not bundled.
+<!-- Truncated for OpenGAP token limits -->

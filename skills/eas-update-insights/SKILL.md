@@ -1,15 +1,17 @@
 ---
 name: eas-update-insights
-description: "Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel."
-risk: critical
-source: https://github.com/expo/skills/tree/main/plugins/expo/skills/eas-update-insights
-source_repo: expo/skills
-source_type: official
-date_added: 2026-07-01
+description: 'Check the health of published EAS Updates: crash rates, install/launch
+  counts, unique users, payload size, and the split between embedded and OTA users
+  per channel.'
 license: MIT
-license_source: https://github.com/expo/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/expo/skills/tree/main/plugins/expo/skills/eas-update-insights
+  source_repo: expo/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/expo/skills/blob/main/LICENSE
 ---
-
 # EAS Update Insights
 
 Query the health of published EAS Updates directly from the CLI: launches, failed launches, crash rates, unique users, payload size, the embedded-vs-OTA user split per channel, and the most popular updates per runtime version. The data is the same data that powers the update and channel detail pages on expo.dev; these commands expose it in the terminal in human and JSON form.

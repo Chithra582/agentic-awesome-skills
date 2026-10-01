@@ -1,16 +1,18 @@
 ---
 name: atlas-cloud-media
-description: "Generate Atlas Cloud images and videos through its asynchronous media API with schema-first model selection and credential-safe polling."
-category: media
-risk: critical
-source: self
-source_type: self
-date_added: "2026-08-12"
-author: binyangzhu000-sudo
-tags: [atlas-cloud, image-generation, video-generation, media-api]
-tools: [claude, codex, cursor, gemini]
+description: Generate Atlas Cloud images and videos through its asynchronous media
+  API with schema-first model selection and credential-safe polling.
+metadata:
+  category: media
+  risk: critical
+  source: self
+  source_type: self
+  date_added: '2026-08-12'
+  author: binyangzhu000-sudo
+  tags: '[''atlas-cloud'', ''image-generation'', ''video-generation'', ''media-api'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # Atlas Cloud Media
 
 ## Overview

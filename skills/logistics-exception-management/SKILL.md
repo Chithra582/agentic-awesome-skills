@@ -1,11 +1,14 @@
 ---
 name: logistics-exception-management
-description: Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes. Informed by logistics professionals with 15+ years operational experience.
-risk: safe
-source: https://github.com/ai-evos/agent-skills
-date_added: '2026-02-27'
+description: Codified expertise for handling freight exceptions, shipment delays,
+  damages, losses, and carrier disputes. Informed by logistics professionals with
+  15+ years operational experience.
+metadata:
+  risk: safe
+  source: https://github.com/ai-evos/agent-skills
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## When to Use
 Use this skill when dealing with deviations from planned logistics operations, such as transit delays, damaged shipments, lost cargo, or when initiating and managing claims and disputes with freight carriers.
 

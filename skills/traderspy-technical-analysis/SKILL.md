@@ -1,19 +1,21 @@
 ---
 name: traderspy-technical-analysis
-description: "Read one crypto futures pair with TraderSpy: 19 indicators on up to 3 timeframes in one call, key levels, funding, open interest and positioning. Use for \"analyse BTC\" or \"is SOL oversold\"."
-category: finance
-risk: safe
-source: "https://github.com/target1m/traderspy-mcp/tree/069aae5a84640d671f92705a2e3bc0b62efca1e0/skills/technical-analysis"
-source_repo: target1m/traderspy-mcp
-source_type: official
-date_added: "2026-09-25"
-author: target1m
-tags: [traderspy, crypto, technical-analysis, indicators, mcp]
-tools: [claude, cursor, gemini]
+description: 'Read one crypto futures pair with TraderSpy: 19 indicators on up to
+  3 timeframes in one call, key levels, funding, open interest and positioning. Use
+  for "analyse BTC" or "is SOL oversold".'
 license: MIT
-license_source: "https://github.com/target1m/traderspy-mcp/blob/069aae5a84640d671f92705a2e3bc0b62efca1e0/LICENSE"
+metadata:
+  category: finance
+  risk: safe
+  source: https://github.com/target1m/traderspy-mcp/tree/069aae5a84640d671f92705a2e3bc0b62efca1e0/skills/technical-analysis
+  source_repo: target1m/traderspy-mcp
+  source_type: official
+  date_added: '2026-09-25'
+  author: target1m
+  tags: '[''traderspy'', ''crypto'', ''technical-analysis'', ''indicators'', ''mcp'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/target1m/traderspy-mcp/blob/069aae5a84640d671f92705a2e3bc0b62efca1e0/LICENSE
 ---
-
 # TraderSpy Technical Analysis
 
 One good read of a chart is three things in order: where price is in its structure (trend and

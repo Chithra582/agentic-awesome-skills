@@ -1,15 +1,16 @@
 ---
 name: neon-object-storage
-description: "S3-compatible object storage that branches with your Neon project, so files and the database stay in sync across every branch."
-risk: critical
-source: https://github.com/neondatabase/agent-skills/tree/main/skills/neon-object-storage
-source_repo: neondatabase/agent-skills
-source_type: official
-date_added: 2026-07-01
+description: S3-compatible object storage that branches with your Neon project, so
+  files and the database stay in sync across every branch.
 license: Apache-2.0
-license_source: https://github.com/neondatabase/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/neondatabase/agent-skills/tree/main/skills/neon-object-storage
+  source_repo: neondatabase/agent-skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/neondatabase/agent-skills/blob/main/LICENSE
 ---
-
 # Neon Object Storage
 
 This is a preview feature and only available in `us-east-2`. Neon Object Storage is S3-compatible object storage that branches with your projects: every branch gets its own isolated storage state, so files and database rows stay in sync across dev, preview, staging, and production.

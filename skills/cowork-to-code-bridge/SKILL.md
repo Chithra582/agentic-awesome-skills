@@ -1,15 +1,17 @@
 ---
 name: cowork-to-code-bridge
-description: "Use an already-installed, independently verified cowork-to-code bridge to run narrowly approved actions on the user's own macOS, Linux, or WSL2 machine through a local file queue."
-risk: critical
-source: https://github.com/abhinaykrupa/cowork-to-code-bridge/tree/97f515d425df587c281effb02cda9ad0fd470790
-source_repo: abhinaykrupa/cowork-to-code-bridge
-source_type: community
+description: Use an already-installed, independently verified cowork-to-code bridge
+  to run narrowly approved actions on the user's own macOS, Linux, or WSL2 machine
+  through a local file queue.
 license: MIT
-license_source: https://github.com/abhinaykrupa/cowork-to-code-bridge/blob/97f515d425df587c281effb02cda9ad0fd470790/LICENSE
-date_added: "2026-07-30"
+metadata:
+  risk: critical
+  source: https://github.com/abhinaykrupa/cowork-to-code-bridge/tree/97f515d425df587c281effb02cda9ad0fd470790
+  source_repo: abhinaykrupa/cowork-to-code-bridge
+  source_type: community
+  license_source: https://github.com/abhinaykrupa/cowork-to-code-bridge/blob/97f515d425df587c281effb02cda9ad0fd470790/LICENSE
+  date_added: '2026-07-30'
 ---
-
 # cowork-to-code-bridge
 
 Use this skill only when the user explicitly asks to operate on a machine they

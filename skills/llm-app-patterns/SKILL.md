@@ -1,11 +1,13 @@
 ---
 name: llm-app-patterns
-description: "Architecture and integration sketches for LLM applications, with explicit retrieval, tool, privacy and verification boundaries."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Architecture and integration sketches for LLM applications, with explicit
+  retrieval, tool, privacy and verification boundaries.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # 🤖 LLM Application Patterns
 
 > Architecture and integration sketches for LLM applications, with explicit retrieval, tool, privacy and verification boundaries.

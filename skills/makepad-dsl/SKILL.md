@@ -1,15 +1,15 @@
 ---
 name: makepad-dsl
-description: |
-  CRITICAL: Use for Makepad DSL syntax and inheritance. Triggers on:
-  makepad dsl, live_design, makepad inheritance, makepad prototype,
-  "<Widget>", "Foo = { }", makepad object, makepad property,
-  makepad DSL 语法, makepad 继承, makepad 原型, 如何定义 makepad 组件
-risk: safe
-source: community
-date_added: "2026-09-04"
+description: 'CRITICAL: Use for Makepad DSL syntax and inheritance. Triggers on: makepad
+  dsl, live_design, makepad inheritance, makepad prototype, "<Widget>", "Foo = { }",
+  makepad object, makepad property, makepad DSL 语法, makepad 继承, makepad 原型, 如何定义 makepad
+  组件'
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Makepad DSL Skill
 
 > **Version:** makepad-widgets (dev branch) | **Last Updated:** 2026-01-19

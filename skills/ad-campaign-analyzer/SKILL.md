@@ -1,19 +1,20 @@
 ---
 name: ad-campaign-analyzer
-description: "Analyze cross-channel campaign data, quantify uncertainty, and propose evidence-labeled budget tests without overstating causality."
-category: marketing
-risk: critical
-source: community
-source_repo: gooseworks-ai/goose-skills
-source_type: community
-date_added: "2026-07-16"
-author: gooseworks-ai
-tags: [ads, analytics, budget-optimization, roas, marketing]
-tools: [claude, cursor, gemini, codex]
-license: "MIT"
-license_source: "https://github.com/gooseworks-ai/goose-skills/blob/main/LICENSE"
+description: Analyze cross-channel campaign data, quantify uncertainty, and propose
+  evidence-labeled budget tests without overstating causality.
+license: MIT
+metadata:
+  category: marketing
+  risk: critical
+  source: community
+  source_repo: gooseworks-ai/goose-skills
+  source_type: community
+  date_added: '2026-07-16'
+  author: gooseworks-ai
+  tags: '[''ads'', ''analytics'', ''budget-optimization'', ''roas'', ''marketing'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/gooseworks-ai/goose-skills/blob/main/LICENSE
 ---
-
 # Ad Campaign Analyzer
 
 ## Overview

@@ -1,11 +1,13 @@
 ---
 name: programmatic-seo
-description: Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data.
-risk: none
-source: community
-date_added: '2026-02-27'
+description: Design and evaluate programmatic SEO strategies for creating SEO-driven
+  pages at scale using templates and structured data.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ---
 
 # Programmatic SEO

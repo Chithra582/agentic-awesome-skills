@@ -1,17 +1,17 @@
 ---
 name: favicon
-argument-hint: [path to source image]
 description: Generate favicons from a source image
 allowed-tools: Bash(magick *), Bash(which *), Bash(cp *), Bash(mkdir *)
-context: fork
-risk: critical
-source: community
-date_added: "2026-09-04"
 metadata:
   author: Shpigford
-  version: "1.0"
+  version: '1.0'
+  argument-hint: '[''path to source image'']'
+  context: fork
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 Generate a complete set of favicons from the source image at `$1` and update the project's HTML with the appropriate link tags.
 
 ## When to Use

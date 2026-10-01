@@ -1,11 +1,15 @@
 ---
 name: variant-analysis
-description: Find similar vulnerabilities and bugs across codebases using pattern-based analysis. Use when hunting bug variants, building CodeQL/Semgrep queries, analyzing security vulnerabilities, or performing systematic code audits after finding an initial issue.
-risk: offensive
-source: community
-date_added: "2026-09-04"
+description: Find similar vulnerabilities and bugs across codebases using pattern-based
+  analysis. Use when hunting bug variants, building CodeQL/Semgrep queries, analyzing
+  security vulnerabilities, or performing systematic code audits after finding an
+  initial issue.
+metadata:
+  risk: offensive
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

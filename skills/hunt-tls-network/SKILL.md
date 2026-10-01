@@ -1,19 +1,20 @@
 ---
 name: hunt-tls-network
 description: Hunt TLS/SSL and DNS misconfigurations
-category: security
-risk: offensive
-source: https://github.com/elementalsouls/Claude-BugHunter
-source_repo: elementalsouls/Claude-BugHunter
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
 compatibility: Requires explicit written authorization for a target scope plus the
   relevant testing tools for this technique. Docs-only; helper scripts and commands
   not bundled.
-report_count: 6
-sources: portswigger_research, ssl_labs_research, hstspreload_org
+metadata:
+  category: security
+  risk: offensive
+  source: https://github.com/elementalsouls/Claude-BugHunter
+  source_repo: elementalsouls/Claude-BugHunter
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
+  report_count: '6'
+  sources: portswigger_research, ssl_labs_research, hstspreload_org
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
@@ -332,68 +333,6 @@ Severities below are calibrated to what triage actually accepts. They are delibe
 | AXFR returning internal hosts/IPs | **Medium** | Recon value; pairs with internal-service findings |
 | Spoofable DMARC, **delivered to a real inbox** (PoC headers) | **Medium** | Often OOS — check scope; Inbox (not Spam) + delivered required. *Reading `p=none` from `dig` alone = Info, do not file* |
 | Heartbleed / live memory leak with captured secrets | **High–Critical** | Only with an actual dump containing keys/cookies |
-| Missing HSTS on auth subdomain | **Low / Info** | NOT High — exploitation needs an active MitM position you cannot demonstrate remotely; report only with a working downgrade-capture PoC |
-| Weak cipher *support* (RC4/3DES/SWEET32) with no decrypt PoC | **Info / Low** | Hardening only; frequently OOS |
-| Missing CAA | **Info (do not file)** | Absence does not enable issuance; not attacker-demonstrable |
+| Missing HSTS on auth subdomain | **Low / Info** | NOT High — exploitation needs an 
 
----
-
-## Tools
-
-```bash
-# testssl.sh — comprehensive TLS audit
-brew install testssl
-testssl.sh $TARGET
-
-# sslyze — Python TLS scanner
-pip3 install sslyze
-
-# MXToolbox for email security
-curl -s "https://mxtoolbox.com/api/v1/Lookup/spf?argument=$TARGET" 2>/dev/null
-
-# dmarc-inspector
-curl -s "https://dmarcian.com/dmarc-inspector/?domain=$TARGET" 2>/dev/null
-```
-
----
-
-## Validation
-
-Each finding ships only with the proof listed — never the `dig`/header output alone.
-
-- **Subdomain takeover:** you registered the dangling resource and served a unique canary over `https://sub.target.com/` with valid TLS. Screenshot + canary string. (Tear down after.)
-- **mTLS bypass:** spoofed client-verify header returns *privileged* data/action that the cert-required path otherwise denies. Burp request/response pair.
-- **AXFR:** zone transfer returns internal hostnames/IPs from an authoritative NS. Full transcript.
-- **DMARC spoof:** swaks-sent mail with `From: @target.com` **delivered to a real Inbox** (not Spam), raw `Authentication-Results` headers attached. A bounce or Spam landing = no finding.
-- **HSTS missing:** only reportable with a working downgrade PoC capturing a victim cookie over plaintext — otherwise it is best-practice noise.
-
-**Severity (conservative — matches the Chain Table):**
-- Subdomain takeover (claimed): High (Critical at OAuth/SSO redirect or shared session cookie)
-- mTLS bypass to authed functionality: High
-- AXFR returning internal hosts: Medium
-- DMARC spoof delivered-to-inbox: Medium (often OOS — verify scope)
-- HSTS missing on auth (with downgrade PoC): Low–Medium; without PoC: Info
-- Weak cipher support without decrypt PoC: Info–Low
-- Missing security headers / missing CAA only: Info (usually do not file)
-
-**Pre-submission scope gate:** before filing ANY item here, confirm the program does not list it as out of scope (email-auth, missing-headers, weak-TLS-without-exploit, and CAA are commonly OOS). Quote the in-scope line in your report.
-
-## When to Use
-
-- You have explicit, written authorization to assess the target in scope, and the task matches this skill's vulnerability class or technique within a bug-bounty or penetration-test engagement.
-- You need the recon, exploitation, or validation workflow described below — executed strictly inside the approved scope.
-
-## Limitations
-
-- Authorized scope only: the confirmation gate above is mandatory before any probing, exploitation, or credential-access command.
-- Docs-only import: upstream helper scripts, commands, engine, and research assets are not bundled; reinstall tooling from the source repo when needed.
-- Validate every finding (see `triage-validation`) before reporting; report via `report-writing`. Prefer a sandbox, disposable VM, or controlled lab.
-
-### Example
-
-```bash
-# Read-only first step; confirm scope before anything active.
-cat scope.txt  # target list from the authorized engagement brief
-```
-
-> Adapted from [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) (MIT); frontmatter, When to Use/Limitations, and safety boundaries added for upstream compliance. Docs-only import: executable helpers, commands, engine, and research assets not bundled.
+<!-- Truncated for OpenGAP token limits -->

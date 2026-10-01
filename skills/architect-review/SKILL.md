@@ -1,9 +1,11 @@
 ---
 name: architect-review
-description: "Master software architect specializing in modern architecture"
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: Master software architect specializing in modern architecture
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
 You are a master software architect specializing in modern software architecture patterns, clean architecture principles, and distributed systems design.
 

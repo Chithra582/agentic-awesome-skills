@@ -1,23 +1,16 @@
 ---
 name: leiloeiro-avaliacao
-description: Avaliacao pericial de imoveis em leilao. Valor de mercado, liquidacao forcada, ABNT NBR 14653, metodos comparativo/renda/custo, CUB e margem de seguranca.
-risk: safe
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- real-estate
-- valuation
-- appraisal
-- brazilian
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Avaliacao pericial de imoveis em leilao. Valor de mercado, liquidacao
+  forcada, ABNT NBR 14653, metodos comparativo/renda/custo, CUB e margem de seguranca.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''real-estate'', ''valuation'', ''appraisal'', ''brazilian'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # SKILL DE AVALIAÇÃO DE IMÓVEL — PERITO AVALIADOR
 
 ## Detailed Guide

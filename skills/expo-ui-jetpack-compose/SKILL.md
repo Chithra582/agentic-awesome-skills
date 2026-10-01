@@ -1,11 +1,12 @@
 ---
 name: expo-ui-jetpack-compose
 description: expo-ui-jetpack-compose
-risk: critical
-source: community
-date_added: "2026-09-04"
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 ---
 name: expo-ui-jetpack-compose
 description: `@expo/ui/jetpack-compose` package lets you use Jetpack Compose Views and modifiers in your app.

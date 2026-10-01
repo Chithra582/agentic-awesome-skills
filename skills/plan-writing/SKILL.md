@@ -1,11 +1,13 @@
 ---
 name: plan-writing
-description: "Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Structured task planning with clear breakdowns, dependencies, and verification
+  criteria. Use when implementing features, refactoring, or any multi-step work.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Plan Writing
 
 > Source: obra/superpowers

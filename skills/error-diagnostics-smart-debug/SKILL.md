@@ -1,11 +1,12 @@
 ---
 name: error-diagnostics-smart-debug
-description: "Use when working with error diagnostics smart debug"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Use when working with error diagnostics smart debug
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on error diagnostics smart debug tasks or workflows

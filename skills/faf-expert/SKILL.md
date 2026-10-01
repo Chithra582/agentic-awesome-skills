@@ -1,17 +1,19 @@
 ---
 name: faf-expert
-description: "Advanced .faf (Foundational AI-context Format) specialist. IANA-registered format, MCP server config, championship scoring, bi-directional sync."
-category: coding
-risk: safe
-source: community
-source_repo: Wolfe-Jam/faf-skills
-source_type: community
-date_added: "2026-04-07"
-author: wolfejam
-tags: [faf, ai-context, project-management, mcp, iana]
-tools: [claude, cursor, gemini, windsurf]
+description: Advanced .faf (Foundational AI-context Format) specialist. IANA-registered
+  format, MCP server config, championship scoring, bi-directional sync.
+metadata:
+  category: coding
+  risk: safe
+  source: community
+  source_repo: Wolfe-Jam/faf-skills
+  source_type: community
+  date_added: '2026-04-07'
+  author: wolfejam
+  tags: '[''faf'', ''ai-context'', ''project-management'', ''mcp'', ''iana'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''windsurf'']'
+license: MIT
 ---
-
 # FAF Expert - Advanced AI Context Architecture
 
 **Master the IANA-registered format that makes AI understand your projects.**

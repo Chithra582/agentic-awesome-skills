@@ -1,11 +1,14 @@
 ---
 name: evaluation
-description: "Build evaluation frameworks for agent systems. Use when testing agent performance systematically, validating context engineering choices, or measuring improvements over time."
-risk: safe
-source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation"
-date_added: "2026-02-27"
+description: Build evaluation frameworks for agent systems. Use when testing agent
+  performance systematically, validating context engineering choices, or measuring
+  improvements over time.
+metadata:
+  risk: safe
+  source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## When to Use This Skill
 
 Build evaluation frameworks for agent systems

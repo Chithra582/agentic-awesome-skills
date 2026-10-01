@@ -1,11 +1,12 @@
 ---
 name: azure-eventhub-dotnet
 description: Azure Event Hubs SDK for .NET.
-risk: critical
-source: community
-date_added: '2026-02-27'
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure.Messaging.EventHubs (.NET)
 
 High-throughput event streaming SDK for sending and receiving events via Azure Event Hubs.

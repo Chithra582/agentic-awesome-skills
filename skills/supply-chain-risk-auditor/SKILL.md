@@ -1,17 +1,15 @@
 ---
 name: supply-chain-risk-auditor
-description: "Identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements."
-allowed-tools:
-  - Read
-  - Write
-  - Bash
-  - Glob
-  - Grep
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Identifies dependencies at heightened risk of exploitation or takeover.
+  Use when assessing supply chain attack surface, evaluating dependency health, or
+  scoping security engagements.
+allowed-tools: Read Write Bash Glob Grep
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Supply Chain Risk Auditor
 
 Activates when the user says "audit this project's dependencies".

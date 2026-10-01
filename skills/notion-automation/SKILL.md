@@ -1,11 +1,13 @@
 ---
 name: notion-automation
-description: "Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: 'Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks,
+  comments, users. Always search tools first for current schemas.'
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Notion Automation via Rube MCP
 
 Automate Notion operations through Composio's Notion toolkit via Rube MCP.

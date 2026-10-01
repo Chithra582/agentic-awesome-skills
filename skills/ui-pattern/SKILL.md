@@ -1,15 +1,16 @@
 ---
 name: ui-pattern
-description: Generate a composed UI pattern (card layout, list, form section, grid, etc.) using design system primitives
-risk: critical
-source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-pattern
-source_repo: bitjaru/styleseed
-source_type: community
-date_added: 2026-07-01
+description: Generate a composed UI pattern (card layout, list, form section, grid,
+  etc.) using design system primitives
 license: MIT
-license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-pattern
+  source_repo: bitjaru/styleseed
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
 ---
-
 # UI Pattern Generator
 ## When to Use
 

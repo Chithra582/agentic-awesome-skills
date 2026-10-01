@@ -1,20 +1,21 @@
 ---
 name: codex-subagent
-description: "Launch Codex CLI as an isolated subagent for bounded coding, review, or verification tasks."
-category: agent-orchestration
-risk: critical
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [codex, subagents, delegation]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
-disable-model-invocation: true
+description: Launch Codex CLI as an isolated subagent for bounded coding, review,
+  or verification tasks.
+license: MIT
+metadata:
+  category: agent-orchestration
+  risk: critical
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''codex'', ''subagents'', ''delegation'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
+  disable-model-invocation: 'True'
 ---
-
 # Codex CLI as a Subagent
 
 ## When to Use

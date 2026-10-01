@@ -1,11 +1,13 @@
 ---
 name: customer-support
-description: Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Elite AI-powered customer support specialist mastering conversational
+  AI, automated ticketing, sentiment analysis, and omnichannel support experiences.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on customer support tasks or workflows

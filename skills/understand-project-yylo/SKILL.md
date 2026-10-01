@@ -2,20 +2,20 @@
 name: understand-project-yylo
 description: Inspect the current product architecture, dependencies, and validation
   loops before planning or implementing a requested change.
-category: project-management
-risk: safe
-source: https://github.com/yylo-dev/yylo-skills
-source_repo: yylo-dev/yylo-skills
-source_type: community
-date_added: '2026-09-19'
 license: MIT
-license_source: https://github.com/yylo-dev/yylo-skills/blob/main/LICENSE
 compatibility: Requires read access to the product worktree and the `yy` CLI for task/spec
   reads through the canonical controller. Read-only inspection; no mutations.
-argument-hint: '[Main Task] [Constraints] [Ultimate Goal]'
-enable-shell-directives: true
+metadata:
+  category: project-management
+  risk: safe
+  source: https://github.com/yylo-dev/yylo-skills
+  source_repo: yylo-dev/yylo-skills
+  source_type: community
+  date_added: '2026-09-19'
+  license_source: https://github.com/yylo-dev/yylo-skills/blob/main/LICENSE
+  argument-hint: '[Main Task] [Constraints] [Ultimate Goal]'
+  enable-shell-directives: 'True'
 ---
-
 # Understand the project
 
 1. Read `AGENTS.md`/`CLAUDE.md`, repository status, relevant source, tests, and existing product documentation in the integration or assigned feature worktree.

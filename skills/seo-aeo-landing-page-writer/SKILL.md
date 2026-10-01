@@ -1,12 +1,13 @@
 ---
 name: seo-aeo-landing-page-writer
-description: "Writes or improves conversion-focused landing pages for products, services, and offers with practical SEO and AEO structure."
-risk: safe
-source: community
-date_added: "2026-04-01"
+description: Writes or improves conversion-focused landing pages for products, services,
+  and offers with practical SEO and AEO structure.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-04-01'
+license: MIT
 ---
-
-
 # Landing Page Writer Skill
 
 Write a publishable landing-page draft that helps the intended visitor understand the offer, trust it, and take the next step. Optimize for humans first, then make the page easy for search engines and answer engines to parse.

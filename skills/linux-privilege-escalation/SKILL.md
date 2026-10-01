@@ -1,12 +1,15 @@
 ---
 name: linux-privilege-escalation
-description: "Execute systematic privilege escalation assessments on Linux systems to identify and exploit misconfigurations, vulnerable services, and security weaknesses that allow elevation from low-privilege user access to root-level control."
-risk: offensive
-source: community
-author: zebbern
-date_added: "2026-02-27"
+description: Execute systematic privilege escalation assessments on Linux systems
+  to identify and exploit misconfigurations, vulnerable services, and security weaknesses
+  that allow elevation from low-privilege user access to root-level control.
+metadata:
+  risk: offensive
+  source: community
+  author: zebbern
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

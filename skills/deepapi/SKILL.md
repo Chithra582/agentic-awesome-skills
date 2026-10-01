@@ -1,20 +1,21 @@
 ---
 name: deepapi
-description: "Use DeepAPI for supported scraping, research, and email workflows with explicit credentials and approval."
-category: research
-risk: critical
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [deepapi, scraping, email, api]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
-version: b17ad5148ab7
+description: Use DeepAPI for supported scraping, research, and email workflows with
+  explicit credentials and approval.
+license: MIT
+metadata:
+  category: research
+  risk: critical
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''deepapi'', ''scraping'', ''email'', ''api'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
+  version: b17ad5148ab7
 ---
-
 # DeepAPI
 
 ## Detailed Guide

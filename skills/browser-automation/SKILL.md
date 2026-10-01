@@ -1,11 +1,13 @@
 ---
 name: browser-automation
-description: Build reliable browser checks using observed UI state, semantic locators, bounded waits, isolated test data and explicit outcome verification.
-risk: critical
-source: vibeship-spawner-skills (Apache 2.0)
-date_added: 2026-02-27
+description: Build reliable browser checks using observed UI state, semantic locators,
+  bounded waits, isolated test data and explicit outcome verification.
+metadata:
+  risk: critical
+  source: vibeship-spawner-skills (Apache 2.0)
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Browser Automation
 
 Use the browser tool already selected by the user or installed in the project. Playwright, Puppeteer and Selenium have different integrations; choose from actual requirements rather than unsupported success-rate claims. Modified by AAS maintainers on 2026-09-05: removed unverified comparisons and bypass defaults, clarified waiting and evidence limits.

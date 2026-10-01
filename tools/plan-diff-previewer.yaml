@@ -1,0 +1,16 @@
+name: "plan-diff-previewer"
+description: "Generates an inspectable plan diff detailing all proposed file changes before application."
+input_schema:
+  type: "object"
+  properties:
+    target_dir:
+      type: "string"
+      description: "Target workspace skill destination path."
+    selected_skills:
+      type: "array"
+      items:
+        type: "string"
+      description: "List of skill identifiers to install or update."
+  required:
+    - "target_dir"
+    - "selected_skills"

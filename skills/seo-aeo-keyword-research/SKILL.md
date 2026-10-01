@@ -1,11 +1,14 @@
 ---
 name: seo-aeo-keyword-research
-description: "Researches and prioritises keywords from the site context and live search intent, including problem queries, question queries, difficulty tiers, and a content map."
-risk: safe
-source: community
-date_added: "2026-04-01"
+description: Researches and prioritises keywords from the site context and live search
+  intent, including problem queries, question queries, difficulty tiers, and a content
+  map.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-04-01'
+license: MIT
 ---
-
 # Keyword Research Skill
 
 ## Description

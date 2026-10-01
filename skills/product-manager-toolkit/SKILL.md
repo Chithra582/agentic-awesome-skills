@@ -1,11 +1,13 @@
 ---
 name: product-manager-toolkit
-description: "Essential tools and frameworks for modern product management, from discovery to delivery."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Essential tools and frameworks for modern product management, from discovery
+  to delivery.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Product Manager Toolkit
 
 Essential tools and frameworks for modern product management, from discovery to delivery.

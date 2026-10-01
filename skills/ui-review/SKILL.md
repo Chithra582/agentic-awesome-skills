@@ -1,15 +1,16 @@
 ---
 name: ui-review
-description: Review UI code for design system compliance, accessibility, and best practices
-risk: safe
-source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-review
-source_repo: bitjaru/styleseed
-source_type: community
-date_added: 2026-07-01
+description: Review UI code for design system compliance, accessibility, and best
+  practices
 license: MIT
-license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
+metadata:
+  risk: safe
+  source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-review
+  source_repo: bitjaru/styleseed
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
 ---
-
 # UI Design Review
 ## When to Use
 

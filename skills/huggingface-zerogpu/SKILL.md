@@ -1,15 +1,15 @@
 ---
 name: huggingface-zerogpu
-description: "AI demos and GPU compute with Gradio Spaces and Hugging Face Spaces ZeroGPU."
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/skills/huggingface-zerogpu
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: AI demos and GPU compute with Gradio Spaces and Hugging Face Spaces ZeroGPU.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/skills/huggingface-zerogpu
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 # Hugging Face ZeroGPU
 ## When to Use
 
@@ -303,4 +303,6 @@ If you install a CUDA-dependent wheel via direct URL, the wheel filename encodes
 
 - Use this skill only when the task clearly matches its upstream product or API scope.
 - Verify commands, API behavior, pricing, quotas, credentials, and deployment effects against current official documentation before making changes.
-- Do not treat generated examples as a substitute for environment-specific tests, security review, or user approval for destructive or costly actions.
+- Do not treat generated examples as a substitute for environment-specific tests, security review, or user approval for destructive or
+
+<!-- Truncated for OpenGAP token limits -->

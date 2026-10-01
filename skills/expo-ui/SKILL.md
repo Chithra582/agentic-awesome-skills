@@ -1,15 +1,16 @@
 ---
 name: expo-ui
-description: "Build native UI with the @expo/ui package: real SwiftUI on iOS and Jetpack Compose on Android rendered from React in an Expo or React Native app."
-risk: critical
-source: https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-ui
-source_repo: expo/skills
-source_type: official
-date_added: 2026-07-01
+description: 'Build native UI with the @expo/ui package: real SwiftUI on iOS and Jetpack
+  Compose on Android rendered from React in an Expo or React Native app.'
 license: MIT
-license_source: https://github.com/expo/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-ui
+  source_repo: expo/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/expo/skills/blob/main/LICENSE
 ---
-
 # Expo UI (`@expo/ui`)
 ## When to Use
 

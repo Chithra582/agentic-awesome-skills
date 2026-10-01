@@ -1,11 +1,13 @@
 ---
 name: sred-work-summary
-description: Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects.
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Go back through the previous year of work and create a Notion doc that
+  groups relevant links into projects that can then be documented as SRED projects.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # SRED Work Summary
 
 Collect all the Github PRs, Notion docs and Linear tickets a person completed in a given year. Group the links from all of those into projects. Put everything into a private Notion document and return a link to that document.

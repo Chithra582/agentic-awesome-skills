@@ -1,15 +1,16 @@
 ---
 name: frontend-optimistic-mutations
-description: "A portable, framework-agnostic discipline for the write path of any React or React Native app using a query/cache layer."
-risk: critical
-source: https://github.com/stareezy-1/frontend-architecture-skill/tree/main/skills/frontend-optimistic-mutations
-source_repo: stareezy-1/frontend-architecture-skill
-source_type: community
-date_added: 2026-07-01
+description: A portable, framework-agnostic discipline for the write path of any React
+  or React Native app using a query/cache layer.
 license: MIT
-license_source: https://github.com/stareezy-1/frontend-architecture-skill/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/stareezy-1/frontend-architecture-skill/tree/main/skills/frontend-optimistic-mutations
+  source_repo: stareezy-1/frontend-architecture-skill
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/stareezy-1/frontend-architecture-skill/blob/main/LICENSE
 ---
-
 # Frontend Optimistic Mutations (the write path)
 ## When to Use
 

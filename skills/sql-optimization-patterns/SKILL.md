@@ -1,11 +1,13 @@
 ---
 name: sql-optimization-patterns
-description: "Diagnose slow SQL with query plans, preserve query results, and verify indexing or query changes against representative data."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Diagnose slow SQL with query plans, preserve query results, and verify
+  indexing or query changes against representative data.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # SQL Optimization Patterns
 
 Diagnose slow SQL with query plans, preserve query results, and verify indexing or query changes against representative data.

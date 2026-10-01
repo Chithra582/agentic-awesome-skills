@@ -1,13 +1,15 @@
 ---
-description: Curated upstream guidance for Eas Hosting; use when the workflow matches the user goal.
+description: Curated upstream guidance for Eas Hosting; use when the workflow matches
+  the user goal.
 name: eas-hosting
-version: 1.0.0
 license: MIT
-source_repo: expo/skills
-source_type: official
-source: expo
-date_added: '2026-09-21'
-risk: unknown
+metadata:
+  version: 1.0.0
+  source_repo: expo/skills
+  source_type: official
+  source: expo
+  date_added: '2026-09-21'
+  risk: unknown
 ---
 # EAS Hosting
 

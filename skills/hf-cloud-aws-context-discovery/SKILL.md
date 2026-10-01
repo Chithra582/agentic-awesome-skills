@@ -1,18 +1,19 @@
 ---
 name: hf-cloud-aws-context-discovery
-description: "Discover the effective local AWS profile, region, account, and caller identity before any AWS task without exposing credentials."
-risk: safe
-source: https://github.com/huggingface/skills/tree/main/skills/hf-cloud-aws-context-discovery
-source_repo: huggingface/skills
-source_type: official
-date_added: "2026-07-21"
-author: Hugging Face
+description: Discover the effective local AWS profile, region, account, and caller
+  identity before any AWS task without exposing credentials.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
-tags: [hugging-face, aws, credentials, discovery, cloud]
-tools: [claude, codex, cursor]
+metadata:
+  risk: safe
+  source: https://github.com/huggingface/skills/tree/main/skills/hf-cloud-aws-context-discovery
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-21'
+  author: Hugging Face
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+  tags: '[''hugging-face'', ''aws'', ''credentials'', ''discovery'', ''cloud'']'
+  tools: '[''claude'', ''codex'', ''cursor'']'
 ---
-
 # AWS Context Discovery
 
 Before doing any AWS work, inspect only masked AWS CLI metadata. Don't guess the region, and don't ask the user for things the CLI already answers. Never open or print `~/.aws/credentials`, credential-process output, secret environment variables, access keys, session tokens, or SSO token caches.

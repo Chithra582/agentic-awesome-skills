@@ -1,19 +1,22 @@
 ---
 name: nsfw-ai-spicyapi
-description: "Generate adult (18+) images, image-to-video clips and image edits through the SpicyAPI API, with a cost quote before every paid run and adults-only / consent rules."
-category: media
-risk: critical
-source: community
-source_repo: Spicy-API/nsfw-ai-skill
-source_type: official
-date_added: "2026-09-27"
-author: SpicyAPI
-tags: [image-generation, video-generation, image-to-video, adult-content, api]
-tools: [claude, codex, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/Spicy-API/nsfw-ai-skill/blob/main/LICENSE"
+description: Generate adult (18+) images, image-to-video clips and image edits through
+  the SpicyAPI API, with a cost quote before every paid run and adults-only / consent
+  rules.
+license: MIT
+metadata:
+  category: media
+  risk: critical
+  source: community
+  source_repo: Spicy-API/nsfw-ai-skill
+  source_type: official
+  date_added: '2026-09-27'
+  author: SpicyAPI
+  tags: '[''image-generation'', ''video-generation'', ''image-to-video'', ''adult-content'',
+    ''api'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/Spicy-API/nsfw-ai-skill/blob/main/LICENSE
 ---
-
 # NSFW AI (SpicyAPI)
 
 ## Overview

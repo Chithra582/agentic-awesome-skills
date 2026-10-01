@@ -1,11 +1,14 @@
 ---
 name: competitor-alternatives
-description: "You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: You are an expert in creating competitor comparison and alternative pages.
+  Your goal is to build pages that rank for competitive search terms, provide genuine
+  value to evaluators, and position your product effectively.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Competitor & Alternative Pages
 
 You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively.

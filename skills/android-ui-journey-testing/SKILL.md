@@ -1,16 +1,19 @@
 ---
 name: android-ui-journey-testing
-description: "XML-specified Android UI journey testing, interactive step execution, assertion verification, and JSON outcome reporting."
-category: testing
-risk: critical
-source: self
-source_type: self
-date_added: "2026-06-18"
-author: Owais
-tags: [android, journey-testing, ui-verification, testing, adb, automation]
-tools: [claude, cursor, gemini, antigravity]
+description: XML-specified Android UI journey testing, interactive step execution,
+  assertion verification, and JSON outcome reporting.
+metadata:
+  category: testing
+  risk: critical
+  source: self
+  source_type: self
+  date_added: '2026-06-18'
+  author: Owais
+  tags: '[''android'', ''journey-testing'', ''ui-verification'', ''testing'', ''adb'',
+    ''automation'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''antigravity'']'
+license: MIT
 ---
-
 # Android UI Journey Testing
 
 ## Overview

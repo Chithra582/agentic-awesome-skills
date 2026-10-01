@@ -1,19 +1,21 @@
 ---
 name: gemini-deep-research
-description: "Run autonomous multi-step research with Google's Gemini Deep Research Agent: kick off a query, poll progress, and collect a cited report for market analysis or literature reviews."
-category: research
-risk: critical
-source: https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research
-source_repo: sanjay3290/ai-skills
-source_type: community
-date_added: "2026-07-09"
-author: sanjay3290
-tags: [research, gemini, google, reports]
-tools: [claude, cursor, gemini]
-license: "Apache-2.0"
-license_source: "https://github.com/sanjay3290/ai-skills/blob/main/LICENSE"
+description: 'Run autonomous multi-step research with Google''s Gemini Deep Research
+  Agent: kick off a query, poll progress, and collect a cited report for market analysis
+  or literature reviews.'
+license: Apache-2.0
+metadata:
+  category: research
+  risk: critical
+  source: https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research
+  source_repo: sanjay3290/ai-skills
+  source_type: community
+  date_added: '2026-07-09'
+  author: sanjay3290
+  tags: '[''research'', ''gemini'', ''google'', ''reports'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/sanjay3290/ai-skills/blob/main/LICENSE
 ---
-
 # Gemini Deep Research Skill
 
 ## When to Use

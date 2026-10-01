@@ -1,19 +1,19 @@
 ---
 name: news-sentiment-engine
-description: Multi-source RSS news aggregation with Claude-powered sentiment analysis and structured briefing output
-category: research
-risk: critical
-source: community
-source_repo: tellmefrankie/news-engine
-source_type: community
-date_added: "2026-05-13"
-author: tellmefrankie
-tags: [news, rss, sentiment-analysis, briefing, research]
-tools: [claude, websearch]
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
+description: Multi-source RSS news aggregation with Claude-powered sentiment analysis
+  and structured briefing output
+metadata:
+  category: research
+  risk: critical
+  source: community
+  source_repo: tellmefrankie/news-engine
+  source_type: community
+  date_added: '2026-05-13'
+  author: tellmefrankie
+  tags: '[''news'', ''rss'', ''sentiment-analysis'', ''briefing'', ''research'']'
+  tools: '[''claude'', ''websearch'']'
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}}'
+license: MIT
 ---
 # News Sentiment Engine (Free)
 

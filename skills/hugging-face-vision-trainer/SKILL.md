@@ -1,15 +1,17 @@
 ---
 name: hugging-face-vision-trainer
-description: "Train object detection, image classification, and SAM or SAM2 segmentation models locally or on Hugging Face Jobs, with dataset validation and results saved to the Hub."
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/skills/huggingface-vision-trainer
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: Train object detection, image classification, and SAM or SAM2 segmentation
+  models locally or on Hugging Face Jobs, with dataset validation and results saved
+  to the Hub.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/skills/huggingface-vision-trainer
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 # Vision Model Training on Hugging Face Jobs
 
 Train object detection, image classification, and SAM/SAM2 segmentation models on managed cloud GPUs. No local GPU setup required—results are automatically saved to the Hugging Face Hub.

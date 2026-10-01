@@ -1,16 +1,18 @@
 ---
 name: upstash-redis
-description: "Use the @upstash/redis HTTP client for caching, sessions, counters, and Redis data structures from serverless and edge runtimes without connection pooling."
-category: backend
-risk: critical
-source: self
-source_type: self
-date_added: "2026-08-31"
-author: CahidArda
-tags: [upstash, redis, cache, serverless, edge, key-value]
-tools: [claude, codex, cursor, gemini]
+description: Use the @upstash/redis HTTP client for caching, sessions, counters, and
+  Redis data structures from serverless and edge runtimes without connection pooling.
+metadata:
+  category: backend
+  risk: critical
+  source: self
+  source_type: self
+  date_added: '2026-08-31'
+  author: CahidArda
+  tags: '[''upstash'', ''redis'', ''cache'', ''serverless'', ''edge'', ''key-value'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # Upstash Redis
 
 ## Overview

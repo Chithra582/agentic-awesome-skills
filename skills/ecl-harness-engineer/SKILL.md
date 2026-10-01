@@ -1,19 +1,20 @@
 ---
 name: ecl-harness-engineer
-description: "Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance, lint checks, CI gates, and agent handoff docs."
-category: development
-risk: safe
-source: community
-source_repo: qinghui316/ecl-harness-engineer
-source_type: community
-date_added: "2026-06-13"
-author: qinghui316
-tags: [codex, agent-harness, ecl, workflow, ci]
-tools: [codex, claude, cursor, gemini, antigravity]
+description: 'Create or audit ECL Agent Harness infrastructure: AGENTS.md, change
+  tracking, repository guidance, lint checks, CI gates, and agent handoff docs.'
 license: MIT
-license_source: "https://github.com/qinghui316/ecl-harness-engineer/blob/main/LICENSE"
+metadata:
+  category: development
+  risk: safe
+  source: community
+  source_repo: qinghui316/ecl-harness-engineer
+  source_type: community
+  date_added: '2026-06-13'
+  author: qinghui316
+  tags: '[''codex'', ''agent-harness'', ''ecl'', ''workflow'', ''ci'']'
+  tools: '[''codex'', ''claude'', ''cursor'', ''gemini'', ''antigravity'']'
+  license_source: https://github.com/qinghui316/ecl-harness-engineer/blob/main/LICENSE
 ---
-
 # ECL Harness Engineer
 Design and create Harness Engineering infrastructure so AI agents can work reliably in a codebase.
 

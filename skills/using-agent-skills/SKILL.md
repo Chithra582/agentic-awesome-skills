@@ -2,17 +2,17 @@
 name: using-agent-skills
 description: Meta-skill for discovering and invoking the right agent skill for the
   work at hand, applied at session start.
-category: meta
-risk: safe
-source: https://github.com/addyosmani/agent-skills
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 compatibility: Portable instruction skill; no CLI, MCP server, or network access required.
+metadata:
+  category: meta
+  risk: safe
+  source: https://github.com/addyosmani/agent-skills
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Using Agent Skills
 
 ## Overview

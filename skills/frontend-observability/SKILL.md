@@ -1,15 +1,16 @@
 ---
 name: frontend-observability
-description: "A portable, framework-agnostic field-side observability system for any React or React Native app."
-risk: critical
-source: https://github.com/stareezy-1/frontend-architecture-skill/tree/main/skills/frontend-observability
-source_repo: stareezy-1/frontend-architecture-skill
-source_type: community
-date_added: 2026-07-01
+description: A portable, framework-agnostic field-side observability system for any
+  React or React Native app.
 license: MIT
-license_source: https://github.com/stareezy-1/frontend-architecture-skill/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/stareezy-1/frontend-architecture-skill/tree/main/skills/frontend-observability
+  source_repo: stareezy-1/frontend-architecture-skill
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/stareezy-1/frontend-architecture-skill/blob/main/LICENSE
 ---
-
 # Frontend Observability (the field side)
 ## When to Use
 
@@ -398,37 +399,6 @@ The taxonomy + fan-out are constant; each provider is one window-guarded adapter
 ## 10. How to apply this skill
 
 **Adding analytics to a project:** create `constants/analytics.ts` (taxonomy), `services/analytics/`
-(track + adapters + consent), and `AnalyticsProvider`. Mount the provider at the root; wrap tracked
-leaves in thin client components.
+(track + adapters + consent), and `AnalyticsProvider`. Moun
 
-**Adding an event:** add a constant to `ANALYTICS_EVENTS`, then `track(ANALYTICS_EVENTS.NEW_ONE, props)`
-at the interaction. Never inline the string.
-
-**Wiring Firebase Analytics (web + RN):** add a `firebaseAdapter` to the registry using the
-platform-resolved files in §3.1 (`firebase/analytics` on web behind a lazy browser-only
-`initFirebaseAnalytics()`; `@react-native-firebase/analytics` on native). Gate init on consent. The
-taxonomy and fan-out are untouched — Firebase is just one more entry in `analyticsAdapters`.
-
-**Closing the lab/field loop:** wire `reportWebVitals()` and compare field ratings against the
-lighthouse skill's budgets; investigate any "lab green / field poor" gap.
-
-**Reviewing observability:** run the checklist in §9. The highest-value catches are inline event
-strings (taxonomy drift), an un-guarded adapter (a provider that can crash the app), and telemetry
-firing before consent.
-
----
-
-## Publishing / installing this skill
-
-This skill follows the Anthropic `SKILL.md` format and is portable across agents.
-
-1. Keep it under `skills/frontend-observability/SKILL.md` in a public GitHub repo.
-2. Keep the frontmatter `name` and high-signal `description` — discovery indexes match against it.
-3. Install with: `npx skills add <org>/<repo> --skill "frontend-observability"`.
-4. Non-`SKILL.md` agents can be pointed here from `AGENTS.md` / `CLAUDE.md`; Kiro can mirror it as a steering file.
-
-## Limitations
-
-- Use this skill only when the task clearly matches its upstream source and local project context.
-- Verify commands, generated code, dependencies, credentials, and external service behavior before applying changes.
-- Do not treat examples as a substitute for environment-specific tests, security review, or user approval for destructive or costly actions.
+<!-- Truncated for OpenGAP token limits -->

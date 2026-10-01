@@ -1,15 +1,16 @@
 ---
 name: doubt-driven-development
-description: "Subjects every non-trivial decision to a fresh-context adversarial review before it stands."
-risk: critical
-source: https://github.com/addyosmani/agent-skills/tree/main/skills/doubt-driven-development
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Subjects every non-trivial decision to a fresh-context adversarial review
+  before it stands.
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/addyosmani/agent-skills/tree/main/skills/doubt-driven-development
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Doubt-Driven Development
 
 ## Overview

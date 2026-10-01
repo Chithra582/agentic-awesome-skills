@@ -1,14 +1,14 @@
 ---
 name: makepad-splash
-description: |
-  CRITICAL: Use for Makepad Splash scripting language. Triggers on:
-  splash language, makepad script, makepad scripting, script!, cx.eval,
-  makepad dynamic, makepad AI, splash 语言, makepad 脚本
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: 'CRITICAL: Use for Makepad Splash scripting language. Triggers on: splash
+  language, makepad script, makepad scripting, script!, cx.eval, makepad dynamic,
+  makepad AI, splash 语言, makepad 脚本'
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Makepad Splash Skill
 
 > **Version:** makepad-widgets (dev branch) | **Last Updated:** 2026-01-19

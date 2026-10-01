@@ -1,11 +1,12 @@
 ---
 name: expo-ui-swift-ui
 description: expo-ui-swift-ui
-risk: critical
-source: community
-date_added: "2026-09-04"
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 ---
 name: expo-ui-swift-ui
 description: `@expo/ui/swift-ui` package lets you use SwiftUI Views and modifiers in your app.

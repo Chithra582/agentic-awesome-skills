@@ -2,16 +2,16 @@
 name: pi-delegate
 description: Delegate coding tasks to the Pi coding agent CLI (`pi`) only when the
   user explicitly requests it, while the orchestrator retains review and landing responsibility.
-risk: critical
-category: agent-orchestration
-source: https://github.com/amElnagdy/delegate-skills
-source_repo: amElnagdy/delegate-skills
-source_type: community
-date_added: '2026-08-26'
 license: MIT
-license_source: https://github.com/amElnagdy/delegate-skills/blob/master/LICENSE
 metadata:
   version: 0.5.0
+  risk: critical
+  category: agent-orchestration
+  source: https://github.com/amElnagdy/delegate-skills
+  source_repo: amElnagdy/delegate-skills
+  source_type: community
+  date_added: '2026-08-26'
+  license_source: https://github.com/amElnagdy/delegate-skills/blob/master/LICENSE
 ---
 # Pi Delegate
 

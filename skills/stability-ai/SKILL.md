@@ -1,23 +1,16 @@
 ---
 name: stability-ai
-description: Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos.
-risk: safe
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- image-generation
-- stable-diffusion
-- ai-art
-- api
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image,
+  img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''image-generation'', ''stable-diffusion'', ''ai-art'', ''api'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # Stability AI — Gerador de Imagens Profissional
 
 ## Overview

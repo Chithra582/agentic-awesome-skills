@@ -1,15 +1,13 @@
 ---
 name: startup-business-analyst-business-case
-description: 'Generate comprehensive investor-ready business case document with
-
-  market, solution, financials, and strategy
-
-  '
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Generate comprehensive investor-ready business case document with market,
+  solution, financials, and strategy
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Business Case Generator
 
 Generate a comprehensive, investor-ready business case document covering market opportunity, solution, competitive landscape, financial projections, team, risks, and funding ask for startup fundraising and strategic planning.

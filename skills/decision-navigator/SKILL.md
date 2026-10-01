@@ -1,13 +1,15 @@
 ---
 name: decision-navigator
-description: "Guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps."
-category: planning
-risk: safe
-source: community
-source_type: community
-date_added: "2026-05-27"
+description: Guide stuck or overwhelmed users through targeted branching questions
+  until they reach concrete next steps.
+metadata:
+  category: planning
+  risk: safe
+  source: community
+  source_type: community
+  date_added: '2026-05-27'
+license: MIT
 ---
-
 # Decision Navigator
 
 Help users who feel stuck or overwhelmed by guiding them through a structured branching exploration

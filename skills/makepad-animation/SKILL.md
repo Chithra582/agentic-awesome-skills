@@ -1,15 +1,14 @@
 ---
 name: makepad-animation
-description: |
-  CRITICAL: Use for Makepad animation system. Triggers on:
-  makepad animation, makepad animator, makepad hover, makepad state,
-  makepad transition, "from: { all: Forward", makepad pressed,
-  makepad 动画, makepad 状态, makepad 过渡, makepad 悬停效果
-risk: safe
-source: community
-date_added: "2026-09-04"
+description: 'CRITICAL: Use for Makepad animation system. Triggers on: makepad animation,
+  makepad animator, makepad hover, makepad state, makepad transition, "from: { all:
+  Forward", makepad pressed, makepad 动画, makepad 状态, makepad 过渡, makepad 悬停效果'
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Makepad Animation Skill
 
 > **Version:** makepad-widgets (dev branch) | **Last Updated:** 2026-01-19

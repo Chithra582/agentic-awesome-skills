@@ -1,19 +1,21 @@
 ---
 name: runapi-cli
-description: Generate AI images, videos, and music/audio from agents using the RunAPI CLI.
-category: development
-risk: critical
-source: official
-source_repo: runapi-ai/cli-skill
-source_type: official
-date_added: "2026-06-07"
-author: runapi-ai
-tags: [runapi, cli, models, automation, codex, claude, gemini]
-tools: [claude, codex, gemini, cursor, antigravity]
-license: "Apache-2.0"
-license_source: "https://github.com/runapi-ai/cli-skill/blob/main/LICENSE"
+description: Generate AI images, videos, and music/audio from agents using the RunAPI
+  CLI.
+license: Apache-2.0
+metadata:
+  category: development
+  risk: critical
+  source: official
+  source_repo: runapi-ai/cli-skill
+  source_type: official
+  date_added: '2026-06-07'
+  author: runapi-ai
+  tags: '[''runapi'', ''cli'', ''models'', ''automation'', ''codex'', ''claude'',
+    ''gemini'']'
+  tools: '[''claude'', ''codex'', ''gemini'', ''cursor'', ''antigravity'']'
+  license_source: https://github.com/runapi-ai/cli-skill/blob/main/LICENSE
 ---
-
 # RunAPI CLI
 
 ## Overview

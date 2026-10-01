@@ -1,19 +1,21 @@
 ---
 name: skill-security-audit
-description: "Audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions."
-category: security
-risk: safe
-source: community
-source_repo: sandbaseai/awesome-workbuddy
-source_type: community
-date_added: "2026-09-05"
-author: sandbaseai
-tags: [security, audit, agent-skills, mcp, supply-chain]
-tools: [claude, codex, cursor, gemini, workbuddy]
-license: "CC0-1.0"
-license_source: "https://github.com/sandbaseai/awesome-workbuddy/blob/main/LICENSE"
+description: Audit an Agent Skill, MCP server, connector, or desktop extension before
+  installation by tracing code, dependencies, permissions, credentials, data flow,
+  and irreversible actions.
+license: CC0-1.0
+metadata:
+  category: security
+  risk: safe
+  source: community
+  source_repo: sandbaseai/awesome-workbuddy
+  source_type: community
+  date_added: '2026-09-05'
+  author: sandbaseai
+  tags: '[''security'', ''audit'', ''agent-skills'', ''mcp'', ''supply-chain'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'', ''workbuddy'']'
+  license_source: https://github.com/sandbaseai/awesome-workbuddy/blob/main/LICENSE
 ---
-
 # Skill Security Audit
 
 ## Overview

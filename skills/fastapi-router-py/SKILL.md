@@ -1,11 +1,13 @@
 ---
 name: fastapi-router-py
-description: "Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Create FastAPI routers following established patterns with proper authentication,
+  response models, and HTTP status codes.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # FastAPI Router
 
 Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes.

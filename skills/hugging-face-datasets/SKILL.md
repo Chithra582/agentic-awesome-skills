@@ -1,11 +1,15 @@
 ---
 name: hugging-face-datasets
-description: Create and manage datasets on Hugging Face Hub. Supports initializing repos, defining configs/system prompts, streaming row updates, and SQL-based dataset querying/transformation. Designed to work alongside HF MCP server for comprehensive dataset workflows.
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Create and manage datasets on Hugging Face Hub. Supports initializing
+  repos, defining configs/system prompts, streaming row updates, and SQL-based dataset
+  querying/transformation. Designed to work alongside HF MCP server for comprehensive
+  dataset workflows.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Overview
 This skill provides tools to manage datasets on the Hugging Face Hub with a focus on creation, configuration, content management, and SQL-based data manipulation. It is designed to complement the existing Hugging Face MCP server by providing dataset editing and querying capabilities.
 

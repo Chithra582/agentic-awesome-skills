@@ -1,19 +1,20 @@
 ---
 name: laravel-development-workflow
-description: "Build and fix existing Laravel applications through root-cause diagnosis, repository-native implementation, regression coverage, and risk-based verification."
-category: development
-risk: critical
-source: community
-source_repo: Junaid-PK/laravel-development-workflow
-source_type: community
-date_added: "2026-09-02"
-author: Junaid-PK
-tags: [laravel, php, debugging, testing, development]
-tools: [claude, codex, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/Junaid-PK/laravel-development-workflow/blob/main/LICENSE"
+description: Build and fix existing Laravel applications through root-cause diagnosis,
+  repository-native implementation, regression coverage, and risk-based verification.
+license: MIT
+metadata:
+  category: development
+  risk: critical
+  source: community
+  source_repo: Junaid-PK/laravel-development-workflow
+  source_type: community
+  date_added: '2026-09-02'
+  author: Junaid-PK
+  tags: '[''laravel'', ''php'', ''debugging'', ''testing'', ''development'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/Junaid-PK/laravel-development-workflow/blob/main/LICENSE
 ---
-
 # Laravel Development Workflow
 
 Make the requested Laravel behavior correct, maintainable within the existing application, and supported by evidence that matches the change's risk.

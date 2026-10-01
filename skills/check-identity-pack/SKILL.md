@@ -1,19 +1,22 @@
 ---
 name: check-identity-pack
-description: Run an AFP 100-point or AUSTRAC safe-harbour identity check over a set of documents, and report exactly what's missing. Use when the user asks to check identity documents, verify someone's ID for onboarding, or assess whether a document pack satisfies Australian identity requirements.
-category: document-verification
-risk: critical
-source: community
-source_repo: Sketchjar/stipple-agent-skills
-source_type: community
-date_added: "2026-08-31"
-author: Sketchjar
-tags: [document-verification, fact-checking, stipple, authenticity]
-tools: [claude, cursor, gemini, codex]
-license: "Apache-2.0"
-license_source: "https://github.com/Sketchjar/stipple-agent-skills/blob/main/LICENSE"
+description: Run an AFP 100-point or AUSTRAC safe-harbour identity check over a set
+  of documents, and report exactly what's missing. Use when the user asks to check
+  identity documents, verify someone's ID for onboarding, or assess whether a document
+  pack satisfies Australian identity requirements.
+license: Apache-2.0
+metadata:
+  category: document-verification
+  risk: critical
+  source: community
+  source_repo: Sketchjar/stipple-agent-skills
+  source_type: community
+  date_added: '2026-08-31'
+  author: Sketchjar
+  tags: '[''document-verification'', ''fact-checking'', ''stipple'', ''authenticity'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/Sketchjar/stipple-agent-skills/blob/main/LICENSE
 ---
-
 # Check Identity Pack
 
 Run an AFP 100-point or AUSTRAC safe-harbour identity check over a document set. Reports the points attained, per-document status, and **exactly what's missing** — so the user can request only the absent documents and re-run. Uses the Stipple API (free anonymous tier).

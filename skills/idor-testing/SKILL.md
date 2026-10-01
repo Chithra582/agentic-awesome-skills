@@ -1,12 +1,14 @@
 ---
 name: idor-testing
-description: "Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabilities in web applications."
-risk: offensive
-source: community
-author: zebbern
-date_added: "2026-02-27"
+description: Provide systematic methodologies for identifying and exploiting Insecure
+  Direct Object Reference (IDOR) vulnerabilities in web applications.
+metadata:
+  risk: offensive
+  source: community
+  author: zebbern
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

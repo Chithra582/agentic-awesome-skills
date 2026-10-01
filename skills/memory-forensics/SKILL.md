@@ -1,11 +1,13 @@
 ---
 name: memory-forensics
-description: "Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Comprehensive techniques for acquiring, analyzing, and extracting artifacts
+  from memory dumps for incident response and malware analysis.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Memory Forensics
 
 Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis.

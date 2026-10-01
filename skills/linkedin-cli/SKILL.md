@@ -1,11 +1,13 @@
 ---
 name: linkedin-cli
-description: "Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: 'Use when automating LinkedIn via CLI: fetch profiles, search people/companies,
+  send messages, manage connections, create posts, and Sales Navigator.'
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Detailed Guide
 
 Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.

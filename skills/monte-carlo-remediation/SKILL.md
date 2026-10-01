@@ -1,15 +1,17 @@
 ---
 name: monte-carlo-remediation
-description: Investigate and remediate data quality alerts using Monte Carlo MCP tools. Runs root cause analysis, assesses blast radius, discovers available tools (MCP/CLI/API), proposes and executes fixes, or escalates with full context when uncertain.
-risk: critical
-source: https://github.com/monte-carlo-data/mc-agent-toolkit/tree/main/skills/remediation
-source_repo: monte-carlo-data/mc-agent-toolkit
-source_type: community
-date_added: 2026-07-01
+description: Investigate and remediate data quality alerts using Monte Carlo MCP tools.
+  Runs root cause analysis, assesses blast radius, discovers available tools (MCP/CLI/API),
+  proposes and executes fixes, or escalates with full context when uncertain.
 license: Apache-2.0
-license_source: https://github.com/monte-carlo-data/mc-agent-toolkit/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/monte-carlo-data/mc-agent-toolkit/tree/main/skills/remediation
+  source_repo: monte-carlo-data/mc-agent-toolkit
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/monte-carlo-data/mc-agent-toolkit/blob/main/LICENSE
 ---
-
 # Monte Carlo Remediation Skill
 
 This skill teaches you to investigate and remediate data quality issues detected by Monte Carlo. You use MC MCP tools to understand the alert context, run root cause analysis, assess blast radius, and then execute the appropriate remediation action using whatever external tools the user has connected.

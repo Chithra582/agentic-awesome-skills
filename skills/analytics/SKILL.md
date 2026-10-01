@@ -1,15 +1,16 @@
 ---
 name: analytics
-description: "When the user wants to set up, improve, or audit analytics tracking and measurement."
-risk: critical
-source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics
-source_repo: coreyhaines31/marketingskills
-source_type: community
-date_added: 2026-07-01
+description: When the user wants to set up, improve, or audit analytics tracking and
+  measurement.
 license: MIT
-license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics
+  source_repo: coreyhaines31/marketingskills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICENSE
 ---
-
 # Analytics Tracking
 ## When to Use
 

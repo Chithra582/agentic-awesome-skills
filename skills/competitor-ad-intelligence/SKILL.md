@@ -1,19 +1,20 @@
 ---
 name: competitor-ad-intelligence
-description: "Research public competitor ads, analyze creative patterns and landing pages, and produce an evidence-labeled strategic teardown."
-category: marketing
-risk: critical
-source: community
-source_repo: gooseworks-ai/goose-skills
-source_type: community
-date_added: "2026-07-16"
-author: gooseworks-ai
-tags: [ads, competitive-intelligence, meta-ads, google-ads, marketing]
-tools: [claude, cursor, gemini, codex]
-license: "MIT"
-license_source: "https://github.com/gooseworks-ai/goose-skills/blob/main/LICENSE"
+description: Research public competitor ads, analyze creative patterns and landing
+  pages, and produce an evidence-labeled strategic teardown.
+license: MIT
+metadata:
+  category: marketing
+  risk: critical
+  source: community
+  source_repo: gooseworks-ai/goose-skills
+  source_type: community
+  date_added: '2026-07-16'
+  author: gooseworks-ai
+  tags: '[''ads'', ''competitive-intelligence'', ''meta-ads'', ''google-ads'', ''marketing'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/gooseworks-ai/goose-skills/blob/main/LICENSE
 ---
-
 # Competitor Ad Intelligence
 
 ## Overview

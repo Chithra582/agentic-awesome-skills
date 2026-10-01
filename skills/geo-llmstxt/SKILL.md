@@ -2,26 +2,20 @@
 name: geo-llmstxt
 description: Analyzes and generates llms.txt files -- the emerging standard for helping
   AI systems understand website structure and content.
-category: seo
-risk: safe
-source: https://github.com/zubair-trabzada/geo-seo-claude
-source_repo: zubair-trabzada/geo-seo-claude
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/zubair-trabzada/geo-seo-claude/blob/main/LICENSE
 compatibility: Docs-only; upstream helper scripts and templates are not bundled. Site
   audits need network access to the target site; PDF reports need pandoc and headless
   Chrome.
-allowed-tools:
-- Read
-- Grep
-- Glob
-- Bash
-- WebFetch
-- Write
+allowed-tools: Read Grep Glob Bash WebFetch Write
+metadata:
+  category: seo
+  risk: safe
+  source: https://github.com/zubair-trabzada/geo-seo-claude
+  source_repo: zubair-trabzada/geo-seo-claude
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/zubair-trabzada/geo-seo-claude/blob/main/LICENSE
 ---
-
 # llms.txt Standard Analysis and Generation Skill
 
 ## Purpose

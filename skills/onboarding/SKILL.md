@@ -1,15 +1,16 @@
 ---
 name: onboarding
-description: "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value."
-risk: safe
-source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding
-source_repo: coreyhaines31/marketingskills
-source_type: community
-date_added: 2026-07-01
+description: When the user wants to optimize post-signup onboarding, user activation,
+  first-run experience, or time-to-value.
 license: MIT
-license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICENSE
+metadata:
+  risk: safe
+  source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding
+  source_repo: coreyhaines31/marketingskills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICENSE
 ---
-
 # Onboarding CRO
 ## When to Use
 

@@ -1,23 +1,22 @@
 ---
 name: polis-protocol
-description: "Coordinate multi-vendor AI agents as a self-improving team — a learning router assigns work by track record and citizens can amend the protocol's own rules."
-category: orchestration
-risk: critical
-source: community
-source_repo: yehudalevy-collab/polis-protocol
-source_type: community
-date_added: "2026-06-02"
-author: yehudalevy-collab
-tags: [multi-agent, coordination, routing, orchestration, governance, vendor-agnostic]
-tools: [claude, cursor, gemini, codex, antigravity]
-license: "MIT"
-license_source: "https://github.com/yehudalevy-collab/polis-protocol/blob/main/LICENSE"
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
+description: Coordinate multi-vendor AI agents as a self-improving team — a learning
+  router assigns work by track record and citizens can amend the protocol's own rules.
+license: MIT
+metadata:
+  category: orchestration
+  risk: critical
+  source: community
+  source_repo: yehudalevy-collab/polis-protocol
+  source_type: community
+  date_added: '2026-06-02'
+  author: yehudalevy-collab
+  tags: '[''multi-agent'', ''coordination'', ''routing'', ''orchestration'', ''governance'',
+    ''vendor-agnostic'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'', ''antigravity'']'
+  license_source: https://github.com/yehudalevy-collab/polis-protocol/blob/main/LICENSE
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}}'
 ---
-
 # Polis Protocol — a team of agents that develops
 
 ## Overview

@@ -1,11 +1,13 @@
 ---
 name: linkerd-patterns
-description: "Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Production patterns for Linkerd service mesh - the lightweight, security-first
+  service mesh for Kubernetes.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Linkerd Patterns
 
 Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes.

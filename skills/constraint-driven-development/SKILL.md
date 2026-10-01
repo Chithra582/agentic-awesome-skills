@@ -3,17 +3,17 @@ name: constraint-driven-development
 description: 'Write the project quality bar as enforced CONSTRAINTS.md so agents stop
   quietly lowering it: coverage, performance, accessibility thresholds watched on
   every diff.'
-category: code-quality
-risk: safe
-source: https://github.com/addyosmani/agent-skills
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 compatibility: Portable instruction skill; no CLI, MCP server, or network access required.
+metadata:
+  category: code-quality
+  risk: safe
+  source: https://github.com/addyosmani/agent-skills
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Constraint-Driven Development
 
 ## Overview
@@ -285,51 +285,6 @@ Most projects should stop at 2. Move to 3 when you're maintaining more than abou
 
 ## Red Flags
 
-Stop and reconsider if you notice:
+Stop and r
 
-- The interview ran past four questions, or produced a config the user can't explain
-- A budget was set that the codebase fails today, with no plan to reach it
-- A dimension was written into CONSTRAINTS.md with a number but no tool behind it
-- A checker was hand-rolled when a de facto one exists, so the team's existing config is ignored
-- Every constraint is checked by the project's own test suite, with no external opinion
-- `CONSTRAINTS.md` changed in the same commit as the feature that was failing
-- An exception has no owner, or an expiry more than a year out
-- The agent proposed relaxing a threshold instead of fixing the code
-- Slow checks landed in the edit loop and someone has started passing `--no-verify`
-- Nobody has opened `CONSTRAINTS.md` since it was written
-
-## Verification
-
-The skill was applied correctly when:
-
-- [ ] `CONSTRAINTS.md` exists, and every number in it has a stated reason
-- [ ] The floor is enforced and passes on the current codebase without changes
-- [ ] Every dimension the user picked has a tool installed and a command that runs today
-- [ ] Each constraint says where it runs, and the fast stage stays under a few seconds
-- [ ] At least one constraint is external (not judged by this project's own tests)
-- [ ] Measured-only metrics record today's value and a direction
-- [ ] Exceptions have an owner and an expiry date
-- [ ] `AGENTS.md` or `CLAUDE.md` points at the file
-- [ ] A trial run on the current branch produces no failures the user disagrees with
-
-## See Also
-
-- `interview-me` — the one-question-at-a-time discipline this skill's intake borrows
-- `code-review-and-quality` — how to review; this skill decides what the review enforces
-- `ci-cd-and-automation` — building the pipeline these constraints run in
-- `test-driven-development` — the suite that coverage and mutation constraints measure
-- `security-and-hardening` — what the security dimension should contain
-- `performance-optimization` — where the performance numbers come from
-
-## Limitations
-
-- Guidance only: does not replace running the project's own linters, type checkers, formatters, or test suites.
-- Stop and ask when required inputs, permissions, or scope boundaries are missing.
-
-### Example
-
-```markdown
-Follow this skill's workflow step by step and report what you did at each gate.
-```
-
-> Adapted from [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) (MIT); frontmatter, When to Use/Limitations, and safety boundaries added for upstream compliance.
+<!-- Truncated for OpenGAP token limits -->

@@ -1,11 +1,14 @@
 ---
 name: helpdesk-automation
-description: "Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use canned responses, and configure custom fields. Always search tools first for current schemas."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: 'Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage
+  views, use canned responses, and configure custom fields. Always search tools first
+  for current schemas.'
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # HelpDesk Automation via Rube MCP
 
 Automate HelpDesk ticketing operations through Composio's HelpDesk toolkit via Rube MCP.

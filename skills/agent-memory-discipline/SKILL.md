@@ -1,19 +1,22 @@
 ---
 name: agent-memory-discipline
-description: "Rules for when an agent should recall from long-term memory before acting and when it should save decisions, corrections and failures afterwards. Works with any memory backend."
-category: memory
-risk: safe
-source: community
-source_repo: mnemoverse/agent-memory-discipline
-source_type: community
-date_added: "2026-09-23"
-author: mnemoverse
-tags: [agent-memory, long-term-memory, context-engineering, mcp, agent-skills]
-tools: [claude, cursor, gemini]
-license: "CC0-1.0"
-license_source: "https://github.com/mnemoverse/agent-memory-discipline/blob/main/LICENSE"
+description: Rules for when an agent should recall from long-term memory before acting
+  and when it should save decisions, corrections and failures afterwards. Works with
+  any memory backend.
+license: CC0-1.0
+metadata:
+  category: memory
+  risk: safe
+  source: community
+  source_repo: mnemoverse/agent-memory-discipline
+  source_type: community
+  date_added: '2026-09-23'
+  author: mnemoverse
+  tags: '[''agent-memory'', ''long-term-memory'', ''context-engineering'', ''mcp'',
+    ''agent-skills'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/mnemoverse/agent-memory-discipline/blob/main/LICENSE
 ---
-
 # Agent Memory Discipline
 
 ## Overview

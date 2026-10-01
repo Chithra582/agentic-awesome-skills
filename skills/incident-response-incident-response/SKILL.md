@@ -1,11 +1,12 @@
 ---
 name: incident-response-incident-response
-description: "Use when working with incident response incident response"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Use when working with incident response incident response
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on incident response incident response tasks or workflows

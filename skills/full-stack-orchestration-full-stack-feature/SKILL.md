@@ -1,11 +1,12 @@
 ---
 name: full-stack-orchestration-full-stack-feature
-description: "Use when working with full stack orchestration full stack feature"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Use when working with full stack orchestration full stack feature
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on full stack orchestration full stack feature tasks or workflows

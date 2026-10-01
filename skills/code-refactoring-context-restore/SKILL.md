@@ -1,11 +1,12 @@
 ---
 name: code-refactoring-context-restore
-description: "Use when working with code refactoring context restore"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Use when working with code refactoring context restore
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Compatibility and maintenance
 
 Compatibility alias of `context-management-context-restore`; use that ID for new references when no existing contract requires this one. The full instructions and support files remain local so existing installations

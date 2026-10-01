@@ -1,11 +1,13 @@
 ---
 name: infinity
-description: "Enforces a strict input boundary protocol (detect, classify, filter, verify) to ensure untrusted data never reaches business logic raw."
-risk: safe
-source: community
-date_added: "2026-06-23"
+description: Enforces a strict input boundary protocol (detect, classify, filter,
+  verify) to ensure untrusted data never reaches business logic raw.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-06-23'
+license: MIT
 ---
-
 # infinity — Input Boundary & Validation Protocol
 
 ## Core Philosophy

@@ -2,21 +2,21 @@
 name: ledger-tasks-yylo
 description: 'Use YYLO Ledger task management: create, list, search, get, mark, update,
   archive, deps, ready, order and merge with dependencies.'
-category: project-management
-risk: safe
-source: https://github.com/yylo-dev/yylo-skills
-source_repo: yylo-dev/yylo-skills
-source_type: community
-date_added: '2026-09-19'
 license: MIT
-license_source: https://github.com/yylo-dev/yylo-skills/blob/main/LICENSE
 compatibility: Requires the `yy` CLI (YYLO Ledger 0.3.x+) installed and a routed Ledger
   controller; git and bash for worktree tasks. Command help (`yy ledger --help`) is
   authoritative for the installed runtime.
-argument-hint: '[command or workflow question]'
-enable-shell-directives: true
+metadata:
+  category: project-management
+  risk: safe
+  source: https://github.com/yylo-dev/yylo-skills
+  source_repo: yylo-dev/yylo-skills
+  source_type: community
+  date_added: '2026-09-19'
+  license_source: https://github.com/yylo-dev/yylo-skills/blob/main/LICENSE
+  argument-hint: '[command or workflow question]'
+  enable-shell-directives: 'True'
 ---
-
 ## YYLO Ledger CLI Reference
 
 Use `yy ledger` for all commands. Ledger 0.3.x exposes both the compatible flat task commands and the native ID-first `record|task|wiki|workflow|artifact` groups. `yy kanban` is a labelled compatibility alias for the same controller-routed task runtime.

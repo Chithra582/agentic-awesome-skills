@@ -1,11 +1,12 @@
 ---
 name: senior-fullstack
-description: "Complete toolkit for senior fullstack with modern tools and best practices."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Complete toolkit for senior fullstack with modern tools and best practices.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Senior Fullstack
 
 Complete toolkit for senior fullstack with modern tools and best practices.

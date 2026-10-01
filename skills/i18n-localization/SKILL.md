@@ -1,11 +1,13 @@
 ---
 name: i18n-localization
-description: "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: Internationalization and localization patterns. Detecting hardcoded strings,
+  managing translations, locale files, RTL support.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # i18n & Localization
 
 > Internationalization (i18n) and Localization (L10n) best practices.

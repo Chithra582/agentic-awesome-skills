@@ -1,11 +1,13 @@
 ---
 name: ios-developer
-description: Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI,
+  UIKit integration, Core Data, networking, and App Store optimization.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on ios developer tasks or workflows

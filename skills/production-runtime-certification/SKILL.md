@@ -1,16 +1,18 @@
 ---
 name: production-runtime-certification
-description: "Certify a deployed service with fresh evidence across source, CI, migrations, runtime health, readiness, and critical routes; use before declaring a release production-ready."
-category: devops
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-12"
-author: mosinlshaikh
-tags: [production, deployment, verification, reliability, devops]
-tools: [claude, cursor, codex, gemini]
+description: Certify a deployed service with fresh evidence across source, CI, migrations,
+  runtime health, readiness, and critical routes; use before declaring a release production-ready.
+metadata:
+  category: devops
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-12'
+  author: mosinlshaikh
+  tags: '[''production'', ''deployment'', ''verification'', ''reliability'', ''devops'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'']'
+license: MIT
 ---
-
 # Production Runtime Certification
 
 ## Overview

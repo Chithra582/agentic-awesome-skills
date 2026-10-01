@@ -1,18 +1,22 @@
 ---
 name: runaway-guard
-description: "Cost-safety discipline for paid AI / inference APIs: treat $-cost as a third complexity dimension alongside time and space. Forces a written per-run $-cap, per-day $-cap, max-iterations bound, concurrency limit, and a matching provider-dashboard hard cap BEFORE any call site is written."
-risk: safe
-source: community
-source_repo: morsechimwai/lemmaly
-source_type: community
-date_added: "2026-05-28"
-author: morsechimwai
-tags: [cost-safety, finops, ai-apis, agents, retries, concurrency, wallet-invariant, gateway]
-tools: [claude-code, antigravity, cursor, gemini-cli, codex-cli]
-license: "Apache-2.0"
-license_source: "https://github.com/morsechimwai/lemmaly/blob/main/LICENSE"
+description: 'Cost-safety discipline for paid AI / inference APIs: treat $-cost as
+  a third complexity dimension alongside time and space. Forces a written per-run
+  $-cap, per-day $-cap, max-iterations bound, concurrency limit, and a matching provider-dashboard
+  hard cap BEFORE any call site is written.'
+license: Apache-2.0
+metadata:
+  risk: safe
+  source: community
+  source_repo: morsechimwai/lemmaly
+  source_type: community
+  date_added: '2026-05-28'
+  author: morsechimwai
+  tags: '[''cost-safety'', ''finops'', ''ai-apis'', ''agents'', ''retries'', ''concurrency'',
+    ''wallet-invariant'', ''gateway'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+  license_source: https://github.com/morsechimwai/lemmaly/blob/main/LICENSE
 ---
-
 # runaway-guard — $-Cost is the Third Complexity Dimension
 
 Every loop has time complexity and space complexity. A loop that calls a paid API has a third: **dollars per execution**. The model tracks the first two automatically. It does not track the third, so it ships code where a single bug — a retry without bound, a stream reconnect storm, an agent that re-queues itself, a webhook that fires the same job twice — silently spends real money.
@@ -280,52 +284,6 @@ Code you emit must:
 | "I'm only testing locally." | Local hits the same paid endpoint. A retry bug in test code bills the same dollars. |
 | "The list is small, fan-out is fine." | The list is small *today*. Next week it is fetched from a table that grew 50×. The cap exists for next week. |
 | "Inngest already retries, so I don't need a retry policy." | Inngest retries × your retry wrapper × SDK retries = 27 attempts. Each one bills. |
-| "The API call is cheap, $0.001." | At 10,000 unintended invocations that is $10 — and the count is exactly what you failed to bound. |
-| "I'll set the provider cap later." | The bug ships before "later". Set the cap in the 60 seconds it takes; the code can wait. |
-| "Idempotency is overkill for this." | Webhooks retry. Load balancers retry. Browsers retry. Without an idempotency key, *something* will duplicate. |
-| "We have monitoring, we'll catch it." | Monitoring catches it after $200 is spent. Caps prevent the $200 from being spent. |
-| "It obviously terminates." | The $200/night incident also "obviously terminated". Write the integer bound. |
+| "The API call is cheap, $0.001." | At 10,000 unintended invocations that is $10 — and th
 
-If any of these sound familiar mid-thought: stop, write the cost contract, set the provider cap, then write the code.
-
-## Red flags — STOP and write the cost contract first
-
-- About to write `await Promise.all(items.map(x => paidApi(x)))` with no `p-limit`.
-- About to write `while (!done) await paidApi(...)` with no integer bound.
-- About to write an agent loop with "the model decides when to stop".
-- About to write a retry wrapper around a call that is already retried by Inngest / SDK / framework.
-- About to deploy a paid API key without first setting the provider dashboard cap.
-- About to commit a paid API key to a `.env` shared across environments.
-- About to handle a webhook that calls the API that produced the webhook.
-- "Just for tonight" — overnight is exactly when runaway loops bill the most.
-
-All of these mean: stop, write the cost contract, set the provider cap, then write the code.
-
-## Verification checklist
-
-Before shipping any code that calls a paid API:
-
-- [ ] Cost contract comment exists above each call site with unit cost, max calls/run, max $/run, provider cap.
-- [ ] The iteration / fan-out bound is a named integer constant, not implicit in list length.
-- [ ] Concurrency limit is set in code (`p-limit`) AND at the queue (`Inngest concurrency`).
-- [ ] Retry policy is explicit: max attempts, 4xx → no retry, idempotency key per call.
-- [ ] Provider dashboard hard cap is set and the value is documented in the file.
-- [ ] Per-environment API keys; dev keys have lower caps than prod.
-- [ ] Amplifier audit (rule 7) has been performed and either "none apply" or each addressed.
-- [ ] A test exists for: empty input, oversized input rejected, 4xx not retried, idempotency key dedups duplicate invocation.
-- [ ] In the worst case the code bills ≤ MAX_$_PER_RUN, and even with a bug the provider cap stops loss at MAX_$_PER_DAY.
-
-Cannot check every box? The code is example-correct, not bill-correct. Either fill the gap or do not connect a billing-enabled key.
-
-## Limitations
-
-- **Not a billing system.** runaway-guard enforces *intent* (caps, contracts, audits) at code-write time. It does not meter spend in production — pair it with the provider's hard cap and observability (LLM-cost dashboards, log alerts) for runtime enforcement.
-- **Provider-side caps may take minutes to enforce.** Anthropic Workspace Budgets, OpenAI usage limits, and Fal Spend Limits are reconciled on a delay measured in minutes, not milliseconds. A pathological burst within a single window can still exceed the cap modestly.
-- **No automated cost estimation for novel models.** The cost-contract numbers (unit cost, $/run) are inputs the author must look up; the skill does not maintain a per-model price table.
-- **Streaming and per-token pricing.** For per-token APIs (Anthropic, OpenAI), `max calls` is a proxy — the real cap is `max input tokens × max output tokens × per-token rate`. Adapt the protocol: replace `max calls per run` with `max tokens per run`.
-- **Compute-billed providers.** For long-running GPU jobs (training, video encoding) billed in seconds, replace "calls" with "GPU-seconds" in the contract; the discipline transfers but the units differ.
-- **Does not replace incident response.** When a bill has already arrived, escalate to `complexity-cuts` for the corrective rewrite — runaway-guard prevents the next one, not the current one.
-
-## The thesis, in one line
-
-> **Time bounds prevent stalls. Space bounds prevent OOMs. Dollar bounds prevent $200 mornings. AI assistants enforce the first two by default and ignore the third. runaway-guard makes them reason about the wallet first.**
+<!-- Truncated for OpenGAP token limits -->

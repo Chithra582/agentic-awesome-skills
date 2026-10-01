@@ -1,19 +1,22 @@
 ---
 name: wgm
-description: "Turns a rough request into working software via a governed build loop: align first, plan, then iterate one task at a time with deterministic backpressure and holdout-scenario judging."
-category: meta
-risk: safe
-source: community
-source_repo: agent-frontier/wgm
-source_type: official
-date_added: "2026-07-05"
-author: agent-frontier
-tags: [build-loop, spec-driven, ralph-loop, self-improving, agentic-development, methodology]
-tools: [claude, cursor, gemini, copilot, codex]
-license: "MIT"
-license_source: "https://github.com/agent-frontier/wgm/blob/main/LICENSE"
+description: 'Turns a rough request into working software via a governed build loop:
+  align first, plan, then iterate one task at a time with deterministic backpressure
+  and holdout-scenario judging.'
+license: MIT
+metadata:
+  category: meta
+  risk: safe
+  source: community
+  source_repo: agent-frontier/wgm
+  source_type: official
+  date_added: '2026-07-05'
+  author: agent-frontier
+  tags: '[''build-loop'', ''spec-driven'', ''ralph-loop'', ''self-improving'', ''agentic-development'',
+    ''methodology'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''copilot'', ''codex'']'
+  license_source: https://github.com/agent-frontier/wgm/blob/main/LICENSE
 ---
-
 # wgm
 
 ## Overview

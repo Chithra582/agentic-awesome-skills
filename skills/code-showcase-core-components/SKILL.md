@@ -1,15 +1,16 @@
 ---
 name: code-showcase-core-components
-description: Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.
-risk: none
-source: https://github.com/ChrisWiles/claude-code-showcase/tree/main/.claude/skills/core-components
-source_repo: ChrisWiles/claude-code-showcase
-source_type: community
-date_added: 2026-07-01
+description: Core component library and design system patterns. Use when building
+  UI, using design tokens, or working with the component library.
 license: MIT
-license_source: https://github.com/ChrisWiles/claude-code-showcase/blob/main/LICENSE
+metadata:
+  risk: none
+  source: https://github.com/ChrisWiles/claude-code-showcase/tree/main/.claude/skills/core-components
+  source_repo: ChrisWiles/claude-code-showcase
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/ChrisWiles/claude-code-showcase/blob/main/LICENSE
 ---
-
 # Core Components
 ## When to Use
 

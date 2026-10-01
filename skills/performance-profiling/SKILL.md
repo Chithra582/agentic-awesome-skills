@@ -1,11 +1,13 @@
 ---
 name: performance-profiling
-description: "Performance profiling principles. Measurement, analysis, and optimization techniques."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Performance profiling principles. Measurement, analysis, and optimization
+  techniques.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Performance Profiling
 
 > Measure, analyze, optimize - in that order.

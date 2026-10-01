@@ -1,19 +1,22 @@
 ---
 name: cron-doctor
-description: "Diagnose and validate cron expressions before they ship. Catches the five silent death-traps: impossible dates that never fire, OR-semantics that fire too often, midnight spikes, uneven step drift, and leap-year February 29."
-category: devops
-risk: safe
-source: community
-source_repo: takeaseatventure/devops-skills
-source_type: community
-date_added: "2026-06-26"
-author: takeaseat
-tags: [cron, crontab, scheduling, devops, debugging, kubernetes, validation]
-tools: [claude, cursor, codex, gemini, opencode]
-license: "MIT"
-license_source: "https://github.com/takeaseatventure/devops-skills/blob/main/LICENSE"
+description: 'Diagnose and validate cron expressions before they ship. Catches the
+  five silent death-traps: impossible dates that never fire, OR-semantics that fire
+  too often, midnight spikes, uneven step drift, and leap-year February 29.'
+license: MIT
+metadata:
+  category: devops
+  risk: safe
+  source: community
+  source_repo: takeaseatventure/devops-skills
+  source_type: community
+  date_added: '2026-06-26'
+  author: takeaseat
+  tags: '[''cron'', ''crontab'', ''scheduling'', ''devops'', ''debugging'', ''kubernetes'',
+    ''validation'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'', ''opencode'']'
+  license_source: https://github.com/takeaseatventure/devops-skills/blob/main/LICENSE
 ---
-
 # cron-doctor
 
 ## Overview

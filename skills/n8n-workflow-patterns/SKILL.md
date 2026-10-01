@@ -1,11 +1,12 @@
 ---
 name: n8n-workflow-patterns
-description: "Proven architectural patterns for building n8n workflows."
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Proven architectural patterns for building n8n workflows.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # n8n Workflow Patterns
 
 Proven architectural patterns for building n8n workflows.

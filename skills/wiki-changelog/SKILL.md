@@ -1,11 +1,14 @@
 ---
 name: wiki-changelog
-description: "Generate structured changelogs from git history. Use when user asks \"what changed recently\", \"generate a changelog\", \"summarize commits\" or user wants to understand recent development activity."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: Generate structured changelogs from git history. Use when user asks "what
+  changed recently", "generate a changelog", "summarize commits" or user wants to
+  understand recent development activity.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Wiki Changelog
 
 Generate structured changelogs from git history.

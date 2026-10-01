@@ -1,15 +1,16 @@
 ---
 name: developer-advocacy
-description: "When the user wants to do developer advocacy activities including conference talks, live coding, podcasts, and building in public."
-risk: critical
-source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/developer-advocacy
-source_repo: jonathimer/devmarketing-skills
-source_type: community
-date_added: 2026-07-01
+description: When the user wants to do developer advocacy activities including conference
+  talks, live coding, podcasts, and building in public.
 license: MIT
-license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/developer-advocacy
+  source_repo: jonathimer/devmarketing-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
 ---
-
 # Developer Advocacy
 ## When to Use
 

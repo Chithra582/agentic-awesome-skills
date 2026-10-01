@@ -1,11 +1,12 @@
 ---
 name: azure-search-documents-ts
-description: "Build search applications with vector, hybrid, and semantic search capabilities."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Build search applications with vector, hybrid, and semantic search capabilities.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure AI Search SDK for TypeScript
 
 Build search applications with vector, hybrid, and semantic search capabilities.

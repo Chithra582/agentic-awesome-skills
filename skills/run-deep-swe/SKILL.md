@@ -1,20 +1,21 @@
 ---
 name: run-deep-swe
-description: "Run reproducible DeepSWE coding-agent benchmark evaluations through OpenRouter and mini-swe-agent."
-category: agent-evaluation
-risk: critical
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [benchmark, deepswe, openrouter, evaluation]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
-disable-model-invocation: true
+description: Run reproducible DeepSWE coding-agent benchmark evaluations through OpenRouter
+  and mini-swe-agent.
+license: MIT
+metadata:
+  category: agent-evaluation
+  risk: critical
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''benchmark'', ''deepswe'', ''openrouter'', ''evaluation'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
+  disable-model-invocation: 'True'
 ---
-
 # Run DeepSWE via OpenRouter
 
 ## When to Use

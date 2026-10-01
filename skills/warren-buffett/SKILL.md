@@ -1,23 +1,17 @@
 ---
 name: warren-buffett
-description: "Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Charlie Munger."
-risk: safe
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- persona
-- investing
-- value-investing
-- business
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Agente que simula Warren Buffett — o maior investidor do seculo XX e
+  XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual
+  de Charlie Munger.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''persona'', ''investing'', ''value-investing'', ''business'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # WARREN BUFFETT — AGENTE DE SIMULACAO PROFUNDA v2.0
 
 ## Detailed Guide

@@ -1,11 +1,14 @@
 ---
 name: azure-eventhub-java
-description: "Build real-time streaming applications with Azure Event Hubs SDK for Java. Use when implementing event streaming, high-throughput data ingestion, or building event-driven architectures."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Build real-time streaming applications with Azure Event Hubs SDK for
+  Java. Use when implementing event streaming, high-throughput data ingestion, or
+  building event-driven architectures.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure Event Hubs SDK for Java
 
 Build real-time streaming applications using the Azure Event Hubs SDK for Java.

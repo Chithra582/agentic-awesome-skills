@@ -1,19 +1,22 @@
 ---
 name: film-crew
-description: "Turn a one-line AI video idea into a shot list and per-shot, model-ready prompts via a film crew (director, DP, gaffer, editor, script supervisor). Also fixes failing video prompts and diagnoses bad clips before a reroll. Works with Wan, LTX, Kling, Veo, Seedance, Hailuo, Runway."
-category: media
-risk: safe
-source: "https://github.com/HEOJUNFO/ai-film-crew/tree/533f61be2741c10932c6c86e47777cac9ffe3fe4/skills/film-crew"
-source_repo: HEOJUNFO/ai-film-crew
-source_type: official
-date_added: "2026-09-25"
-author: HEOJUNFO
+description: Turn a one-line AI video idea into a shot list and per-shot, model-ready
+  prompts via a film crew (director, DP, gaffer, editor, script supervisor). Also
+  fixes failing video prompts and diagnoses bad clips before a reroll. Works with
+  Wan, LTX, Kling, Veo, Seedance, Hailuo, Runway.
 license: MIT
-license_source: "https://github.com/HEOJUNFO/ai-film-crew/blob/533f61be2741c10932c6c86e47777cac9ffe3fe4/LICENSE"
-tags: [video, text-to-video, shot-list, prompting, film]
-tools: [claude, codex, cursor, gemini]
+metadata:
+  category: media
+  risk: safe
+  source: https://github.com/HEOJUNFO/ai-film-crew/tree/533f61be2741c10932c6c86e47777cac9ffe3fe4/skills/film-crew
+  source_repo: HEOJUNFO/ai-film-crew
+  source_type: official
+  date_added: '2026-09-25'
+  author: HEOJUNFO
+  license_source: https://github.com/HEOJUNFO/ai-film-crew/blob/533f61be2741c10932c6c86e47777cac9ffe3fe4/LICENSE
+  tags: '[''video'', ''text-to-video'', ''shot-list'', ''prompting'', ''film'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'']'
 ---
-
 # Film Crew
 
 You are the producer. You don't write one prompt and hope. You run the idea past a crew,

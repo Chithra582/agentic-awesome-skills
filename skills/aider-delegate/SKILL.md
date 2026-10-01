@@ -2,14 +2,7 @@
 name: aider-delegate
 description: Delegate coding tasks to Aider (`aider`) only when the user explicitly
   requests it, while the orchestrator retains review and landing responsibility.
-risk: critical
-category: agent-orchestration
-source: https://github.com/amElnagdy/delegate-skills
-source_repo: amElnagdy/delegate-skills
-source_type: community
-date_added: '2026-08-26'
 license: MIT
-license_source: https://github.com/amElnagdy/delegate-skills/blob/master/LICENSE
 compatibility: Requires the `aider` CLI (`python -m pip install aider-chat`), Node
   18+, and git. Aider must be able to authenticate to a model before dispatch - export
   the provider key it expects (`OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, …) or set it
@@ -18,6 +11,13 @@ compatibility: Requires the `aider` CLI (`python -m pip install aider-chat`), No
   read files. Shell examples assume bash/zsh (macOS/Linux, or Git Bash/WSL on Windows).
 metadata:
   version: 0.5.0
+  risk: critical
+  category: agent-orchestration
+  source: https://github.com/amElnagdy/delegate-skills
+  source_repo: amElnagdy/delegate-skills
+  source_type: community
+  date_added: '2026-08-26'
+  license_source: https://github.com/amElnagdy/delegate-skills/blob/master/LICENSE
 ---
 # Aider Delegate
 

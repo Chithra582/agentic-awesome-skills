@@ -1,16 +1,18 @@
 ---
 name: muapi-media
-description: "Generate images and videos with MuAPI's schema-driven asynchronous media API while protecting keys, polling, and output downloads."
-category: media
-risk: critical
-source: self
-source_type: self
-date_added: "2026-08-26"
-author: Anil-matcha
-tags: [muapi, image-generation, video-generation, media-api]
-tools: [claude, codex, cursor, gemini]
+description: Generate images and videos with MuAPI's schema-driven asynchronous media
+  API while protecting keys, polling, and output downloads.
+metadata:
+  category: media
+  risk: critical
+  source: self
+  source_type: self
+  date_added: '2026-08-26'
+  author: Anil-matcha
+  tags: '[''muapi'', ''image-generation'', ''video-generation'', ''media-api'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # MuAPI Media
 
 ## Overview

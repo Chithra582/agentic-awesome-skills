@@ -1,11 +1,13 @@
 ---
 name: deployment-pipeline-design
-description: "Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Architecture patterns for multi-stage CI/CD pipelines with approval gates
+  and deployment strategies.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Deployment Pipeline Design
 
 Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies.

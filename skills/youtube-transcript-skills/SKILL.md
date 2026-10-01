@@ -1,20 +1,23 @@
 ---
 name: youtube-transcript-skills
-description: "Fetch YouTube video transcripts, search videos/channels, browse channels, and extract playlists via the getyoutubetranscript.com API - free tier, no card required."
-category: api-integration
-risk: safe
-source: community
-source_repo: tubeagentkit/youtube-transcript-skills
-source_type: community
-date_added: "2026-09-13"
-author: tubeagentkit
-tags: [youtube, transcripts, video-search, channels, playlists, api]
-tools: [claude, cursor, codex, gemini]
-license: "MIT"
-license_source: "https://github.com/tubeagentkit/youtube-transcript-skills/blob/main/LICENSE"
-upstream: "https://github.com/tubeagentkit/youtube-transcript-skills"
+description: Fetch YouTube video transcripts, search videos/channels, browse channels,
+  and extract playlists via the getyoutubetranscript.com API - free tier, no card
+  required.
+license: MIT
+metadata:
+  category: api-integration
+  risk: safe
+  source: community
+  source_repo: tubeagentkit/youtube-transcript-skills
+  source_type: community
+  date_added: '2026-09-13'
+  author: tubeagentkit
+  tags: '[''youtube'', ''transcripts'', ''video-search'', ''channels'', ''playlists'',
+    ''api'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'']'
+  license_source: https://github.com/tubeagentkit/youtube-transcript-skills/blob/main/LICENSE
+  upstream: https://github.com/tubeagentkit/youtube-transcript-skills
 ---
-
 # YouTube Transcript
 
 ## Overview

@@ -1,19 +1,20 @@
 ---
 name: agent-qa-debug-fix
-description: "Debug, patch, and verify failed Agent QA runs from MCP evidence, artifacts, logs, and local code without hiding product or infrastructure defects."
-category: testing
-risk: critical
-source: https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-debug-fix
-source_repo: vostride/agent-qa
-source_type: official
-date_added: "2026-08-16"
-author: Vostride
-tags: [testing, qa, debugging, mcp, self-healing]
-tools: [claude, cursor, gemini, codex]
+description: Debug, patch, and verify failed Agent QA runs from MCP evidence, artifacts,
+  logs, and local code without hiding product or infrastructure defects.
 license: FSL-1.1-ALv2
-license_source: https://github.com/vostride/agent-qa/blob/main/LICENSE.md
+metadata:
+  category: testing
+  risk: critical
+  source: https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-debug-fix
+  source_repo: vostride/agent-qa
+  source_type: official
+  date_added: '2026-08-16'
+  author: Vostride
+  tags: '[''testing'', ''qa'', ''debugging'', ''mcp'', ''self-healing'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/vostride/agent-qa/blob/main/LICENSE.md
 ---
-
 # Agent QA Debug Fix
 
 ## Overview

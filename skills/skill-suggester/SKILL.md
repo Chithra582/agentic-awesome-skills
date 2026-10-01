@@ -1,16 +1,17 @@
 ---
 name: skill-suggester
-version: 1.0.0
-description: "Scan prompt history for recurring patterns and unmet needs, then propose new skills or command templates"
-risk: safe
-source: community
-source_type: community
-source_repo: mskadu/opencode-agent-skills
+description: Scan prompt history for recurring patterns and unmet needs, then propose
+  new skills or command templates
 license: MIT
-license_source: "https://github.com/mskadu/opencode-agent-skills/blob/main/LICENSE"
-date_added: "2026-06-05"
+metadata:
+  version: 1.0.0
+  risk: safe
+  source: community
+  source_type: community
+  source_repo: mskadu/opencode-agent-skills
+  license_source: https://github.com/mskadu/opencode-agent-skills/blob/main/LICENSE
+  date_added: '2026-06-05'
 ---
-
 ## What I do
 
 Reads your opencode prompt history, finds repeated multi-step workflows, and recommends skill-worthy candidates. Saves you from having the same conversation twice.

@@ -2,21 +2,20 @@
 name: openclaw-local-mac-mini
 description: Set up OpenClaw locally and run it reliably on a Mac mini for private,
   always-on local agent workflows.
-category: devops
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant OS/platform tooling and privileged access where
   noted. Docs-only; helper scripts and templates not bundled.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: devops
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # OpenClaw Local + Mac mini Setup
 
 Use this skill when you want to run [OpenClaw](https://github.com/openclaw/openclaw) on a developer laptop or promote it to a stable Mac mini host. Covers cloning and bootstrapping, Docker Compose configuration, Mac mini hardware optimization, networking, monitoring, and production-grade launchd services.

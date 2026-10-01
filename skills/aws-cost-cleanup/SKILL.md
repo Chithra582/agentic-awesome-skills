@@ -1,11 +1,12 @@
 ---
 name: aws-cost-cleanup
-description: "Automated cleanup of unused AWS resources to reduce costs"
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: Automated cleanup of unused AWS resources to reduce costs
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # AWS Cost Cleanup
 
 Automate the identification and removal of unused AWS resources to eliminate waste.

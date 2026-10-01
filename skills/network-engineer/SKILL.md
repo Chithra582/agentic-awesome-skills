@@ -1,11 +1,13 @@
 ---
 name: network-engineer
-description: Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.
-risk: safe
-source: community
-date_added: '2026-02-27'
+description: Expert network engineer specializing in modern cloud networking, security
+  architectures, and performance optimization.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on network engineer tasks or workflows

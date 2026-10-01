@@ -1,11 +1,13 @@
 ---
 name: gdpr-data-handling
-description: "Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: Practical implementation guide for GDPR-compliant data processing, consent
+  management, and privacy controls.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # GDPR Data Handling
 
 Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls.

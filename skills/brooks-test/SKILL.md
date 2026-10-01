@@ -1,15 +1,17 @@
 ---
 name: brooks-test
-description: "Review test-suite quality using established testing literature; identify brittleness, mock abuse, unclear fixtures, weak assertions, slow feedback, and maintenance risks."
-risk: safe
-source: https://github.com/hyhmrright/brooks-lint/tree/main/skills/brooks-test
-source_repo: hyhmrright/brooks-lint
-source_type: community
-date_added: 2026-07-01
+description: Review test-suite quality using established testing literature; identify
+  brittleness, mock abuse, unclear fixtures, weak assertions, slow feedback, and maintenance
+  risks.
 license: MIT
-license_source: https://github.com/hyhmrright/brooks-lint/blob/main/LICENSE
+metadata:
+  risk: safe
+  source: https://github.com/hyhmrright/brooks-lint/tree/main/skills/brooks-test
+  source_repo: hyhmrright/brooks-lint
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/hyhmrright/brooks-lint/blob/main/LICENSE
 ---
-
 # Brooks-Lint — Test Quality Review
 ## When to Use
 

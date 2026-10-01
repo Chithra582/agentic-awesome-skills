@@ -1,15 +1,18 @@
 ---
 name: changelog-updates
-description: "Create release notes and product updates that developers actually read and care about. This skill covers changelog formatting, versioning communication, breaking change announcements, deprecation notices, and building anticipation for new features."
-risk: critical
-source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/changelog-updates
-source_repo: jonathimer/devmarketing-skills
-source_type: community
-date_added: 2026-07-01
+description: Create release notes and product updates that developers actually read
+  and care about. This skill covers changelog formatting, versioning communication,
+  breaking change announcements, deprecation notices, and building anticipation for
+  new features.
 license: MIT
-license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/changelog-updates
+  source_repo: jonathimer/devmarketing-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
 ---
-
 # Changelogs and Product Updates Developers Care About
 
 ## Detailed Guide

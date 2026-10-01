@@ -1,18 +1,18 @@
 ---
 name: travel-planner
-description: "旅行/行程规划需求时使用:规划去某地旅行、X天X城、带老人孩子、自驾、假期安排等。产出逐日行程表、预算估算(经济/舒适/奢华三档)、交通住宿建议、景点美食清单。必须先问预算,预算未确认只输出问题清单;事实数据带来源和查询日期。"
-category: travel
-risk: safe
-source: community
-source_repo: saudademjj/luopan
-source_type: community
-date_added: "2026-08-08"
-author: saudademjj
-tags: [travel, itinerary, planning, trip, chinese]
-license: "MIT"
-license_source: "https://github.com/saudademjj/luopan/blob/main/LICENSE"
+description: 旅行/行程规划需求时使用:规划去某地旅行、X天X城、带老人孩子、自驾、假期安排等。产出逐日行程表、预算估算(经济/舒适/奢华三档)、交通住宿建议、景点美食清单。必须先问预算,预算未确认只输出问题清单;事实数据带来源和查询日期。
+license: MIT
+metadata:
+  category: travel
+  risk: safe
+  source: community
+  source_repo: saudademjj/luopan
+  source_type: community
+  date_added: '2026-08-08'
+  author: saudademjj
+  tags: '[''travel'', ''itinerary'', ''planning'', ''trip'', ''chinese'']'
+  license_source: https://github.com/saudademjj/luopan/blob/main/LICENSE
 ---
-
 # 旅行规划 (Travel Planner)
 
 ## When to Use

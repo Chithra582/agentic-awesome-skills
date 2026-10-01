@@ -1,26 +1,21 @@
 ---
 name: survey-generator
-description: "Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering."
+description: Generate source-backed AI/ML survey paper artifacts with curated bibliographies
+  and Fireworks/Kimi HTML rendering.
 allowed-tools: Read, Write, Bash, WebFetch, AskUserQuestion
-category: "research"
-risk: "safe"
-source: "official"
-source_repo: "dair-ai/dair-academy-plugins"
-source_type: "official"
-date_added: "2026-06-19"
-author: "DAIR.AI"
-license: "MIT"
-license_source: "https://github.com/dair-ai/dair-academy-plugins/blob/main/README.md#license"
-tags:
-  - dair-academy
-  - ai
-  - workflow
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
+license: MIT
+metadata:
+  category: research
+  risk: safe
+  source: official
+  source_repo: dair-ai/dair-academy-plugins
+  source_type: official
+  date_added: '2026-06-19'
+  author: DAIR.AI
+  license_source: https://github.com/dair-ai/dair-academy-plugins/blob/main/README.md#license
+  tags: '[''dair-academy'', ''ai'', ''workflow'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'']'
 ---
-
 # Survey Generator Skill
 
 ## When to Use

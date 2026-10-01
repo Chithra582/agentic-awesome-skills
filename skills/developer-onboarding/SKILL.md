@@ -1,15 +1,16 @@
 ---
 name: developer-onboarding
-description: "Get developers to \"Hello World\" fast with optimized quickstarts, tutorials, and sample apps."
-risk: critical
-source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/developer-onboarding
-source_repo: jonathimer/devmarketing-skills
-source_type: community
-date_added: 2026-07-01
+description: Get developers to "Hello World" fast with optimized quickstarts, tutorials,
+  and sample apps.
 license: MIT
-license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/developer-onboarding
+  source_repo: jonathimer/devmarketing-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
 ---
-
 # Developer Onboarding
 
 ## Detailed Guide

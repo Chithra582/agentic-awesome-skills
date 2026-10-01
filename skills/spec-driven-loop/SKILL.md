@@ -1,25 +1,22 @@
 ---
 name: spec-driven-loop
-description: Freeze PRD, technical design, and acceptance criteria before medium-to-large Codex work; coordinate agents with explicit ownership, then judge delivery from diffs, tests, and evidence.
-category: development
-risk: safe
-source: self
-source_repo: Linji-x/spec-driven-loop
-source_type: self
+description: Freeze PRD, technical design, and acceptance criteria before medium-to-large
+  Codex work; coordinate agents with explicit ownership, then judge delivery from
+  diffs, tests, and evidence.
 license: MIT
-license_source: https://github.com/Linji-x/spec-driven-loop/blob/v1.0.0/LICENSE
-date_added: "2026-08-25"
-author: Linji-x
-tags:
-  - codex
-  - spec-driven-development
-  - multi-agent
-  - agent-orchestration
-  - acceptance-testing
-tools:
-  - codex
+metadata:
+  category: development
+  risk: safe
+  source: self
+  source_repo: Linji-x/spec-driven-loop
+  source_type: self
+  license_source: https://github.com/Linji-x/spec-driven-loop/blob/v1.0.0/LICENSE
+  date_added: '2026-08-25'
+  author: Linji-x
+  tags: '[''codex'', ''spec-driven-development'', ''multi-agent'', ''agent-orchestration'',
+    ''acceptance-testing'']'
+  tools: '[''codex'']'
 ---
-
 # Spec-Driven Loop
 
 Turn an uncertain software request into an approved specification, a controlled implementation, and evidence-backed acceptance. Keep project documents in the repository's established location; otherwise use `docs/spec-driven/<feature-slug>/`.

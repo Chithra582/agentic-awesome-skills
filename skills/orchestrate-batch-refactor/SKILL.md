@@ -1,11 +1,13 @@
 ---
-name: "orchestrate-batch-refactor"
-description: "Plan and execute large refactors with dependency-aware work packets and parallel analysis."
-risk: safe
-source: "Dimillian/Skills (MIT)"
-date_added: "2026-03-25"
+name: orchestrate-batch-refactor
+description: Plan and execute large refactors with dependency-aware work packets and
+  parallel analysis.
+metadata:
+  risk: safe
+  source: Dimillian/Skills (MIT)
+  date_added: '2026-03-25'
+license: MIT
 ---
-
 # Orchestrate Batch Refactor
 
 ## Overview

@@ -1,22 +1,19 @@
 ---
 name: meeting-distiller-pro
-version: 1.0.0
 description: Transform messy meeting notes and transcripts into structured action
   items, decisions, and follow-ups. Never lose a meeting insight again.
-author: yundu-ai
-tags:
-- meeting
-- productivity
-- notes
-- action-items
-- summary
-- corporate
-model: claude
-source_repo: demo112/yunqu-ai-skills
-source_type: community
-source: community
-date_added: '2026-09-21'
-risk: unknown
+metadata:
+  version: 1.0.0
+  author: yundu-ai
+  tags: '[''meeting'', ''productivity'', ''notes'', ''action-items'', ''summary'',
+    ''corporate'']'
+  model: claude
+  source_repo: demo112/yunqu-ai-skills
+  source_type: community
+  source: community
+  date_added: '2026-09-21'
+  risk: unknown
+license: MIT
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

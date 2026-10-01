@@ -1,11 +1,13 @@
 ---
 name: codebase-cleanup-tech-debt
-description: "Identify technical debt from actual code and change history, estimate its impact, and prioritize bounded improvements with explicit assumptions."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Identify technical debt from actual code and change history, estimate
+  its impact, and prioritize bounded improvements with explicit assumptions.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Compatibility and maintenance
 
 Compatibility alias of `code-refactoring-tech-debt`; use that ID for new references when no existing contract requires this one. The full instructions and support files remain local so existing installations

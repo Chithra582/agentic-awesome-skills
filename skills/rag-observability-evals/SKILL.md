@@ -2,22 +2,21 @@
 name: rag-observability-evals
 description: Monitor and evaluate RAG systems with retrieval quality metrics, groundedness
   checks, hallucination detection, and continuous regression testing.
-category: devops
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant platform CLIs (kubectl, helm, terraform, git,
   CI runners) and authorized access to the target environment. Docs-only; helper scripts
   and templates not bundled.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: devops
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # RAG Observability and Evaluations
 
 Run retrieval-augmented generation like a measurable production system, not a black box.

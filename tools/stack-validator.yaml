@@ -1,0 +1,16 @@
+name: "stack-validator"
+description: "Validates active workspace language versions, package managers, and CLI prerequisites."
+input_schema:
+  type: "object"
+  properties:
+    workspace_root:
+      type: "string"
+      description: "Absolute or relative path to the project root directory."
+    required_stack:
+      type: "array"
+      items:
+        type: "string"
+      description: "List of prerequisite technologies to check e.g. node, python, docker."
+  required:
+    - "workspace_root"
+    - "required_stack"

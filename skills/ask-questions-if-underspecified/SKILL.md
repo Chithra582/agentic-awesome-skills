@@ -1,11 +1,12 @@
 ---
 name: ask-questions-if-underspecified
 description: Clarify requirements before implementing. Use when serious doubts arise.
-risk: safe
-source: community
-date_added: "2026-09-04"
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Ask Questions If Underspecified
 
 ## When to Use

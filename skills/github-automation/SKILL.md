@@ -1,11 +1,14 @@
 ---
 name: github-automation
-description: "Operate GitHub issues, pull requests, branches, checks, workflows, and permissions through Rube MCP. Use when GitHub work must be queried or changed programmatically with repository-policy safeguards."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Operate GitHub issues, pull requests, branches, checks, workflows, and
+  permissions through Rube MCP. Use when GitHub work must be queried or changed programmatically
+  with repository-policy safeguards.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # GitHub Automation via Rube MCP
 
 Use Composio's GitHub toolkit through Rube MCP while preserving repository policy, exact revision identity, and branch protection.

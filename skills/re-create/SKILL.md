@@ -1,11 +1,13 @@
 ---
 name: re-create
-description: "Completely delete and rewrite a file or module from scratch when structural rot makes patching impossible."
-risk: critical
-source: community
-date_added: "2026-06-27"
+description: Completely delete and rewrite a file or module from scratch when structural
+  rot makes patching impossible.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-06-27'
+license: MIT
 ---
-
 # re-create — Controlled Erasure & Rebuild Protocol
 
 ## Overview

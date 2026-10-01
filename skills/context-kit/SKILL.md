@@ -1,17 +1,20 @@
 ---
 name: context-kit
-description: "Evaluate, adapt, and safely install Context Kit personal context artifacts for Claude Code or adjacent agent workflows."
-category: productivity
-risk: critical
-source: community
-source_repo: JDDavenport/context-kit
-source_type: community
-date_added: "2026-07-04"
-author: JDDavenport
-tags: [personal-context, claude-code, memory, knowledge-management, agent-workflows]
-tools: [claude, codex, cursor, gemini]
+description: Evaluate, adapt, and safely install Context Kit personal context artifacts
+  for Claude Code or adjacent agent workflows.
+metadata:
+  category: productivity
+  risk: critical
+  source: community
+  source_repo: JDDavenport/context-kit
+  source_type: community
+  date_added: '2026-07-04'
+  author: JDDavenport
+  tags: '[''personal-context'', ''claude-code'', ''memory'', ''knowledge-management'',
+    ''agent-workflows'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # Context Kit
 
 ## When to Use

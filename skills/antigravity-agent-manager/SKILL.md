@@ -1,16 +1,18 @@
 ---
 name: antigravity-agent-manager
-description: "Configure and orchestrate parallel agents using the standalone Antigravity 2.0 Agent Manager and Antigravity IDE."
-category: general
-risk: critical
-source: self
-source_type: self
-date_added: "2026-06-04"
-author: community
-tags: [agent-manager, orchestration, multi-agent, setup]
-tools: [antigravity, gemini]
+description: Configure and orchestrate parallel agents using the standalone Antigravity
+  2.0 Agent Manager and Antigravity IDE.
+metadata:
+  category: general
+  risk: critical
+  source: self
+  source_type: self
+  date_added: '2026-06-04'
+  author: community
+  tags: '[''agent-manager'', ''orchestration'', ''multi-agent'', ''setup'']'
+  tools: '[''antigravity'', ''gemini'']'
+license: MIT
 ---
-
 # Antigravity Agent Manager
 
 ## Overview

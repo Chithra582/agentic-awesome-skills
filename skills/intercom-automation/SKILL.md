@@ -1,11 +1,13 @@
 ---
 name: intercom-automation
-description: "Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search tools first for current schemas."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: 'Automate Intercom tasks via Rube MCP (Composio): conversations, contacts,
+  companies, segments, admins. Always search tools first for current schemas.'
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Intercom Automation via Rube MCP
 
 Automate Intercom operations through Composio's Intercom toolkit via Rube MCP.

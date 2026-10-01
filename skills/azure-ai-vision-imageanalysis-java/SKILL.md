@@ -1,11 +1,14 @@
 ---
 name: azure-ai-vision-imageanalysis-java
-description: "Build image analysis applications with Azure AI Vision SDK for Java. Use when implementing image captioning, OCR text extraction, object detection, tagging, or smart cropping."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Build image analysis applications with Azure AI Vision SDK for Java.
+  Use when implementing image captioning, OCR text extraction, object detection, tagging,
+  or smart cropping.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure AI Vision Image Analysis SDK for Java
 
 Build image analysis applications using the Azure AI Vision Image Analysis SDK for Java.

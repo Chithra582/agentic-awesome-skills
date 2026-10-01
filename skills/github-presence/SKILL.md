@@ -1,15 +1,18 @@
 ---
 name: github-presence
-description: When the user wants to optimize their GitHub profile, README, or project discoverability. Trigger phrases include "GitHub README," "README optimization," "GitHub profile," "GitHub stars," "GitHub discoverability," "awesome lists," or "GitHub marketing."
-risk: critical
-source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/github-presence
-source_repo: jonathimer/devmarketing-skills
-source_type: community
-date_added: 2026-07-01
+description: When the user wants to optimize their GitHub profile, README, or project
+  discoverability. Trigger phrases include "GitHub README," "README optimization,"
+  "GitHub profile," "GitHub stars," "GitHub discoverability," "awesome lists," or
+  "GitHub marketing."
 license: MIT
-license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/github-presence
+  source_repo: jonathimer/devmarketing-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
 ---
-
 # GitHub Presence
 ## When to Use
 

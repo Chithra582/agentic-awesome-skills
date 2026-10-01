@@ -1,11 +1,13 @@
 ---
 name: mailtrap-managing-contacts
-description: Manage Mailtrap contacts, lists, segments, custom fields, imports, CRM syncs, and campaign audiences through the UI or API.
-risk: critical
-source: community
-date_added: "2026-06-19"
+description: Manage Mailtrap contacts, lists, segments, custom fields, imports, CRM
+  syncs, and campaign audiences through the UI or API.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-06-19'
+license: MIT
 ---
-
 # Managing Mailtrap contacts
 
 ## Overview

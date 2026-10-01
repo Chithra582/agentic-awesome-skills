@@ -1,11 +1,13 @@
 ---
 name: hr-pro
-description: Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations.
-risk: none
-source: community
-date_added: '2026-02-27'
+description: Professional, ethical HR partner for hiring, onboarding/offboarding,
+  PTO and leave, performance, compliant policies, and employee relations.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on hr pro tasks or workflows

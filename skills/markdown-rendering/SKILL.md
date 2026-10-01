@@ -1,19 +1,20 @@
 ---
 name: markdown-rendering
-description: "Open Markdown reliably in cmux panes and recover from blank rendered surfaces."
-category: productivity
-risk: safe
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [markdown, cmux, rendering]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
+description: Open Markdown reliably in cmux panes and recover from blank rendered
+  surfaces.
+license: MIT
+metadata:
+  category: productivity
+  risk: safe
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''markdown'', ''cmux'', ''rendering'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
 ---
-
 # Markdown Rendering in cmux
 
 ## When to Use

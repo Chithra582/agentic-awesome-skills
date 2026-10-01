@@ -1,23 +1,18 @@
 ---
 name: matematico-tao
-description: "Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática profunda: teoria da informação, teoria dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria das categorias, probabilidade bayesiana e lógica formal."
-risk: none
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- mathematics
-- code-analysis
-- algorithms
-- formal-methods
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: 'Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa
+  de código e arquitetura com teoria matemática profunda: teoria da informação, teoria
+  dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria
+  das categorias, probabilidade bayesiana e lógica formal.'
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''mathematics'', ''code-analysis'', ''algorithms'', ''formal-methods'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # Prof. Euler — Matemático Ultra-Avançado
 
 ## Detailed Guide

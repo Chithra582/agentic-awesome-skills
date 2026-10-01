@@ -1,15 +1,16 @@
 ---
 name: api-analyzer
-description: "Validates whether an API request is correct based on provided inputs (method, URL, headers, body, auth, query params)."
-risk: none
-source: https://github.com/LambdaTest/agent-skills/tree/main/api-skill/api-analyzer
-source_repo: LambdaTest/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Validates whether an API request is correct based on provided inputs
+  (method, URL, headers, body, auth, query params).
 license: MIT
-license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
+metadata:
+  risk: none
+  source: https://github.com/LambdaTest/agent-skills/tree/main/api-skill/api-analyzer
+  source_repo: LambdaTest/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 ---
-
 # API Analyzer
 ## When to Use
 

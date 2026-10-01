@@ -1,19 +1,22 @@
 ---
 name: flowhunt-skill
-description: "Automation discovery audit skill. Walks through a 5-question workflow intake, then audits Gmail/Calendar/Slack/task trackers to identify automation opportunities. Use when a user wants to discover what processes in their business can be automated."
-category: automation
-risk: safe
-source: community
-source_repo: heyneuron/flowhunt-skill
-source_type: community
-date_added: "2026-05-23"
-author: heyneuron
-tags: [automation, discovery, audit, gmail, calendar, slack, productivity, workflow]
-tools: [claude, codex, gemini, cursor]
-license: "MIT"
-license_source: "https://github.com/heyneuron/flowhunt-skill/blob/main/LICENSE"
+description: Automation discovery audit skill. Walks through a 5-question workflow
+  intake, then audits Gmail/Calendar/Slack/task trackers to identify automation opportunities.
+  Use when a user wants to discover what processes in their business can be automated.
+license: MIT
+metadata:
+  category: automation
+  risk: safe
+  source: community
+  source_repo: heyneuron/flowhunt-skill
+  source_type: community
+  date_added: '2026-05-23'
+  author: heyneuron
+  tags: '[''automation'', ''discovery'', ''audit'', ''gmail'', ''calendar'', ''slack'',
+    ''productivity'', ''workflow'']'
+  tools: '[''claude'', ''codex'', ''gemini'', ''cursor'']'
+  license_source: https://github.com/heyneuron/flowhunt-skill/blob/main/LICENSE
 ---
-
 # FlowHunt Skill — Automation Discovery Audit
 
 ## Overview

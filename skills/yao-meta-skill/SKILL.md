@@ -1,29 +1,21 @@
 ---
 name: yao-meta-skill
-description: Create, refactor, evaluate, and package agent skills from workflows, prompts, transcripts, docs, or notes. Use for skill creation, reusable workflow packaging, skill improvement, evals, and team-ready distribution.
+description: Create, refactor, evaluate, and package agent skills from workflows,
+  prompts, transcripts, docs, or notes. Use for skill creation, reusable workflow
+  packaging, skill improvement, evals, and team-ready distribution.
+license: MIT
 metadata:
   author: Yao Team
-category: "skill-authoring"
-risk: "safe"
-source: "community"
-source_repo: "yaojingang/yao-meta-skill"
-source_type: "community"
-date_added: "2026-06-19"
-author: "Yao Team"
-license: "MIT"
-license_source: "https://github.com/yaojingang/yao-meta-skill/blob/main/LICENSE"
-tags:
-  - skill-authoring
-  - agent-skills
-  - evaluation
-  - packaging
-tools:
-  - claude-code
-  - codex-cli
-  - cursor
-  - gemini-cli
+  category: skill-authoring
+  risk: safe
+  source: community
+  source_repo: yaojingang/yao-meta-skill
+  source_type: community
+  date_added: '2026-06-19'
+  license_source: https://github.com/yaojingang/yao-meta-skill/blob/main/LICENSE
+  tags: '[''skill-authoring'', ''agent-skills'', ''evaluation'', ''packaging'']'
+  tools: '[''claude-code'', ''codex-cli'', ''cursor'', ''gemini-cli'']'
 ---
-
 # Yao Meta Skill
 
 ## When to Use

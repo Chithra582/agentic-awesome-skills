@@ -1,15 +1,16 @@
 ---
 name: logic-review
-description: "Find logic bugs in a single file or function via semi-formal execution tracing (Premises → Trace → Divergence → Trigger → Remedy)."
-risk: critical
-source: https://github.com/hyhmrright/logic-lens/tree/main/skills/logic-review
-source_repo: hyhmrright/logic-lens
-source_type: community
-date_added: 2026-07-01
+description: Find logic bugs in a single file or function via semi-formal execution
+  tracing (Premises → Trace → Divergence → Trigger → Remedy).
 license: MIT
-license_source: https://github.com/hyhmrright/logic-lens/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/hyhmrright/logic-lens/tree/main/skills/logic-review
+  source_repo: hyhmrright/logic-lens
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/hyhmrright/logic-lens/blob/main/LICENSE
 ---
-
 # Logic-Lens — Logic Review
 ## When to Use
 

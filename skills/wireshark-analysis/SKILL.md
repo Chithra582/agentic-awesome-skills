@@ -1,12 +1,15 @@
 ---
 name: wireshark-analysis
-description: "Execute comprehensive network traffic analysis using Wireshark to capture, filter, and examine network packets for security investigations, performance optimization, and troubleshooting."
-risk: critical
-source: community
-author: zebbern
-date_added: "2026-02-27"
+description: Execute comprehensive network traffic analysis using Wireshark to capture,
+  filter, and examine network packets for security investigations, performance optimization,
+  and troubleshooting.
+metadata:
+  risk: critical
+  source: community
+  author: zebbern
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Wireshark Network Traffic Analysis
 
 ## Detailed Guide

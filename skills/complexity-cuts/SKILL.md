@@ -1,18 +1,21 @@
 ---
 name: complexity-cuts
-description: "Lower Big-O on existing code via a one-transformation-at-a-time playbook with verify-revert-stop. For new code use lemmaly; for math-level wins escalate to mathguard."
-risk: safe
-source: community
-source_repo: morsechimwai/lemmaly
-source_type: community
-date_added: "2026-05-26"
-author: morsechimwai
-tags: [algorithms, big-o, refactoring, optimization, performance, n-plus-one]
-tools: [claude-code, antigravity, cursor, gemini-cli, codex-cli]
-license: "Apache-2.0"
-license_source: "https://github.com/morsechimwai/lemmaly/blob/main/LICENSE"
+description: Lower Big-O on existing code via a one-transformation-at-a-time playbook
+  with verify-revert-stop. For new code use lemmaly; for math-level wins escalate
+  to mathguard.
+license: Apache-2.0
+metadata:
+  risk: safe
+  source: community
+  source_repo: morsechimwai/lemmaly
+  source_type: community
+  date_added: '2026-05-26'
+  author: morsechimwai
+  tags: '[''algorithms'', ''big-o'', ''refactoring'', ''optimization'', ''performance'',
+    ''n-plus-one'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+  license_source: https://github.com/morsechimwai/lemmaly/blob/main/LICENSE
 ---
-
 # complexity-cuts — Lower Big-O on Existing Code
 
 `lemmaly` prevents bad complexity before code is written. **complexity-cuts** fixes it after the fact: code already exists, it works, but its time or space complexity is worse than necessary.

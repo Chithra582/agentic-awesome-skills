@@ -1,19 +1,20 @@
 ---
 name: frontend-lighthouse
-description: "Add a portable Lighthouse CI gate for production frontend builds with Core Web Vitals budgets, category floors, median runs, and CI artifacts."
-category: frontend
-risk: safe
-source: community
-source_repo: stareezy-1/frontend-architecture-skill
-source_type: community
-date_added: "2026-06-29"
-author: stareezy-1
-tags: [frontend, lighthouse, performance, core-web-vitals, ci]
-tools: [lighthouse, node, github-actions]
-license: "MIT"
-license_source: "https://github.com/stareezy-1/frontend-architecture-skill/blob/main/LICENSE"
+description: Add a portable Lighthouse CI gate for production frontend builds with
+  Core Web Vitals budgets, category floors, median runs, and CI artifacts.
+license: MIT
+metadata:
+  category: frontend
+  risk: safe
+  source: community
+  source_repo: stareezy-1/frontend-architecture-skill
+  source_type: community
+  date_added: '2026-06-29'
+  author: stareezy-1
+  tags: '[''frontend'', ''lighthouse'', ''performance'', ''core-web-vitals'', ''ci'']'
+  tools: '[''lighthouse'', ''node'', ''github-actions'']'
+  license_source: https://github.com/stareezy-1/frontend-architecture-skill/blob/main/LICENSE
 ---
-
 # Frontend Lighthouse (portable performance gate)
 
 > Portable skill — readable by Claude Code, OpenCode, Codex, Cursor, Windsurf, and others.

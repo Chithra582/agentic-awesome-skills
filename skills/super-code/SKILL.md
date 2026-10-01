@@ -1,11 +1,13 @@
 ---
 name: super-code
-description: "Standing house style to enforce dense, correct, and idiomatic code on all coding tasks. Minimizes code bloat and agent operation overhead."
-risk: safe
-source: community
-date_added: "2026-06-16"
+description: Standing house style to enforce dense, correct, and idiomatic code on
+  all coding tasks. Minimizes code bloat and agent operation overhead.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-06-16'
+license: MIT
 ---
-
 # Super Code Skill
 
 ## Overview

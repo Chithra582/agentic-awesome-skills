@@ -1,11 +1,12 @@
 ---
 name: react-native-skills
-description: "Use when working with react-native-skills tasks or workflows"
-risk: safe
-source: "https://github.com/vercel-labs/agent-skills"
-date_added: "2026-06-02"
+description: Use when working with react-native-skills tasks or workflows
+metadata:
+  risk: safe
+  source: https://github.com/vercel-labs/agent-skills
+  date_added: '2026-06-02'
+license: MIT
 ---
-
 # React Native Skills
 
 Comprehensive best practices for React Native and Expo applications. Contains

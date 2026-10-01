@@ -1,11 +1,14 @@
 ---
 name: seo-structure-architect
-description: Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization.
-risk: safe
-source: community
-date_added: '2026-02-27'
+description: Analyzes and optimizes content structure including header hierarchy,
+  suggests schema markup, and internal linking opportunities. Creates search-friendly
+  content organization.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on seo structure architect tasks or workflows

@@ -1,15 +1,17 @@
 ---
 name: hugging-face-paper-publisher
-description: Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/skills/huggingface-paper-publisher
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: Publish and manage research papers on Hugging Face Hub. Supports creating
+  paper pages, linking papers to models/datasets, claiming authorship, and generating
+  professional markdown-based research articles.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/skills/huggingface-paper-publisher
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 # Overview
 
 ## Detailed Guide

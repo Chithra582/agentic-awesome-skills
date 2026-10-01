@@ -1,15 +1,15 @@
 ---
 name: ui-page
 description: Scaffold a new mobile page/screen using the StyleSeed layout patterns
-risk: critical
-source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-page
-source_repo: bitjaru/styleseed
-source_type: community
-date_added: 2026-07-01
 license: MIT
-license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/bitjaru/styleseed/tree/main/engine/.claude/skills/ss-page
+  source_repo: bitjaru/styleseed
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/bitjaru/styleseed/blob/main/LICENSE
 ---
-
 # Mobile Page Scaffolder
 ## When to Use
 

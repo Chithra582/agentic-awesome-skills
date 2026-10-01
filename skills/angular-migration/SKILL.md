@@ -1,11 +1,13 @@
 ---
 name: angular-migration
-description: "Master AngularJS to Angular migration, including hybrid apps, component conversion, dependency injection changes, and routing migration."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Master AngularJS to Angular migration, including hybrid apps, component
+  conversion, dependency injection changes, and routing migration.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Angular Migration
 
 Master AngularJS to Angular migration, including hybrid apps, component conversion, dependency injection changes, and routing migration.

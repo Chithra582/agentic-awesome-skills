@@ -1,15 +1,17 @@
 ---
 name: longbridge-content
-description: "Latest news articles, regulatory filings, community discussion topics for listed stocks, and SEC EDGAR filing analysis (10-K/10-Q/8-K/proxy/Form 4) via Longbridge."
-risk: critical
-source: https://github.com/longbridge/skills/tree/main/skills/longbridge-content
-source_repo: longbridge/skills
-source_type: official
-date_added: 2026-07-01
+description: Latest news articles, regulatory filings, community discussion topics
+  for listed stocks, and SEC EDGAR filing analysis (10-K/10-Q/8-K/proxy/Form 4) via
+  Longbridge.
 license: MIT
-license_source: https://github.com/longbridge/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/longbridge/skills/tree/main/skills/longbridge-content
+  source_repo: longbridge/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/longbridge/skills/blob/main/LICENSE
 ---
-
 # Longbridge Content
 
 News, filings, community topics, and SEC document analysis via Longbridge.

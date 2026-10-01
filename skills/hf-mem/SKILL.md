@@ -1,15 +1,16 @@
 ---
 name: hf-mem
-description: Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hugging Face Hub
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/skills/hf-mem
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: Hugging Face CLI to estimate the required memory to load Safetensors
+  or GGUF model weights for inference from the Hugging Face Hub
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/skills/hf-mem
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 `hf_mem` estimates the required memory for inference, including model weights and an optional KV cache, for Safetensors and GGUF for models on the Hugging Face Hub using HTTP Range requests i.e., without downloading or loading any weights locally.
 
 ## When to use?

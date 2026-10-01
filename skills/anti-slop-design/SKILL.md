@@ -1,19 +1,20 @@
 ---
 name: anti-slop-design
-description: "Autonomous Principal Design Technologist. Cures vibe-coded software from AI frontend slop using curated token archetypes and 7-axis quality gating."
-category: frontend
-risk: safe
-source: community
-source_repo: wwewtech/anti-slop-design
-source_type: community
-date_added: "2026-04-20"
-author: wwewtech
-tags: [ui-ux, design-systems, anti-slop, frontend, tailwind]
-tools: [claude, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/wwewtech/anti-slop-design/blob/main/LICENSE"
+description: Autonomous Principal Design Technologist. Cures vibe-coded software from
+  AI frontend slop using curated token archetypes and 7-axis quality gating.
+license: MIT
+metadata:
+  category: frontend
+  risk: safe
+  source: community
+  source_repo: wwewtech/anti-slop-design
+  source_type: community
+  date_added: '2026-04-20'
+  author: wwewtech
+  tags: '[''ui-ux'', ''design-systems'', ''anti-slop'', ''frontend'', ''tailwind'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/wwewtech/anti-slop-design/blob/main/LICENSE
 ---
-
 # Anti-Slop Design
 
 ## Overview
@@ -331,63 +332,6 @@ flowchart TD
 
 ### Phase 2: Design Archetype & Token Setup
 - Select the matching archetype (Quiet Luxury SaaS, Technical Dense, Editorial, or Warm Tactile).
-- Declare clean CSS custom properties for surfaces, borders, text, and primary accents.
-- Define font pairings (Display + Tabular Monospace).
+- Declare clean CSS custom properties for surfaces, borders, t
 
-### Phase 3: Macro-Layout & 1-to-3 UX Hierarchy
-- Implement Page-Level Control Bar.
-- Enforce the 1-to-3 scaling rule: ensure 1 dominant focal element per viewport section.
-- Apply mobile linearity to complex desktop sections.
-
-### Phase 4: Component Craft & 8-State Polish
-- Replace all raw emojis with crisp SVG vector icons.
-- Ensure all inputs have `<label>`, autocomplete, and visible `:focus-visible` rings.
-- Apply tactile `:active` micro-scaling and snappy transitions (< 200ms).
-
-### Phase 5: 7-Axis Pre-Emit Quality Gate (Mandatory Self-Critique)
-Before providing the final code or marking a task complete, evaluate the implementation against the 7-Axis Quality Gate.
-
----
-
-## 7. The 7-Axis Pre-Emit Quality Gate Checklist
-
-Score the resulting code from 1 to 5 across all 7 axes. **Every axis must achieve $\ge 4$ before completion:**
-
-| Axis | Evaluation Metric | Threshold Checklist ($\ge 4$ Required) |
-| :--- | :--- | :--- |
-| **1. Anti-Slop Purity** | Freedom from AI clichés | [ ] Zero purple/indigo radial background blobs<br>[ ] Zero raw emojis used as functional icons<br>[ ] Zero single-word italicized headings<br>[ ] Zero fake vanity stats or marketing fluff cards |
-| **2. UX Speed & 1-to-3 Rule** | Logical clarity & efficiency | [ ] 1 clear primary action per viewport section<br>[ ] Max 3 secondary actions<br>[ ] Date pickers and global filters unified at page level<br>[ ] Zero duplicated metric cards or redundant buttons |
-| **3. Typographic Discipline** | Personality & hierarchy | [ ] Maximum 2 font families<br>[ ] Tabular numbers enabled on all metrics (`tabular-nums`)<br>[ ] Body text line length $\le 75\text{ch}$<br>[ ] Sentence case used on labels; no tracked-out all-caps screaming |
-| **4. Spacing & Geometric Math** | Spatial cadence & alignment | [ ] Strict 4px/8pt grid adherence<br>[ ] Nested corner radius formula respected: $R_{\text{inner}} = R_{\text{outer}} - P$<br>[ ] No cramped cards; minimum 16px internal card padding<br>[ ] Optical centering on icon-text pairs |
-| **5. Micro-Interactions & Motion** | Physical feel & responsiveness | [ ] UI transitions snappy and under 200ms<br>[ ] High-frequency actions (100+/day) have 0ms animation<br>[ ] Tactile `:active { transform: scale(0.97) }` feedback present<br>[ ] No sluggish `ease-in` curves |
-| **6. Accessibility & Keyboard Flow** | WCAG 2.1 AA Compliance | [ ] Visible focus rings on all interactive elements (`:focus-visible`)<br>[ ] No `outline: none` without focus replacement ring<br>[ ] Icon-only buttons have `aria-label`<br>[ ] Semantic HTML tags (`<button>`, `<a>`, `<nav>`, `<main>`, `<header>`) |
-| **7. Mobile & Responsive Linearity** | Cross-device stability | [ ] Clean vertical stacking on mobile viewports<br>[ ] Zero horizontal scroll overflows (`overflow-x: hidden` / flex wrapping)<br>[ ] Minimum 44x44px touch targets on mobile<br>[ ] Table data switches to cards or clean scroll containers |
-
----
-
-## 8. Before & After Reference Transformations
-
-Use this transformation blueprint when refactoring vibe-coded components:
-
-| Interface Element | Vibe-Coded AI Slop (Before) | Production-Grade Anti-Slop (After) | Engineering Rationale |
-| :--- | :--- | :--- | :--- |
-| **Page Analytics Header** | Date filter embedded inside 4 individual cards; 3 duplicate click counters. | Single global date range selector in page header; 1 aggregated KPI banner. | Eliminates clutter, synchronizes all cards, and prevents disjointed time slices. |
-| **SaaS Sidebar** | Generic icons + emojis, glowing purple gradient on active link, redundant links. | Clean 240px sidebar, unified 1.5px stroke Lucide icons, subtle 1px hairline active border. | Reduces visual fatigue, establishes corporate credibility, and saves vertical space. |
-| **Data Comparison** | Huge decorative 3D globe / map widget showing zero regional percentages. | Compact horizontal bar comparison list with percentage deltas and tabular numbers. | Delivers actionable business utility instead of decorative CPU-hogging fluff. |
-| **Action Button** | `bg-indigo-600 hover:bg-indigo-700 transition-all duration-300`, no focus ring, no active state. | `bg-zinc-900 text-white hover:bg-zinc-800 active:scale-[0.97] focus-visible:ring-2`, snappy 140ms ease-out. | Provides instant physical response, satisfies WCAG accessibility, feels human-crafted. |
-| **Settings & Billing** | 5 overlapping cards, billing buried inside random user profile settings. | Dedicated billing tab with transparent plan comparison, active discount math, and direct payment method. | High-frequency commercial tasks must be direct and unburied. |
-| **Landing Page Hero** | 140px headline split across 4 lines with 1 word bold-italic, 3 buttons, video preloader. | Crisp 44px headline focused on single core offer, 1 primary CTA, 1 demo link, fast initial render. | Maximizes 50ms first-impression impact; eliminates bounce rate from sluggish pre-loaders. |
-
----
-
-## 9. Final Verification Assertion
-
-Before delivering code, assert:
-> *"Does this interface feel like it was crafted by an elite, disciplined design technologist with extreme respect for the user's attention and time, or does it look like an AI generated it from a prompt? If any element feels like prompt-slop, eliminate it immediately."*
-
-## Limitations
-
-- Opinionated aesthetic rules may conflict with an existing brand system; align tokens with the product's design system when one is already mandated.
-- The seven-axis gate is a heuristic checklist, not a substitute for user research, usability testing, or brand/legal review.
-- Does not replace accessibility audits, performance profiling, or backend/API design work.
-- Archetype tokens and Tailwind examples assume a web stack; native mobile or desktop toolkits need separate patterns.
+<!-- Truncated for OpenGAP token limits -->

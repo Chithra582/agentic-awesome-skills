@@ -1,19 +1,20 @@
 ---
 name: vps-server-management
-description: "Manage authorized VPS hosts and server-side agents through cautious SSH and operations workflows."
-category: operations
-risk: critical
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [vps, ssh, server-management]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
+description: Manage authorized VPS hosts and server-side agents through cautious SSH
+  and operations workflows.
+license: MIT
+metadata:
+  category: operations
+  risk: critical
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''vps'', ''ssh'', ''server-management'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
 ---
-
 # VPS Server Management
 
 ## When to Use

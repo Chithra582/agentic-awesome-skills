@@ -1,11 +1,13 @@
 ---
 name: environment-setup-guide
-description: "Guide developers through setting up development environments with proper tools, dependencies, and configurations"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Guide developers through setting up development environments with proper
+  tools, dependencies, and configurations
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Environment Setup Guide
 
 ## Overview

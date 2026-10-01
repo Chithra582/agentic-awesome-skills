@@ -1,16 +1,17 @@
 ---
 name: n8n-binary-and-data
-description: Handle n8n files and binary data across uploads, downloads, transforms, multimodal inputs, agent tools, and chat surfaces.
-risk: critical
-source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-binary-and-data
-source_repo: czlonkowski/n8n-skills
-source_type: community
-date_added: "2026-07-21"
-author: Romuald Czlonkowski
+description: Handle n8n files and binary data across uploads, downloads, transforms,
+  multimodal inputs, agent tools, and chat surfaces.
 license: MIT
-license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-binary-and-data
+  source_repo: czlonkowski/n8n-skills
+  source_type: community
+  date_added: '2026-07-21'
+  author: Romuald Czlonkowski
+  license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
 ---
-
 # n8n Binary and Data
 
 ## When to Use

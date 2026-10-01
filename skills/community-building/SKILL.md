@@ -1,15 +1,16 @@
 ---
 name: community-building
-description: "When the user wants to build, grow, or improve a developer community on Discord, Slack, or forums."
-risk: critical
-source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/community-building
-source_repo: jonathimer/devmarketing-skills
-source_type: community
-date_added: 2026-07-01
+description: When the user wants to build, grow, or improve a developer community
+  on Discord, Slack, or forums.
 license: MIT
-license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/community-building
+  source_repo: jonathimer/devmarketing-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
 ---
-
 # Community Building
 ## When to Use
 

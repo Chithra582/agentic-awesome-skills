@@ -1,11 +1,14 @@
 ---
 name: the-honoured-one
-description: "Forces the AI to fully load context and read relevant files before performing complex, multi-file tasks, architectural changes, or debugging. Prevents acting on assumptions."
-risk: safe
-source: community
-date_added: "2026-06-25"
+description: Forces the AI to fully load context and read relevant files before performing
+  complex, multi-file tasks, architectural changes, or debugging. Prevents acting
+  on assumptions.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-06-25'
+license: MIT
 ---
-
 # the-honoured-one — Full Context Load Protocol
 
 ## Overview

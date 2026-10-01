@@ -1,15 +1,17 @@
 ---
 name: alternatives-pages
-description: "Create \"[Competitor] alternative\" and comparison pages for developer tools. Build honest, high-converting comparison content that ranks for competitive search terms."
-risk: critical
-source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/alternatives-pages
-source_repo: jonathimer/devmarketing-skills
-source_type: community
-date_added: 2026-07-01
+description: Create "[Competitor] alternative" and comparison pages for developer
+  tools. Build honest, high-converting comparison content that ranks for competitive
+  search terms.
 license: MIT
-license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/alternatives-pages
+  source_repo: jonathimer/devmarketing-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
 ---
-
 # Alternatives Pages
 ## When to Use
 

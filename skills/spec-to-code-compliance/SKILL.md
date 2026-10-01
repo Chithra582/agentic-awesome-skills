@@ -1,11 +1,14 @@
 ---
 name: spec-to-code-compliance
-description: Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between specs and implementation, or performing compliance checks for protocol implementations.
-risk: safe
-source: community
-date_added: "2026-09-04"
+description: Verifies code implements exactly what documentation specifies for blockchain
+  audits. Use when comparing code against whitepapers, finding gaps between specs
+  and implementation, or performing compliance checks for protocol implementations.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 ## When to Use
 Use this skill when you need to:
 - Verify code implements exactly what documentation specifies

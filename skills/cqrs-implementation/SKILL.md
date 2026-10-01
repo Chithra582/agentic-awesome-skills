@@ -1,11 +1,14 @@
 ---
 name: cqrs-implementation
-description: "Implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Implement Command Query Responsibility Segregation for scalable architectures.
+  Use when separating read and write models, optimizing query performance, or building
+  event-sourced systems.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # CQRS Implementation
 
 Comprehensive guide to implementing CQRS (Command Query Responsibility Segregation) patterns.

@@ -1,12 +1,15 @@
 ---
 name: seo-aeo-orchestrator
-description: "Runs an audit-first SEO/AEO growth workflow from project discovery through implementation, foundational content, measurement setup, deployment verification, and optional weekly monitoring."
-risk: critical
-source: self
-source_type: self
-date_added: "2026-09-16"
+description: Runs an audit-first SEO/AEO growth workflow from project discovery through
+  implementation, foundational content, measurement setup, deployment verification,
+  and optional weekly monitoring.
+metadata:
+  risk: critical
+  source: self
+  source_type: self
+  date_added: '2026-09-16'
+license: MIT
 ---
-
 # SEO-AEO Growth Orchestrator Workflow
 
 **File:** `.agent/workflows/seo-aeo-orchestrator/WORKFLOW.md`

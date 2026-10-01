@@ -1,11 +1,13 @@
 ---
 name: ffuf-web-fuzzing
-description: Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis
-risk: offensive
-source: community
-date_added: "2026-09-04"
+description: Expert guidance for ffuf web fuzzing during penetration testing, including
+  authenticated fuzzing with raw requests, auto-calibration, and result analysis
+metadata:
+  risk: offensive
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

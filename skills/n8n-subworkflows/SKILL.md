@@ -1,16 +1,17 @@
 ---
 name: n8n-subworkflows
-description: Build reusable n8n sub-workflows with typed inputs, all-vs-each execution, discoverable naming, and agent-tool exposure.
-risk: critical
-source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-subworkflows
-source_repo: czlonkowski/n8n-skills
-source_type: community
-date_added: "2026-07-21"
-author: Romuald Czlonkowski
+description: Build reusable n8n sub-workflows with typed inputs, all-vs-each execution,
+  discoverable naming, and agent-tool exposure.
 license: MIT
-license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-subworkflows
+  source_repo: czlonkowski/n8n-skills
+  source_type: community
+  date_added: '2026-07-21'
+  author: Romuald Czlonkowski
+  license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
 ---
-
 # n8n Sub-workflows
 
 ## When to Use
@@ -238,34 +239,6 @@ What the MCP **can** do: build the sub-workflow and its callers (`n8n_update_par
 - **n8n-validation-expert** — validate the sub-workflow and its callers; an unrecognized input field won't surface here, so verify field changes manually.
 - **n8n-code-javascript / n8n-code-python** — when a sub-workflow's body is a single Code node, its contract is still the trigger's typed inputs and the returned shape, not the Code node's internals.
 - **n8n-code-tool** — the Custom Code Tool is the *inline* agent-tool option; a sub-workflow tool is the reusable, multi-step one. Pick the sub-workflow when the logic is shared across agents or needs the full Code-node sandbox.
-- **n8n-agents** — wiring a typed sub-workflow as an agent tool, including the zero-input and binary cases.
-- **n8n-binary-and-data** — passthrough triggers for binary input, and why binary can't flow through an agent tool directly.
-- **using-n8n-mcp-skills** — when to consult which skill across a build.
+- **n8n-ag
 
----
-
-## Quick reference checklist
-
-Before shipping a sub-workflow:
-
-- [ ] **Searched first** with `n8n_list_workflows` / `n8n_get_workflow` — it doesn't already exist
-- [ ] **Trigger uses Define Below** with typed `workflowInputs.values` (unless binary or zero-input)
-- [ ] **Zero-input passthrough** (if used) starts with a "Keep Only Set" Set node + a sticky noting no inputs
-- [ ] **Name** has a verb-first prefix (`Subworkflow:`, `<Domain>:`, `Tool:`)
-- [ ] **Description** documents input/output shape and carries searchable keywords
-- [ ] **Returns a natural, consistent shape** via a final `Return` Set node — not a storage shape
-- [ ] **Expected failures** return `{ ok: false, error }`; only unexpected ones throw
-- [ ] **Caller `mode`** is `each` if the body assumes a single item (not an internal Loop Over Items)
-- [ ] **`waitForSubWorkflow`** is set deliberately (`false` only with a completion-tracking mechanism)
-- [ ] **Stateful sub-workflows** declare their side effect in name + description — no accidental state
-- [ ] **Validated** with `validate_workflow`; tested in isolation with `n8n_test_workflow`
-
----
-
-**Remember**: a sub-workflow is a function. Its API is the trigger's typed inputs and the last node's output shape — make both explicit, name it so it's found, and call it with the `mode` its body expects. A passthrough trigger that isn't for binary or a zero-arg op, or a name nobody can search, is how a reusable function quietly becomes the next duplicate.
-
-## Limitations
-
-- Validation does not detect every caller contract mismatch, side effect, or item-linking error.
-- Tags and some workflow settings remain UI-only and may not be discoverable through the connected MCP server.
-- Refactoring shared logic requires checking every caller; this skill cannot prove that external callers were migrated.
+<!-- Truncated for OpenGAP token limits -->

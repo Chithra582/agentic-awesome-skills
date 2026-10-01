@@ -1,16 +1,19 @@
 ---
 name: client-secret-exposure-audit
-description: "Audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig."
-category: security
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-10"
-author: siddanta-ar1
-tags: [security, secrets, owasp, reconnaissance, web, headers]
-tools: [claude, cursor, gemini]
+description: 'Audit a deployed web app for secrets exposed to the browser: hardcoded
+  API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable
+  source/config/deploy files, and header/CORS misconfig.'
+metadata:
+  category: security
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-10'
+  author: siddanta-ar1
+  tags: '[''security'', ''secrets'', ''owasp'', ''reconnaissance'', ''web'', ''headers'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # Client-Side Secret & Sensitive-File Exposure Audit
 
 ## Overview

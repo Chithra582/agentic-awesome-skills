@@ -1,23 +1,16 @@
 ---
 name: ai-studio-image
-description: Geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis.
-risk: safe
-source: community
-date_added: '2026-03-06'
-author: renat
-tags:
-- image-generation
-- ai-studio
-- google
-- photography
-tools:
-- claude-code
-- antigravity
-- cursor
-- gemini-cli
-- codex-cli
+description: Geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas
+  estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: renat
+  tags: '[''image-generation'', ''ai-studio'', ''google'', ''photography'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+license: MIT
 ---
-
 # AI Studio Image — Especialista em Imagens Humanizadas
 
 ## Overview

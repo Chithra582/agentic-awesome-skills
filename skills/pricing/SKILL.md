@@ -1,15 +1,16 @@
 ---
 name: pricing
-description: "When the user wants help with pricing decisions, packaging, or monetization strategy."
-risk: safe
-source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing
-source_repo: coreyhaines31/marketingskills
-source_type: community
-date_added: 2026-07-01
+description: When the user wants help with pricing decisions, packaging, or monetization
+  strategy.
 license: MIT
-license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICENSE
+metadata:
+  risk: safe
+  source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing
+  source_repo: coreyhaines31/marketingskills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICENSE
 ---
-
 # Pricing Strategy
 ## When to Use
 

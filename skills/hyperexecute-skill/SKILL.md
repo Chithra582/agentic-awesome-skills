@@ -1,15 +1,17 @@
 ---
 name: hyperexecute-skill
-description: "Operates HyperExecute end-to-end for TestMu AI/LambdaTest cloud test execution: analyze projects, create YAML, validate locally, run CLI jobs, debug failures, and wire CI."
-risk: critical
-source: https://github.com/LambdaTest/agent-skills/tree/main/hyperexecute-skill
-source_repo: LambdaTest/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: 'Operates HyperExecute end-to-end for TestMu AI/LambdaTest cloud test
+  execution: analyze projects, create YAML, validate locally, run CLI jobs, debug
+  failures, and wire CI.'
 license: MIT
-license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/LambdaTest/agent-skills/tree/main/hyperexecute-skill
+  source_repo: LambdaTest/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 ---
-
 # HyperExecute Operator
 ## When to Use
 

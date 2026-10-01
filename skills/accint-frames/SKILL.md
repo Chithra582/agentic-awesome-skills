@@ -1,15 +1,16 @@
 ---
 name: accint-frames
-description: Drain acc's deliberation queue — open/waiting brain_frames checkpointed by headless runs — via acc_act(runtime="continue").
-risk: critical
-source: https://github.com/maxbaluev/accreted-intelligence/tree/main/plugins/claude/skills/frames
-source_repo: maxbaluev/accreted-intelligence
-source_type: community
-date_added: 2026-07-01
+description: Drain acc's deliberation queue — open/waiting brain_frames checkpointed
+  by headless runs — via acc_act(runtime="continue").
 license: Apache-2.0
-license_source: https://github.com/maxbaluev/accreted-intelligence/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/maxbaluev/accreted-intelligence/tree/main/plugins/claude/skills/frames
+  source_repo: maxbaluev/accreted-intelligence
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/maxbaluev/accreted-intelligence/blob/main/LICENSE
 ---
-
 # frames
 ## When to Use
 

@@ -1,11 +1,13 @@
 ---
 name: azure-ai-contentsafety-java
-description: "Build content moderation applications using the Azure AI Content Safety SDK for Java."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Build content moderation applications using the Azure AI Content Safety
+  SDK for Java.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure AI Content Safety SDK for Java
 
 Build content moderation applications using the Azure AI Content Safety SDK for Java.

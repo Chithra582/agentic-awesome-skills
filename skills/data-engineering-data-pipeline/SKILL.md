@@ -1,11 +1,13 @@
 ---
 name: data-engineering-data-pipeline
-description: "You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: You are a data pipeline architecture expert specializing in scalable,
+  reliable, and cost-effective data pipelines for batch and streaming data processing.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Data Pipeline Architecture
 
 You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing.

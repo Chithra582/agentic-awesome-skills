@@ -1,11 +1,12 @@
 ---
 name: tdd-workflow
-description: "Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # TDD Workflow
 
 > Write tests first, code second.

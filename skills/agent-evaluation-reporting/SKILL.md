@@ -1,16 +1,18 @@
 ---
 name: agent-evaluation-reporting
-description: "Use when summarizing agent evaluations where autonomous, assisted, failed, timed-out, or invalid outcomes must remain distinct and comparable."
-category: agent-evaluation
-risk: none
-source: self
-source_type: self
-date_added: "2026-08-18"
-author: Whxuan0701
-tags: [agent-evaluation, metrics, reporting, reliability, benchmarking]
-tools: [claude, cursor, gemini, codex]
+description: Use when summarizing agent evaluations where autonomous, assisted, failed,
+  timed-out, or invalid outcomes must remain distinct and comparable.
+metadata:
+  category: agent-evaluation
+  risk: none
+  source: self
+  source_type: self
+  date_added: '2026-08-18'
+  author: Whxuan0701
+  tags: '[''agent-evaluation'', ''metrics'', ''reporting'', ''reliability'', ''benchmarking'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+license: MIT
 ---
-
 # Agent Evaluation Reporting
 
 ## Overview

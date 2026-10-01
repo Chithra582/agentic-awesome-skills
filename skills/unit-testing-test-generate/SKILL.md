@@ -1,11 +1,13 @@
 ---
 name: unit-testing-test-generate
-description: "Generate comprehensive, maintainable unit tests across languages with strong coverage and edge case focus."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Generate comprehensive, maintainable unit tests across languages with
+  strong coverage and edge case focus.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Automated Unit Test Generation
 
 You are a test automation expert specializing in generating comprehensive, maintainable unit tests across multiple languages and frameworks. Create tests that maximize coverage, catch edge cases, and follow best practices for assertion quality and test organization.

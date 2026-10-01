@@ -3,19 +3,19 @@ name: ralph-loop-yylo
 description: Execute exactly one explicitly assigned YYLO Ledger task through the
   Ralph loop to a validated queued commit. Use only when the user explicitly requests
   ralph-loop-yylo.
-category: agent-orchestration
-risk: critical
-source: https://github.com/yylo-dev/yylo-skills
-source_repo: yylo-dev/yylo-skills
-source_type: community
-date_added: '2026-09-19'
 license: MIT
-license_source: https://github.com/yylo-dev/yylo-skills/blob/main/LICENSE
 compatibility: Requires the `yy` CLI, git and bash. Executes one explicitly assigned
   Ledger task in its admitted worktree through `yy task start/finish` to a validated
   queued commit. Never pushes, deploys, merges, or releases.
+metadata:
+  category: agent-orchestration
+  risk: critical
+  source: https://github.com/yylo-dev/yylo-skills
+  source_repo: yylo-dev/yylo-skills
+  source_type: community
+  date_added: '2026-09-19'
+  license_source: https://github.com/yylo-dev/yylo-skills/blob/main/LICENSE
 ---
-
 # Execute one assigned task in the Ralph loop
 
 Read [references/implement.md](references/implement.md) completely and follow it.

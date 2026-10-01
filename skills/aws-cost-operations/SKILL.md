@@ -1,15 +1,17 @@
 ---
 name: aws-cost-operations
-description: "AWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying logs, auditing CloudTrail activity, or assessing security posture."
-risk: critical
-source: https://github.com/zxkane/aws-skills/tree/main/plugins/aws-cost-ops/skills/aws-cost-operations
-source_repo: zxkane/aws-skills
-source_type: community
-date_added: 2026-07-01
+description: AWS cost optimization, monitoring, and operational excellence expert.
+  Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying
+  logs, auditing CloudTrail activity, or assessing security posture.
 license: MIT
-license_source: https://github.com/zxkane/aws-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/zxkane/aws-skills/tree/main/plugins/aws-cost-ops/skills/aws-cost-operations
+  source_repo: zxkane/aws-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/zxkane/aws-skills/blob/main/LICENSE
 ---
-
 # AWS Cost & Operations
 
 This skill provides comprehensive guidance for AWS cost optimization, monitoring, observability, and operational excellence with integrated MCP servers.

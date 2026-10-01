@@ -1,22 +1,18 @@
 ---
 name: saas-pricing-strategist
-version: 1.0.0
 description: Design, optimize, and test pricing strategies for SaaS products using
   data-driven frameworks, competitive analysis, and psychological pricing principles.
-author: yundu-ai
-tags:
-- saas
-- pricing
-- strategy
-- monetization
-- business
-- analytics
-model: claude
-source_repo: demo112/yunqu-ai-skills
-source_type: community
-source: community
-date_added: '2026-09-21'
-risk: unknown
+metadata:
+  version: 1.0.0
+  author: yundu-ai
+  tags: '[''saas'', ''pricing'', ''strategy'', ''monetization'', ''business'', ''analytics'']'
+  model: claude
+  source_repo: demo112/yunqu-ai-skills
+  source_type: community
+  source: community
+  date_added: '2026-09-21'
+  risk: unknown
+license: MIT
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

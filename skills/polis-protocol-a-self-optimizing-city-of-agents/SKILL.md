@@ -1,15 +1,15 @@
 ---
 name: polis-protocol-a-self-optimizing-city-of-agents
-description: "Polis Protocol: A Self-Optimizing City of Agents"
-risk: critical
-source: https://github.com/yehudalevy-collab/polis-protocol/tree/main/
-source_repo: yehudalevy-collab/polis-protocol
-source_type: community
-date_added: 2026-07-01
+description: 'Polis Protocol: A Self-Optimizing City of Agents'
 license: MIT
-license_source: https://github.com/yehudalevy-collab/polis-protocol/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/yehudalevy-collab/polis-protocol/tree/main/
+  source_repo: yehudalevy-collab/polis-protocol
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/yehudalevy-collab/polis-protocol/blob/main/LICENSE
 ---
-
 # Polis Protocol: A Self-Optimizing City of Agents
 ## When to Use
 

@@ -1,11 +1,12 @@
 ---
 name: azure-eventhub-ts
-description: "High-throughput event streaming and real-time data ingestion."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: High-throughput event streaming and real-time data ingestion.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Azure Event Hubs SDK for TypeScript
 
 High-throughput event streaming and real-time data ingestion.

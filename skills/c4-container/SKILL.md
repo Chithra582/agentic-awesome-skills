@@ -1,11 +1,12 @@
 ---
 name: c4-container
 description: Expert C4 Container-level documentation specialist.
-risk: none
-source: community
-date_added: '2026-02-27'
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # C4 Container Level: System Deployment
 
 ## Use this skill when

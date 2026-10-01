@@ -1,12 +1,14 @@
 ---
 name: seo-aeo-content-quality-auditor
-description: "Audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified."
-risk: safe
-source: community
-date_added: "2026-04-01"
+description: Audits a website, codebase, page, or content set for technical SEO, search
+  intent, AEO, conversion paths, and publishing readiness, then produces prioritised
+  fixes that can be implemented and verified.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-04-01'
+license: MIT
 ---
-
-
 # Content Quality Auditor Skill
 
 ## Description

@@ -1,16 +1,19 @@
 ---
 name: resumable-implementation-contracts
-description: "Create repository-based execution contracts for multi-session implementation work, with stable task IDs, evidence, checkpoints, and exact resume state."
-category: project-management
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-19"
-author: ShianMike
-tags: [project-management, execution-contracts, checkpoints, verification, agent-workflows]
-tools: [claude, cursor, gemini, codex, antigravity]
+description: Create repository-based execution contracts for multi-session implementation
+  work, with stable task IDs, evidence, checkpoints, and exact resume state.
+metadata:
+  category: project-management
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-19'
+  author: ShianMike
+  tags: '[''project-management'', ''execution-contracts'', ''checkpoints'', ''verification'',
+    ''agent-workflows'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'', ''antigravity'']'
+license: MIT
 ---
-
 # Resumable Implementation Contracts
 
 ## Overview

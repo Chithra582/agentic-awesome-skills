@@ -1,16 +1,15 @@
 ---
 name: implement
 description: Implement a piece of work based on a PRD or set of issues.
-risk: critical
-source: https://github.com/mattpocock/skills/tree/main/skills/engineering/implement
-source_repo: mattpocock/skills
-source_type: community
-date_added: 2026-07-01
 license: MIT
-license_source: https://github.com/mattpocock/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/mattpocock/skills/tree/main/skills/engineering/implement
+  source_repo: mattpocock/skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/mattpocock/skills/blob/main/LICENSE
 ---
-
-
 ## When to Use
 
 Use this skill when you need implement a piece of work based on a PRD or set of issues.

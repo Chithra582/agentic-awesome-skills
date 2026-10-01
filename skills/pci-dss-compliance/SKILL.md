@@ -2,21 +2,20 @@
 name: pci-dss-compliance
 description: Implement PCI DSS requirements for payment card data. Configure cardholder
   data environment and security controls. Use when processing payment cards.
-category: security
-risk: safe
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Checklist and framework guidance; no privileged tooling required. Apply
   controls through your own change process.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: security
+  risk: safe
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # PCI DSS Compliance
 
 Implement PCI DSS v4.0 requirements for protecting cardholder data across the Cardholder Data Environment (CDE), including network segmentation, encryption, access controls, and ongoing testing.

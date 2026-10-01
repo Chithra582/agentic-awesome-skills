@@ -1,16 +1,18 @@
 ---
 name: weather-model-run-discovery
-description: "Resolve the newest complete numerical weather prediction cycle and forecast objects across provider mirrors without downloading full payloads."
-category: data
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-24"
-author: ShianMike
-tags: [weather, nwp, model-cycle, aws-s3, nomads, herbie]
-tools: [claude, cursor, gemini, codex]
+description: Resolve the newest complete numerical weather prediction cycle and forecast
+  objects across provider mirrors without downloading full payloads.
+metadata:
+  category: data
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-24'
+  author: ShianMike
+  tags: '[''weather'', ''nwp'', ''model-cycle'', ''aws-s3'', ''nomads'', ''herbie'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+license: MIT
 ---
-
 # Weather Model Run Discovery
 
 ## Overview

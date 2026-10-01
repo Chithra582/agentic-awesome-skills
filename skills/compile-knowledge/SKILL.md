@@ -1,19 +1,21 @@
 ---
 name: compile-knowledge
-description: "Compile durable, non-obvious findings into an interlinked markdown knowledge store — atomic files, [[wiki-links]], a maintained index — so an agent gets smarter across sessions instead of relearning the same facts."
-category: productivity
-risk: safe
-source: https://github.com/5dive-ai/skills/tree/main/compile-knowledge
-source_repo: 5dive-ai/skills
-source_type: community
-date_added: "2026-08-16"
-author: 5dive-ai
-tags: [knowledge-management, memory, documentation, wiki, notes]
-tools: [claude, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/5dive-ai/skills/blob/main/LICENSE"
+description: Compile durable, non-obvious findings into an interlinked markdown knowledge
+  store — atomic files, [[wiki-links]], a maintained index — so an agent gets smarter
+  across sessions instead of relearning the same facts.
+license: MIT
+metadata:
+  category: productivity
+  risk: safe
+  source: https://github.com/5dive-ai/skills/tree/main/compile-knowledge
+  source_repo: 5dive-ai/skills
+  source_type: community
+  date_added: '2026-08-16'
+  author: 5dive-ai
+  tags: '[''knowledge-management'', ''memory'', ''documentation'', ''wiki'', ''notes'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/5dive-ai/skills/blob/main/LICENSE
 ---
-
 # Compile Knowledge
 
 ## Overview

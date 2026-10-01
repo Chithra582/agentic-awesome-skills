@@ -1,15 +1,16 @@
 ---
 name: loopy
-description: "Discover, find, compare, audit, repair, adapt, craft, run, debrief, and prepare repeatable AI-agent loops for publication."
-risk: critical
-source: https://github.com/Forward-Future/loop-library/tree/main/skills/loopy
-source_repo: Forward-Future/loop-library
-source_type: official
-date_added: 2026-07-01
+description: Discover, find, compare, audit, repair, adapt, craft, run, debrief, and
+  prepare repeatable AI-agent loops for publication.
 license: MIT
-license_source: https://github.com/Forward-Future/loop-library/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/Forward-Future/loop-library/tree/main/skills/loopy
+  source_repo: Forward-Future/loop-library
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/Forward-Future/loop-library/blob/main/LICENSE
 ---
-
 # Loopy
 ## When to Use
 

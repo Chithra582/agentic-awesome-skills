@@ -1,11 +1,13 @@
 ---
 name: github-actions-templates
-description: "Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Production-ready GitHub Actions workflow patterns for testing, building,
+  and deploying applications.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # GitHub Actions Workflow Patterns
 
 ## When to Use

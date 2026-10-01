@@ -1,19 +1,22 @@
 ---
 name: linkedin-post-writer
-description: "Draft LinkedIn posts from 16 tested hook formulas mapped to engagement goals (comments, reposts, likes, saves), with 2026 algorithm formatting rules and an AI-tell scrub pass before publishing."
-category: marketing
-risk: none
-source: community
-source_repo: sergebulaev/linkedin-skills
-source_type: community
-date_added: "2026-07-06"
-author: sergebulaev
-tags: [linkedin, copywriting, hooks, social-media, personal-brand, content-marketing]
-tools: [claude, codex, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/sergebulaev/linkedin-skills/blob/main/LICENSE"
+description: Draft LinkedIn posts from 16 tested hook formulas mapped to engagement
+  goals (comments, reposts, likes, saves), with 2026 algorithm formatting rules and
+  an AI-tell scrub pass before publishing.
+license: MIT
+metadata:
+  category: marketing
+  risk: none
+  source: community
+  source_repo: sergebulaev/linkedin-skills
+  source_type: community
+  date_added: '2026-07-06'
+  author: sergebulaev
+  tags: '[''linkedin'', ''copywriting'', ''hooks'', ''social-media'', ''personal-brand'',
+    ''content-marketing'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/sergebulaev/linkedin-skills/blob/main/LICENSE
 ---
-
 # LinkedIn Post Writer
 
 ## Overview

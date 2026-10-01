@@ -1,11 +1,14 @@
 ---
 name: workflow-patterns
-description: Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding the verification protocol.
-risk: safe
-source: community
-date_added: '2026-02-27'
+description: Use this skill when implementing tasks according to Conductor's TDD workflow,
+  handling phase checkpoints, managing git commits for tasks, or understanding the
+  verification protocol.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Workflow Patterns
 
 Guide for implementing tasks using Conductor's TDD workflow, managing phase checkpoints, handling git commits, and executing the verification protocol that ensures quality throughout implementation.

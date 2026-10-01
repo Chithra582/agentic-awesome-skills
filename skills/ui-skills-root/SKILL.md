@@ -1,15 +1,16 @@
 ---
 name: ui-skills-root
-description: Use before UI-related work to select the smallest useful UI Skills context through the ui-skills CLI.
-risk: critical
-source: https://github.com/ibelick/ui-skills/tree/main/skills/ui-skills-root
-source_repo: ibelick/ui-skills
-source_type: community
-date_added: 2026-07-01
+description: Use before UI-related work to select the smallest useful UI Skills context
+  through the ui-skills CLI.
 license: MIT
-license_source: https://github.com/ibelick/ui-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/ibelick/ui-skills/tree/main/skills/ui-skills-root
+  source_repo: ibelick/ui-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/ibelick/ui-skills/blob/main/LICENSE
 ---
-
 # UI Skills Root
 ## When to Use
 

@@ -1,19 +1,21 @@
 ---
 name: traderspy-trading-signals
-description: "Fetch and explain TraderSpy's AI crypto futures signals: entry, take-profit ladder, stop, triggers, status against the live price, and how recent signals resolved. Use for \"latest signals\"."
-category: finance
-risk: safe
-source: "https://github.com/target1m/traderspy-mcp/tree/069aae5a84640d671f92705a2e3bc0b62efca1e0/skills/trading-signals"
-source_repo: target1m/traderspy-mcp
-source_type: official
-date_added: "2026-09-25"
-author: target1m
-tags: [traderspy, crypto, trading-signals, futures, mcp]
-tools: [claude, cursor, gemini]
+description: 'Fetch and explain TraderSpy''s AI crypto futures signals: entry, take-profit
+  ladder, stop, triggers, status against the live price, and how recent signals resolved.
+  Use for "latest signals".'
 license: MIT
-license_source: "https://github.com/target1m/traderspy-mcp/blob/069aae5a84640d671f92705a2e3bc0b62efca1e0/LICENSE"
+metadata:
+  category: finance
+  risk: safe
+  source: https://github.com/target1m/traderspy-mcp/tree/069aae5a84640d671f92705a2e3bc0b62efca1e0/skills/trading-signals
+  source_repo: target1m/traderspy-mcp
+  source_type: official
+  date_added: '2026-09-25'
+  author: target1m
+  tags: '[''traderspy'', ''crypto'', ''trading-signals'', ''futures'', ''mcp'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/target1m/traderspy-mcp/blob/069aae5a84640d671f92705a2e3bc0b62efca1e0/LICENSE
 ---
-
 # TraderSpy Trading Signals
 
 TraderSpy's AI signals are automated reads of the market: a named preset fires when several

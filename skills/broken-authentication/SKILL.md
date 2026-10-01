@@ -1,12 +1,16 @@
 ---
 name: broken-authentication
-description: "Identify and exploit authentication and session management vulnerabilities in web applications. Broken authentication consistently ranks in the OWASP Top 10 and can lead to account takeover, identity theft, and unauthorized access to sensitive systems."
-risk: offensive
-source: community
-author: zebbern
-date_added: "2026-02-27"
+description: Identify and exploit authentication and session management vulnerabilities
+  in web applications. Broken authentication consistently ranks in the OWASP Top 10
+  and can lead to account takeover, identity theft, and unauthorized access to sensitive
+  systems.
+metadata:
+  risk: offensive
+  source: community
+  author: zebbern
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

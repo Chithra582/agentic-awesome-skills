@@ -1,11 +1,13 @@
 ---
 name: clean-code
-description: "This skill embodies the principles of \"Clean Code\" by Robert C. Martin (Uncle Bob). Use it to transform \"code that works\" into \"code that is clean.\""
-risk: safe
-source: "ClawForge (https://github.com/jackjin1997/ClawForge)"
-date_added: "2026-02-27"
+description: This skill embodies the principles of "Clean Code" by Robert C. Martin
+  (Uncle Bob). Use it to transform "code that works" into "code that is clean."
+metadata:
+  risk: safe
+  source: ClawForge (https://github.com/jackjin1997/ClawForge)
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Clean Code Skill
 
 This skill embodies the principles of "Clean Code" by Robert C. Martin (Uncle Bob). Use it to transform "code that works" into "code that is clean."

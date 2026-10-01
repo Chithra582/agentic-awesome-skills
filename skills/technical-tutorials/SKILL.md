@@ -1,15 +1,18 @@
 ---
 name: technical-tutorials
-description: When the user wants to create step-by-step technical tutorials, quickstarts, or code walkthroughs. Trigger phrases include "tutorial," "quickstart," "getting started guide," "walkthrough," "step by step," "how to guide," "hands-on guide," or "code tutorial."
-risk: critical
-source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/technical-tutorials
-source_repo: jonathimer/devmarketing-skills
-source_type: community
-date_added: 2026-07-01
+description: When the user wants to create step-by-step technical tutorials, quickstarts,
+  or code walkthroughs. Trigger phrases include "tutorial," "quickstart," "getting
+  started guide," "walkthrough," "step by step," "how to guide," "hands-on guide,"
+  or "code tutorial."
 license: MIT
-license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/technical-tutorials
+  source_repo: jonathimer/devmarketing-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICENSE
 ---
-
 # Technical Tutorials
 
 ## Detailed Guide

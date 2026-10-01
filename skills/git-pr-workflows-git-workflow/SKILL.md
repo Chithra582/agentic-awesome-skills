@@ -1,11 +1,14 @@
 ---
 name: git-pr-workflows-git-workflow
-description: "Orchestrate review, tests, commits, branch pushes, and pull-request creation with parallel agents. Use when completed changes must move through validation into a PR or guarded merge."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Orchestrate review, tests, commits, branch pushes, and pull-request creation
+  with parallel agents. Use when completed changes must move through validation into
+  a PR or guarded merge.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Guarded Git Pull Request Workflow
 
 Move completed changes from local review to a verified pull request without bypassing repository policy or branch protection.

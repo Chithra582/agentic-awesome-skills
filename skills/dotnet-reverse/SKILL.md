@@ -1,13 +1,16 @@
 ---
 name: dotnet-reverse
-description: ".NET/C# binary reverse engineering: managed PE analysis, dnSpyEx debugging, de4dot deobfuscation (ConfuserEx/SmartAssembly/Babel), IL patching, NativeAOT targets, and analysis of red-team Sharp* tooling."
-risk: safe
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
-source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+description: '.NET/C# binary reverse engineering: managed PE analysis, dnSpyEx debugging,
+  de4dot deobfuscation (ConfuserEx/SmartAssembly/Babel), IL patching, NativeAOT targets,
+  and analysis of red-team Sharp* tooling.'
+license: MIT
+metadata:
+  risk: safe
+  source: https://github.com/zhaoxuya520/reverse-skill
+  source_repo: zhaoxuya520/reverse-skill
+  source_type: community
+  date_added: '2026-08-25'
+  license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 # .NET / C# 逆向作业规范
 ## When to Use

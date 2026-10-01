@@ -1,15 +1,16 @@
 ---
 name: aws-cdk-development
-description: "AWS Cloud Development Kit (CDK) expert for building cloud infrastructure with TypeScript/Python."
-risk: critical
-source: https://github.com/zxkane/aws-skills/tree/main/plugins/aws-iac/skills/aws-cdk-development
-source_repo: zxkane/aws-skills
-source_type: community
-date_added: 2026-07-01
+description: AWS Cloud Development Kit (CDK) expert for building cloud infrastructure
+  with TypeScript/Python.
 license: MIT
-license_source: https://github.com/zxkane/aws-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/zxkane/aws-skills/tree/main/plugins/aws-iac/skills/aws-cdk-development
+  source_repo: zxkane/aws-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/zxkane/aws-skills/blob/main/LICENSE
 ---
-
 # AWS CDK Development
 
 This skill provides comprehensive guidance for developing AWS infrastructure using the Cloud Development Kit (CDK), with integrated MCP servers for accessing latest AWS knowledge and CDK utilities.

@@ -1,19 +1,21 @@
 ---
 name: trading-ledger
-description: "A trading journal that captures the decision, not just the fill: thesis, plan, and emotion at the moment of entry, written to the user's own Notion database; reviews grade decisions, not P&L."
-category: productivity
-risk: critical
-source: community
-source_repo: cruisekkk/trading-ledger
-source_type: community
-date_added: "2026-07-04"
-author: cruisekkk
-tags: [trading-journal, notion, journaling, market-wizards, decision-making]
-tools: [claude]
-license: "MIT"
-license_source: "https://github.com/cruisekkk/trading-ledger/blob/main/LICENSE"
+description: 'A trading journal that captures the decision, not just the fill: thesis,
+  plan, and emotion at the moment of entry, written to the user''s own Notion database;
+  reviews grade decisions, not P&L.'
+license: MIT
+metadata:
+  category: productivity
+  risk: critical
+  source: community
+  source_repo: cruisekkk/trading-ledger
+  source_type: community
+  date_added: '2026-07-04'
+  author: cruisekkk
+  tags: '[''trading-journal'', ''notion'', ''journaling'', ''market-wizards'', ''decision-making'']'
+  tools: '[''claude'']'
+  license_source: https://github.com/cruisekkk/trading-ledger/blob/main/LICENSE
 ---
-
 # Trading Ledger
 
 ## Overview

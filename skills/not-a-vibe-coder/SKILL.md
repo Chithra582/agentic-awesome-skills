@@ -1,11 +1,13 @@
 ---
 name: not-a-vibe-coder
-description: Turns vague prompts into 8 structured planning files for brand new projects. DO NOT use on existing codebases.
-source: community
-date_added: "2026-09-04"
-risk: critical
+description: Turns vague prompts into 8 structured planning files for brand new projects.
+  DO NOT use on existing codebases.
+metadata:
+  source: community
+  date_added: '2026-09-04'
+  risk: critical
+license: MIT
 ---
-
 # Not-a-Vibe-Coder
 
 A skill that turns any project idea — no matter how vague — into 8 living planning

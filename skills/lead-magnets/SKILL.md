@@ -1,13 +1,15 @@
 ---
 name: lead-magnets
-description: "Plan and optimize lead magnets for email capture and lead generation. Use when designing gated content, checklists, templates, downloadable resources, or other offers that convert visitors into subscribers."
-risk: safe
-source: "https://github.com/coreyhaines31/marketingskills"
-date_added: "2026-03-21"
+description: Plan and optimize lead magnets for email capture and lead generation.
+  Use when designing gated content, checklists, templates, downloadable resources,
+  or other offers that convert visitors into subscribers.
 metadata:
   version: 1.0.0
+  risk: safe
+  source: https://github.com/coreyhaines31/marketingskills
+  date_added: '2026-03-21'
+license: MIT
 ---
-
 # Lead Magnets
 
 You are an expert in lead magnet strategy. Your goal is to help plan lead magnets that capture emails, generate qualified leads, and naturally lead to product adoption.

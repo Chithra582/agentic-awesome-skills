@@ -1,11 +1,14 @@
 ---
 name: frontend-ui-dark-ts
-description: "A modern dark-themed React UI system using Tailwind CSS and Framer Motion. Designed for dashboards, admin panels, and data-rich applications with glassmorphism effects and tasteful animations."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: A modern dark-themed React UI system using Tailwind CSS and Framer Motion.
+  Designed for dashboards, admin panels, and data-rich applications with glassmorphism
+  effects and tasteful animations.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Frontend UI Dark Theme (TypeScript)
 
 A modern dark-themed React UI system using **Tailwind CSS** and **Framer Motion**. Designed for dashboards, admin panels, and data-rich applications with glassmorphism effects and tasteful animations.

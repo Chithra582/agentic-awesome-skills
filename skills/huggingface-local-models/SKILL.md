@@ -1,15 +1,17 @@
 ---
 name: huggingface-local-models
-description: Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving.
-risk: critical
-source: https://github.com/huggingface/skills/tree/main/skills/huggingface-local-models
-source_repo: huggingface/skills
-source_type: official
-date_added: 2026-07-01
+description: Use to select models to run locally with llama.cpp and GGUF on CPU, Mac
+  Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact
+  GGUF file lookup, conversion, and OpenAI-compatible local serving.
 license: Apache-2.0
-license_source: https://github.com/huggingface/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/huggingface/skills/tree/main/skills/huggingface-local-models
+  source_repo: huggingface/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 ---
-
 # Hugging Face Local Models
 ## When to Use
 

@@ -1,19 +1,21 @@
 ---
 name: optim-agent
-description: "Guide agent-driven parameter optimization for configurable systems with measurable objectives. Use for HPO, inference tuning, simulations, or RL/control experiments."
-category: data
-risk: safe
-source: community
-source_repo: Optim-Agent/optim-agent
-source_type: community
-date_added: "2026-07-15"
-author: Optim-Agent
-tags: [optimization, hyperparameter-optimization, experiments, tuning]
-tools: [claude, cursor, gemini, codex]
+description: Guide agent-driven parameter optimization for configurable systems with
+  measurable objectives. Use for HPO, inference tuning, simulations, or RL/control
+  experiments.
 license: MIT
-license_source: "https://github.com/Optim-Agent/optim-agent/blob/main/LICENSE"
+metadata:
+  category: data
+  risk: safe
+  source: community
+  source_repo: Optim-Agent/optim-agent
+  source_type: community
+  date_added: '2026-07-15'
+  author: Optim-Agent
+  tags: '[''optimization'', ''hyperparameter-optimization'', ''experiments'', ''tuning'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/Optim-Agent/optim-agent/blob/main/LICENSE
 ---
-
 # Optim Agent
 
 ## Overview

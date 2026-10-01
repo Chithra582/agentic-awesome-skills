@@ -1,15 +1,17 @@
 ---
 name: brooks-audit
-description: "Architecture audit that maps module dependencies, checks layering integrity, and flags structural decay across a codebase, drawing on twelve classic engineering books."
-risk: safe
-source: https://github.com/hyhmrright/brooks-lint/tree/main/skills/brooks-audit
-source_repo: hyhmrright/brooks-lint
-source_type: community
-date_added: 2026-07-01
+description: Architecture audit that maps module dependencies, checks layering integrity,
+  and flags structural decay across a codebase, drawing on twelve classic engineering
+  books.
 license: MIT
-license_source: https://github.com/hyhmrright/brooks-lint/blob/main/LICENSE
+metadata:
+  risk: safe
+  source: https://github.com/hyhmrright/brooks-lint/tree/main/skills/brooks-audit
+  source_repo: hyhmrright/brooks-lint
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/hyhmrright/brooks-lint/blob/main/LICENSE
 ---
-
 # Brooks-Lint — Architecture Audit
 ## When to Use
 

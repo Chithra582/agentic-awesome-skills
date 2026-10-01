@@ -1,25 +1,19 @@
 ---
 name: crossframe-casebook
-description: "Use when CrossFrame Suite routes explicit Chinese casebook work: turning materials into reusable cases, anonymized entries, mechanisms, and retrieval indexes."
-category: content
-risk: safe
-source: community
-source_repo: xi-kari/crossframe-skill
-source_type: community
-date_added: 2026-06-16
-author: xi-kari
+description: 'Use when CrossFrame Suite routes explicit Chinese casebook work: turning
+  materials into reusable cases, anonymized entries, mechanisms, and retrieval indexes.'
 license: MIT
-license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
-tools:
-  - "Agent Skills"
-  - Codex
-  - Claude
-tags:
-  - crossframe
-  - chinese
-  - casebook
-  - case-study
-  - knowledge-base
+metadata:
+  category: content
+  risk: safe
+  source: community
+  source_repo: xi-kari/crossframe-skill
+  source_type: community
+  date_added: '2026-06-16'
+  author: xi-kari
+  license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
+  tools: '[''Agent Skills'', ''Codex'', ''Claude'']'
+  tags: '[''crossframe'', ''chinese'', ''casebook'', ''case-study'', ''knowledge-base'']'
 ---
 # CrossFrame Casebook
 

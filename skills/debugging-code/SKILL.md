@@ -1,15 +1,17 @@
 ---
 name: debugging-code
-description: "Interactively debug source code — set breakpoints, step through execution line by line, inspect live variable state, evaluate expressions against the running program, and navigate the call stack to trace root causes."
-risk: critical
-source: https://github.com/AlmogBaku/debug-skill/tree/master/skills/debugging-code
-source_repo: AlmogBaku/debug-skill
-source_type: community
-date_added: 2026-07-01
+description: Interactively debug source code — set breakpoints, step through execution
+  line by line, inspect live variable state, evaluate expressions against the running
+  program, and navigate the call stack to trace root causes.
 license: MIT
-license_source: https://github.com/AlmogBaku/debug-skill/blob/master/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/AlmogBaku/debug-skill/tree/master/skills/debugging-code
+  source_repo: AlmogBaku/debug-skill
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/AlmogBaku/debug-skill/blob/master/LICENSE
 ---
-
 # Interactive Debugger
 ## When to Use
 

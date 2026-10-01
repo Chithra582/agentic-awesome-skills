@@ -1,17 +1,21 @@
 ---
 name: xiaohongshu-content-strategist
-description: "Create viral Xiaohongshu (小红书) content with platform-native strategy, save-rate optimization, trending formats, and search SEO for China's #1 lifestyle platform."
-category: marketing
-risk: safe
-source: community
-source_repo: demo112/yunqu-ai-skills
-source_type: community
-date_added: "2026-05-13"
-author: yundu-ai
-tags: [xiaohongshu, chinese-market, content-strategy, social-media, marketing, 红书, 小红书]
-tools: [claude, cursor, gemini]
+description: 'Create viral Xiaohongshu (小红书) content with platform-native strategy,
+  save-rate optimization, trending formats, and search SEO for China''s #1 lifestyle
+  platform.'
+metadata:
+  category: marketing
+  risk: safe
+  source: community
+  source_repo: demo112/yunqu-ai-skills
+  source_type: community
+  date_added: '2026-05-13'
+  author: yundu-ai
+  tags: '[''xiaohongshu'', ''chinese-market'', ''content-strategy'', ''social-media'',
+    ''marketing'', ''红书'', ''小红书'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # Xiaohongshu Content Strategist
 
 ## Overview

@@ -1,11 +1,12 @@
 ---
 name: web-design-guidelines
-description: "Review files for compliance with Web Interface Guidelines."
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: Review files for compliance with Web Interface Guidelines.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Web Interface Guidelines
 
 Review files for compliance with Web Interface Guidelines.

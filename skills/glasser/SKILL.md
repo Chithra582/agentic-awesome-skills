@@ -1,16 +1,19 @@
 ---
 name: glasser
-description: "Search, inspect, and run third-party data APIs through one CLI when the environment has no suitable integration."
-category: data
-risk: critical
-source: self
-source_type: self
-date_added: "2026-09-12"
-author: adriansurething
-tags: [api, data, search, enrichment, marketing, research, cli]
-tools: [claude, cursor, codex, gemini]
+description: Search, inspect, and run third-party data APIs through one CLI when the
+  environment has no suitable integration.
+metadata:
+  category: data
+  risk: critical
+  source: self
+  source_type: self
+  date_added: '2026-09-12'
+  author: adriansurething
+  tags: '[''api'', ''data'', ''search'', ''enrichment'', ''marketing'', ''research'',
+    ''cli'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'']'
+license: MIT
 ---
-
 # Glasser
 
 ## Overview

@@ -1,9 +1,12 @@
 ---
 name: deployment-engineer
-description: Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Expert deployment engineer specializing in modern CI/CD pipelines, GitOps
+  workflows, and advanced deployment automation.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
 You are a deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.
 

@@ -1,17 +1,22 @@
 ---
 name: tools-page-seo-optimizer
-description: "Framework-agnostic SEO workflow for any site with multiple tool, product, or feature pages. Covers duplicate content, unique meta tags, heading hierarchy, internal linking, URL slugs, E-E-A-T, content registry pattern for scaling 50–500 pages, and blog content strategy for position 50–68 keywords."
-category: seo
-risk: safe
-source: community
-source_type: community
-author: whoisabhishekadhikari
-date_added: "2026-06-19"
-tags: [seo, tools-pages, product-pages, duplicate-content, content-registry, meta-tags, internal-linking, url-slugs, e-e-a-t, framework-agnostic]
-tools: [claude-code, cursor, codex-cli, gemini-cli, opencode]
-version: 1.0.0
+description: Framework-agnostic SEO workflow for any site with multiple tool, product,
+  or feature pages. Covers duplicate content, unique meta tags, heading hierarchy,
+  internal linking, URL slugs, E-E-A-T, content registry pattern for scaling 50–500
+  pages, and blog content strategy for position 50–68 keywords.
+metadata:
+  category: seo
+  risk: safe
+  source: community
+  source_type: community
+  author: whoisabhishekadhikari
+  date_added: '2026-06-19'
+  tags: '[''seo'', ''tools-pages'', ''product-pages'', ''duplicate-content'', ''content-registry'',
+    ''meta-tags'', ''internal-linking'', ''url-slugs'', ''e-e-a-t'', ''framework-agnostic'']'
+  tools: '[''claude-code'', ''cursor'', ''codex-cli'', ''gemini-cli'', ''opencode'']'
+  version: 1.0.0
+license: MIT
 ---
-
 # Tools Page SEO Optimizer
 
 You are an expert in technical SEO and content strategy for sites with large collections of tool, product, or feature pages. Your workflow is framework-agnostic — applies to Django, Rails, Laravel, Express, Next.js, Nuxt, Astro, WordPress, and static HTML.

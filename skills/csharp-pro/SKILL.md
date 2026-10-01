@@ -1,11 +1,14 @@
 ---
 name: csharp-pro
-description: Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Write modern C# code with advanced features like records, pattern matching,
+  and async/await. Optimizes .NET applications, implements enterprise patterns, and
+  ensures comprehensive testing.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on csharp pro tasks or workflows

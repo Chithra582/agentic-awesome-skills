@@ -1,11 +1,13 @@
 ---
 name: temporal-python-testing
-description: "Comprehensive testing approaches for Temporal workflows using pytest, progressive disclosure resources for specific testing scenarios."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Comprehensive testing approaches for Temporal workflows using pytest,
+  progressive disclosure resources for specific testing scenarios.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Temporal Python Testing Strategies
 
 Comprehensive testing approaches for Temporal workflows using pytest, progressive disclosure resources for specific testing scenarios.

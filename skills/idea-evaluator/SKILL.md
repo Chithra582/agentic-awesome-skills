@@ -1,16 +1,18 @@
 ---
 name: idea-evaluator
-description: "Evaluates an idea by hosting a multi-turn debate between a Pro and Con agent, delivering a final verdict on whether it's worth pursuing."
-category: agent-orchestration
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-18"
-author: Prince-1652
-tags: [ideation, validation, debate, multi-agent]
-tools: [claude, gemini]
+description: Evaluates an idea by hosting a multi-turn debate between a Pro and Con
+  agent, delivering a final verdict on whether it's worth pursuing.
+metadata:
+  category: agent-orchestration
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-18'
+  author: Prince-1652
+  tags: '[''ideation'', ''validation'', ''debate'', ''multi-agent'']'
+  tools: '[''claude'', ''gemini'']'
+license: MIT
 ---
-
 # Idea Evaluator Orchestrator
 
 ## Overview

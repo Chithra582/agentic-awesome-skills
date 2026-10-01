@@ -1,15 +1,18 @@
 ---
 name: uncle-bob-craft
-description: "Use when performing code review, writing or refactoring code, or discussing architecture; complements clean-code and does not replace project linter/formatter."
-category: code-quality
-risk: safe
-source: community
-date_added: "2026-03-06"
-author: antigravity-contributors
-tags: [clean-code, clean-architecture, solid, code-review, craftsmanship, uncle-bob]
-tools: [claude, cursor, gemini]
+description: Use when performing code review, writing or refactoring code, or discussing
+  architecture; complements clean-code and does not replace project linter/formatter.
+metadata:
+  category: code-quality
+  risk: safe
+  source: community
+  date_added: '2026-03-06'
+  author: antigravity-contributors
+  tags: '[''clean-code'', ''clean-architecture'', ''solid'', ''code-review'', ''craftsmanship'',
+    ''uncle-bob'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+license: MIT
 ---
-
 # Uncle Bob Craft
 
 Apply Robert C. Martin (Uncle Bob) criteria for **code review and production**: Clean Code, Clean Architecture, The Clean Coder, Clean Agile, and design-pattern discipline. This skill is **complementary** to the existing `@clean-code` skill (which focuses on the Clean Code book) and to your project's linter/formatter—it does not replace them.

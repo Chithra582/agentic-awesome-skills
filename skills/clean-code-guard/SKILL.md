@@ -1,17 +1,18 @@
 ---
-name: "clean-code-guard"
-description: "Review generated or changed production code with Clean Code, SOLID, DRY, KISS, YAGNI, and LLM-specific failure-mode checks."
-risk: "critical"
-source: "community"
-source_repo: "amElnagdy/guard-skills"
-source_type: "community"
-date_added: 2026-07-13
-author: "community"
-tags: []
-tools: []
+name: clean-code-guard
+description: Review generated or changed production code with Clean Code, SOLID, DRY,
+  KISS, YAGNI, and LLM-specific failure-mode checks.
+metadata:
+  risk: critical
+  source: community
+  source_repo: amElnagdy/guard-skills
+  source_type: community
+  date_added: '2026-07-13'
+  author: community
+  tags: '[]'
+  tools: '[]'
+license: MIT
 ---
-
-
 # clean-code-guard
 
 You are reviewing generated or changed code before it ships. Apply the rules below as a guard pass after the first implementation pass — and once this skill is active, keep applying it to every later code change in the same session, re-running the self-check before delivery after each edit rather than reverting to unguarded output because the skill loaded earlier. If the user explicitly invokes this skill before writing code, use the same rules while writing and still run the self-check before delivery.

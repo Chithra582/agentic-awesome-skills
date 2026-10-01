@@ -1,19 +1,20 @@
 ---
 name: agent-qa-result-triage
-description: "Triage failed Agent QA runs with MCP evidence, artifacts, logs, fixed failure categories, confidence, and actionable next steps."
-category: testing
-risk: safe
-source: https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-result-triage
-source_repo: vostride/agent-qa
-source_type: official
-date_added: "2026-08-16"
-author: Vostride
-tags: [testing, qa, triage, mcp, debugging]
-tools: [claude, cursor, gemini, codex]
+description: Triage failed Agent QA runs with MCP evidence, artifacts, logs, fixed
+  failure categories, confidence, and actionable next steps.
 license: FSL-1.1-ALv2
-license_source: https://github.com/vostride/agent-qa/blob/main/LICENSE.md
+metadata:
+  category: testing
+  risk: safe
+  source: https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-result-triage
+  source_repo: vostride/agent-qa
+  source_type: official
+  date_added: '2026-08-16'
+  author: Vostride
+  tags: '[''testing'', ''qa'', ''triage'', ''mcp'', ''debugging'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/vostride/agent-qa/blob/main/LICENSE.md
 ---
-
 # Agent QA Result Triage
 
 ## Overview

@@ -1,11 +1,14 @@
 ---
 name: skill-scanner
-description: "Scan agent skills for security issues before adoption. Detects prompt injection, malicious code, excessive permissions, secret exposure, and supply chain risks."
-risk: safe
-source: community
-date_added: "2026-09-04"
+description: Scan agent skills for security issues before adoption. Detects prompt
+  injection, malicious code, excessive permissions, secret exposure, and supply chain
+  risks.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Skill Security Scanner
 
 Scan agent skills for security issues before adoption. Detects prompt injection, malicious code, excessive permissions, secret exposure, and supply chain risks.

@@ -1,25 +1,19 @@
 ---
 name: crossframe-critical
-description: "Use only when the user explicitly names crossframe-critical for a Chinese structural critique dossier, article plan, or long-form critical essay."
-category: content
-risk: safe
-source: community
-source_repo: xi-kari/crossframe-skill
-source_type: community
-date_added: 2026-06-16
-author: xi-kari
+description: Use only when the user explicitly names crossframe-critical for a Chinese
+  structural critique dossier, article plan, or long-form critical essay.
 license: MIT
-license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
-tools:
-  - "Agent Skills"
-  - Codex
-  - Claude
-tags:
-  - crossframe
-  - chinese
-  - critique
-  - essay
-  - structural-analysis
+metadata:
+  category: content
+  risk: safe
+  source: community
+  source_repo: xi-kari/crossframe-skill
+  source_type: community
+  date_added: '2026-06-16'
+  author: xi-kari
+  license_source: https://github.com/xi-kari/crossframe-skill/blob/main/LICENSE
+  tools: '[''Agent Skills'', ''Codex'', ''Claude'']'
+  tags: '[''crossframe'', ''chinese'', ''critique'', ''essay'', ''structural-analysis'']'
 ---
 # CrossFrame Critical
 

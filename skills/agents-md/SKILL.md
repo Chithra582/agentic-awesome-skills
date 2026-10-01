@@ -1,12 +1,14 @@
 ---
 name: agents-md
-description: Create, revise, or audit AGENTS.md files from repository evidence, verified commands, and correctly scoped instructions without overwriting maintainer intent.
-category: development
-risk: critical
-source: community
-date_added: "2026-03-06"
+description: Create, revise, or audit AGENTS.md files from repository evidence, verified
+  commands, and correctly scoped instructions without overwriting maintainer intent.
+metadata:
+  category: development
+  risk: critical
+  source: community
+  date_added: '2026-03-06'
+license: MIT
 ---
-
 # Maintain AGENTS.md from repository evidence
 
 ## Overview

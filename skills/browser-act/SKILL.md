@@ -1,23 +1,23 @@
 ---
 name: browser-act
-description: "Use BrowserAct for authenticated browser automation, JS-rendered extraction, screenshots, parallel sessions, verification handling, and human handoff."
-category: browser-automation
-risk: critical
-source: https://github.com/browser-act/skills/tree/main/browser-act
-source_repo: browser-act/skills
-source_type: official
-date_added: "2026-07-28"
-author: BrowserAct
-tags: [browser-automation, web-extraction, ai-agents, cli, multi-session]
-tools: [claude, codex, cursor, gemini, windsurf]
+description: Use BrowserAct for authenticated browser automation, JS-rendered extraction,
+  screenshots, parallel sessions, verification handling, and human handoff.
 license: MIT
-license_source: https://github.com/browser-act/skills/blob/main/LICENSE
 metadata:
-  version: "2.0.2"
-  install: "uv tool install browser-act-cli==1.1.0 --python 3.12"
-  homepage: "https://www.browseract.com"
+  version: 2.0.2
+  install: uv tool install browser-act-cli==1.1.0 --python 3.12
+  homepage: https://www.browseract.com
+  category: browser-automation
+  risk: critical
+  source: https://github.com/browser-act/skills/tree/main/browser-act
+  source_repo: browser-act/skills
+  source_type: official
+  date_added: '2026-07-28'
+  author: BrowserAct
+  tags: '[''browser-automation'', ''web-extraction'', ''ai-agents'', ''cli'', ''multi-session'']'
+  tools: '[''claude'', ''codex'', ''cursor'', ''gemini'', ''windsurf'']'
+  license_source: https://github.com/browser-act/skills/blob/main/LICENSE
 ---
-
 # BrowserAct Browser Automation
 
 ## Overview

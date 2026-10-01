@@ -1,18 +1,21 @@
 ---
 name: invariant-guard
-description: "Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE code. Catches Boyer-Moore, leftmost binary search, QuickSelect traps."
-risk: safe
-source: community
-source_repo: morsechimwai/lemmaly
-source_type: community
-date_added: "2026-05-26"
-author: morsechimwai
-tags: [algorithms, correctness, loop-invariants, contracts, edge-cases, verification]
-tools: [claude-code, antigravity, cursor, gemini-cli, codex-cli]
-license: "Apache-2.0"
-license_source: "https://github.com/morsechimwai/lemmaly/blob/main/LICENSE"
+description: 'Correctness-first: forces writing the function contract, loop invariant,
+  termination argument, and edge cases BEFORE code. Catches Boyer-Moore, leftmost
+  binary search, QuickSelect traps.'
+license: Apache-2.0
+metadata:
+  risk: safe
+  source: community
+  source_repo: morsechimwai/lemmaly
+  source_type: community
+  date_added: '2026-05-26'
+  author: morsechimwai
+  tags: '[''algorithms'', ''correctness'', ''loop-invariants'', ''contracts'', ''edge-cases'',
+    ''verification'']'
+  tools: '[''claude-code'', ''antigravity'', ''cursor'', ''gemini-cli'', ''codex-cli'']'
+  license_source: https://github.com/morsechimwai/lemmaly/blob/main/LICENSE
 ---
-
 # invariant-guard — Correctness-First Coding
 
 The model knows what a loop invariant is. It knows recursion needs a base case. It knows about empty lists, integer overflow, and the difference between `<` and `≤`. It just does not write these down before producing code, so it ships subtle correctness bugs that tests do not catch.

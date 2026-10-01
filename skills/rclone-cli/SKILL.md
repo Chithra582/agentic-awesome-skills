@@ -1,15 +1,18 @@
 ---
 name: rclone-cli
-description: "Rclone command-line cloud storage manager reference and usage guide. Use this skill whenever the user mentions rclone, or any task involving terminal-based cloud file operations such as upload, download, sync, copy, move, mount, or remote management."
-risk: critical
-source: https://github.com/chaunsin/agent-skills/tree/master/skills/rclone-cli
-source_repo: chaunsin/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Rclone command-line cloud storage manager reference and usage guide.
+  Use this skill whenever the user mentions rclone, or any task involving terminal-based
+  cloud file operations such as upload, download, sync, copy, move, mount, or remote
+  management.
 license: Apache-2.0
-license_source: https://github.com/chaunsin/agent-skills/blob/master/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/chaunsin/agent-skills/tree/master/skills/rclone-cli
+  source_repo: chaunsin/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/chaunsin/agent-skills/blob/master/LICENSE
 ---
-
 # rclone — The Swiss Army Knife of Cloud Storage
 ## When to Use
 

@@ -1,19 +1,21 @@
 ---
 name: codex-profiles
-description: "Use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state."
-category: productivity
-risk: critical
-source: community
-source_repo: Ducksss/codex-profiles
-source_type: community
-date_added: "2026-07-08"
-author: Ducksss
-tags: [codex, codex-cli, profiles, code-home, account-isolation, desktop]
-tools: [codex]
-license: "MIT"
-license_source: "https://github.com/Ducksss/codex-profiles/blob/main/LICENSE"
+description: Use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME
+  profiles for separate accounts, projects, and local state.
+license: MIT
+metadata:
+  category: productivity
+  risk: critical
+  source: community
+  source_repo: Ducksss/codex-profiles
+  source_type: community
+  date_added: '2026-07-08'
+  author: Ducksss
+  tags: '[''codex'', ''codex-cli'', ''profiles'', ''code-home'', ''account-isolation'',
+    ''desktop'']'
+  tools: '[''codex'']'
+  license_source: https://github.com/Ducksss/codex-profiles/blob/main/LICENSE
 ---
-
 # Codex Profiles
 
 ## Overview

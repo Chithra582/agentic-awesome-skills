@@ -1,16 +1,17 @@
 ---
 name: n8n-agents
-description: Design n8n AI agents, chains, classifiers, extractors, tool calling, memory, RAG, structured output, and human-review flows.
-risk: critical
-source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-agents
-source_repo: czlonkowski/n8n-skills
-source_type: community
-date_added: "2026-07-21"
-author: Romuald Czlonkowski
+description: Design n8n AI agents, chains, classifiers, extractors, tool calling,
+  memory, RAG, structured output, and human-review flows.
 license: MIT
-license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-agents
+  source_repo: czlonkowski/n8n-skills
+  source_type: community
+  date_added: '2026-07-21'
+  author: Romuald Czlonkowski
+  license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
 ---
-
 # n8n Agents
 
 ## When to Use
@@ -234,68 +235,6 @@ n8n ships the LangChain RAG primitives (document loaders, splitters, embeddings,
 | Cramming per-tool instructions into the system prompt | Bloated prompt, no reuse, per-tool guidance buried | Move tool-specific instructions into tool descriptions |
 | Agent + Switch to route on natural language | Two nodes + prompt boilerplate where Text Classifier is one node | Use Text Classifier — each category gets its own output handle (name **and** description) |
 | Wrapping image/audio/video generation in an Agent | Binary doesn't flow through tools or out of the agent output | Use the provider's native single-call node directly |
-| `outputParserStructured` without `autoFix` | One malformed response halts the workflow | `autoFix: true` + a coding-capable fixer model |
-| Passing binary directly to a tool | Doesn't work — binary can't cross the tool boundary | Pre-stage to storage, pass keys; see **n8n-binary-and-data** |
-| Hardcoded `sessionId` / no sessionId / `sessionId` behind `$fromAI` | Conversations cross, or the model fabricates a UUID | Plumb a stable key from the trigger to memory and tools |
-| Two near-identical tools | Selection is non-deterministic, model gets confused | One tool with internal branching driven by a parameter |
-| Chat bot with no bot-user filter | Its own replies re-trigger it → infinite loop | Exclude the bot user ID at the trigger or first node |
-| `maxIterations` left at the low default on a multi-tool agent | "Max iterations reached" / empty output | Raise `options.maxIterations` |
-| Filling the human-review message via `$fromAI()` | Approver signs off on a paraphrase, not the real call | Use literal `{{ $tool.parameters.<name> }}` |
+| `outpu
 
----
-
-## What's NOT available via the community MCP
-
-| Want to do | Reality |
-|---|---|
-| Run / chat-test the agent end-to-end with live tokens | `n8n_test_workflow` runs the workflow, but a true multi-turn chat session is a UI activity (canvas chat tester). |
-| Set credentials' actual secret values | `n8n_manage_credentials` creates/updates credential records, but the agent provider keys themselves are entered/verified in the UI. |
-| Assign a workflow's Error Workflow | UI only — see **n8n-error-handling**. Build the catch-all, then hand the user the UI step. |
-| Pin the exact model availability per instance | Model lists shift between versions — `search_nodes`/`get_node` reflect what's installed. Verify on the target instance. |
-
-What the MCP **can** do: search and inspect every LangChain node (`search_nodes`, `get_node`), validate node config and the whole graph (`validate_node`, `validate_workflow`), build and patch the agent and its sub-nodes (`n8n_update_partial_workflow` with `addConnection` on `ai_*` outputs), test (`n8n_test_workflow`), and pull the saved JSON to verify wiring (`n8n_get_workflow`). The deep AI-agent guide also lives in `tools_documentation({topic: "ai_agents_guide", depth: "full"})`.
-
----
-
-## Integration with other skills
-
-- **n8n-workflow-patterns** — the high-level "agent in a workflow" shape. This skill is the deep dive; start there for architecture.
-- **n8n-mcp-tools-expert** — node-type formats (short form for `get_node`, long form in JSON) and tool-selection guidance. Consult before any MCP call.
-- **n8n-node-configuration** — `displayOptions`-driven fields on the agent and sub-nodes; Slack/Block Kit message shapes (`NODE_FAMILY_GOTCHAS.md`, Slack section).
-- **n8n-expression-syntax** — `{{ }}`, `$json.output`, `$now`, and `$fromAI`/`$tool.parameters` all rely on correct expression syntax.
-- **n8n-code-tool** — the Custom Code Tool's runtime contract (string in/out, no `$fromAI`). Read it before writing a `.toolCode`.
-- **n8n-subworkflows** — the sub-workflow primitive that `.toolWorkflow` builds on (Execute Workflow Trigger inputs/outputs, naming, search-before-build).
-- **n8n-binary-and-data** — owns the agent-tool binary boundary mechanics (staging uploads, returning generated files).
-- **n8n-validation-expert** — interpreting `validate_workflow` results, including AI-connection issues (a tool wired into `main` instead of `ai_tool` flags as disconnected).
-- **n8n-error-handling** — `onError: 'continueErrorOutput'` on tool sub-workflows and the agent-core call; error UX on chat shells.
-- **n8n-code-javascript / n8n-code-python** — for Code-node logic *inside* a tool sub-workflow (different sandbox from the Code Tool).
-
----
-
-## Quick reference checklist
-
-Before shipping an agent:
-
-- [ ] **Right node**: Agent for tools/memory/multi-turn; Text Classifier for routing; Information Extractor for fields; native node for media
-- [ ] **Model** wired via `ai_languageModel`
-- [ ] **Every tool** has a verb-first specific name AND a real description
-- [ ] **`$fromAI()` descriptions** are specific (format, range, example); identity/limits/sessionId plumbed deterministically, not via `$fromAI`
-- [ ] **Per-tool guidance** lives in tool descriptions, not the system prompt
-- [ ] **`$now`** in the system prompt (no hardcoded date)
-- [ ] **`maxIterations`** raised for multi-tool agents
-- [ ] **Memory** keyed on a stable `sessionKey` from the trigger (not `'default'`, not `$fromAI`); `contextWindowLength` raised from 5
-- [ ] **Structured output**: `schemaType: 'manual'` + `autoFix: true` + a coding-capable fixer model
-- [ ] **Destructive tools** wrapped in human review; approval message uses `$tool.parameters`, not `$fromAI`
-- [ ] **Chat bots** filter the bot's own user ID (trigger-level or first node)
-- [ ] **Binary**: model vision via `passthroughBinaryImages`; tools get storage keys, never bytes
-- [ ] **Validated** with `validate_workflow` and verified with `n8n_get_workflow` (sub-nodes on `ai_*`, not `main`)
-
----
-
-**Remember**: an agent is only as good as its tool names, descriptions, and system-prompt discipline. The model can't see your wiring — it sees a system prompt and a list of named, described tools. Design those like an API and most "the agent won't behave" problems disappear.
-
-## Limitations
-
-- Node types, parameters, model availability, and defaults vary by n8n version; verify them against the target instance.
-- This guidance cannot set provider secret values or prove a live multi-turn agent works without an authorized execution.
-- Validation does not prove tool selection quality, correct wiring, idempotency, or safe side effects; inspect and test those separately.
+<!-- Truncated for OpenGAP token limits -->

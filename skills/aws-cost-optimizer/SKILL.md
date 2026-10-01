@@ -1,11 +1,13 @@
 ---
 name: aws-cost-optimizer
-description: "Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer"
-risk: safe
-source: community
-date_added: "2026-02-27"
+description: Comprehensive AWS cost analysis and optimization recommendations using
+  AWS CLI and Cost Explorer
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # AWS Cost Optimizer
 
 Analyze AWS spending patterns, identify waste, and provide actionable cost reduction strategies.

@@ -1,15 +1,16 @@
 ---
 name: applicationinsights-web-ts
-description: "Instrument browser/web apps with the Application Insights JavaScript SDK (@microsoft/applicationinsights-web)."
-risk: critical
-source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-typescript/skills/applicationinsights-web-ts
-source_repo: microsoft/skills
-source_type: official
-date_added: 2026-07-01
+description: Instrument browser/web apps with the Application Insights JavaScript
+  SDK (@microsoft/applicationinsights-web).
 license: MIT
-license_source: https://github.com/microsoft/skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-typescript/skills/applicationinsights-web-ts
+  source_repo: microsoft/skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/microsoft/skills/blob/main/LICENSE
 ---
-
 # Application Insights JavaScript SDK (Web) for TypeScript
 ## When to Use
 
@@ -417,61 +418,6 @@ The SDK uses `sendBeacon` (default `onunloadDisableBeacon: false`) to flush on `
 
 ## Common Pitfalls
 
-1. **Do not initialize twice.** Re-importing the module under different bundles produces duplicate page views. Use a single shared module export.
-2. **Initialize before first user input** to avoid losing early clicks/exceptions.
-3. **Connection string is public** — never reuse the same App Insights resource for backend secrets.
-4. **`enableAutoRouteTracking` + manual `trackPageView`** = duplicates. Pick one.
-5. **CORS distributed tracing** requires the API to allow `Request-Id`, `Request-Context`, `traceparent`, `tracestate` request headers and expose `Request-Context` response header.
-6. **GenAI sensitive content** (`gen_ai.input.messages` etc.) is Opt-In — never log without an explicit runtime flag and approved data handling.
-7. **Agent token usage is on `chat` spans, not `invoke_agent`** — copy aggregated usage to the parent agent span only if you know it.
-8. **React StrictMode** double-invokes effects in dev — guard `loadAppInsights()` with a module-level singleton.
+1. **Do
 
-## Bundle Size
-
-The full web SDK is ~110 KB minified (~36 KB gzipped). For aggressive budgets, use the **Loader Script** path so the SDK loads asynchronously off the critical path, or tree-shake unused plugins.
-
-## Key Types
-
-```typescript
-import {
-  ApplicationInsights,
-  SeverityLevel,
-  DistributedTracingModes,
-  type IConfiguration,
-  type IConfig,
-  type ITelemetryItem,
-  type ITelemetryPlugin,
-  type ICustomProperties,
-  type IPageViewTelemetry,
-  type IEventTelemetry,
-  type IExceptionTelemetry,
-  type ITraceTelemetry,
-  type IMetricTelemetry,
-  type IDependencyTelemetry
-} from "@microsoft/applicationinsights-web";
-```
-
-## Best Practices
-
-1. **One singleton instance** exported from a single module.
-2. **Initialize early** in the app entrypoint, before router setup.
-3. **Use telemetry initializers** to attach `app.version`, `tenantId`, and to scrub PII / query-string secrets.
-4. **Set `distributedTracingMode: 2`** and ensure your APIs accept/expose W3C trace context headers.
-5. **For GenAI**, follow OTel `gen_ai.*` attribute names verbatim — they are queryable across browser and backend telemetry uniformly.
-6. **Gate sensitive content capture** (`gen_ai.input.messages` / `gen_ai.output.messages`) behind a build-time or runtime opt-in.
-7. **Flush on logout / sensitive navigation** so in-flight telemetry isn't dropped.
-
-## References
-
-- [references/agent-traces.md](https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-typescript/skills/applicationinsights-web-ts/references/agent-traces.md) — Full OTel GenAI semconv distilled (agent / model / tool spans, attributes, content capture).
-- [references/framework-extensions.md](https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-typescript/skills/applicationinsights-web-ts/references/framework-extensions.md) — React, React Native, Angular, Next.js, Vite recipes.
-- [references/configuration.md](https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-typescript/skills/applicationinsights-web-ts/references/configuration.md) — Full `IConfiguration` reference and tuning guide.
-- Microsoft Learn: <https://learn.microsoft.com/azure/azure-monitor/app/javascript-sdk>
-- ApplicationInsights-JS source: <https://github.com/microsoft/ApplicationInsights-JS>
-- OTel GenAI semantic conventions: <https://opentelemetry.io/docs/specs/semconv/gen-ai/>
-
-## Limitations
-
-- Use this skill only when the task clearly matches its upstream source and local project context.
-- Verify commands, generated code, dependencies, credentials, and external service behavior before applying changes.
-- Do not treat examples as a substitute for environment-specific tests, security review, or user approval for destructive or costly actions.
+<!-- Truncated for OpenGAP token limits -->

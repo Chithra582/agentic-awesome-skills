@@ -1,20 +1,21 @@
 ---
 name: review-animations
-description: "Use when reviewing animation and motion code against a strict craft, performance, accessibility, and interaction-quality bar."
-category: frontend
-risk: safe
-source: community
-source_repo: emilkowalski/skills
-source_type: community
-date_added: "2026-06-25"
-author: Emil Kowalski
+description: Use when reviewing animation and motion code against a strict craft,
+  performance, accessibility, and interaction-quality bar.
 license: MIT
-license_source: "https://github.com/emilkowalski/skills/blob/main/LICENSE.txt"
-tags: [frontend, animation, motion, review, accessibility]
-tools: [claude, cursor, codex, antigravity]
-disable-model-invocation: true
+metadata:
+  category: frontend
+  risk: safe
+  source: community
+  source_repo: emilkowalski/skills
+  source_type: community
+  date_added: '2026-06-25'
+  author: Emil Kowalski
+  license_source: https://github.com/emilkowalski/skills/blob/main/LICENSE.txt
+  tags: '[''frontend'', ''animation'', ''motion'', ''review'', ''accessibility'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''antigravity'']'
+  disable-model-invocation: 'True'
 ---
-
 # Reviewing Animations
 
 ## When to Use

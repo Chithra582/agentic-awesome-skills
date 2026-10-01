@@ -1,19 +1,20 @@
 ---
 name: product-decision-agent
-description: "中文产品决策 Agent。用于需求优先级、Roadmap、增长、留存、运营、数据异常、A/B Test、项目延期和跨团队协作；先判断事实、阶段、核心阻塞与主导机制，再给出下一步、停止清单和切换条件。默认中文，不引用原文或讲历史。"
-category: product
-risk: safe
-source: community
-source_repo: atdy/maoxuan-product-agent
-source_type: community
-date_added: "2026-07-10"
-author: atdy
-tags: [product-management, decision-making, growth, operations, chinese]
-tools: [claude, cursor, codex]
-license: "MIT"
-license_source: "https://github.com/atdy/maoxuan-product-agent/blob/main/LICENSE"
+description: 中文产品决策 Agent。用于需求优先级、Roadmap、增长、留存、运营、数据异常、A/B Test、项目延期和跨团队协作；先判断事实、阶段、核心阻塞与主导机制，再给出下一步、停止清单和切换条件。默认中文，不引用原文或讲历史。
+license: MIT
+metadata:
+  category: product
+  risk: safe
+  source: community
+  source_repo: atdy/maoxuan-product-agent
+  source_type: community
+  date_added: '2026-07-10'
+  author: atdy
+  tags: '[''product-management'', ''decision-making'', ''growth'', ''operations'',
+    ''chinese'']'
+  tools: '[''claude'', ''cursor'', ''codex'']'
+  license_source: https://github.com/atdy/maoxuan-product-agent/blob/main/LICENSE
 ---
-
 # 中文产品决策 Agent
 
 ## 角色

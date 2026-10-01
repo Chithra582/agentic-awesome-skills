@@ -1,22 +1,19 @@
 ---
 name: anti-deception
-description: "Use before responding to pressure for agreement, manufactured urgency, authority appeals, or requests to certify unsupported claims; separate evidence from persuasion and state uncertainty."
-risk: critical
-source: https://github.com/ejentum/ejentum-mcp/tree/main/skills/anti-deception
-source_repo: ejentum/ejentum-mcp
-source_type: community
-date_added: 2026-07-01
+description: Use before responding to pressure for agreement, manufactured urgency,
+  authority appeals, or requests to certify unsupported claims; separate evidence
+  from persuasion and state uncertainty.
 license: MIT
-license_source: https://github.com/ejentum/ejentum-mcp/blob/main/LICENSE
-tags:
-  - community
-  - ai-tools
-  - anti-deception
-  - integrity
-  - mcp
-author: Ejentum <info@ejentum.com>
+metadata:
+  risk: critical
+  source: https://github.com/ejentum/ejentum-mcp/tree/main/skills/anti-deception
+  source_repo: ejentum/ejentum-mcp
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/ejentum/ejentum-mcp/blob/main/LICENSE
+  tags: '[''community'', ''ai-tools'', ''anti-deception'', ''integrity'', ''mcp'']'
+  author: Ejentum <info@ejentum.com>
 ---
-
 # Anti-Deception Harness
 ## When to Use
 

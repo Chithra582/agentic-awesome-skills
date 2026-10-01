@@ -1,19 +1,20 @@
 ---
 name: cmux
-description: "Control cmux workspaces, panes, surfaces, and agent sessions safely from macOS terminal workflows."
-category: development
-risk: critical
-source: community
-source_repo: davidondrej/skills
-source_type: community
-date_added: "2026-07-07"
-author: davidondrej
-tags: [cmux, terminal, agents, macos]
-tools: [claude, codex]
-license: "MIT"
-license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
+description: Control cmux workspaces, panes, surfaces, and agent sessions safely from
+  macOS terminal workflows.
+license: MIT
+metadata:
+  category: development
+  risk: critical
+  source: community
+  source_repo: davidondrej/skills
+  source_type: community
+  date_added: '2026-07-07'
+  author: davidondrej
+  tags: '[''cmux'', ''terminal'', ''agents'', ''macos'']'
+  tools: '[''claude'', ''codex'']'
+  license_source: https://github.com/davidondrej/skills/blob/main/LICENSE
 ---
-
 # cmux Control
 
 ## When to Use

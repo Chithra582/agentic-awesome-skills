@@ -1,12 +1,14 @@
 ---
 name: remotion-render
 description: Export a Remotion video
-version: 4.0.526
-source_repo: remotion-dev/skills
-source_type: official
-source: remotion-dev
-date_added: '2026-09-21'
-risk: unknown
+metadata:
+  version: 4.0.526
+  source_repo: remotion-dev/skills
+  source_type: official
+  source: remotion-dev
+  date_added: '2026-09-21'
+  risk: unknown
+license: MIT
 ---
 ## When to Use
 - Use when this upstream workflow matches the user's stated goal.

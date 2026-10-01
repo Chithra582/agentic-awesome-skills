@@ -1,15 +1,17 @@
 ---
 name: neon-functions
-description: "Long-running, serverless Node.js HTTP functions deployed onto your Neon branch, with DATABASE_URL injected automatically and compute that runs next to your data."
-risk: critical
-source: https://github.com/neondatabase/agent-skills/tree/main/skills/neon-functions
-source_repo: neondatabase/agent-skills
-source_type: official
-date_added: 2026-07-01
+description: Long-running, serverless Node.js HTTP functions deployed onto your Neon
+  branch, with DATABASE_URL injected automatically and compute that runs next to your
+  data.
 license: Apache-2.0
-license_source: https://github.com/neondatabase/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/neondatabase/agent-skills/tree/main/skills/neon-functions
+  source_repo: neondatabase/agent-skills
+  source_type: official
+  date_added: '2026-07-01'
+  license_source: https://github.com/neondatabase/agent-skills/blob/main/LICENSE
 ---
-
 # Neon Functions
 
 This is a preview feature and only available in `us-east-2`. Neon Functions are long-running Node.js HTTP handlers deployed onto a Neon branch. Each function gets a public HTTPS URL, runs in the same region as your database, and — if the branch has Postgres — gets `DATABASE_URL` injected automatically. You deploy and manage them through the same Neon CLI, `neon.ts`, and API you already use.
@@ -267,199 +269,6 @@ app.get(
   })),
 );
 
-export default handler; // Neon's { fetch, upgrade } contract
-```
+expo
 
-> Don't put header-modifying middleware (e.g. CORS) on an `upgradeWebSocket` route — the helper rewrites headers internally and will throw. The [fan-out](#fan-out-across-isolates-do-not-skip-this) and [reconnect](#client-must-reconnect) guidance below applies unchanged.
-
-### Heartbeat (keep the socket alive)
-
-A connection stays open **only while bytes flow**: Neon evicts a silent stream after 15 minutes ([Timeouts and runtime limits](#timeouts-and-runtime-limits)), and intermediary proxies / load balancers are usually far stricter (often tens of seconds). Don't rely on the app being chatty enough — send a periodic ping from the server so the socket never goes quiet. `ws.ping()` sends a WebSocket ping frame and the browser answers with a pong automatically, so there's no client code to write:
-
-```typescript
-const HEARTBEAT_MS = 25_000; // comfortably under proxy idle timeouts
-
-const beat = setInterval(() => {
-  for (const ws of clients) if (ws.readyState === ws.OPEN) ws.ping();
-}, HEARTBEAT_MS);
-beat.unref?.();
-```
-
-(With the Hono `upgradeWebSocket` helper you don't hold the raw socket, so send an application-level keepalive instead — e.g. `ws.send("ping")` on the same interval, ignored by the client.)
-
-### Fan-out across isolates (do not skip this)
-
-Under load the runtime runs **several isolates in parallel, each with its own copy of module state** — so each isolate has its own `clients` set. Broadcasting only to the local set means a client connected to isolate A never sees a message sent by a client on isolate B. The chat would silently fracture.
-
-Fan out across every isolate with **Postgres `LISTEN`/`NOTIFY`**: each isolate `LISTEN`s on a channel over a dedicated **unpooled** connection, and broadcasting means `NOTIFY` (so every isolate, including the sender's, re-broadcasts to its own sockets). This is also why message state must live in Postgres, not module memory — module state doesn't survive eviction.
-
-```typescript
-import { Pool, Client } from "pg";
-
-const pool = new Pool({ connectionString: process.env.DATABASE_URL, max: 5 });
-const CHANNEL = "chat_events";
-
-// One dedicated DIRECT connection per isolate, just to receive events.
-// Use DATABASE_URL_UNPOOLED — LISTEN needs a real session, not a pooled one.
-const listener = new Client({ connectionString: process.env.DATABASE_URL_UNPOOLED });
-listener.connect().then(() => listener.query(`LISTEN ${CHANNEL}`));
-listener.on("notification", (msg) => {
-  if (!msg.payload) return;
-  for (const ws of clients) if (ws.readyState === ws.OPEN) ws.send(msg.payload);
-});
-
-// Broadcast by NOTIFYing through the pool — every isolate's listener fires.
-function broadcast(event: unknown) {
-  return pool.query("SELECT pg_notify($1, $2)", [CHANNEL, JSON.stringify(event)]);
-}
-```
-
-### Client must reconnect
-
-Idle functions are evicted (and isolates restart for operational reasons), so a client's socket **will** drop — treat reconnection as normal, not exceptional. Reconnect with exponential backoff, capped, and **re-mint a fresh token on every attempt** (tokens are short-lived, so a stale one fails the `upgrade` auth check):
-
-```typescript
-let closed = false, retry = 0, timer: ReturnType<typeof setTimeout>;
-
-async function connect() {
-  if (closed) return;
-  const token = await getToken(); // re-mint each attempt; short-lived
-  const ws = new WebSocket(`${WS_URL}?token=${encodeURIComponent(token)}`);
-  ws.onopen = () => { retry = 0; };          // reset backoff on success
-  ws.onmessage = (e) => { /* apply the event */ };
-  ws.onclose = () => {
-    if (!closed) timer = setTimeout(connect, Math.min(1000 * 2 ** retry++, 15000));
-  };
-  ws.onerror = () => ws.close();             // let onclose drive the retry
-}
-connect();
-```
-
-Together — Hono `fetch` + `ws` `upgrade`, JWT auth over `?token=`, `LISTEN`/`NOTIFY` fan-out, and client backoff — these compose into a complete realtime chat backend on a single function.
-
-## Server-sent events (SSE)
-
-When you only need **server → client** streaming (live counters, notifications, progress, token streams), SSE is simpler than a WebSocket and needs no `upgrade` method or extra library: a plain `fetch` handler returns a `Response` whose body is a `ReadableStream` with `Content-Type: text/event-stream`, and the runtime holds it open as long as bytes flow. The browser consumes it with `EventSource`, which **reconnects on its own** — so there's no client backoff to write.
-
-```typescript
-// src/index.ts — minimal SSE endpoint
-const encoder = new TextEncoder();
-export default {
-  fetch: () =>
-    new Response(
-      new ReadableStream<Uint8Array>({
-        start(controller) {
-          controller.enqueue(encoder.encode("data: hello\n\n"));
-          const t = setInterval(() => controller.enqueue(encoder.encode(": ping\n\n")), 25_000);
-          return () => clearInterval(t); // fires when the client disconnects
-        },
-      }),
-      { headers: { "Content-Type": "text/event-stream", "Cache-Control": "no-cache, no-transform" } },
-    ),
-};
-```
-
-The same rules as WebSockets apply. **Heartbeat:** a stream stays open only while bytes flow — Neon's window is 15 minutes ([Timeouts and runtime limits](#timeouts-and-runtime-limits)) but proxies are usually far stricter, so emit a `: ping\n\n` comment every ~25–30s (shown above) to keep idle streams from being dropped. Keep state in Postgres, and fan out across isolates with [`LISTEN`/`NOTIFY`](#fan-out-across-isolates-do-not-skip-this) (hold a `Set` of stream controllers and `enqueue` to each). `EventSource` is GET-only and can't set headers, so authenticate with a `?token=` query param or cookie, exactly like the WebSocket case. [references/sse.md](references/sse.md) has the full pattern — Hono variant, cross-isolate fan-out, wire format, client, and caveats.
-
-## MCP servers
-
-An [MCP](https://modelcontextprotocol.io) server is a natural Functions workload: a long-running HTTP handler that exposes tools to AI clients (Cursor, Claude, ChatGPT, agents), with those tools reading and writing the branch's Postgres right next to the compute. MCP's **streamable HTTP transport** is a plain `POST`/`GET` on a single endpoint (conventionally `/mcp`), so it maps onto a function's `fetch` handler with no `upgrade` method or extra protocol — a Hono app using the official [`@modelcontextprotocol/sdk`](https://github.com/modelcontextprotocol/typescript-sdk) plus [`@hono/mcp`](https://github.com/honojs/middleware/tree/main/packages/mcp) (which bridges the transport to a route) is the simplest host. Build the server, register its tools, and create the transport once at module scope, then hand every `/mcp` request to it:
-
-```typescript
-const transport = new StreamableHTTPTransport();
-app.all("/mcp", async (c) => {
-  if (!mcpServer.isConnected()) await mcpServer.connect(transport);
-  return transport.handleRequest(c);
-});
-```
-
-Because the function's URL is public, **authenticate before connecting the transport** — [Better Auth](https://better-auth.com) covers both OAuth (its MCP plugin makes your app the authorization server so third-party clients self-authorize per the MCP spec) and a simpler API-key / session-JWT check for your own callers. [references/mcp.md](references/mcp.md) has the full pattern — server with Postgres-backed tools via Drizzle, both Better Auth auth options, and testing with `mcporter` / `add-mcp`.
-
-## Integrations and observability
-
-A function is a long-lived Node.js process running a web-standard request/response handler, so standard Node integration SDKs work unchanged — initialize them once at module load, gated on an env var so local dev and unconfigured branches stay a no-op, and pass secrets via `--env` or `neon.ts` `env`. For wiring up **Sentry** error monitoring across the HTTP framework, the function runtime, and an agent's own caught/fallback failures (the long-running case Functions target), see [references/sentry.md](references/sentry.md). For running a **Mastra** agent on a function and shipping its traces to a **Mastra Studio (Mastra Cloud)** project for observability, see [references/mastra-studio.md](references/mastra-studio.md).
-
-## Timeouts and runtime limits
-
-Functions are long-running but **still serverless** — they are a request/response runtime, not a background job runner. The hard limits:
-
-- **Time to first byte: 15 minutes.** Your handler must _begin_ returning a response within 15 minutes of receiving a request. Most handlers finish in seconds; the 15-minute ceiling exists so agent workloads like image/video generation have room.
-- **Heartbeat: 15 minutes.** Open WebSocket/SSE connections stay alive as long as data flows. The timeout only fires when a connection goes silent — send at least one byte every 15 minutes to keep a quiet stream alive.
-- **`waitUntil`: 15 minutes.** Work registered with `waitUntil` keeps the invocation alive after the response is sent, up to 15 minutes — for cleanup like analytics writes and audit logs, **not** a background job runner. (`waitUntil` from `@neon/functions` is currently a stub during the preview.)
-- **Idle eviction.** With no active connections the platform shuts the function down; it may also evict/restart for operational reasons — e.g. maintenance, or moving the function to a different compute node (active functions can run for hours first). Treat eviction like a process restart — WebSocket/SSE clients must reconnect. The platform sends `SIGINT` before evicting, so a `process.on("SIGINT", ...)` handler lets you detect that the function is about to be evicted and run any last-minute cleanup. You don't need one just to close Postgres connections — Neon's pooler reclaims those on its own.
-
-- **Runtime:** Node.js 24, memory fixed at 2048 MiB during the preview. Slugs must match `^[a-z0-9]{1,20}$`. **An isolate is reused across many requests** — multiple requests can be in flight on the same isolate at once (interleaved on Node's single-threaded event loop), and under load the runtime runs several isolates in parallel, each with its own copy of module state. State held in module scope is therefore per-isolate (shared by every request that isolate handles) and in-memory only — persist anything that must survive eviction in Postgres. This reuse is exactly why you create a connection pool once at module scope rather than per request (see [Connecting to Postgres](#connecting-to-postgres)).
-
-## Functions as an agent backend (Next.js and similar frameworks)
-
-A Neon Function is a great home for an AI agent precisely because it **doesn't time out** the way lambda-style serverless does (15-minute budget, see above). But that advantage disappears the moment you **proxy the agent stream through your web app's backend** — a Next.js route handler, Remix/SvelteKit/Nuxt action, etc. hosted on Vercel, Netlify, Cloudflare, and the like. Those platforms cap serverless/edge execution at short windows (often ~10–60s, sometimes up to ~300s), so a long agent or image/video generation stream gets cut off mid-response even though the Neon Function would happily keep going.
-
-**Building the agent itself.** The [Vercel AI SDK](https://ai-sdk.dev) and [Mastra](https://mastra.ai) are the recommended ways to build the agent — point either at the Neon AI Gateway (see the `neon-ai-gateway` skill) for one credential across every model, with no extra provider keys. For a complete AI SDK agent running as a Function (streaming `toUIMessageStreamResponse`, multi-step tool calling next to Postgres, and persisting generated images to Object Storage), see [references/ai-sdk.md](references/ai-sdk.md); for the Mastra equivalent with built-in tracing, see [references/mastra-studio.md](references/mastra-studio.md).
-
-**The fix: call the function directly from the client.** Don't route the long request through your app server.
-
-```
-Browser ──(Authorization: Bearer <JWT>)──▶  Neon Function (agent)   ✅ no host timeout
-Browser ──▶ your app backend ──▶ Neon Function                       ❌ host cuts the stream
-```
-
-- Mint a **short-lived JWT** on your app backend (e.g. better-auth's `jwt` plugin, NextAuth, or your own signer) — that call is fast and well within host limits.
-- Hand the token to the client and have it call the Neon Function **directly** (cross-origin), e.g. with the Vercel AI SDK: `new DefaultChatTransport({ api: NEON_FUNCTION_URL, fetch })` where `fetch` attaches `Authorization: Bearer <token>`. Your app server is never in the path of the long stream.
-- Add **CORS** so the browser can reach it (handle `OPTIONS`, set `Access-Control-Allow-Origin`/`-Headers`).
-
-> [!WARNING]
-> A Neon Function has a **public HTTPS URL — it is reachable by anyone.** A direct client→function call means there is no app backend in front of it to gate access, so **you must authenticate the function yourself.** Verify a JWT (e.g. against your app's JWKS), check a shared secret / API key, or validate a session token at the top of the handler and reject anything else. Never deploy an unauthenticated agent.
-
-```typescript
-// src/index.ts — verify the caller before doing any work
-import { createRemoteJWKSet, jwtVerify } from "jose";
-
-const jwks = createRemoteJWKSet(new URL(`${process.env.AUTH_BASE_URL}/api/auth/jwks`));
-
-export default {
-  async fetch(request: Request) {
-    if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: cors(request) });
-
-    const auth = request.headers.get("authorization");
-    if (!auth?.toLowerCase().startsWith("bearer ")) {
-      return new Response("Unauthorized", { status: 401, headers: cors(request) });
-    }
-    try {
-      const { payload } = await jwtVerify(auth.slice(7), jwks, {
-        issuer: process.env.AUTH_BASE_URL,
-        audience: process.env.AUTH_BASE_URL,
-      });
-      const userId = payload.sub; // scope the agent to this user
-      // ... run the agent, return result.toUIMessageStreamResponse({ headers: cors(request) })
-    } catch {
-      return new Response("Unauthorized", { status: 401, headers: cors(request) });
-    }
-  },
-};
-```
-
-Pass the JWKS/issuer URL to the function via its `env` (see Environment variables). Persist anything you need to keep (generated images, history) in Postgres — module state doesn't survive eviction.
-
-## Availability
-
-Neon Functions is a preview (early access) feature available only on new projects in the `us-east-2` region. Confirm the user's Neon project is a new project in `us-east-2`; it can't be enabled on existing projects. Functions usage isn't billed during the private preview. If the user does not yet have access, point them to the private beta sign-up: https://neon.com/blog/were-building-backends#access
-
-## Neon Documentation
-
-The Neon documentation is the source of truth and Functions is evolving rapidly, so always verify against the official docs. Any doc page can be fetched as markdown by appending `.md` to the URL or by requesting `Accept: text/markdown`. Find the right page from the docs index (https://neon.com/docs/llms.txt) and the changelog announcements.
-
-## Further reading
-
-- https://neon.com/docs/compute/functions/overview.md
-- https://neon.com/docs/compute/functions/get-started.md
-- https://neon.com/docs/compute/functions/deploy.md
-- https://neon.com/docs/compute/functions/environment-variables.md
-- https://neon.com/docs/compute/functions/reference/neon-ts.md
-- https://neon.com/docs/compute/functions/reference/runtime-limits.md
-- https://neon.com/docs/compute/functions/preview-access.md
-
-## Limitations
-
-- Use this skill only when the task clearly matches its upstream product or API scope.
-- Verify commands, API behavior, pricing, quotas, credentials, and deployment effects against current official documentation before making changes.
-- Do not treat generated examples as a substitute for environment-specific tests, security review, or user approval for destructive or costly actions.
+<!-- Truncated for OpenGAP token limits -->

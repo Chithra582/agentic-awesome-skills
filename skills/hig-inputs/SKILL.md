@@ -1,11 +1,13 @@
 ---
 name: hig-inputs
-description: "Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered."
-risk: none
-source: community
-date_added: '2026-02-27'
+description: Check for .claude/apple-design-context.md before asking questions. Use
+  existing context and only ask for information not already covered.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Apple HIG: Inputs
 
 Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.

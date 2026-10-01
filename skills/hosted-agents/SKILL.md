@@ -1,11 +1,13 @@
 ---
 name: hosted-agents
-description: Build background agents in sandboxed environments. Use for hosted coding agents, sandboxed VMs, Modal sandboxes, and remote coding environments.
-risk: critical
-source: community
-date_added: "2026-09-04"
+description: Build background agents in sandboxed environments. Use for hosted coding
+  agents, sandboxed VMs, Modal sandboxes, and remote coding environments.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-09-04'
+license: MIT
 ---
-
 # Hosted Agent Infrastructure
 
 Hosted agents run in remote sandboxed environments rather than on local machines. When designed well, they provide unlimited concurrency, consistent execution environments, and multiplayer collaboration. The critical insight is that session speed should be limited only by model provider time-to-first-token, with all infrastructure setup completed before the user starts their session.

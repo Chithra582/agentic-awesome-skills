@@ -1,11 +1,13 @@
 ---
 name: shopify-development
-description: Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.
-risk: critical
-source: community
-date_added: '2026-02-27'
+description: Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify
+  CLI, Polaris UI, and Liquid.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Shopify Development Skill
 
 Use this skill when the user asks about:

@@ -1,11 +1,13 @@
 ---
 name: data-engineering-data-driven-feature
-description: "Build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and experimentation."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Build features guided by data insights, A/B testing, and continuous measurement
+  using specialized agents for analysis, implementation, and experimentation.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Data-Driven Feature Development
 
 Build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and experimentation.

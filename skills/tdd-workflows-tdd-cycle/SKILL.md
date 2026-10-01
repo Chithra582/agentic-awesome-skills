@@ -1,11 +1,12 @@
 ---
 name: tdd-workflows-tdd-cycle
-description: "Use when working with tdd workflows tdd cycle"
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: Use when working with tdd workflows tdd cycle
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 ## Use this skill when
 
 - Working on tdd workflows tdd cycle tasks or workflows

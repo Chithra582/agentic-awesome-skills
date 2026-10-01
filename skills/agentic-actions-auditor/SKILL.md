@@ -1,19 +1,15 @@
 ---
 name: agentic-actions-auditor
-description: >
-  Audits GitHub Actions workflows for security
-  vulnerabilities in AI agent integrations 
-  including Claude Code Action, 
-  Gemini CLI, OpenAI Codex, and GitHub AI 
-  Inference. 
-  Detects attack vectors where attacker-controlled 
-  input reaches.
+description: Audits GitHub Actions workflows for security vulnerabilities in AI agent
+  integrations  including Claude Code Action,  Gemini CLI, OpenAI Codex, and GitHub
+  AI  Inference.  Detects attack vectors where attacker-controlled  input reaches.
   AI agents running in CI/CD pipelines.
-risk: safe
-source: community
-date_added: 2026-03-18
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-18'
+license: MIT
 ---
-
 # Agentic Actions Auditor
 
 Static security analysis guidance for GitHub Actions workflows that invoke AI coding agents. This skill teaches you how to discover workflow files locally or from remote GitHub repositories, identify AI action steps, follow cross-file references to composite actions and reusable workflows that may contain hidden AI agents, capture security-relevant configuration, and detect attack vectors where attacker-controlled input reaches an AI agent running in a CI/CD pipeline.
@@ -299,45 +295,6 @@ Structure the full report as follows:
 
 1. **Executive summary header:** `**Analyzed X workflows containing Y AI action instances. Found Z findings: N High, M Medium, P Low, Q Info.**`
 2. **Summary table:** One row per workflow file with columns: Workflow File | Findings | Highest Severity
-3. **Findings by workflow:** Group findings under per-workflow headings (e.g., `### .github/workflows/review.yml`). Within each group, order findings by severity descending: High, Medium, Low, Info.
+3. **Findings by workflow:** Group findings under per-workflow headings (e.g., `### .github/workflows/review.yml`). Within each group, order findings by severity descending
 
-#### 5e. Clean-Repo Output
-
-When no findings are detected, produce a substantive report rather than a bare "0 findings" statement:
-
-1. **Executive summary header:** Same format with 0 findings count
-2. **Workflows Scanned table:** Workflow File | AI Action Instances (one row per workflow)
-3. **AI Actions Found table:** Action Type | Count (one row per action type discovered)
-4. **Closing statement:** "No security findings identified."
-
-#### 5f. Cross-References
-
-When multiple findings affect the same workflow, briefly note interactions. In particular, when a configuration weakness (Vector H or I) co-occurs with an injection vector (A through G) in the same step, note that the configuration weakness amplifies the injection finding's severity.
-
-#### 5g. Remote Analysis Output
-
-When analyzing a remote repository, add these elements to the report:
-
-- **Header:** Begin with `## Remote Analysis: owner/repo (@ref)` (omit `(@ref)` if using default branch)
-- **File links:** Each finding's File field includes a clickable GitHub link: `https://github.com/owner/repo/blob/{ref}/.github/workflows/{filename}`
-- **Source attribution:** Each finding includes `Source: owner/repo/.github/workflows/{filename}`
-- **Summary:** Uses the same format as local analysis with repo context: "Analyzed N workflows, M AI action instances, P findings in owner/repo"
-
-## Detailed References
-
-For complete documentation beyond this methodology overview:
-
-- **Action Security Profiles:** See {baseDir}/references/action-profiles.md for per-action security field documentation, default configurations, and dangerous configuration patterns.
-- **Detection Vectors:** See {baseDir}/references/foundations.md for the shared attacker-controlled input model, and individual vector files `{baseDir}/references/vector-{a..i}-*.md` for per-vector detection heuristics.
-- **Cross-File Resolution:** See {baseDir}/references/cross-file-resolution.md for `uses:` reference classification, composite action and reusable workflow resolution procedures, input mapping traces, and depth-1 limit.
-
-## Example
-
-**User request:**
-
-> Audit a repository's GitHub Actions workflows for AI agent security.
-
-## Limitations
-- Use this skill only when the task clearly matches the scope described above.
-- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
-- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
+<!-- Truncated for OpenGAP token limits -->

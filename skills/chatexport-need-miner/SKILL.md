@@ -1,18 +1,22 @@
 ---
 name: chatexport-need-miner
-description: "Mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chunked streaming and verbatim quote grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs, analyze telegram chat."
-category: development
-risk: safe
-source: community
-source_repo: wwewtech/chatexport-need-miner
-source_type: community
-date_added: "2026-09-22"
-author: wwewtech
-tags: [telegram, market-research, text-mining, offline-analytics, developer-tools]
-tools: [claude, cursor, gemini, windsurf]
-license: "MIT"
+description: 'Mines offline Telegram Desktop chat exports (result.json) for unmet
+  market needs and product opportunities using chunked streaming and verbatim quote
+  grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs,
+  analyze telegram chat.'
+license: MIT
+metadata:
+  category: development
+  risk: safe
+  source: community
+  source_repo: wwewtech/chatexport-need-miner
+  source_type: community
+  date_added: '2026-09-22'
+  author: wwewtech
+  tags: '[''telegram'', ''market-research'', ''text-mining'', ''offline-analytics'',
+    ''developer-tools'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''windsurf'']'
 ---
-
 # ChatExport Need Miner: Offline Market Signal & Pain-Point Extractor
 
 Transform offline Telegram Desktop chat exports (`result.json`) into quantified, quote-grounded rankings of unmet market needs with zero memory crashes and absolute source fidelity.

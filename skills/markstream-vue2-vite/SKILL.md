@@ -1,19 +1,20 @@
 ---
 name: markstream-vue2-vite
-description: "Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults."
-category: frontend
-risk: critical
-source: https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-vue2-vite
-source_repo: Simon-He95/markstream-vue
-source_type: official
-date_added: "2026-07-21"
-author: Simon-He95
-tags: [vue2, vite, markdown, workers, streaming]
-tools: [claude, cursor, gemini, codex]
+description: Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports,
+  CSS ordering, Composition API compatibility, and safe streaming defaults.
 license: MIT
-license_source: https://github.com/Simon-He95/markstream-vue/blob/main/license
+metadata:
+  category: frontend
+  risk: critical
+  source: https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-vue2-vite
+  source_repo: Simon-He95/markstream-vue
+  source_type: official
+  date_added: '2026-07-21'
+  author: Simon-He95
+  tags: '[''vue2'', ''vite'', ''markdown'', ''workers'', ''streaming'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/Simon-He95/markstream-vue/blob/main/license
 ---
-
 # Markstream Vue 2 Vite
 
 ## Overview

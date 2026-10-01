@@ -2,21 +2,20 @@
 name: azure-networking
 description: Configure Azure VNets, NSGs, and Azure Firewall. Implement hub-spoke
   topology and private endpoints. Use when designing Azure network infrastructure.
-category: devops
-risk: critical
-source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
-source_repo: BagelHole/DevOps-Security-Agent-Skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 compatibility: Requires the relevant OS/platform tooling and privileged access where
   noted. Docs-only; helper scripts and templates not bundled.
 metadata:
   author: devops-skills
   version: '1.0'
+  category: devops
+  risk: critical
+  source: https://github.com/BagelHole/DevOps-Security-Agent-Skills
+  source_repo: BagelHole/DevOps-Security-Agent-Skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/main/LICENSE
 ---
-
 # Azure Networking
 
 Design and implement Azure network infrastructure including VNets, subnets, NSGs, VNet peering, private endpoints, Azure Firewall, and Application Gateway. Covers both az CLI commands and Terraform configurations for production hub-spoke topologies.

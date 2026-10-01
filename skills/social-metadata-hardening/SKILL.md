@@ -1,17 +1,21 @@
 ---
 name: social-metadata-hardening
-description: "Fix social sharing previews so URLs render as rich cards on Facebook, LinkedIn, X/Twitter, WhatsApp, Telegram, and more. Covers OG tags, Twitter cards, absolute image URLs, and debugging."
-category: seo
-risk: safe
-source: self
-source_type: self
-date_added: "2026-05-31"
-author: Whoisabhishekadhikari
-tags: [seo, open-graph, twitter-card, social-sharing, og-image, nextjs, metadata]
-tools: [claude, cursor, gemini, claude-code]
-version: 1.0.0
+description: Fix social sharing previews so URLs render as rich cards on Facebook,
+  LinkedIn, X/Twitter, WhatsApp, Telegram, and more. Covers OG tags, Twitter cards,
+  absolute image URLs, and debugging.
+metadata:
+  category: seo
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-05-31'
+  author: Whoisabhishekadhikari
+  tags: '[''seo'', ''open-graph'', ''twitter-card'', ''social-sharing'', ''og-image'',
+    ''nextjs'', ''metadata'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''claude-code'']'
+  version: 1.0.0
+license: MIT
 ---
-
 # Social Metadata Hardening Skill
 
 Fix social sharing so every important URL unfurls as a rich card across all platforms.

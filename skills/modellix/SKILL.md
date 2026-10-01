@@ -1,19 +1,21 @@
 ---
 name: modellix
-description: "Integrate the Modellix API/CLI for async AI image, video, and speech generation or transcription (model run --wait, task download)."
-category: creative
-risk: critical
-source: community
-source_repo: Modellix/modellix-plugin
-source_type: official
-date_added: "2026-07-16"
-author: Modellix
-tags: [image-generation, video-generation, audio-generation, text-to-speech, speech-to-text, speech-to-speech, modellix, cli, api]
-tools: [claude, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/Modellix/modellix-plugin/blob/main/LICENSE"
+description: Integrate the Modellix API/CLI for async AI image, video, and speech
+  generation or transcription (model run --wait, task download).
+license: MIT
+metadata:
+  category: creative
+  risk: critical
+  source: community
+  source_repo: Modellix/modellix-plugin
+  source_type: official
+  date_added: '2026-07-16'
+  author: Modellix
+  tags: '[''image-generation'', ''video-generation'', ''audio-generation'', ''text-to-speech'',
+    ''speech-to-text'', ''speech-to-speech'', ''modellix'', ''cli'', ''api'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/Modellix/modellix-plugin/blob/main/LICENSE
 ---
-
 # Modellix
 
 ## Overview

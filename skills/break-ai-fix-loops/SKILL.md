@@ -1,19 +1,20 @@
 ---
 name: break-ai-fix-loops
-description: "Stop ineffective AI coding repair loops with stable failure fingerprints, a three-attempt budget, real-path proof, negative controls, and tested rollback."
-category: code-quality
-risk: critical
-source: community
-source_repo: twoicewoo/awesome-copilot
-source_type: community
-date_added: "2026-09-04"
-author: twoicewoo
-tags: [ai-agents, debugging, verification, negative-control, rollback]
-tools: [claude-code, codex-cli, copilot, cursor, gemini-cli]
-license: "MIT"
-license_source: "https://github.com/twoicewoo/awesome-copilot/blob/886bf799bb05501bfd1afa7aae9cc5a77dedb03e/LICENSE"
+description: Stop ineffective AI coding repair loops with stable failure fingerprints,
+  a three-attempt budget, real-path proof, negative controls, and tested rollback.
+license: MIT
+metadata:
+  category: code-quality
+  risk: critical
+  source: community
+  source_repo: twoicewoo/awesome-copilot
+  source_type: community
+  date_added: '2026-09-04'
+  author: twoicewoo
+  tags: '[''ai-agents'', ''debugging'', ''verification'', ''negative-control'', ''rollback'']'
+  tools: '[''claude-code'', ''codex-cli'', ''copilot'', ''cursor'', ''gemini-cli'']'
+  license_source: https://github.com/twoicewoo/awesome-copilot/blob/886bf799bb05501bfd1afa7aae9cc5a77dedb03e/LICENSE
 ---
-
 # Break AI Fix Loops
 
 Replace patch-and-retry behavior with a bounded, evidence-producing repair. Treat a changed patch as progress only when an observable state changes.

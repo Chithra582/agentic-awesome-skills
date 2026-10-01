@@ -2,17 +2,17 @@
 name: interview-me
 description: Draw out what the user actually wants with one-question-at-a-time interviews
   until intent is clear — before any plan, spec, or code exists.
-category: productivity
-risk: safe
-source: https://github.com/addyosmani/agent-skills
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 compatibility: Portable instruction skill; no CLI, MCP server, or network access required.
+metadata:
+  category: productivity
+  risk: safe
+  source: https://github.com/addyosmani/agent-skills
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Interview Me
 
 ## Overview

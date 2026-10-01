@@ -1,17 +1,19 @@
 ---
 name: auto-research
-description: Research uncertain questions with an explicit, user-approved web search or ChatGPT consultation, then present options and wait for implementation approval.
-category: automation
-risk: critical
-source: self
-source_type: self
-date_added: "2026-07-09"
-author: zyu51
-tags: [research, chatgpt, playwright, browser-automation, decision-support, chinese]
-tools: [claude, playwright]
+description: Research uncertain questions with an explicit, user-approved web search
+  or ChatGPT consultation, then present options and wait for implementation approval.
 license: MIT
+metadata:
+  category: automation
+  risk: critical
+  source: self
+  source_type: self
+  date_added: '2026-07-09'
+  author: zyu51
+  tags: '[''research'', ''chatgpt'', ''playwright'', ''browser-automation'', ''decision-support'',
+    ''chinese'']'
+  tools: '[''claude'', ''playwright'']'
 ---
-
 # Auto-Research Skill
 
 ## Overview

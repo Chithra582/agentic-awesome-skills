@@ -1,11 +1,13 @@
 ---
 name: windows-shell-reliability
-description: "Reliable command execution on Windows: paths, encoding, and common binary pitfalls."
-risk: safe
-source: community
-date_added: "2026-03-19"
+description: 'Reliable command execution on Windows: paths, encoding, and common binary
+  pitfalls.'
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-19'
+license: MIT
 ---
-
 # Windows Shell Reliability Patterns
 
 > Best practices for running commands on Windows via PowerShell and CMD.

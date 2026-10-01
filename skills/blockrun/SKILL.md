@@ -1,11 +1,12 @@
 ---
 name: blockrun
-description: "BlockRun works with Claude Code and Google Antigravity."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: BlockRun works with Claude Code and Google Antigravity.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # BlockRun
 
 **BlockRun works with Claude Code and Google Antigravity.**

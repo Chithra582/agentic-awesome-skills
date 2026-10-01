@@ -1,11 +1,14 @@
 ---
 name: antigravity-workflows
-description: "Use when asked to ship a SaaS MVP, audit application security, build an AI agent, run browser QA, or design a domain model with multiple skills and verified checkpoints."
-risk: none
-source: self
-date_added: "2026-02-27"
+description: Use when asked to ship a SaaS MVP, audit application security, build
+  an AI agent, run browser QA, or design a domain model with multiple skills and verified
+  checkpoints.
+metadata:
+  risk: none
+  source: self
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Antigravity Workflows
 
 Use this skill to turn a complex objective into a guided sequence of skill invocations.

@@ -1,19 +1,21 @@
 ---
 name: ii-commons
-description: "Deterministic search across arXiv, PubMed/PMC, and US policy corpora with daily freshness cutoffs."
-category: research
-risk: safe
-source: community
-source_repo: Intelligent-Internet/II-Commons-Skills
-source_type: community
-date_added: "2026-05-26"
-author: Intelligent Internet
-tags: [research, arxiv, pubmed, pmc, policy, retrieval, cli, codex]
-tools: [claude, cursor, gemini, codex, antigravity]
-license: "Apache-2.0"
-license_source: "https://github.com/Intelligent-Internet/II-Commons-Skills/blob/main/LICENSE"
+description: Deterministic search across arXiv, PubMed/PMC, and US policy corpora
+  with daily freshness cutoffs.
+license: Apache-2.0
+metadata:
+  category: research
+  risk: safe
+  source: community
+  source_repo: Intelligent-Internet/II-Commons-Skills
+  source_type: community
+  date_added: '2026-05-26'
+  author: Intelligent Internet
+  tags: '[''research'', ''arxiv'', ''pubmed'', ''pmc'', ''policy'', ''retrieval'',
+    ''cli'', ''codex'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'', ''antigravity'']'
+  license_source: https://github.com/Intelligent-Internet/II-Commons-Skills/blob/main/LICENSE
 ---
-
 # II-Commons
 
 ## Overview

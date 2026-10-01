@@ -1,15 +1,16 @@
 ---
 name: review-and-simplify-changes
-description: "Review a git diff or explicit file scope for reuse, code quality, efficiency, clarity, and standards issues, then optionally apply safe Codex-driven fixes."
-risk: critical
-source: https://github.com/Dimillian/Skills/tree/main/review-and-simplify-changes
-source_repo: Dimillian/Skills
-source_type: community
-date_added: 2026-07-01
+description: Review a git diff or explicit file scope for reuse, code quality, efficiency,
+  clarity, and standards issues, then optionally apply safe Codex-driven fixes.
 license: MIT
-license_source: https://github.com/Dimillian/Skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/Dimillian/Skills/tree/main/review-and-simplify-changes
+  source_repo: Dimillian/Skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/Dimillian/Skills/blob/main/LICENSE
 ---
-
 # Review and Simplify Changes
 ## When to Use
 

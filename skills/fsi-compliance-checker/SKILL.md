@@ -1,19 +1,22 @@
 ---
 name: fsi-compliance-checker
-description: "Maps code, architecture, and infrastructure changes to specific control IDs in PCI-DSS v4.0 and MAS TRM (Singapore financial regulator), producing an audit-traceable findings report with per-control remediation."
-category: security
-risk: safe
-source: community
-source_repo: timwukp/agent-skills-best-practice
-source_type: community
-date_added: "2026-06-12"
-author: timwukp
-tags: [compliance, pci-dss, mas-trm, fintech, banking, security-review, audit, financial-services]
-tools: [claude, cursor, gemini, codex, antigravity]
-license: "MIT"
-license_source: "https://github.com/timwukp/agent-skills-best-practice/blob/main/LICENSE"
+description: Maps code, architecture, and infrastructure changes to specific control
+  IDs in PCI-DSS v4.0 and MAS TRM (Singapore financial regulator), producing an audit-traceable
+  findings report with per-control remediation.
+license: MIT
+metadata:
+  category: security
+  risk: safe
+  source: community
+  source_repo: timwukp/agent-skills-best-practice
+  source_type: community
+  date_added: '2026-06-12'
+  author: timwukp
+  tags: '[''compliance'', ''pci-dss'', ''mas-trm'', ''fintech'', ''banking'', ''security-review'',
+    ''audit'', ''financial-services'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'', ''antigravity'']'
+  license_source: https://github.com/timwukp/agent-skills-best-practice/blob/main/LICENSE
 ---
-
 # FSI Compliance Checker
 
 ## Overview

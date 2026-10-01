@@ -1,16 +1,20 @@
 ---
 name: nexrad-product-access
-description: "Discover and access NEXRAD data for a selected radar site, time, product, or Level II moment using completed archive volumes, real-time chunks, or supported Level III sources with metadata validation."
-category: data
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-25"
-author: ShianMike
-tags: [weather, nexrad, level-ii, level-iii, radar-products, single-site, aws-s3]
-tools: [claude, cursor, gemini, codex]
+description: Discover and access NEXRAD data for a selected radar site, time, product,
+  or Level II moment using completed archive volumes, real-time chunks, or supported
+  Level III sources with metadata validation.
+metadata:
+  category: data
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-25'
+  author: ShianMike
+  tags: '[''weather'', ''nexrad'', ''level-ii'', ''level-iii'', ''radar-products'',
+    ''single-site'', ''aws-s3'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+license: MIT
 ---
-
 # NEXRAD Product Access
 
 ## Overview

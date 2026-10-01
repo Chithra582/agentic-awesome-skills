@@ -1,14 +1,17 @@
 ---
 name: ai-loop
-description: Runs a bounded spec-build-review development loop with explicit scope, stop conditions, and human approval gates for risky or ambiguous work.
-category: workflow
-risk: safe
-source: community
-date_added: "2026-06-27"
-tags: [agent-workflow, specification, implementation, review, verification, feedback-loop]
-tools: [claude, cursor, codex, gemini]
+description: Runs a bounded spec-build-review development loop with explicit scope,
+  stop conditions, and human approval gates for risky or ambiguous work.
+metadata:
+  category: workflow
+  risk: safe
+  source: community
+  date_added: '2026-06-27'
+  tags: '[''agent-workflow'', ''specification'', ''implementation'', ''review'', ''verification'',
+    ''feedback-loop'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'']'
+license: MIT
 ---
-
 # AI-Loop Skill
 
 ## Overview

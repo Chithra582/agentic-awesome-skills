@@ -1,15 +1,16 @@
 ---
 name: newman-cicd-integration
-description: "Generate ready-to-use CI/CD pipeline configurations that install and run Newman for automated API testing."
-risk: critical
-source: https://github.com/LambdaTest/agent-skills/tree/main/api-skill/newman/newman-cicd-helper
-source_repo: LambdaTest/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Generate ready-to-use CI/CD pipeline configurations that install and
+  run Newman for automated API testing.
 license: MIT
-license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/LambdaTest/agent-skills/tree/main/api-skill/newman/newman-cicd-helper
+  source_repo: LambdaTest/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 ---
-
 # Newman CI/CD Integration Generator
 ## When to Use
 

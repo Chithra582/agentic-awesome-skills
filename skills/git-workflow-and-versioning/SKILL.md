@@ -1,15 +1,17 @@
 ---
 name: git-workflow-and-versioning
-description: Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams.
-risk: critical
-source: https://github.com/addyosmani/agent-skills/tree/main/skills/git-workflow-and-versioning
-source_repo: addyosmani/agent-skills
-source_type: community
-date_added: 2026-07-01
+description: Structures git workflow practices. Use when making any code change. Use
+  when committing, branching, resolving conflicts, or when you need to organize work
+  across multiple parallel streams.
 license: MIT
-license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/addyosmani/agent-skills/tree/main/skills/git-workflow-and-versioning
+  source_repo: addyosmani/agent-skills
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 ---
-
 # Git Workflow and Versioning
 
 ## Overview

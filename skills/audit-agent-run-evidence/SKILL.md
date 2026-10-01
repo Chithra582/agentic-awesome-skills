@@ -1,11 +1,14 @@
 ---
 name: audit-agent-run-evidence
-description: "Use when an agent, harness, gateway, MCP workflow, or multi-step automation claims completion and the available traces, checkpoints, approvals, tool calls, or deployment records must be judged without trusting self-reported success."
-risk: safe
-source: self
-date_added: "2026-08-19"
+description: Use when an agent, harness, gateway, MCP workflow, or multi-step automation
+  claims completion and the available traces, checkpoints, approvals, tool calls,
+  or deployment records must be judged without trusting self-reported success.
+metadata:
+  risk: safe
+  source: self
+  date_added: '2026-08-19'
+license: MIT
 ---
-
 # Audit Agent Run Evidence
 
 ## Overview

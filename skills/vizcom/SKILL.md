@@ -1,11 +1,13 @@
 ---
 name: vizcom
-description: AI-powered product design tool for transforming sketches into full-fidelity 3D renders.
-risk: safe
-source: community
-date_added: "2026-03-07"
+description: AI-powered product design tool for transforming sketches into full-fidelity
+  3D renders.
+metadata:
+  risk: safe
+  source: community
+  date_added: '2026-03-07'
+license: MIT
 ---
-
 # Vizcom Skill
 
 [Vizcom](https://vizcom.com/) is an AI-driven platform designed to accelerate the ideation and rendering process, turning rough inputs into breathtaking visualizations.

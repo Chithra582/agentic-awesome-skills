@@ -1,19 +1,19 @@
 ---
 name: evidence-hygiene
 description: Evidence-capture and PoC-redaction discipline for bug-bounty submissions
-category: security
-risk: safe
-source: https://github.com/elementalsouls/Claude-BugHunter
-source_repo: elementalsouls/Claude-BugHunter
-source_type: community
-date_added: '2026-09-20'
 license: MIT
-license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
 compatibility: Process guidance; no tooling required. Docs-only; upstream templates
   not bundled.
-sources: community, operator_experience
+metadata:
+  category: security
+  risk: safe
+  source: https://github.com/elementalsouls/Claude-BugHunter
+  source_repo: elementalsouls/Claude-BugHunter
+  source_type: community
+  date_added: '2026-09-20'
+  license_source: https://github.com/elementalsouls/Claude-BugHunter/blob/main/LICENSE
+  sources: community, operator_experience
 ---
-
 # EVIDENCE HYGIENE — PoC Capture & Redaction Discipline
 
 > Use this skill BEFORE capturing any screenshot, exporting any HAR, or attaching any evidence to a bug-bounty submission. It catches the most common evidence-hygiene mistakes that cause cookies to leak, PII to be shared without consent, or screenshots to be unsuitable for triage.
@@ -401,4 +401,6 @@ This skill covers ONLY the redaction / sanitization / hygiene layer that sits be
 Apply this skill's checklist to the current engagement notes and report gaps.
 ```
 
-> Adapted from [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) (MIT); frontmatter, When to Use/Limitations, and safety boundaries added for upstream compliance. Docs-only import: executable helpers, commands, engine, and research assets not bundled.
+> Adapted fro
+
+<!-- Truncated for OpenGAP token limits -->

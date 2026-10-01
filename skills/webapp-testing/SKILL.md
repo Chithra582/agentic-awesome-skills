@@ -1,11 +1,12 @@
 ---
 name: webapp-testing
-description: "To test local web applications, write native Python Playwright scripts."
-risk: critical
-source: community
-date_added: "2026-02-27"
+description: To test local web applications, write native Python Playwright scripts.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Web Application Testing
 
 To test local web applications, write native Python Playwright scripts.

@@ -1,17 +1,18 @@
 ---
 name: anti-sycophancy
-version: 2.0.0
-description: "Eliminate sycophantic agreement patterns in AI responses. Load via /skill anti-sycophancy."
-risk: safe
-source: community
-source_type: community
-source_repo: mskadu/opencode-agent-skills
+description: Eliminate sycophantic agreement patterns in AI responses. Load via /skill
+  anti-sycophancy.
 license: MIT
-license_source: "https://github.com/mskadu/opencode-agent-skills/blob/main/LICENSE"
 compatibility: opencode
-date_added: "2026-06-05"
+metadata:
+  version: 2.0.0
+  risk: safe
+  source: community
+  source_type: community
+  source_repo: mskadu/opencode-agent-skills
+  license_source: https://github.com/mskadu/opencode-agent-skills/blob/main/LICENSE
+  date_added: '2026-06-05'
 ---
-
 ## When to Use
 
 Use this skill when an AI coding assistant needs to challenge user claims independently, avoid agreement bias, and state evidence before deference.

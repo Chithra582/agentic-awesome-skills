@@ -1,19 +1,21 @@
 ---
 name: traderspy-position-check
-description: "Health-check crypto futures positions the user describes, with TraderSpy data: liquidation and stop distance, multi-timeframe read, funding and top-trader side. Reports only; never tells the user to close or add."
-category: finance
-risk: safe
-source: "https://github.com/target1m/traderspy-mcp/tree/069aae5a84640d671f92705a2e3bc0b62efca1e0/skills/position-check"
-source_repo: target1m/traderspy-mcp
-source_type: official
-date_added: "2026-09-25"
-author: target1m
-tags: [traderspy, crypto, risk-management, futures, mcp]
-tools: [claude, cursor, gemini]
+description: 'Health-check crypto futures positions the user describes, with TraderSpy
+  data: liquidation and stop distance, multi-timeframe read, funding and top-trader
+  side. Reports only; never tells the user to close or add.'
 license: MIT
-license_source: "https://github.com/target1m/traderspy-mcp/blob/069aae5a84640d671f92705a2e3bc0b62efca1e0/LICENSE"
+metadata:
+  category: finance
+  risk: safe
+  source: https://github.com/target1m/traderspy-mcp/tree/069aae5a84640d671f92705a2e3bc0b62efca1e0/skills/position-check
+  source_repo: target1m/traderspy-mcp
+  source_type: official
+  date_added: '2026-09-25'
+  author: target1m
+  tags: '[''traderspy'', ''crypto'', ''risk-management'', ''futures'', ''mcp'']'
+  tools: '[''claude'', ''cursor'', ''gemini'']'
+  license_source: https://github.com/target1m/traderspy-mcp/blob/069aae5a84640d671f92705a2e3bc0b62efca1e0/LICENSE
 ---
-
 # TraderSpy Position Check
 
 A position check answers, in order: how much room is left before this position is taken away

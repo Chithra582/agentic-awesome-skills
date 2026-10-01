@@ -1,13 +1,16 @@
 ---
 name: edr-bypass-re
-description: "Reverse engineer EDR internals (user-mode hook tables, ETW, AMSI) and study bypass techniques such as direct syscalls, Hell's Gate, and call-stack spoofing. Lab-only red-team research."
-risk: offensive
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
-source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+description: Reverse engineer EDR internals (user-mode hook tables, ETW, AMSI) and
+  study bypass techniques such as direct syscalls, Hell's Gate, and call-stack spoofing.
+  Lab-only red-team research.
+license: MIT
+metadata:
+  risk: offensive
+  source: https://github.com/zhaoxuya520/reverse-skill
+  source_repo: zhaoxuya520/reverse-skill
+  source_type: community
+  date_added: '2026-08-25'
+  license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.

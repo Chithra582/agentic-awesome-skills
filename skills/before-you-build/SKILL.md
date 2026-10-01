@@ -1,19 +1,20 @@
 ---
 name: before-you-build
-description: "Review product risk before coding by checking demand, alternatives, channels, switching costs, and failure signals."
-category: product
-risk: safe
-source: community
-source_repo: bin1874/before-you-build-skill
-source_type: community
-date_added: "2026-07-02"
-author: bin1874
-tags: [product-validation, planning, ai-coding, risk-review]
-tools: [claude, cursor, codex, gemini, antigravity]
-license: "MIT"
-license_source: "https://github.com/bin1874/before-you-build-skill/blob/main/LICENSE"
+description: Review product risk before coding by checking demand, alternatives, channels,
+  switching costs, and failure signals.
+license: MIT
+metadata:
+  category: product
+  risk: safe
+  source: community
+  source_repo: bin1874/before-you-build-skill
+  source_type: community
+  date_added: '2026-07-02'
+  author: bin1874
+  tags: '[''product-validation'', ''planning'', ''ai-coding'', ''risk-review'']'
+  tools: '[''claude'', ''cursor'', ''codex'', ''gemini'', ''antigravity'']'
+  license_source: https://github.com/bin1874/before-you-build-skill/blob/main/LICENSE
 ---
-
 # Before You Build
 
 ## Overview

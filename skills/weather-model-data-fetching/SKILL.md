@@ -1,16 +1,19 @@
 ---
 name: weather-model-data-fetching
-description: "Retrieve numerical weather prediction data from public AWS S3 and HTTP archives using GRIB2 inventories, byte ranges, Herbie, provider fallbacks, and verified caching."
-category: data
-risk: safe
-source: self
-source_type: self
-date_added: "2026-09-18"
-author: ShianMike
-tags: [weather, grib2, aws-s3, herbie, noaa, nwp]
-tools: [claude, cursor, gemini, codex]
+description: Retrieve numerical weather prediction data from public AWS S3 and HTTP
+  archives using GRIB2 inventories, byte ranges, Herbie, provider fallbacks, and verified
+  caching.
+metadata:
+  category: data
+  risk: safe
+  source: self
+  source_type: self
+  date_added: '2026-09-18'
+  author: ShianMike
+  tags: '[''weather'', ''grib2'', ''aws-s3'', ''herbie'', ''noaa'', ''nwp'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+license: MIT
 ---
-
 # Weather Model Data Fetching
 
 ## Overview

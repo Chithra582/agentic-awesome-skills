@@ -1,11 +1,14 @@
 ---
 name: cc-skill-strategic-compact
-description: "Prepare a verified checkpoint before condensing an agent conversation at a phase boundary. Use during long tasks when context is repetitive; preserves constraints, evidence, decisions and the next action."
-risk: none
-source: community
-date_added: "2026-02-27"
+description: Prepare a verified checkpoint before condensing an agent conversation
+  at a phase boundary. Use during long tasks when context is repetitive; preserves
+  constraints, evidence, decisions and the next action.
+metadata:
+  risk: none
+  source: community
+  date_added: '2026-02-27'
+license: MIT
 ---
-
 # Strategic Context Checkpoints
 
 Condense context after a verified phase, with enough durable information to resume the same task. A tool-call count is only a reminder; it cannot measure context quality or decide when compaction is safe.

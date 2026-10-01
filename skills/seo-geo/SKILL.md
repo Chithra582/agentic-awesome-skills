@@ -1,19 +1,17 @@
 ---
 name: seo-geo
-description: "Optimize content for AI Overviews, ChatGPT, Perplexity, and other AI search systems. Use when improving GEO, AI citations, llms.txt readiness, crawler accessibility, and passage-level citability."
-risk: critical
-source: "https://github.com/AgriciDaniel/claude-seo"
-date_added: "2026-03-21"
-user-invokable: true
-argument-hint: "[url]"
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - WebFetch
+description: Optimize content for AI Overviews, ChatGPT, Perplexity, and other AI
+  search systems. Use when improving GEO, AI citations, llms.txt readiness, crawler
+  accessibility, and passage-level citability.
+allowed-tools: Read Grep Glob Bash WebFetch
+metadata:
+  risk: critical
+  source: https://github.com/AgriciDaniel/claude-seo
+  date_added: '2026-03-21'
+  user-invokable: 'True'
+  argument-hint: '[url]'
+license: MIT
 ---
-
 # AI Search / GEO Optimization (February 2026)
 
 ## When to Use

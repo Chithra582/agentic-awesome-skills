@@ -1,11 +1,14 @@
 ---
 name: brave-man
-description: "Runs a structured clarifying interview for new project requests before building. Instead of writing code, it outputs a fully specified prompt.md for a fresh agent session to execute, preventing expensive mistakes."
-risk: critical
-source: community
-date_added: "2026-06-16"
+description: Runs a structured clarifying interview for new project requests before
+  building. Instead of writing code, it outputs a fully specified prompt.md for a
+  fresh agent session to execute, preventing expensive mistakes.
+metadata:
+  risk: critical
+  source: community
+  date_added: '2026-06-16'
+license: MIT
 ---
-
 # Brave Man
 
 ## Overview

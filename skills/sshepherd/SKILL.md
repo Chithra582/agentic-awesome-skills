@@ -1,27 +1,25 @@
 ---
 name: sshepherd
-description: "Zero-knowledge SSH ops CLI — server health checks, docker/systemd control, log tailing, Postgres introspection, and declarative deploys, without ever exposing credentials to the agent."
-category: devops
-risk: critical
-source: community
-source_repo: Antheurus/sshepherd
-source_type: community
-date_added: "2026-07-15"
-author: Antheurus
-tags: [ssh, devops, cli, server-ops, postgres, deploy, zero-knowledge]
-tools: [claude, cursor, gemini, codex]
-license: "MIT"
-license_source: "https://github.com/Antheurus/sshepherd/blob/main/LICENSE"
-plugin:
-  targets:
-    codex: blocked
-    claude: blocked
-  setup:
-    type: manual
-    summary: "Requires a separately installed, user-approved sshepherd executable at an explicit absolute path."
-    docs: SKILL.md
+description: Zero-knowledge SSH ops CLI — server health checks, docker/systemd control,
+  log tailing, Postgres introspection, and declarative deploys, without ever exposing
+  credentials to the agent.
+license: MIT
+metadata:
+  category: devops
+  risk: critical
+  source: community
+  source_repo: Antheurus/sshepherd
+  source_type: community
+  date_added: '2026-07-15'
+  author: Antheurus
+  tags: '[''ssh'', ''devops'', ''cli'', ''server-ops'', ''postgres'', ''deploy'',
+    ''zero-knowledge'']'
+  tools: '[''claude'', ''cursor'', ''gemini'', ''codex'']'
+  license_source: https://github.com/Antheurus/sshepherd/blob/main/LICENSE
+  plugin: '{''targets'': {''codex'': ''blocked'', ''claude'': ''blocked''}, ''setup'':
+    {''type'': ''manual'', ''summary'': ''Requires a separately installed, user-approved
+    sshepherd executable at an explicit absolute path.'', ''docs'': ''SKILL.md''}}'
 ---
-
 # sshepherd
 
 ## Overview

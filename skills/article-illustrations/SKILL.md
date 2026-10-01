@@ -1,19 +1,21 @@
 ---
 name: article-illustrations
-description: "Generate hand-drawn 16:9 article illustrations with the Grav character IP, sparse annotations, and absurd but clear visual metaphors."
-category: creative
-risk: safe
-source: community
-source_repo: vipin-si/article-illustrations
-source_type: community
+description: Generate hand-drawn 16:9 article illustrations with the Grav character
+  IP, sparse annotations, and absurd but clear visual metaphors.
 license: MIT
-license_source: https://github.com/vipin-si/article-illustrations/blob/main/LICENSE
-date_added: "2026-06-06"
-author: vipin-si
-tags: [illustration, article-graphics, visual-metaphors, image-generation, whiteboard-sketch]
-tools: [image-generation]
+metadata:
+  category: creative
+  risk: safe
+  source: community
+  source_repo: vipin-si/article-illustrations
+  source_type: community
+  license_source: https://github.com/vipin-si/article-illustrations/blob/main/LICENSE
+  date_added: '2026-06-06'
+  author: vipin-si
+  tags: '[''illustration'', ''article-graphics'', ''visual-metaphors'', ''image-generation'',
+    ''whiteboard-sketch'']'
+  tools: '[''image-generation'']'
 ---
-
 # Article Illustrations — Grav Hand-Drawn Style
 
 ## Overview

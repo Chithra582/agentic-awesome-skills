@@ -1,15 +1,17 @@
 ---
 name: code-showcase-testing-patterns
-description: Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.
-risk: critical
-source: https://github.com/ChrisWiles/claude-code-showcase/tree/main/.claude/skills/testing-patterns
-source_repo: ChrisWiles/claude-code-showcase
-source_type: community
-date_added: 2026-07-01
+description: Jest testing patterns, factory functions, mocking strategies, and TDD
+  workflow. Use when writing unit tests, creating test factories, or following TDD
+  red-green-refactor cycle.
 license: MIT
-license_source: https://github.com/ChrisWiles/claude-code-showcase/blob/main/LICENSE
+metadata:
+  risk: critical
+  source: https://github.com/ChrisWiles/claude-code-showcase/tree/main/.claude/skills/testing-patterns
+  source_repo: ChrisWiles/claude-code-showcase
+  source_type: community
+  date_added: '2026-07-01'
+  license_source: https://github.com/ChrisWiles/claude-code-showcase/blob/main/LICENSE
 ---
-
 # Testing Patterns and Utilities
 ## When to Use
 
