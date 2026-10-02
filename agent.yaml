@@ -1,6 +1,6 @@
 spec_version: "0.1.0"
-name: "aas-core-skill-registry"
-version: "1.0.0"
+name: agentic-awesome-skills
+version: 1.0.0
 description: >
   Agentic Awesome Skills registry engine orchestrating local catalog search,
   stack validation, playbook verification, and plan previews across 2,400+ installable SKILL.md playbooks.
@@ -60,5 +60,5 @@ tags:
   - agent-skills
 
 metadata:
-  domain: "developer-tools"
-  category: "Developer Tools"
+  domain: Developer Tools / Agent Skill Registry & Automation Playbooks
+  category: Developer Tools
